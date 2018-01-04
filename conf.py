@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # copo-project documentation build configuration file, created by
-# sphinx-quickstart on Thu Jan  4 13:58:48 2018.
+# sphinx-quickstart on Thu Jan  4 15:29:50 2018.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -55,7 +55,7 @@ author = 'Felix Shaw, Toni Etuk, Robert Davey'
 # built documents.
 #
 # The short X.Y version.
-version = '1.0'
+version = ''
 # The full version, including alpha/beta/rc tags.
 release = '1.0'
 
