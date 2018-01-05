@@ -10,7 +10,9 @@ COPO-Project Documentation
    :maxdepth: 2
    :caption: Contents:
 
-   about-copo.rst
+   copo-about.rst
+
+   copo-deployment.rst
 
 
 Indices and tables
