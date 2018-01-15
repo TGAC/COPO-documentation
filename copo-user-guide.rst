@@ -77,7 +77,7 @@ A COPO profile (see :ref:`profile-definition`) comes with a predefined set of co
 #. People - for entering information about collaborators on a project
 #. Annotations - for annotating different file types (e.g., PDFs, Spreadsheets) with relevant metadata 
 
-.. image:: images/copo-profile.png
+.. image:: images/copo-profile.png 
 
 
 
