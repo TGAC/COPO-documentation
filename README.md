@@ -12,4 +12,7 @@ To set up a working environment locally:
 	
 5. Write, commit, and push
 
+This documentation uses Sphinx. For more information see: http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
+
+
 
