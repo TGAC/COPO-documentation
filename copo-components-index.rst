@@ -3,18 +3,21 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Collaborative Open Plant Omics 
+Profile Components
 ========================================
 
 .. toctree::
    :maxdepth: -1
    :titlesonly:
-   :caption: Table of Contents:
+   :name: profilecomponents
 
-   copo-about
-   copo-user-guide-index
-   copo-deployment
-   copo-development
+   sample
+   datafile
+   submission
+   publication
+   people
+   annotation
+   
 
 
 .. Indices and tables
@@ -23,3 +26,4 @@ Collaborative Open Plant Omics
 .. * :ref:`genindex`
 .. * :ref:`modindex`
 .. * :ref:`search`
+

@@ -7,12 +7,12 @@ User Guide
 ========================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: -1
    :titlesonly:
    :name: userguideindex
 
    copo-user-guide
-
+   copo-components-index
 
 .. Indices and tables
 .. ==================

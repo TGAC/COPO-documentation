@@ -27,37 +27,29 @@ If signing in for the first time a prompt, requesting for an email address, is d
 A successful login leads to the main work page, which holds all the **work profiles** associated with a user. 
 
 
-.. _profile-definition:  
+.. _profile-definition:
 
 ##########################
-Creating a Work Profile
+COPO Profile
 ##########################
-The first step in getting any meaningful work done in COPO is to define a work profile. Follow these steps to create a work profile:
+The first step in getting any meaningful work done in COPO is to define a work profile.
 
 .. note::
 
-   A COPO profile is a collection of *research objects* or components that form part of a research project or study. 
-
-1. Click the **Add new record** icon to present a form 
-2. Provide details of the new profile 
-#. Click the save button to create the profile
-
-.. note::
-
-   Any number of profiles may be created, as required, to represent different projects or sub-projects within a larger project. 
+   A COPO profile is a collection of *research objects* or components that form part of a research project or study. Any number of profiles may be created, as required, to represent different projects. 
+   
+Follow these steps to create a new profile:
    
 
-Following is a graphical representation of the outlined stages. 
-
-Click the add icon
+1. Click the **Add new record** icon to present a form 
 
 .. image:: images/create-profile-button.png
 
 .. note::
 
-   Where possible, a highlight of important controls to watch out for is provided alongside the screenshot. 
+   Where necessary, a highlight of important controls to watch out for on a page is provided on the screenshot. 
 
-Fill out the profile form, supplying the title and description of the work profile.
+2. Provide details of the new profile and click **Save**
 
 .. image:: images/profile-form.png
 
@@ -65,19 +57,34 @@ Fill out the profile form, supplying the title and description of the work profi
 
    Form fields in COPO come with a help tip. This functionality can be turned off by toggling the **Help tips** control (see the highlight in the **Add Profile** form screenshot).
    
-   
-##########################
+
 Profile Components
-##########################
-A COPO profile (see :ref:`profile-definition`) comes with a predefined set of component types from which different research objects can be created. COPO currently defines the following component types:
+-------------------
 
-1. Samples - for creating instances of biological samples
-2. Datafiles - for uploading and attributing metadata to data
-#. Publications - for associating publications resulting from and/or relevant to a project
-#. People - for entering information about collaborators on a project
-#. Annotations - for annotating different file types (e.g., PDFs, Spreadsheets) with relevant metadata 
+A COPO profile [#profile_name]_ (see :ref:`profile-definition`) comes with a predefined set of component types from which research objects can be created or worked on. COPO currently defines the following component types:
 
-.. image:: images/copo-profile.png 
+1. :doc:`Samples </sample>` - for creating instances of biological samples
+2. :doc:`Datafiles </datafile>`  - for uploading and attributing metadata to data
+#. :doc:`Publications </publication>`  - for associating publications resulting from and/or relevant to a project
+#. :doc:`People </people>`  - for entering information about collaborators on a project
+#. :doc:`Annotations </annotation>`  - for annotating different file types (e.g., PDFs, Spreadsheets) with relevant metadata 
+
+.. image:: images/copo-profile.png
+
+* Component instances defined within a profile will only be visible within that profile [#f1]_. 
+
+* To access a component within a profile, click on the component button displayed within the profile box (see the screenshot above). 
+
+* The number beside each profile button displays the number of items or instances of the component available. 
+
+
+.. rubric:: Footnotes
+
+.. [#f1] COPO currently doesn't support sharing of component instances (e.g., samples) across profiles. 
+.. [#profile_name] COPO profile and profile will be used interchangeably, when the context is clear, in this document. 
+   
+
+
 
 
 
