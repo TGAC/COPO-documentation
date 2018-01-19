@@ -9,8 +9,15 @@ To set up a working environment locally:
 	```python
 	pip install -r requirements.txt
 	```
-	
+
 5. Write, commit, and push
+
+6. To render locally, in the documentation directory (there should be a _build folder):
+	```python
+	make html
+	```
+	To view: `_build/html/index.html`
+
 
 This documentation uses Sphinx. For more information see: http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
 
