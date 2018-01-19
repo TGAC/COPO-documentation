@@ -53,7 +53,7 @@ Help panel (right side corner of the page)
 
 .. hint:: 
 
-   Select **COPO Standard** sample type for samples that will form part of submissions to the European Nucleotide Archive (ENA).
+   Select **COPO Standard** sample type for samples that will be submitted to the European Nucleotide Archive (ENA). Choose **Biosample Standard** for repository agnostic description.
    
  
    
