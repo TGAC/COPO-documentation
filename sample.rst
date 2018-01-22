@@ -10,18 +10,28 @@ Samples within a profile can be linked to, or form part of, other components wit
 
 COPO provides a wizard to aid in the process of entering samples. 
 
-1. Click the **Describe samples** icon (see the highlighted icon in the screenshot above) to initiate the **sample wizard**
+Initiate the sample wizard
+----------------------------
+
+To initiate the sample wizard, click the **Describe samples** icon (see the highlighted blue icon in the screenshot above).
 
 .. hint:: 
 
-   The sample wizard is a sequence of steps that guides the user through the process of describing samples.
+   The sample description wizard is a sequence of steps that guides the user through the process of describing samples.
    
-2. Enter the number of samples to describe in the first stage of the wizard. COPO provides for the description of multiple samples having a common set of attributes.
+Number of samples 
+------------------
+
+Enter the number of samples to describe in the first stage of the wizard. 
+
+.. hint:: 
+
+   Multiple sample having a common set of attributes can be described in a batch.
 
 .. image:: images/sample-no-of-samples.jpg
 
 
-Before proceeding through the stages of the wizard, there are a few controls worth pointing out on the page as captured in the screenshot above.
+Before proceeding through wizard stages, there are a few controls worth pointing out on the page. The screenshot above will be used as a point of reference.
 
 Discard Description (left side of the wizard)
    Click this to discard and exit the current description. Please not that this action is irreversible.
@@ -38,14 +48,17 @@ Info panel (right side corner of the page)
 Help panel (right side corner of the page)
    Click this tab to access context-based help about the samples page. This panel is also available to other components (e.g., Datafile)
 
-
-3. When describing new samples, the user can choose to inherit metadata from an existing sample. This may be useful in situations where the samples to be described have similar attributes to an existing one. By default, this property is set to **not** inherit or clone. For the purpose of this documentation, we will set clone to **Yes**.
-
-.. image:: images/sample-clone.jpg
+Sample cloning
+------------------
+When describing new samples, the user can choose to inherit metadata from an existing sample. This may be useful in situations where the samples to be described have similar attributes to some reference sample. This functionality is set to **No** by default. Set the option to **Yes** if sample cloning is desired.
 
 .. note:: 
 
-   You can clone only if there are existing samples in the current profile. This implies that sample cloning is currently restricted to samples within the same profile.
+   In order to demonstrate the sample cloning functionality, this guide will go down the cloning path by setting the sample clone option to **Yes**.
+
+.. image:: images/sample-clone.jpg
+
+   
    
 4. Select the sample type. This selection will determine the metadata template to use in generating the target samples. This will also impact on the suitability of the generated samples for submission to certain repositories.
 
