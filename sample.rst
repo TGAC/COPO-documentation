@@ -132,9 +132,28 @@ In this stage, the sample names for the prospective samples are generated. Sampl
    
 Sample attributes
 ---------------------
+So far, we have specified the number of samples to describe; gone on to select the description template (or sample type) on which to base the sample description; and even selected to clone a sample, the metadata of which could be used to bootstrap the  description. In the current stage - the sample attributes stage - the user can define common attributes that will apply to all the samples to be generated. 
 
 .. image:: images/sample-attribute-biosample.jpg
 
+The screenshot shows the result of cloning a sample from a remote repository, and selecting to use the **Biosample** sample type. The fields have been pre-populated with the resolved metadata. There are some components on the stage form worth going through in more detail.
 
-  
+Organism
+   This input field is meant for specifying the source of the sample(s) e.g., specie, genus, strain. **This is an ontology field**.  
+
+.. hint::
+
+   An ontology field in COPO enables the input of semantically enriched data items, which are explicit formal specifications of terms and their relationship to other terms in a domain.
+
+.. note::
+	When manually entering a value in an ontology field, an auto-complete list of matched entries is presented. The list of matched entries is potentially refined (and narrowed down) with additional keystrokes. Also, the same matched value may be presented multiple times, but from different ontology sources. Where an ontology reference of choice is not listed, the user can enter a free-text, which is semantically *unmapped*. 
+ 
+
+Characteristics
+   ...
+
+
+
+
+
 
