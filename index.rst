@@ -15,6 +15,7 @@ Collaborative Open Plant Omics
    copo-user-guide-index
    copo-deployment
    copo-development
+   glossary
 
 
 .. Indices and tables
