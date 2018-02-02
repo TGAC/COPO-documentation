@@ -2,7 +2,7 @@
 Samples
 ####################
 
-The samples page enables users to describe and manage biological samples. 
+The samples page enables users to describe and manage their biological samples. 
 
 Samples within a profile can be linked to, or form part of, other components within a profile. For instance, a sample may be linked to a datafile as a metadata. The screenshot below shows the sample page before any record has been added.
 
@@ -53,6 +53,8 @@ When describing new samples, the user can choose to inherit metadata from an exi
 .. image:: images/sample-clone.jpg
 
 
+.. _sample-type-label:
+
 Sample type
 ---------------
 COPO provides a number of templates for describing samples defined by sample types. By selecting a particular sample type, the user can tailor the sample metadata towards a specific work process (e.g., submission to a particular repository).
@@ -92,6 +94,20 @@ The resolved attributes from this sample will form the basis of the current desc
 
 .. warning:: 
    If an accession can't be resolved, an error will be displayed to inform the user. In that case, the user can either select a sample locally to clone (if there are any in the profile) or simply move on to the next stage.
+   
+
+If there are existing samples, this option can also be explored to clone a sample. 
+
+.. image:: images/sample-clone-existing.jpg
+
+Select the **Existing Sample** option. The input control should change accordingly to enable the user to select from a list of samples. The user can either type into the input box to filter the samples, or simply scroll through the list of available samples. 
+
+The use can hover over a sample, in the displayed list, to reveal information about the sample (see the screenshot above). 
+
+Select the sample to clone, and hit **Next** to proceed with the description.
+
+.. warning:: 
+   The **Existing Sample** option is active only if there are samples defined in the current profile.
 
    
 Proposed sample name
@@ -112,7 +128,7 @@ The **Predefined Names** option is relevant in cases where the user has existing
 The  **Bundle Name** option will come in handy for users with no predefined sample names. If selected, the user will be required to enter a **bundle name**.
 
 .. note::
-   A **bundle name** is a prefix from which similar sample names may be derived. For example, if a user enters *sample-* as a bundle name, COPO would use this entry to generate sample names of the form: *sample-1, sample-2, sample-3*, etc.
+   A **bundle name** is a prefix from which similar sample names may be derived. For example, if a user enters *sample* as a bundle name, COPO would use this entry to generate sample names of the form: *sample_1, sample_2, sample_3*, etc.
 
 
 Assigned sample name
@@ -124,11 +140,11 @@ In this stage, the sample names for the prospective samples are generated. Sampl
 
 
 .. warning::
-   The validation for unique sample names can lead to errors and the rejection of a proposed name. To work around this, supply a new name in the affected field before proceeding to a next stage.
+   The validation for unique sample names may result in the rejection of certain proposed names. To work around this, the user will be required to supply alternative values for the affected sample name fields.
    
 Sample attributes
 ---------------------
-So far, we have specified the number of samples to describe; gone on to select the description template (or sample type) on which to base the sample description; and even selected to clone a sample, the metadata of which could be used to bootstrap the  description. In the current stage - the sample attributes stage - the user can define common attributes that will apply to all the samples. 
+So far, we have specified the number of samples to describe; chosen a description template (or sample type) on which to base the sample description; and cloned a sample, the metadata of which would be used to bootstrap the  description. In the current stage - the sample attributes stage - the user can define common attributes that will apply to all the samples. 
 
 
 .. note::
@@ -161,6 +177,27 @@ Comments
 	The Comments control is a key/value or **Title**/**Value** input field pair, which can be used to further add context to described samples. The Comments control, unlike the Characteristics, is free text and therefore can't be used to link ontologies. 
 	
 	Any number of comments can be entered by clicking the **Add Comments** button (similar to Characteristics). To delete a comment, click the **Delete** button next to an entry.
+
+	
+The Sample attributes form is slightly different when describing samples based on the **COPO Standard** template (see: :ref:`sample-type-label`).
+
+.. image:: images/sample-attribute-copo.jpg
+
+The **Source** and **Factors** fields are defined under the **COPO Standard** attributes template, and the **Organism** and **Comments** fields are no longer featured (see the screenshot above).
+
+Source
+	This specifies the source of the sample. The user can either select from the list of sources, or create a new source to associate with the sample.
+	
+	.. warning::
+		The source selection input will need to be populated with source records created by the user within the same profile.
+	
+	To create a new source, click the **Create & Assign Source** button. A source form will be presented as shown in the screenshot below. Enter information about the source and click **Save**. This will automatically associate the created source with the sample.
+	
+	.. image:: images/sample-create-source.jpg
+	
+Factors
+	Factors express treatment on the sample, e.g., dose, duration. The factor control is similar to the characteristic control, and the user can refer to the characteristic control above for more information on how to use this control.
+	
 
 
 Sample generation
@@ -206,13 +243,23 @@ Multi-sample editing
 	.. image:: images/sample-multi-edit.jpg
 	
 Sequential editing
-	The wizard automatically highlights the next sample (one position down), after the Enter key is pressed to commit an edit. In this way, the user can conveniently enter feature values sequentially for all the samples.
+	The wizard automatically highlights the next sample (one position down, same feature or column), after the Enter key is pressed to commit an edit. In this way, the user can conveniently enter feature values sequentially for all the samples.
 	
 Arrow keys
 	Arrows keys (top, left, down, and right), as well as TAB, can be used to navigate the sample review table. 
    
 
+Completing a description
+-------------------------
+.. image:: images/sample-description-finish.jpg
 
+Click the **Finish!** button (see the highlight in the screenshot above) when done editing the samples to complete the description. This will terminate the wizard and the page refreshed to display the sample detail view with the generated samples.
+
+
+Sample detail view
+---------------------
+
+.. image:: images/sample-detail-view.jpg
 
 
 

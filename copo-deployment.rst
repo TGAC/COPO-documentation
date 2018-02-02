@@ -7,8 +7,7 @@ COPO is deployed using `Docker Swarm <https://docs.docker.com/engine/swarm/>`_ -
 
 The application images are available for download at  `Docker Hub <https://hub.docker.com/r/copo/>`_.
 
-From development to production - building a COPO docker image
---------------------------------------------------------------
+
 As mentioned, docker is used to ochestrate the deployment of COPO. In this section we describe the process of building a docker image for deployment. We focus on building a web docker image.
 
 .. note::

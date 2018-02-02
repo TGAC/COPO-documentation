@@ -13,8 +13,8 @@ Collaborative Open Plant Omics
 
    copo-about
    copo-user-guide-index
-   copo-deployment
    copo-development
+   copo-deployment
    glossary
 
 
