@@ -261,6 +261,42 @@ Sample detail view
 
 .. image:: images/sample-detail-view.jpg
 
+The screenshot above is an illustration of the sample detail view. We will take a look at the following controls provided by the user interface (UI). 
+
+Some of these controls will serve the same purpose, when presented within the same UI context (page placement, etc.), in other profile components page.
+
+Quick tour
+	The quick tour control (orange icon, highlighted in red) can be found at top left corner of the page. Click this to activate a quick tour of page components. 
+	
+Profile components
+	The profile components control (group of icons, highlighted in orange) can be found at the top right corner of the page. This provides a shortcut navigation to other components within the same profile.
+	
+	
+The next set of controls act directly on (tabular) records listed on the page. These controls have been highlighted in the screenshot above (see buttons highlighted in blue).
+
+Select all
+	Click this button to select all records listed in the table. 
+	
+Select filtered
+	This will normally make sense if used within the context of record filtering, as it selects only those records in the table that have been filtered. This makes it easy to perform an action on a group of filtered records. If no (explicit) filtering has been applied to the table, clicking this button will select all records in the table.
+	
+Select none
+	Click this button to clear previously selected records.
+	
+Describe
+	Click this button to activate the description wizard for a new description session. This will switch the current `Inspect` view to reveal the `Describe` view. 
+	
+	.. warning::
+	   Only one description session can be activated. To initiate a new description session, a current description must first be discarded by clicking the **Discard Description** button in the `Describe` view.
+	   
+Edit
+	Click this button to trigger a record update on the selected record. Only one record can be selected for this action.
+	
+Search 
+	This table control (highlighted in green in the screenshot) allows for the filtering of records based on supplied search criteria. 
+	
+
+
 
 
 

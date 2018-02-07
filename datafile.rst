@@ -2,19 +2,10 @@
 Datafiles
 ####################
 
-1. Click the **Add new record** icon to present a form 
+In the datafile page the user can:
 
-.. image:: images/create-profile-button.png
+1. **Upload** datafiles to COPO
+2. **Inspect** or view the uploaded files
+#. **Describe** or attribute metadata to the uploaded files
 
-.. note::
-
-   Where applicable, a highlight of important controls to watch out for on a page is provided on the screenshot. 
-
-2. Provide details of the new profile and click **Save**
-
-.. image:: images/profile-form.png
-
-.. hint::
-
-   Form fields in COPO come with a help tip. This functionality can be turned off by toggling the **Help tips** control (see the highlight in the **Add Profile** form screenshot).
-   
+.. image:: images/datafile-page.jpg
