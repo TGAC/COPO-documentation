@@ -10,7 +10,7 @@ Datafile is one of the core components of a COPO profile. Within this page, the 
 
 .. image:: images/datafile-page.jpg
 
-The screenshot shows the datafile page, with tabs to represent the key tasks mentioned (i.e., upload, inspect, and describe). Clicking a tab should reveal the underlying view and controls to carry out actual work.
+The screenshot shows the datafile page, with tabs to represent the key tasks mentioned (i.e., upload, inspect, and describe). Clicking a tab reveals the underlying view and controls to carry out actual work.
 
 
 Upload
