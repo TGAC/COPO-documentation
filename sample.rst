@@ -255,6 +255,7 @@ Completing a description
 
 Click the **Finish!** button (see the highlight in the screenshot above) when done editing the samples to complete the description. This will terminate the wizard and the page refreshed to display the sample detail view with the generated samples.
 
+.. _sample-detail-view:
 
 Sample detail view
 ---------------------
@@ -294,6 +295,9 @@ Edit
 	
 Search 
 	This table control (highlighted in green in the screenshot) allows for the filtering of records based on supplied search criteria. 
+	
+Details
+	This is the green plus icon beside a record. Click this to display additional information about the record.
 	
 
 

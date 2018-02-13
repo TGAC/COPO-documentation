@@ -81,7 +81,7 @@ A COPO profile [#profile_name]_ (see :ref:`profile-definition`) comes with a pre
 .. rubric:: Footnotes
 
 .. [#f1] COPO currently doesn't support sharing of component instances (e.g., samples) across profiles. 
-.. [#profile_name] COPO profile and profile will be used interchangeably, when the context is clear, in this document. 
+.. [#profile_name] COPO profile and profile will be used interchangeably when the context is clear. 
    
 
 
