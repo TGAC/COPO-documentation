@@ -40,6 +40,9 @@ In the screenshot below, the displayed files have successfully been through the 
 
 .. image:: images/datafile-upload-finish.jpg
 
+.. note::
+   While COPO is positioned to broker the submission of data to remote repositories, it is not equipped to serve as a `silo` for datafiles. Uploaded datafiles are held only for a short period of time, pending deposition of such to remote repositories.
+
 
 Inspect
 ----------
@@ -53,7 +56,7 @@ The presented view (see screenshot above) displays the two files uploaded to COP
    COPO tries to determine, and display accordingly, the type of an uploaded datafile. Where this is not possible, the type will be displayed as `unknown`. However, this does not disrupt the actions the user can perform on such files.
    
 
-Tasks can be performed on a single datafile or a group (or bundle) of datafiles. Some of the relevant tasks defined for datafiles are:
+Tasks can be performed on a single datafile or a group of datafiles (bundle). Some of the relevant tasks defined for datafiles are:
 
 Describe
 	Click this button to describe selected datafiles. This would activate the description wizard, enabling the process of metadata attribution for the target files. 
@@ -70,13 +73,47 @@ Discard Metadata
 
 Datafile Description
 ---------------------
-COPO supports, and provides description templates suitable for, a number of repositories (e.g., `ENA <https://www.ebi.ac.uk/ena/>`_, `Figshare <https://figshare.com>`_). Before embarking on datafile description, the user might want to give some thought about the description end-point (i.e., the intended repository) of the target datafiles. For instance, certain file types might only be suitable for submission to specific repositories.
+COPO supports, and provides relevant description templates for, submission of datafiles to a number of repositories (e.g., `ENA <https://www.ebi.ac.uk/ena/>`_, `Figshare <https://figshare.com>`_). 
 
-We will endeavour to cover the different description routes currently implemented in COPO. Irrespective of the description template used or the intended repository, the general process of datafile description remains similar.
+Before embarking on datafile description, the user might want to give some thought about the end-point (i.e., the intended repository) of the target datafiles. For instance, certain file types might only be suitable for submission to specific repositories.
+
+Irrespective of the description template used or the intended repository, the general process of datafile description is relatively similar. Any discrepancy in using any particular template will be highlighted where relevant.
 
 
-Selecting the target files
--------------------------------
+Select the target files
+--------------------------
+The first step involves selecting the files to be described or the `description bundle`. The user can select a single file or multiple files. 
+
+.. note::
+	Multiple file description is useful (and possible) in situations where the files to be described would have similar metadata, and be potentially submitted to the same repository.
+	
+1.	Select the files to be described
+2.	Click the **Describe** button
+
+.. image:: images/datafile-select-files.jpg
+
+The datafiles are validated for suitability of being described together, and the user would be expected to confirm the `bundling` action (see the screenshot below).
+
+.. note::
+	The confirmation dialog `might` not be displayed in a single file description.
+
+.. image:: images/datafile-bundling-confirm.jpg
+
+3. Click **Continue** to confirm the bundling
+
+The view should switch to display the description wizard.
+
+
+
+The description wizard
+-------------------------
+
+.. image:: images/datafile-description-wizard.jpg
+.. image:: images/datafile-description-wizard-2.jpg
+
+The screenshots above illustrate the datafile description wizard.
+
+
 
 
 
