@@ -82,7 +82,7 @@ Irrespective of the description template used or the intended repository, the ge
 
 Select the target files
 --------------------------
-The first step involves selecting the files to be described or the `description bundle`. The user can select a single file or multiple files. 
+The first step involves selecting the files to be described or the **description bundle**. The user can select a single file or multiple files. 
 
 .. note::
 	Multiple file description is useful (and possible) in situations where the files to be described would have similar metadata, and be potentially submitted to the same repository.
@@ -104,14 +104,68 @@ The datafiles are validated for suitability of being described together, and the
 The view should switch to display the description wizard.
 
 
+.. _datafile-wizard-label:
 
-The description wizard
+Datafile description wizard
 -------------------------
 
 .. image:: images/datafile-description-wizard.jpg
 .. image:: images/datafile-description-wizard-2.jpg
 
-The screenshots above illustrate the datafile description wizard.
+The screenshots above provide an illustration of the datafile description wizard. The wizard, as observed in the screenshot, is laid out into different logical work sections, which include:
+
+1. Action buttons
+2. Stage transition buttons
+#. Stage label
+#. Description metadata or stage form
+#. Description bundle
+#. Info/Help panes
+
+
+Action buttons
+----------------
+
+These are the group of buttons located to the top left hand corner (:ref:`highlighted in red, top left hand side <datafile-wizard-label>`).
+
+Discard Description
+   Clicking this action button will discard the description and associated metadata to the description bundles. The view will switch back to the **Inspect** pane.
+   
+   .. warning::
+   	The discard description action deletes every description metadata associated with datafiles in the description bundle. Given the implication of this action, the user will be required to confirm the action before proceeding.
+	
+Exit Description
+   Clicking this button terminates the description (and the wizard). The view will switch back to the **Inspect** pane.
+   
+   .. note::
+    The exit description action, unlike the discard description action, preserves the metadata attributed to the description bundle. Description metadata, up to but not including the current stage, is saved and the user can continue from this `breakpoint` at a later stage.
+
+Stage Info
+   Clicking this displays relevant information to the current stage (e.g., metadata input required in the stage). Same information can be found on the **Info** panel (:ref:`right side hand side <datafile-wizard-label>`).
+   
+   
+Stage transition buttons
+--------------------------
+
+The stage transition buttons (:ref:`highlighted in green, right hand side <datafile-wizard-label>`) are the **Prev** and **Next** buttons that enable the user to go back and forth through the stages of the wizard. 
+
+By clicking **Next**, the user-supplied input in a current stage is saved, and the wizard transitions to next stage. The user can also go back through the stages, to update or view previous entries, by clicking the **Prev** button.
+
+Stage label
+---------------
+
+The stage label is situated on the same level (:ref:`left hand side, below the action buttons <datafile-wizard-label>`) as the stage transition buttons. It provides a sensible labelling for the wizard stages. 
+
+The current stage takes the focus, and is blue in colour. Visited stages are grey in colour. Each stage label also has an associated serial number for ease of reference.
+
+In the :ref:`screenshot <datafile-wizard-label>` above, the current stage has the label `Target Repo` and an associated serial number of `1`, that indicates the first stage of the wizard.
+
+.. note::
+ New stages are presented to the user based on inputs in previous stages. Different inputs might therefore lead to entirely different paths or sequence of stages in the wizard.
+   
+
+.. Info panel (right side corner of the page)
+..    This panel displays information about user interaction within a component page (e.g., feedback after record creation). In the wizard description context, it displays stage information as a user goes through different stages of a description.
+
 
 
 
@@ -123,5 +177,5 @@ The screenshots above illustrate the datafile description wizard.
 
 .. rubric:: Footnotes
 
-.. [#consistency_in_view] A certain level of UI consistency will be maintained, were possible, across profile components.
+.. [#consistency_in_view] Some level of UI consistency is maintained, were possible, across all profile components.
 
