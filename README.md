@@ -17,6 +17,8 @@ To set up a working environment locally:
 	make html
 	```
 	To view: `_build/html/index.html`
+	
+7. There are observable issues when running make, such as "WARNING: html_static_path entry '../_static' does not exist". Creating a _static folder in the root directory should hopefully resolve this.
 
 
 This documentation uses Sphinx. For more information see: http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html

@@ -187,7 +187,7 @@ The user can access and, in many cases, individually edit datafiles in the descr
 
 Beside every datafile in the description is a view button (depicted as a green plus sign to the left of a datafile. See: :ref:`datafile-wizard-label`). This may be clicked to view the metadata assigned to the datafile in the stage. This is particularly useful when the datafiles in the bundle may potentially have different metadata.
 
-The description bundle section has a search facility for filtering datafiles in the bundle. Closely associated with the search control, are the **Select all**, **Select filtered**, and **Select none** buttons. These can be used to select and apply metadata to subsets of datafiles in the description bundle. More detail will be provided about this feature within a relevant context.
+The description bundle section has a search functionality for filtering datafiles in the bundle. Closely associated with the search functionality are the **Select all**, **Select filtered**, and **Select none** controls, which may be used to select and apply metadata to subsets of datafiles in the description bundle. More detail will be provided about bundle `subsetting` later.
 
 
 
