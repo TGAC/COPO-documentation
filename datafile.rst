@@ -107,7 +107,7 @@ The view should switch to display the description wizard.
 .. _datafile-wizard-label:
 
 Datafile description wizard
--------------------------
+---------------------------------
 
 .. image:: images/datafile-description-wizard.jpg
 .. image:: images/datafile-description-wizard-2.jpg
@@ -115,7 +115,7 @@ Datafile description wizard
 The screenshots above provide an illustration of the datafile description wizard. The wizard, as observed in the screenshot, is laid out into different logical work sections, which include:
 
 1. Action buttons
-2. Stage transition buttons
+2. Stage navigation buttons
 #. Stage label
 #. Description metadata or stage form
 #. Description bundle
@@ -125,7 +125,7 @@ The screenshots above provide an illustration of the datafile description wizard
 Action buttons
 ----------------
 
-These are the group of buttons located to the top left hand corner (:ref:`highlighted in red, top left hand side <datafile-wizard-label>`).
+These are the group of buttons located to the top left hand corner (:ref:`top left hand side, highlighted in red <datafile-wizard-label>`).
 
 Discard Description
    Clicking this action button will discard the description and associated metadata to the description bundles. The view will switch back to the **Inspect** pane.
@@ -142,26 +142,40 @@ Exit Description
 Stage Info
    Clicking this displays relevant information to the current stage (e.g., metadata input required in the stage). Same information can be found on the **Info** panel (:ref:`right side hand side <datafile-wizard-label>`).
    
-   
-Stage transition buttons
+
+.. _datafile-wizard-nav-label:
+
+Stage navigation buttons
 --------------------------
 
-The stage transition buttons (:ref:`highlighted in green, right hand side <datafile-wizard-label>`) are the **Prev** and **Next** buttons that enable the user to go back and forth through the stages of the wizard. 
+The stage navigation buttons (:ref:`right hand side, highlighted in green <datafile-wizard-label>`) are the **Prev** and **Next** buttons that enable the user to go back and forth through the stages of the wizard. 
 
-By clicking **Next**, the user-supplied input in a current stage is saved, and the wizard transitions to next stage. The user can also go back through the stages, to update or view previous entries, by clicking the **Prev** button.
+By clicking **Next**, the user-supplied input in a current stage is saved, and the wizard transitions to a new stage. The user can also go back through the stages, to update or view previous entries, by clicking the **Prev** button.
 
 Stage label
 ---------------
 
-The stage label is situated on the same level (:ref:`left hand side, below the action buttons <datafile-wizard-label>`) as the stage transition buttons. It provides a sensible labelling for the wizard stages. 
+The stage label is located on the same level (:ref:`left hand side, below the action buttons <datafile-wizard-label>`) as the stage transition buttons. 
 
-The current stage takes the focus, and is blue in colour. Visited stages are grey in colour. Each stage label also has an associated serial number for ease of reference.
+The current stage appears in a bold colour (blue in this case). Non-active stages are usually greyed out. In addition to the label, each stage has a stage id (or serial number). This is displayed alongside the label, and provides a convenient way of referencing a stage.
 
-In the :ref:`screenshot <datafile-wizard-label>` above, the current stage has the label `Target Repo` and an associated serial number of `1`, that indicates the first stage of the wizard.
+In the :ref:`screenshot <datafile-wizard-label>` above, the current stage, which happens to be the first stage of the wizard, is labelled `Target Repo`, with a serial number of `1`.
+
+
+.. hint::
+ Stage labels can be used for navigation purposes. For instance, while in, say, `stage 3` of the wizard, the user can click the label of a previous stage, say, `stage 1` to quickly jump back to that stage.
+
+New stages are presented to the user based on inputs in previous stages. Therefore, choices previously made by the user can potentially lead to a different path, or entirely different sequence of stages, through the wizard.
 
 .. note::
- New stages are presented to the user based on inputs in previous stages. Different inputs might therefore lead to entirely different paths or sequence of stages in the wizard.
-   
+ While it may be possible to quickly jump back to a previous stage by clicking the stage label, similar action is constrained in the opposite direction. The user will have to click the **Next** button to proceed again through the visited stages. This enables the wizard to revalidate the sequence of stages to be presented to the user.
+ 
+ 
+Description metadata
+---------------------------
+The description metadata section holds the actual form for obtaining user input (:ref:`middle section of screenshot <datafile-wizard-label>`). Each stage presents a different form for obtaining metadata relevant to the stage. In the  referenced screenshot, for instance, the user is required to select the target repository for the datafiles.
+
+After filling out the form in a stage, the user can click the **Next** button to proceed (see: :ref:`datafile-wizard-nav-label`).
 
 .. Info panel (right side corner of the page)
 ..    This panel displays information about user interaction within a component page (e.g., feedback after record creation). In the wizard description context, it displays stage information as a user goes through different stages of a description.
