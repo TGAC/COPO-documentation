@@ -155,7 +155,7 @@ By clicking **Next**, the user-supplied input in a current stage is saved, and t
 Stage label
 ---------------
 
-The stage label is located on the same level (:ref:`left hand side, below the action buttons <datafile-wizard-label>`) as the stage transition buttons. 
+The stage label is located on the same level (:ref:`left hand side, below the action buttons <datafile-wizard-label>`) as the stage navigation buttons. 
 
 The current stage appears in a bold colour (blue in this case). Non-active stages are usually greyed out. In addition to the label, each stage has a stage id (or serial number). This is displayed alongside the label, and provides a convenient way of referencing a stage.
 
@@ -175,7 +175,23 @@ Description metadata
 ---------------------------
 The description metadata section holds the actual form for obtaining user input (:ref:`middle section of screenshot <datafile-wizard-label>`). Each stage presents a different form for obtaining metadata relevant to the stage. In the  referenced screenshot, for instance, the user is required to select the target repository for the datafiles.
 
-After filling out the form in a stage, the user can click the **Next** button to proceed (see: :ref:`datafile-wizard-nav-label`).
+Click the  **Next** button, after filling out the form in a stage, to proceed to the next stage (see: :ref:`datafile-wizard-nav-label`).
+
+Description bundle
+---------------------------
+The description bundle section is located below the description metadata section (see: :ref:`datafile-wizard-label`). Currently described datafiles are listed here in a tabular format. 
+
+The user can add datafiles to the description bundle at any stage of the description. Also, datafiles may be removed at any time from the description bundle. Details of this feature is deferred to a relevant context.
+
+The user can access and, in many cases, individually edit datafiles in the description bundle. This feature will be elaborated upon in a relevant context. 
+
+Beside every datafile in the description is a view button (depicted as a green plus sign to the left of a datafile. See: :ref:`datafile-wizard-label`). This may be clicked to view the metadata assigned to the datafile in the stage. This is particularly useful when the datafiles in the bundle may potentially have different metadata.
+
+The description bundle section has a search facility for filtering datafiles in the bundle. Closely associated with the search control, are the **Select all**, **Select filtered**, and **Select none** buttons. These can be used to select and apply metadata to subsets of datafiles in the description bundle. More detail will be provided about this feature within a relevant context.
+
+
+
+
 
 .. Info panel (right side corner of the page)
 ..    This panel displays information about user interaction within a component page (e.g., feedback after record creation). In the wizard description context, it displays stage information as a user goes through different stages of a description.
