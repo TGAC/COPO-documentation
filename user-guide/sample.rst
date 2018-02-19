@@ -6,7 +6,7 @@ The samples page enables users to describe and manage their biological samples.
 
 Samples within a profile can be linked to, or form part of, other components within a profile. For instance, a sample may be linked to a datafile as a metadata. The screenshot below shows the sample page before any record has been added.
 
-.. image:: images/sample1.jpg
+.. image:: /images/sample1.jpg
 
 COPO provides a wizard to aid in the process of entering samples. 
 
@@ -26,7 +26,7 @@ Enter the number of samples to describe in the first stage of the wizard.
 .. hint:: 
    Multiple sample having a common set of attributes can be described in a batch.
 
-.. image:: images/sample-no-of-samples.jpg
+.. image:: /images/sample-no-of-samples.jpg
 
 
 Before proceeding through wizard stages, there are a few controls worth pointing out on the page. The screenshot above will be used as a point of reference.
@@ -50,7 +50,7 @@ Sample cloning
 ------------------
 When describing new samples, the user can choose to inherit metadata from an existing sample. This may be useful in situations where the samples to be described have similar attributes to some reference sample. This functionality is set to **No** by default. Set the option to **Yes** if sample cloning is desired. In this guide, the clone option is selected to explore this functionality.
 
-.. image:: images/sample-clone.jpg
+.. image:: /images/sample-clone.jpg
 
 
 .. _sample-type-label:
@@ -61,7 +61,7 @@ COPO provides a number of templates for describing samples defined by sample typ
    
 The default sample type is **COPO Standard**. In the screenshot below, **Sample type** is set to **Biosample Standard**. However, this guide will highlight results from both types when relevant.
 
-.. image:: images/sample-type-biosample.jpg
+.. image:: /images/sample-type-biosample.jpg
 
 .. hint:: 
    The **Biosample Standard** sample type is useful for describing repository agnostic samples. **COPO Standard** is the recommended type to use for submissions to the `European Nucleotide Archive <https://www.ebi.ac.uk/ena>`_.
@@ -71,7 +71,7 @@ Cloning method
 ---------------
 The cloning method stage is presented if sample clone was selected in a previous stage. The user can select, either from a local sample collection or by resolving an accession to a remote database, the reference sample to clone.
 
-.. image:: images/sample-clone-2.png
+.. image:: /images/sample-clone-2.png
 
 .. note:: 
    The **Existing Sample** option is only active if there are available samples in the current profile. Samples from other profiles are not available to be cloned in this view. **Resolve Accession** is the default option when there are no existing samples in a profile.
@@ -85,7 +85,7 @@ Results from both options will be provided in this guide where relevant. Also, f
   
 Enter an accession and press the **Resolve!** button, located to the right of the accession input box.
   
-.. image:: images/sample-resolve.jpg
+.. image:: /images/sample-resolve.jpg
 
 The screenshot above shows the result of resolving the accession, :code:`SAMN05282547`, the metadata of which is displayed to the right. Also, the highlighted (in red circle) icon next to the **Accession** label, when hovered over also reveals the resolved sample metadata. 
 
@@ -98,7 +98,7 @@ The resolved attributes from this sample will form the basis of the current desc
 
 If there are existing samples, this option can also be explored to clone a sample. 
 
-.. image:: images/sample-clone-existing.jpg
+.. image:: /images/sample-clone-existing.jpg
 
 Select the **Existing Sample** option. The input control should change accordingly to enable the user to select from a list of samples. The user can either type into the input box to filter the samples, or simply scroll through the list of available samples. 
 
@@ -117,7 +117,7 @@ The proposed sample name stage provides the user the opportunity to name the pro
 1. Predefined Names (default option)
 2. Bundle Name
 
-.. image:: images/sample-naming.jpg
+.. image:: /images/sample-naming.jpg
 
 .. hint:: 
    Clicking an input control presents a help tip relevant to the selected control. 
@@ -134,7 +134,7 @@ The  **Bundle Name** option will come in handy for users with no predefined samp
 Assigned sample name
 ---------------------
 
-.. image:: images/sample-assigned-name.jpg
+.. image:: /images/sample-assigned-name.jpg
 
 In this stage, the sample names for the prospective samples are generated. Sample names are unique in COPO, and the validation to satisfy this constraint is done before generating the names. The user can modify any of the generated names by simply entering a new name in a desired name field. Click the **Next** button to proceed.
 
@@ -151,7 +151,7 @@ So far, we have specified the number of samples to describe; chosen a descriptio
    The sample attributes stage acts as a template, that enables the user define common features that will be shared by all  samples in a description.  All entries made here will be assigned to all the prospective samples in the current description.
  
 
-.. image:: images/sample-attribute-biosample.jpg
+.. image:: /images/sample-attribute-biosample.jpg
 
 The screenshot shows the result of cloning a sample from a remote repository, and selecting to use the **Biosample** sample type. The fields have been pre-populated with the resolved metadata from the clone target. The following components are available on the form.
 
@@ -181,7 +181,7 @@ Comments
 	
 The Sample attributes form is slightly different when describing samples based on the **COPO Standard** template (see: :ref:`sample-type-label`).
 
-.. image:: images/sample-attribute-copo.jpg
+.. image:: /images/sample-attribute-copo.jpg
 
 The **Source** and **Factors** fields are defined under the **COPO Standard** attributes template, and the **Organism** and **Comments** fields are no longer featured (see the screenshot above).
 
@@ -193,7 +193,7 @@ Source
 	
 	To create a new source, click the **Create & Assign Source** button. A source form will be presented as shown in the screenshot below. Enter information about the source and click **Save**. This will automatically associate the created source with the sample.
 	
-	.. image:: images/sample-create-source.jpg
+	.. image:: /images/sample-create-source.jpg
 	
 Factors
 	Factors express treatment on the sample, e.g., dose, duration. The factor control is similar to the characteristic control, and the user can refer to the characteristic control above for more information on how to use this control.
@@ -204,7 +204,7 @@ Sample generation
 ---------------------
 The prospective samples are set to be generated when the user clicks the **Next** button in the **Sample attributes** stage. As mentioned, the features entered in the Sample attributes stage of the wizard will be used as defaults for all the samples in the bundle. 
 
-.. image:: images/sample-generation.jpg
+.. image:: /images/sample-generation.jpg
 
 The user will be required to confirm the action to be taken.
 
@@ -222,7 +222,7 @@ Review stage
 -------------
 The review stage is the final stage of the wizard. In this stage, the user is able to modify specific attribute values for the generated samples. Samples information is presented in a tabular format. To modify an attribute value, highlight the required cell and press the **Enter** key on your keyboard. When done modifying the value in a cell, press the **Enter** key again to save your changes. Click the **Finish!** button to end the description session.
 
-.. image:: images/sample-review.jpg
+.. image:: /images/sample-review.jpg
 
 In the screenshot above, features defined in the **Sample attributes** stage form the column headers of the review table. The sample name takes the second column. 
 
@@ -240,7 +240,7 @@ Multi-sample editing
 	* Click to select the rows to apply the update
 	* Click **Apply to selected** to apply to selected rows; **Apply to all** to apply to all the samples; **Apply to current** to apply only to the sample for which the edit form is triggered
 	
-	.. image:: images/sample-multi-edit.jpg
+	.. image:: /images/sample-multi-edit.jpg
 	
 Sequential editing
 	The wizard automatically highlights the next sample (one position down, same feature or column), after the Enter key is pressed to commit an edit. In this way, the user can conveniently enter feature values sequentially for all the samples.
@@ -251,7 +251,7 @@ Arrow keys
 
 Completing a description
 -------------------------
-.. image:: images/sample-description-finish.jpg
+.. image:: /images/sample-description-finish.jpg
 
 Click the **Finish!** button (see the highlight in the screenshot above) when done editing the samples to complete the description. This will terminate the wizard and the page refreshed to display the sample detail view with the generated samples.
 
@@ -260,7 +260,7 @@ Click the **Finish!** button (see the highlight in the screenshot above) when do
 Sample detail view
 ---------------------
 
-.. image:: images/sample-detail-view.jpg
+.. image:: /images/sample-detail-view.jpg
 
 The screenshot above is an illustration of the sample detail view. We will take a look at the following controls provided by the user interface (UI). 
 
