@@ -1,6 +1,6 @@
-####################
+===========
 Samples
-####################
+===========
 
 The samples page enables users to describe and manage their biological samples. 
 

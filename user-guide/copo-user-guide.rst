@@ -1,6 +1,6 @@
-####################
+=================
 Getting started
-####################
+=================
 
 The project home page is at: https://copo-project.org. You need an ORCID ID to access the application. 
 
@@ -16,7 +16,7 @@ Click on **Try COPO** at the top right corner of the home page (see the image ab
 
 Enter your login credentials, or click **Register now** to register a new ORCID account. If the login is successful, a redirection should be made to COPO application.
 
-
+------------------
 First time login
 ------------------
 
@@ -29,9 +29,9 @@ A successful login leads to the main work page, which holds all the **work profi
 
 .. _profile-definition:
 
-##########################
+==============
 COPO Profile
-##########################
+==============
 The first step in getting any meaningful work done in COPO is to define a work profile.
 
 .. note::
@@ -57,11 +57,11 @@ Follow these steps to create a new profile:
 
    Form fields in COPO come with a help tip. This functionality can be turned off by toggling the **Help tips** control (see the highlight in the **Add Profile** form screenshot).
    
-
+-------------------
 Profile Components
 -------------------
 
-A COPO profile [#profile_name]_ (see :ref:`profile-definition`) comes with a predefined set of component types from which research objects can be created or worked on. COPO currently defines the following component types:
+A COPO profile [#profile_name]_ (see: :ref:`profile-definition`) defines a set of component types from which instances of research objects can be created. The following component types are currently defined:
 
 1. :doc:`Samples <sample>` - for creating instances of biological samples
 2. :doc:`Datafiles <datafile>`  - for uploading and attributing metadata to data
@@ -75,7 +75,7 @@ A COPO profile [#profile_name]_ (see :ref:`profile-definition`) comes with a pre
 
 * To access a component within a profile, click on the component button displayed within the profile box (see the screenshot above). 
 
-* The number beside each profile button displays the number of items or instances of the component available. 
+* The number beside each profile button displays the number of items or instances of the component added or created. 
 
 
 .. rubric:: Footnotes

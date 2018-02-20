@@ -7,7 +7,6 @@ Collaborative Open Plant Omics
 ========================================
 
 .. toctree::
-   :maxdepth: -1
    :titlesonly:
    :caption: Table of Contents:
 

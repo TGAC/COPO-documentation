@@ -1,20 +1,17 @@
-####################
-Datafiles
-####################
+==============
+Introduction
+==============
 
-Datafile is one of the core components of a COPO profile. Within this page, the user can perform the following tasks:
-
-1. **Upload** datafiles to COPO
-2. **Inspect** or view the uploaded files
-#. **Describe** or attribute metadata to the uploaded files
+Datafile is one of the main components of a COPO profile. Within the datafile page, the user will be able to upload, inspect, and describe datafiles.
 
 .. image:: /images/datafile-page.jpg
 
 The screenshot shows the datafile page, with tabs to represent the key tasks mentioned (i.e., upload, inspect, and describe). Clicking a tab reveals the underlying view and controls to carry out actual work.
 
 
+========
 Upload
-----------
+========
 
 Follow these steps to upload datafiles to COPO:
 
@@ -44,8 +41,9 @@ In the screenshot below, the displayed files have successfully been through the 
    While COPO is positioned to broker the submission of data to remote repositories, it is not equipped to serve as a `silo` for datafiles. Uploaded datafiles are held only for a short period of time, pending deposition of such to remote repositories.
 
 
+========
 Inspect
-----------
+========
 The inspect pane provides a view to the datafiles within a profile.
 
 .. image:: /images/datafile-inspect.jpg
@@ -70,10 +68,10 @@ Discard Metadata
 	    A **metadata indicator** is a visual cue beside a datafile record with information about its metadata level. In the screenshot above, the metadata indicator is represented by the red square beside a datafile record, and this indicates the absence of metadata. The user can hover over the indicator for state information. 
 
 
-
-Datafile Description
----------------------
-COPO supports, and provides relevant description templates for, submission of datafiles to a number of repositories (e.g., `ENA <https://www.ebi.ac.uk/ena/>`_, `Figshare <https://figshare.com>`_). 
+=======================
+Description
+=======================
+COPO supports, and provides relevant templates for, the description and submission of datafiles to a number of repositories (e.g., `ENA <https://www.ebi.ac.uk/ena/>`_, `Figshare <https://figshare.com>`_). 
 
 Before embarking on datafile description, the user might want to give some thought about the end-point (i.e., the intended repository) of the target datafiles. For instance, certain file types might only be suitable for submission to specific repositories.
 
@@ -187,13 +185,16 @@ The description bundle section is located below the description metadata section
 
 * **Metadata viewing:** The view button (green plus sign to the left of a datafile, see: :ref:`datafile-wizard-label`) beside a datafile provide a means of viewing metadata assigned to the datafile in the stage. This is particularly useful in situations that datafiles in the bundle may potentially have different metadata.
 
-* **Bundle subsetting:** The description bundle section has a search functionality for filtering datafiles in the bundle. This functionality may be used in conjunction with record selection controls such as **Select all**, **Select filtered**, and **Select none** to apply metadata (and perform other tasks) to subsets of datafiles in the description bundle. This is a way of `subsetting` the description bundle. 
+* **Bundle subsetting:** The description bundle section has a search functionality for filtering datafiles in the bundle. This functionality may be used in conjunction with record selection controls such as **Select all**, **Select filtered**, and **Select none** to apply metadata (or perform other tasks) to subsets of datafiles in the description bundle. This is a way of `subsetting` the description bundle. 
 
 As mentioned, these features will be demonstrated subsequently in relevant contexts.
 
 Info/Help panes
 -------------------------
 The info and help panels are located to the right side of the wizard (see: :ref:`datafile-wizard-label`). The info pane displays information about the current stage of the wizard. The help pane provides context-based help about the datafiles component in general. It also includes topics specific to datafiles description. It has a search feature that can be explored to filter on keywords.
+
+
+So far, a general overview of the different components making up the datafile page has been provided. In the sections that follow, an attempt will be made to detail the different description pathways in COPO. This will lay the groundwork for subsequent discussions on the submission of datafiles to different repositories supported in COPO. 
 
 
 
