@@ -191,19 +191,9 @@ The description bundle section is located below the description metadata section
 
 As mentioned, these features will be demonstrated subsequently in relevant contexts.
 
-
-
-
-
-.. Info panel (right side corner of the page)
-..    This panel displays information about user interaction within a component page (e.g., feedback after record creation). In the wizard description context, it displays stage information as a user goes through different stages of a description.
-
-
-
-
-
-
-
+Info/Help panes
+-------------------------
+The info and help panels are located to the right side of the wizard (see: :ref:`datafile-wizard-label`). The info pane displays information about the current stage of the wizard. The help pane provides context-based help about the datafiles component in general. It also includes topics specific to datafiles description. It has a search feature that can be explored to filter on keywords.
 
 
 
