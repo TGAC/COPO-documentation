@@ -179,15 +179,17 @@ Click the  **Next** button, after filling out the form in a stage, to proceed to
 
 Description bundle
 ---------------------------
-The description bundle section is located below the description metadata section (see: :ref:`datafile-wizard-label`). Currently described datafiles are listed here in a tabular format. 
+The description bundle section is located below the description metadata section, and to the bottom of the description wizard (see: :ref:`datafile-wizard-label`). This section lists currently described datafiles in a tabular format. The following features are provided, which will be demonstrated in relevant contexts:
 
-The user can add datafiles to the description bundle at any stage of the description. Also, datafiles may be removed at any time from the description bundle. Details of this feature is deferred to a relevant context.
+1. The user can add datafiles to the description bundle at any stage of the description. Also, datafiles can be removed at any time from the description bundle. 
 
-The user can access and, in many cases, individually edit datafiles in the description bundle. This feature will be elaborated upon in a relevant context. 
+2. The user can access and, in many cases, edit metadata for individual datafiles in the description bundle. 
 
-Beside every datafile in the description is a view button (depicted as a green plus sign to the left of a datafile. See: :ref:`datafile-wizard-label`). This may be clicked to view the metadata assigned to the datafile in the stage. This is particularly useful when the datafiles in the bundle may potentially have different metadata.
+#. The view button (green plus sign to the left of a datafile, see: :ref:`datafile-wizard-label`) beside a datafile provide a means of viewing metadata assigned to the datafile in the stage. This is particularly useful in situations that datafiles in the bundle may potentially have different metadata.
 
-The description bundle section has a search functionality for filtering datafiles in the bundle. Closely associated with the search functionality are the **Select all**, **Select filtered**, and **Select none** controls, which may be used to select and apply metadata to subsets of datafiles in the description bundle. More detail will be provided about bundle `subsetting` later.
+#. The description bundle section has a search functionality for filtering datafiles in the bundle. This functionality may be used in conjunction with record selection controls such as **Select all**, **Select filtered**, and **Select none** to apply metadata (and perform other tasks) to subsets of datafiles in the description bundle. This is a way of `subsetting` the description bundle. 
+
+As mentioned, these features will be demonstrated subsequently in relevant contexts.
 
 
 
