@@ -2,12 +2,14 @@
 Introduction
 ==============
 
-Datafile is one of the main components of a COPO profile. Within the datafile page, the user will be able to upload, inspect, and describe datafiles.
+Datafile is one of the main components of a COPO profile. Within the datafile page, the user will be able to upload, inspect (view uploaded files), and describe datafiles (attribute metadata).
 
 .. image:: /images/datafile-page.jpg
 
 The screenshot shows the datafile page, with tabs to represent the key tasks mentioned (i.e., upload, inspect, and describe). Clicking a tab reveals the underlying view and controls to carry out actual work.
 
+
+.. _datafile-upload-label:
 
 ========
 Upload
@@ -194,11 +196,46 @@ Info/Help panes
 The info and help panels are located to the right side of the wizard (see: :ref:`datafile-wizard-label`). The info pane displays information about the current stage of the wizard. The help pane provides context-based help about the datafiles component in general. It also includes topics specific to datafiles description. It has a search feature that can be explored to filter on keywords.
 
 
-So far, a general overview of the different components making up the datafile page has been provided. In the sections that follow, an attempt will be made to detail the different description pathways in COPO. This will lay the groundwork for subsequent discussions on the submission of datafiles to different repositories supported in COPO. 
+So far, a general overview of the datafile page has been provided, highlighting key aspects of the UI. The sections that follow will draw on this, to provide a more detailed illustration of datafile description. 
+
+As mentioned, COPO provides a number of templates to support the description of datafiles. These templates are specifically tailored, by defining a minimum set of metadata requirements, to support submission of the datafiles to different target repositories supported in COPO. The first of this to be considered is the submission of raw sequence reads to the `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena>`_.
+
+
+===============================
+ENA Sequence Reads Description
+===============================
+The description wizard provides a template for describing raw sequence reads files, which will ultimately enable the submission of such datafiles to the ENA. It is assumed here that the target datafiles are already in COPO, and selected for description [#relevant_section_on_upload]_.
+
+
+.. _ena-target-repo-label:
+
+Target Repo
+---------------
+
+.. image:: /images/datafile-target-repo-ena.jpg
+
+The first stage of the wizard is the **Target Repo**, where the user gets to select the target repository for the description bundle. In the screenshot above, the target repository is set to `ENA - Sequence Reads` (default option). The user can select any other option to suit any specific description use-case. 
+
+
+.. warning::
+ Changing the **Target Repo** can impact the current description in different ways. The user will normally be prompted for a confirmation before proceeding with this action. 
+ 
+If the user selects a different **Target Repo**, a new metadata template will be activated for use. The new description template actually comes into effect  when the user proceeds to the next stage of the wizard. This has little to almost no visible impact when engaging in a new description. However, with an advanced (or returning) description, this will result in the loss of any previous metadata ascribed to the participating datafiles using a different **Target Repo** template.
+
+
+
+
+
+===============================
+Figshare Description
+===============================
+
+
 
 
 
 .. rubric:: Footnotes
 
 .. [#consistency_in_view] Some level of UI consistency is maintained, were possible, across all profile components.
+.. [#relevant_section_on_upload] Refer to the relevant sections for more information on uploading and selecting files for description.
 
