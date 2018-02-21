@@ -204,7 +204,7 @@ As mentioned, COPO provides a number of templates to support the description of 
 ===============================
 ENA Sequence Reads Description
 ===============================
-The description wizard provides a template for describing raw sequence reads files, which will ultimately enable the submission of such datafiles to the ENA. It is assumed here that the target datafiles are already in COPO, and selected for description [#relevant_section_on_upload]_.
+The description wizard provides a template for describing raw sequence reads files, which will ultimately enable their submission the ENA. It is assumed here that the target datafiles have been uploaded to COPO and the description process initiated [#relevant_section_on_upload]_.
 
 
 .. _ena-target-repo-label:
@@ -214,15 +214,25 @@ Target Repo
 
 .. image:: /images/datafile-target-repo-ena.jpg
 
-The first stage of the wizard is the **Target Repo**, where the user gets to select the target repository for the description bundle. In the screenshot above, the target repository is set to `ENA - Sequence Reads` (default option). The user can select any other option to suit any specific description use-case. 
+The first stage of the wizard is the **Target Repo**, where the user gets to select the target repository for the description bundle. In the screenshot above, the target repository is set to `ENA - Sequence Reads` (default option). The user can select any other target repository to suit a specific use-case. 
 
 
 .. warning::
  Changing the **Target Repo** can impact the current description in different ways. The user will normally be prompted for a confirmation before proceeding with this action. 
  
-If the user selects a different **Target Repo**, a new metadata template will be activated for use. The new description template actually comes into effect  when the user proceeds to the next stage of the wizard. This has little to almost no visible impact when engaging in a new description. However, with an advanced (or returning) description, this will result in the loss of any previous metadata ascribed to the participating datafiles using a different **Target Repo** template.
+Selecting a different **Target Repo** will result in a different description template being activated. The change in  template actually comes into effect when the user transitions to a different stage of the wizard. The following impact can be observed, especially with advanced description: loss of any previous metadata attributed to the datafile bundle;  change in the sequence of steps presented to the user.
 
+The target repo stage is a `singular stage`.
 
+.. hint::
+ A singular stage is one in which all the datafiles in the description bundle are constrained to share the same metadata. 
+ 
+The following adjustments are made to the wizard in singular stages, as illustrated in the screenshot above: 
+
+* The stage metadata will will apply to all the datafiles in the description bundle 
+* The record selection buttons (i.e., **Select all**, **Select filtered**, and **Select none**) are disabled, implying  that the user can't carry out `subsetting` of the description bundle
+* In line with the previous points, the records in the bundle are selected or highlighted.  
+* A message is displayed to this same effect, and this is situated to the top of the **Description Metadata** section of the wizard.
 
 
 
