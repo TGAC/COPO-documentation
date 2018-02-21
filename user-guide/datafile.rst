@@ -229,7 +229,7 @@ The target repo stage is a `singular stage`.
  
 The following adjustments are made to the wizard in singular stages, as illustrated in the screenshot above: 
 
-* The stage metadata will will apply to all the datafiles in the description bundle 
+* The stage metadata will apply to all the datafiles in the description bundle 
 * The record selection buttons (i.e., **Select all**, **Select filtered**, and **Select none**) are disabled, implying  that the user can't carry out `subsetting` of the description bundle
 * In line with the previous points, the records in the bundle are selected or highlighted.  
 * A message is displayed to this same effect, and this is situated to the top of the **Description Metadata** section of the wizard.
