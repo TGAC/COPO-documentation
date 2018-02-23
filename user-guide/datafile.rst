@@ -232,7 +232,7 @@ The following adjustments are made to the wizard in singular stages, as illustra
 * The stage metadata will be applied to all the datafiles in the description bundle. 
 * The record selection buttons (i.e., **Select all**, **Select filtered**, and **Select none**) are disabled, implying  that the user can't carry out `subsetting` of the description bundle.
 * In line with the previous points, all the records in the bundle are selected or highlighted.  
-* A relevant message, situated to the top of the **Description Metadata** section of the wizard, is displayed to inform the user about the discussed impact.
+* A  message, situated to the top of the **Description Metadata** section of the wizard, is displayed to inform the user about the intended UI adjustments.
 
 
 
