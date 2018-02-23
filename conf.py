@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'copo-project'
-copyright = 'Earlham Institute 2017'
+copyright = 'Earlham Institute, 2017'
 author = 'Felix Shaw, Toni Etuk, Robert Davey'
 
 # The version info for the project you're documenting, acts as replacement for
