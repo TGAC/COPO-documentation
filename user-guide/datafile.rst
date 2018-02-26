@@ -71,7 +71,7 @@ Discard Metadata
 
 
 =======================
-Description
+Describe
 =======================
 COPO supports, and provides relevant templates for, the description and submission of datafiles to a number of repositories (e.g., `ENA <https://www.ebi.ac.uk/ena/>`_, `Figshare <https://figshare.com>`_). 
 
