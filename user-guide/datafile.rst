@@ -80,6 +80,8 @@ Before embarking on datafile description, the user might want to give some thoug
 Irrespective of the description template used or the intended repository, the general process of datafile description is relatively similar. Any discrepancy in using any particular template will be highlighted where relevant.
 
 
+.. _select-desc-target-label:
+
 Select the target files
 --------------------------
 The first step involves selecting the files to be described or the **description bundle**. The user can select a single file or multiple files. 
@@ -202,10 +204,11 @@ As mentioned, COPO provides a number of templates to support the description of 
 
 
 ===============================
-ENA Sequence Reads Description
+Sequence Reads Description
 ===============================
-The description wizard provides a template for describing raw sequence reads files, which will ultimately enable their submission the ENA. It is assumed here that the target datafiles have been uploaded to COPO and the description process initiated [#relevant_section_on_upload]_.
+COPO provides a template for describing raw sequence reads files, which will subsequently enable the submission of the files to the ENA. In this section, a detailed description of describing datafiles intended for the ENA (sequence reads) is provided.
 
+The user would usually begin by, first, uploading the datafiles to COPO, then selecting them for description (see: :ref:`selecting target files <select-desc-target-label>`). The screenshot below highlights the first stage of the description process, after initialising the wizard.
 
 .. _ena-target-repo-label:
 
@@ -214,25 +217,37 @@ Target Repo
 
 .. image:: /images/datafile-target-repo-ena.jpg
 
-The first stage of the wizard is the **Target Repo**, where the user gets to select the target repository for the description bundle. In the screenshot above, the target repository is set to `ENA - Sequence Reads` (default option). The user can select any other target repository to suit a specific use-case. 
+The first stage of the wizard is the **Target Repo**. In this stage, the user gets to select the target repository or the description end-point. The target repository is set to `ENA - Sequence Reads` (default option) in this demonstration. However, the user can pick any other option to reflect a specific use-case.
 
+
+.. note::
+ The target repository determines the description template to use or the sequence of steps the wizard will take the user through.  
 
 .. warning::
- Changing the **Target Repo** can impact the current description in different ways. The user will normally be prompted for a confirmation before proceeding with this action. 
+ Changing the **Target Repo** can impact the current description in different ways, and the user will usually be prompted for a confirmation before proceeding with the action. 
  
-Selecting a different **Target Repo** will result in a different description template being activated. The change in  template actually comes into effect when the user transitions to a different stage of the wizard. The following impact can be observed, especially with advanced description: loss of any previous metadata attributed to the datafile bundle;  change in the sequence of steps presented to the user.
+Selecting a different **Target Repo** will result in a different description template being activated. The change in  template actually comes into effect when the user transitions to a different stage of the wizard. The following impact can be observed: 
+
+* loss of any previous metadata attributed to the datafile bundle  
+* change in the sequence of steps presented to the user
 
 The target repo stage is a `singular stage`.
 
 .. hint::
- A singular stage is one in which all the datafiles in the description bundle are constrained to share the same metadata. 
+ A singular stage is one in which all the datafiles in the description bundle are constrained to having the same metadata. 
  
 The following adjustments are made to the wizard in singular stages, as illustrated in the screenshot above: 
 
 * The stage metadata will be applied to all the datafiles in the description bundle. 
 * The record selection buttons (i.e., **Select all**, **Select filtered**, and **Select none**) are disabled, implying  that the user can't carry out `subsetting` of the description bundle.
 * In line with the previous points, all the records in the bundle are selected or highlighted.  
-* A  message, situated to the top of the **Description Metadata** section of the wizard, is displayed to inform the user about the intended UI adjustments.
+* A  message (top of the **Description Metadata** section of the wizard) is displayed to inform the user about the intended UI adjustments and the impact on the metadata attribution.
+
+Click the **Next** button, when done in a stage, to proceed to the next stage. 
+
+.. warning::
+ Clicking the **Next** button results in the wizard actually saving the entries made in a stage. Exiting the wizard before saving any changes might result in loss of entries made in a stage.
+
 
 
 
@@ -247,5 +262,3 @@ Figshare Description
 .. rubric:: Footnotes
 
 .. [#consistency_in_view] Some level of UI consistency is maintained, were possible, across all profile components.
-.. [#relevant_section_on_upload] Refer to the relevant sections for more information on uploading and selecting files for description.
-
