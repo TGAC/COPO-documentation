@@ -246,7 +246,7 @@ The following adjustments are made to the wizard in singular stages, as illustra
 Click the **Next** button, when done in a stage, to proceed to the next stage. 
 
 .. warning::
- Clicking the **Next** button results in the wizard actually saving the entries made in a stage. Exiting the wizard before saving any changes might result in loss of entries made in a stage.
+ Clicking the **Next** button results in the wizard actually saving the entries made in a stage. Exiting the wizard before saving any changes might result in loss of entries made in the stage.
 
 
 
