@@ -2,9 +2,9 @@
 Samples
 ===========
 
-The samples page enables users to describe and manage their biological samples. 
+Samples constitute one of the components of a COPO profile. The samples page is provided for users to describe and manage their biological samples. 
 
-Samples within a profile can be linked to, or form part of, other components within a profile. For instance, a sample may be linked to a datafile as a metadata. The screenshot below shows the sample page before any record has been added.
+Samples within a profile can be linked to other components within a profile. For instance, a sample may be linked to a datafile as a metadata. The screenshot below shows the sample page before any record has been added.
 
 .. image:: /images/sample1.jpg
 
