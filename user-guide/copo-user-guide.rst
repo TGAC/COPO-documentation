@@ -1,6 +1,6 @@
-=================
+==================
 Getting started
-=================
+==================
 
 The project home page is at: https://copo-project.org. You need an ORCID ID to access the application. 
 
