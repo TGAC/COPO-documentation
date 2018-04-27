@@ -217,11 +217,11 @@ Target Repo
 
 .. image:: /images/datafile-target-repo-ena.jpg
 
-The first stage of the wizard is the **Target Repo**. In this stage, the user gets to select the target repository or the description end-point. The target repository is set to `ENA - Sequence Reads` (default option) in this demonstration. However, the user can pick any other option to reflect a specific use-case.
+The first stage of the wizard is the **Target Repo**. In this stage, the user gets to select the target repository where the described files will be deposited. The default target repository is `ENA - Sequence Reads`.
 
 
 .. note::
- The target repository determines the description template to use or the sequence of steps the wizard will take the user through.  
+ The choice of a target repository specifies the description template or the metadata requirement to be engaged for the description.  
 
 .. warning::
  Changing the **Target Repo** can impact the current description in different ways, and the user will usually be prompted for a confirmation before proceeding with the action. 
@@ -234,7 +234,7 @@ Selecting a different **Target Repo** will result in a different description tem
 The target repo stage is a `singular stage`.
 
 .. hint::
- A singular stage is one in which all the datafiles in the description bundle are constrained to having the same metadata. 
+ A singular stage is one in which all the datafiles in the description bundle share the same metadata. That is, any metadata supplied in the stage will apply to all bundle items.
  
 The following adjustments are made to the wizard in singular stages, as illustrated in the screenshot above: 
 
