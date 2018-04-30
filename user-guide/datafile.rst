@@ -200,7 +200,7 @@ The info and help panels are located to the right side of the wizard (see: :ref:
 
 So far, a general overview of the datafile page has been provided, highlighting key aspects of the UI. The sections that follow will draw on this, to provide a more detailed illustration of datafile description. 
 
-As mentioned, COPO provides a number of templates to support the description of datafiles. These templates are specifically tailored, by defining a minimum set of metadata requirements, to support submission of the datafiles to different target repositories supported in COPO. The first of this to be considered is the submission of raw sequence reads to the `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena>`_.
+As mentioned, COPO provides a number of templates to support the description of datafiles. These templates are tailored, by defining a minimum set of metadata requirements, to support submission of the datafiles to different target repositories supported in COPO. The first of this to be considered is the submission of raw sequence reads to the `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena>`_.
 
 
 ===============================
@@ -236,9 +236,9 @@ The target repo stage is a `singular stage`.
 .. hint::
  A singular stage is one in which all the datafiles in the description bundle share the same metadata. That is, any metadata supplied in the stage will apply to all bundle items.
  
-The following adjustments are made to the wizard in singular stages, as illustrated in the screenshot above: 
+The following points are applicable to a singular stage: 
 
-* The stage metadata will be applied to all the datafiles in the description bundle. 
+* Any metadata supplied in the stage will be applied to all the datafiles in the description bundle. 
 * The record selection buttons (i.e., **Select all**, **Select filtered**, and **Select none**) are disabled, implying  that the user can't carry out `subsetting` of the description bundle.
 * In line with the previous points, all the records in the bundle are selected or highlighted.  
 * A  message (top of the **Description Metadata** section of the wizard) is displayed to inform the user about the intended UI adjustments and the impact on the metadata attribution.
@@ -246,7 +246,54 @@ The following adjustments are made to the wizard in singular stages, as illustra
 Click the **Next** button, when done in a stage, to proceed to the next stage. 
 
 .. warning::
- Clicking the **Next** button results in the wizard actually saving the entries made in a stage. Exiting the wizard before saving any changes might result in loss of entries made in the stage.
+ Clicking the **Next** button results in the wizard actually saving the entries made in a stage. Exiting the wizard before saving any changes might result in loss of entries made in that stage.
+ 
+
+.. _ena-study-type-label:
+
+Study Type
+---------------
+
+.. image:: /images/datafile-study-type.jpg
+
+Select the **Study Type** from the list. The option made here further constrains the wizard to a specific metadata specification. Notice here that the **Study Type** stage is also a `singular stage`; implying that only one study type is (currently) permissible in any description session.
+
+Select an option, and click the **Next** button to proceed to the next stage. 
+
+
+.. _ena-sample-label:
+
+Sample
+---------------
+
+.. image:: /images/datafile-sample-1.jpg
+
+In the **Sample** stage, biological samples can be linked to datafiles in the description bundle. Listed samples (see screenshot above) are those that meet the following criteria:
+
+* Have been defined in COPO prior to initiating the description wizard (see: :doc:`Samples <sample>` for more information on how to create samples)
+* Based on the **COPO Standard** sample type
+* Belong to the same profile
+
+The user can select a single sample to link to all the datafiles in the description bundle (1 sample to many datafiles). Alternatively, one sample can be linked to one datafile or a subsets of datafiles in the bundle. These options are explored further below.
+
+* **Single sample to all datafiles:** A single sample can be linked to all the datafiles in the description bundle as follows:
+  
+  * With reference to the screenshot above, set the button to **Yes** in response to the question highlighted in red (this is the default option) 
+  * Select a sample from the dropdown list
+  * Click the **Next** button to (apply the changes, and) proceed to the next stage
+
+.. image:: /images/datafile-sample-2.jpg
+ 
+* **Single sample to subset of datafiles:** A single sample can be linked to a subset of datafiles in the description bundle as follows:
+  
+  * With reference to the screenshot above, set the button to **No** in response to the question highlighted in red
+  * Select a sample from the dropdown list
+  * Select the subset of datafiles from the **Description Bundle** section
+  * Click the apply button (highlighted in green in the screenshot above)
+  * Repeat the above steps for as many subsets in the description bundle
+  * Click the **Next** when done to proceed to the next stage
+
+
 
 
 
