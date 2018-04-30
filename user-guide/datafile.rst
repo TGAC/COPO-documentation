@@ -231,6 +231,8 @@ Selecting a different **Target Repo** will result in a different description tem
 * loss of any previous metadata attributed to the datafile bundle  
 * change in the sequence of steps presented to the user
 
+.. _singular-stage-label:
+
 The target repo stage is a `singular stage`.
 
 .. hint::
@@ -274,26 +276,42 @@ In the **Sample** stage, biological samples can be linked to datafiles in the de
 * Based on the **COPO Standard** sample type
 * Belong to the same profile
 
-The user can select a single sample to link to all the datafiles in the description bundle (1 sample to many datafiles). Alternatively, one sample can be linked to one datafile or a subsets of datafiles in the bundle. These options are explored further below.
+.. _non-singular-stage-label:
 
-* **Single sample to all datafiles:** A single sample can be linked to all the datafiles in the description bundle as follows:
+The user can select a single sample to link to all the datafiles in the description bundle (1 sample to many datafiles). Alternatively, one sample can be linked to one datafile or a subsets of datafiles in the bundle. These options are explored further:
+
+1. **Single sample to all datafiles:** A single sample can be linked to all the datafiles in the description bundle as follows:
   
   * With reference to the screenshot above, set the button to **Yes** in response to the question highlighted in red (this is the default option) 
-  * Select a sample from the dropdown list
+  * Under the **Description Metadata** section, select a sample from the dropdown list
   * Click the **Next** button to (apply the changes, and) proceed to the next stage
+  * Note: this option makes the stage to behave like a *singular* stage
 
 .. image:: /images/datafile-sample-2.jpg
  
-* **Single sample to subset of datafiles:** A single sample can be linked to a subset of datafiles in the description bundle as follows:
+2. **Single sample to subset of datafiles:** A single sample can be linked to a subset of datafiles in the description bundle as follows:
   
   * With reference to the screenshot above, set the button to **No** in response to the question highlighted in red
-  * Select a sample from the dropdown list
-  * Select the subset of datafiles from the **Description Bundle** section
+  * Under the **Description Metadata** section, select a sample from the dropdown list
+  * Select the target subset of datafiles under the **Description Bundle** section
   * Click the apply button (highlighted in green in the screenshot above)
-  * Repeat the above steps for as many subsets in the description bundle
+  * Repeat the above steps for as many subsets in the description bundle as required
   * Click the **Next** when done to proceed to the next stage
 
+.. image:: /images/datafile-sample-3.jpg 
 
+3. **Single sample to single datafile:** A single sample can be linked to a single datafile as follows:
+  
+  * Follow the steps described in option 2 above, or:
+  * Set the button to **No** in response to the question highlighted in red (see screenshot under option 2)
+  * Click the plus (+) icon beside each datafile, under the **Description Bundle** section, to reveal a metadata form specific to that datafile (see screenshot above)
+  * Click the apply button to save supplied entry, and to proceed to the next datafile (see the screenshot above)
+  * Click the **Next** button, when done with all the entries, to proceed to the next stage
+
+
+.. note::
+
+   All the options (and associated steps) described above are also applicable to every stage of the wizard that isn't a :term:`singular stage<Singular stage>`.     
 
 
 
