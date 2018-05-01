@@ -330,7 +330,7 @@ Nucleic Acid Sequencing
 
 .. image:: /images/datafile-sequencing.jpg
 
-In the **Nucleic Acid Sequencing** stage, the user is required to specify to sequencing technique used. 
+In the **Nucleic Acid Sequencing** stage collects information about the sequencing technique used. 
 
 ===============================
 Figshare Description
