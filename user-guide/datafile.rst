@@ -94,7 +94,7 @@ The first step involves selecting the files to be described or the **description
 
 .. image:: /images/datafile-select-files.jpg
 
-The datafiles are validated for suitability of being described together, and the user would be expected to confirm the `bundling` action (see the screenshot below).
+The datafiles are validated for suitability of being described together (bundled), and the user would be expected to confirm the `bundling` action (see the screenshot below).
 
 .. note::
 	The confirmation dialog `might` not be displayed in a single file description.
@@ -320,7 +320,7 @@ Library Construction
 
 .. image:: /images/datafile-lib-construction.jpg
 
-As part of the metadata attribution in the **Library Construction** stage, the **Library layout** (PAIRED or SINGLE) needs to specified (default is **SINGLE**). For paired reads (by selecting the **PAIRED** option), the user, at a later stage, will have to specify how the datafiles may be paired. More on this later.
+As part of the metadata attribution in the **Library Construction** stage, the **Library layout** (PAIRED or SINGLE) needs to specified (default option is **SINGLE**). For paired reads (by selecting the **PAIRED** option), the user, at a later stage, will have to specify how the datafiles may be paired. More on this later.
 
 
 .. _ena-sequencing-label:
@@ -330,7 +330,29 @@ Nucleic Acid Sequencing
 
 .. image:: /images/datafile-sequencing.jpg
 
-In the **Nucleic Acid Sequencing** stage collects information about the sequencing technique used. 
+In the **Nucleic Acid Sequencing** stage, information about the sequencing technique used is requested. Select the relevant option from the dropdown list. Click the **Next** when done to proceed to the next stage.
+
+
+.. _ena-pairing-label:
+
+Datafiles Pairing
+-------------------------
+
+.. image:: /images/datafile-pairing-1.jpg
+
+The **Datafiles Pairing** stage provides a platform for the user to specify how datafiles in paired reads can be paired. COPO provides a suggestion of pairings for the datafiles based on the file names. This process is captured in the screenshot above.
+
+* Select all or any of the rows and click **Apply** to accept the suggestion (notice the **Select all** in the screenshot above). 
+* Click **Cancel** to reject the suggestion and manually pair files.
+
+
+To manually pair files, select any two files in the Description Bundle, click **Pair** in the confirmation box presented to confirm the pairing. This procedure is captured in the screenshot below. 
+
+.. image:: /images/datafile-pairing-3.jpg
+
+All paired datafiles are moved to the **Paired Datafiles** section (right-hand side table in the screenshot below). Within this section, previously paired files can be unpaired by clicking the red icon beside a pair. 
+
+.. image:: /images/datafile-pairing-2.jpg
 
 ===============================
 Figshare Description
