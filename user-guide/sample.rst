@@ -262,7 +262,7 @@ Sample detail view
 
 .. image:: /images/sample-detail-view.jpg
 
-The screenshot above is an illustration of the sample detail view. We will take a look at the following controls provided by the user interface (UI). 
+The screenshot above is an illustration of the sample detail view. We will take a look at some of the controls available to the user to interact with created objects. 
 
 Some of these controls will serve the same purpose, when presented within the same UI context (page placement, etc.), in other profile components page.
 
