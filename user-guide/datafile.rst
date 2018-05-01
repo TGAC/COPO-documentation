@@ -280,6 +280,10 @@ In the **Sample** stage, biological samples can be linked to datafiles in the de
 
 The user can select a single sample to link to all the datafiles in the description bundle (1 sample to many datafiles). Alternatively, one sample can be linked to one datafile or a subsets of datafiles in the bundle. These options are explored further:
 
+.. note::
+
+   So far, the sample stage is the first *non-singular* stage to be discussed. All the options described below are also applicable to every stage of the wizard that isn't a :term:`singular stage<Singular stage>`.    
+
 1. **Single sample to all datafiles:** A single sample can be linked to all the datafiles in the description bundle as follows:
   
   * With reference to the screenshot above, set the button to **Yes** in response to the question highlighted in red (this is the default option) 
@@ -307,14 +311,26 @@ The user can select a single sample to link to all the datafiles in the descript
   * Click the plus (+) icon beside each datafile, under the **Description Bundle** section, to reveal a metadata form specific to that datafile (see screenshot above)
   * Click the apply button to save supplied entry, and to proceed to the next datafile (see the screenshot above)
   * Click the **Next** button, when done with all the entries, to proceed to the next stage
+ 
+
+.. _ena-libcon-label:
+
+Library Construction
+---------------------
+
+.. image:: /images/datafile-lib-construction.jpg
+
+As part of the metadata attribution in the **Library Construction** stage, the **Library layout** (PAIRED or SINGLE) needs to specified (default is **SINGLE**). For paired reads (by selecting the **PAIRED** option), the user, at a later stage, will have to specify how the datafiles may be paired. More on this later.
 
 
-.. note::
+.. _ena-sequencing-label:
 
-   All the options (and associated steps) described above are also applicable to every stage of the wizard that isn't a :term:`singular stage<Singular stage>`.     
+Nucleic Acid Sequencing
+-------------------------
 
+.. image:: /images/datafile-sequencing.jpg
 
-
+In the **Nucleic Acid Sequencing** stage, the user is required to specify to sequencing technique used. 
 
 ===============================
 Figshare Description
