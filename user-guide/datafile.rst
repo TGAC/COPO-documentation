@@ -350,7 +350,7 @@ To manually pair files, select any two files in the Description Bundle, click **
 
 .. image:: /images/datafile-pairing-3.jpg
 
-All paired datafiles are moved to the **Paired Datafiles** section (right-hand side table in the screenshot below). Within this section, previously paired files can be unpaired by clicking the red icon beside a pair. 
+All paired datafiles are displayed under **Paired Datafiles** section (right-hand side table on the screenshot below). Within this section, previously paired files can be unpaired by clicking the red icon beside a pair. 
 
 .. image:: /images/datafile-pairing-2.jpg
 
