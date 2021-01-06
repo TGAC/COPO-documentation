@@ -276,8 +276,8 @@ Backup service::
 	     -e POSTGRES_PASSWORD_FILE="/run/secrets/copo_postgres_user_password" \
 	     copo/copo-backup
 
-Updates
-=======
+Updating the server
+-------------------
 
 The COPO project is currently under active development and it's being updated quite frequently.
 To update your instance to a newer (or the latest) version, on the swarm manager run::

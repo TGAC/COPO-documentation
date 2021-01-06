@@ -12,6 +12,7 @@ Collaborative Open Plant Omics
 
    copo-about
    user-guide/index
+   dtol-guide/dtol-user
    development-guide/copo-development
    deployment-guide/copo-deployment
    glossary
