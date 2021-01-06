@@ -10,7 +10,7 @@ MarkupSafe==1.0
 Pygments==2.2.0
 pytz==2017.3
 recommonmark==0.7.1
-requests==2.18.4
+requests==2.20.0
 six==1.11.0
 snowballstemmer==1.2.1
 sphinx==3.4.1
