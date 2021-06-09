@@ -228,7 +228,8 @@ Web service
 	     -e MAIL_SERVER="mailserver.com" \
 	     -e MAIL_USERNAME="yourmail@domain" \
 	     -e ALLOWED_HOSTS=”” \ #insert comma separated list of allowed hosts here
-	     -e PUBLIC_NAME_SERVICE='https://id.tol.sanger.ac.uk/api/v2/'
+	     -e PUBLIC_NAME_SERVICE='https://id.tol.sanger.ac.uk/api/v2/' \
+	     -e ENA_ENDPOINT_REPORT='https://wwwdev.ebi.ac.uk/ena/submit/report/samples/'
 	     copo/copo-web:v1.2.2
 
 Nginx::
