@@ -36,7 +36,7 @@ Accessing COPO Website
 
 Navigate to `COPO website <https://copo-project.org/>`__.
 
-..  figure:: /_static/images/copo-homepage1.png
+..  figure:: /assets/images/copo-homepage1.png
     :alt: COPO homepage
     :class: with-shadow with-border
 
@@ -46,7 +46,7 @@ Navigate to `COPO website <https://copo-project.org/>`__.
 
    <br>
 
-..  figure:: /_static/images/copo-homepage2.png
+..  figure:: /assets/images/copo-homepage2.png
     :alt: COPO homepage
     :class: with-shadow with-border
 
@@ -56,7 +56,7 @@ Navigate to `COPO website <https://copo-project.org/>`__.
 
    <br>
 
-..  figure:: /_static/images/orcid_sign_in_form_web_page.png
+..  figure:: /assets/images/orcid_sign_in_form_web_page.png
     :alt: ORCID sign-in form
     :class: with-shadow with-border
 

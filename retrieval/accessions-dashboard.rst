@@ -24,10 +24,10 @@ The types of accessions that are created are:
    * SRA accessions
    * Submission accessions
 
-.. figure:: /_static/images/dashboard/dashboard_accessions_other_projects.png
+.. figure:: /assets/images/dashboard/dashboard_accessions_other_projects.png
       :alt: Tree of Life projects' accessions
       :align: center
-      :target: /_static/images/dashboard/dashboard_accessions_other_projects.png
+      :target: /assets/images/dashboard/dashboard_accessions_other_projects.png
       :class: with-shadow with-border
 
       **Accessions' Dashboard: Tree of Life projects' accessions**
@@ -36,10 +36,10 @@ The types of accessions that are created are:
 
        <br>
 
-.. figure:: /_static/images/dashboard/dashboard_accessions_standalone_projects.png
+.. figure:: /assets/images/dashboard/dashboard_accessions_standalone_projects.png
       :alt: Stand-alone projects' accessions
       :align: center
-      :target: /_static/images/dashboard/dashboard_accessions_standalone_projects.png
+      :target: /assets/images/dashboard/dashboard_accessions_standalone_projects.png
       :class: with-shadow with-border
 
       **Accessions' Dashboard: Stand-alone projects' accessions**
@@ -65,6 +65,6 @@ The types of accessions that are created are:
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /_static/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
    :height: 4ex
    :class: no-scaled-link

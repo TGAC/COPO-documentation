@@ -7,13 +7,13 @@ Downloading Manifest Templates
 :term:`Manifests<M>` are used to record metadata about a biological research. Blank manifest templates are available
 for download below or on the `Manifest web page <https://copo-project.org/manifests/index>`__.
 
-:download:`ASG manifest template <../_static/files/manifests/ASG_manifest_template_v2.4.1.xlsx>`
+:download:`ASG manifest template <../assets/files/manifests/ASG_manifest_template_v2.4.1.xlsx>`
 
-:download:`DToL manifest template <../_static/files/manifests/DTOL_manifest_template_v2.4.1.xlsx>`
+:download:`DToL manifest template <../assets/files/manifests/DTOL_manifest_template_v2.4.1.xlsx>`
 
-:download:`ERGA manifest template <../_static/files/manifests/ERGA_manifest_template_v2.4.3.xlsx>`
+:download:`ERGA manifest template <../assets/files/manifests/ERGA_manifest_template_v2.4.3.xlsx>`
 
-:download:`Reads manifest template <../_static/files/manifests/Reads_manifest_template.xlsx>`
+:download:`Reads manifest template <../assets/files/manifests/Reads_manifest_template.xlsx>`
 
 .. raw:: html
 
@@ -36,7 +36,7 @@ The SOP for the various manifests are available below.
 
 This follows most of the instructions outlied in the DToL SOP, with some minor changes and ommissions.
 
-* :download:`ASG SOP <../_static/files/SOP_DTOL_v2.4.pdf>`
+* :download:`ASG SOP <../assets/files/SOP_DTOL_v2.4.pdf>`
 
 .. :ref:`ASG SOP GitHub repository <  >`__
 
@@ -50,7 +50,7 @@ This follows most of the instructions outlied in the DToL SOP, with some minor c
 :abbr:`DToL (Darwin Tree of Life)` SOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* :download:`DToL SOP <../_static/files/SOP_DTOL_v2.4.pdf>`
+* :download:`DToL SOP <../assets/files/SOP_DTOL_v2.4.pdf>`
 
 * `DToL SOP GitHub repository <https://github.com/darwintreeoflife/metadata>`__
 
@@ -66,7 +66,7 @@ This follows most of the instructions outlied in the DToL SOP, with some minor c
 
 This will be made available soon.
 
-.. :download:`DToL_ENV SOP <../_static/files/SOP_DTOL_v2.4.pdf>`
+.. :download:`DToL_ENV SOP <../assets/files/SOP_DTOL_v2.4.pdf>`
 
 .. `DToL_ENV SOP GitHub repository < >`__
 
@@ -78,7 +78,7 @@ This will be made available soon.
 ERGA SOP
 ~~~~~~~~~~~~
 
-* :download:`ERGA SOP <../_static/files/SOP_ERGA_v2.4.2.pdf>`
+* :download:`ERGA SOP <../assets/files/SOP_ERGA_v2.4.2.pdf>`
 
 * `ERGA SOP GitHub repository <https://github.com/ERGA-consortium/ERGA-sample-manifest>`__
 

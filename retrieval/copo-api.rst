@@ -456,6 +456,6 @@ This results in a list of all profiles for the authenticated user.
 ..
     Images declaration
 ..
-.. |copo-api-live-server-button| image:: /_static/images/buttons/copo-api-live-server-button-option.png
+.. |copo-api-live-server-button| image:: /assets/images/buttons/copo-api-live-server-button-option.png
    :height: 6ex
-   :target:  /_static/images/buttons/copo-api-live-server-button-option.png
+   :target:  /assets/images/buttons/copo-api-live-server-button-option.png

@@ -20,10 +20,10 @@ The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
 
    <br>
 
-.. figure:: /_static/images/dashboard/dashboard_tol_web_page1.png
+.. figure:: /assets/images/dashboard/dashboard_tol_web_page1.png
   :alt: Tree of Life dashboard 1.1
   :align: center
-  :target: /_static/images/dashboard/dashboard_tol_web_page1.png
+  :target: /assets/images/dashboard/dashboard_tol_web_page1.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Overview of COPO statistics and ToL inspection**
@@ -32,10 +32,10 @@ The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
 
    <br>
 
-.. figure:: /_static/images/dashboard/dashboard_tol_web_page2.png
+.. figure:: /assets/images/dashboard/dashboard_tol_web_page2.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: /_static/images/dashboard/dashboard_tol_web_page2.png
+  :target: /assets/images/dashboard/dashboard_tol_web_page2.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Geographical location of all GALs and Partners and an overview of manifest submissions**
@@ -51,10 +51,10 @@ Tree of Life Inspection
 A `ToL inspection <https://copo-project.org/copo/tol_inspect>`__  analyses the sample metadata of COPO profile records
 and facilitates search faceting and data discovery of the results.
 
-.. figure:: /_static/images/tol_inspection/tol_inspection_web_page.png
+.. figure:: /assets/images/tol_inspection/tol_inspection_web_page.png
   :alt: Tree of Life Inspection web page
   :align: center
-  :target: /_static/images/tol_inspection/tol_inspection_web_page.png
+  :target: /assets/images/tol_inspection/tol_inspection_web_page.png
   :class: with-shadow with-border
 
   **ToL Inspection web page**
@@ -66,10 +66,10 @@ Tree of Life Inspection by Genome Acquisition Lab
 A `ToL inspection by GAL <https://copo-project.org/copo/tol_inspect/gal>`__  analyses the sample metadata of COPO
 profile records by GALs [#f2]_  based on their taxonomy.
 
-.. figure:: /_static/images/tol_inspection/tol_inspection_by_gal_web_page.png
+.. figure:: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
   :alt: Tree of Life Inspection by Genome Acquisition Lab web page
   :align: center
-  :target: /_static/images/tol_inspection/tol_inspection_by_gal_web_page.png
+  :target: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
   :class: with-shadow with-border
 
   **ToL Inspection by GAL web page**

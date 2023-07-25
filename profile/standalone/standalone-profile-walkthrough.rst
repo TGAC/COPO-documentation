@@ -11,10 +11,10 @@ Steps to Create a Stand-alone Profile
 
 #. Click the |add-profile-button| **Add new record** icon to view the **Add Profile** form
 
-    .. figure:: /_static/images/profile/profile_add_record_button_web_page.png
+    .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: /_static/images/profile/profile_add_record_button_web_page.png
+      :target: /assets/images/profile/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Add new profile record icon**
@@ -30,10 +30,10 @@ Steps to Create a Stand-alone Profile
        Submissions such as files, reads, assemblies, files and sequence annotations can only be made using a
        Stand-alone profile type.
 
-    .. figure:: /_static/images/profile/profile_contact_copo_prompt_for_group_access.png
+    .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :alt: Contact COPO dialogue
       :align: center
-      :target: /_static/images/profile/profile_contact_copo_prompt_for_group_access.png
+      :target: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
@@ -41,10 +41,10 @@ Steps to Create a Stand-alone Profile
 
 #. Provide details for the new profile then, click **Save**
 
-    .. figure:: /_static/images/profile/profile_add_profile_form_web_page_standalone.png
+    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :alt: Add profile form
       :align: center
-      :target: /_static/images/profile/profile_add_profile_form_web_page_standalone.png
+      :target: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Add profile form dialogue**
@@ -62,10 +62,10 @@ Steps to Create a Stand-alone Profile
 
 #. The new profile will be displayed in the **Profile** list
 
-    .. figure:: /_static/images/profile/profile_standalone_profile_created.png
+    .. figure:: /assets/images/profile/profile_standalone_profile_created.png
       :alt: Stand-alone profile created
       :align: center
-      :target: /_static/images/profile/profile_standalone_profile_created.png
+      :target: /assets/images/profile/profile_standalone_profile_created.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Work profiles' web page displaying the created profile**
@@ -105,10 +105,10 @@ The following component types are currently defined:
    #. :ref:`Sequence Annotations <sequence-annotations>`
    #. :doc:`Accessions <accessions-component-standalone>`
 
-.. figure:: /_static/images/profile/profile_standalone_profile_components.png
+.. figure:: /assets/images/profile/profile_standalone_profile_components.png
    :alt: Stand-alone profile components
    :align: center
-   :target: /_static/images/profile/profile_standalone_profile_components.png
+   :target: /assets/images/profile/profile_standalone_profile_components.png
    :class: with-shadow with-border
 
    **Stand-alone Profile Components**
@@ -129,11 +129,11 @@ The following component types are currently defined:
 ..
     Images declaration
 ..
-.. |add-profile-button| image:: /_static/images/profile/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/profile/profile_add_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /_static/images/profile/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profile/profile_components_button.png
    :height: 4ex
    :class: no-scaled-link
 

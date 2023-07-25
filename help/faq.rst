@@ -62,7 +62,7 @@ How can I be added to a profile group?
 How can I create a profile on COPO?
    Click the |add-profile-button| button then, fill in and save the form displayed.
 
-   ..  figure:: /_static/images/profile/profile_add_form.png
+   ..  figure:: /assets/images/profile/profile_add_form.png
     :alt: Profile types dropdown menu
     :align: center
     :class: with-shadow with-border
@@ -86,7 +86,7 @@ How can I add a subproject to a profile on COPO?
     In the **Add Profile** form, choose the desired subproject(s) from the list of
     associated projects as shown below.
 
-    ..  figure:: /_static/images/profile/profile_form_associated_types.png
+    ..  figure:: /assets/images/profile/profile_form_associated_types.png
         :alt: Associated profile types dropdown menu
         :align: center
         :class: with-shadow with-border
@@ -202,46 +202,46 @@ Warnings
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /_static/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |accessions-dashboard-button| image:: /_static/images/dashboard/dashboard_accessions_button.png
+.. |accessions-dashboard-button| image:: /assets/images/dashboard/dashboard_accessions_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-profile-button| image:: /_static/images/profile/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/profile/profile_add_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |navigate-to-top-button| image:: /_static/images/buttons/navigate_to_top_button.png
+.. |navigate-to-top-button| image:: /assets/images/buttons/navigate_to_top_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-actions-button| image:: /_static/images/profile/profile_actions_button.png
+.. |profile-actions-button| image:: /assets/images/profile/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /_static/images/profile/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profile/profile_components_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-dashboard-button| image:: /_static/images/dashboard/dashboard_tol_button.png
+.. |tol-dashboard-button| image:: /assets/images/dashboard/dashboard_tol_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-inspect-button| image:: /_static/images/buttons/tol_inspect_button.png
+.. |tol-inspect-button| image:: /assets/images/buttons/tol_inspect_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-inspect-by-gal-button| image:: /_static/images/buttons/tol_inspect_by_gal_button.png
+.. |tol-inspect-by-gal-button| image:: /assets/images/buttons/tol_inspect_by_gal_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |upload-permits-button| image:: /_static/images/buttons/permits_upload_button.png
+.. |upload-permits-button| image:: /assets/images/buttons/permits_upload_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |vertical-ellipsis-icon| image:: /_static/images/profile/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/profile/profile_vertical_ellipsis_icon.png
    :height: 4ex
    :class: no-scaled-link

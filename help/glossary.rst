@@ -123,8 +123,8 @@ Glossary
         An ontology field in COPO is an auto-complete control, that maps user input to semantically-enriched values,
         which are explicit formal specifications of terms and their relationship to other terms in a domain.
 
-        .. image:: /_static/images/ontology-field.jpg
-           :target: /_static/images/ontology-field.jpg
+        .. image:: /assets/images/ontology-field.jpg
+           :target: /assets/images/ontology-field.jpg
 
    P
       Profile component

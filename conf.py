@@ -118,16 +118,16 @@ email_automode = True
 favicons = [
     {
         "sizes": "16x16",
-        "href": "/_static/images/favicon.png",
+        "href": "/assets/images/favicon.png",
     },
     {
         "sizes": "32x32",
-        "href": "/_static/images/favicon-32x32.png",
+        "href": "/assets/images/favicon-32x32.png",
     },
     {
         "rel": "apple-touch-icon",
         "sizes": "180x180",
-        "href": "/_static/images/apple-icon-180x180.png",
+        "href": "/assets/images/apple-icon-180x180.png",
     },
 ]
 
