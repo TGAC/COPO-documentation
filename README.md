@@ -1,8 +1,8 @@
 #  Collaborative OPen Omics (COPO) 
-COPO documentation was created using the Sphinx reStructuredText (reST) markup language which is hosted on 
-[readthedocs.io](https://copo-project.readthedocs.io).
+COPO documentation was created using the Sphinx reStructuredText (reST) markup language. It is hosted on 
+[readthedocs.io](https://copo-docs.readthedocs.io).
 
-The documentation uses Sphinx. For more information visit:
+For more information about Sphinx visit:
 http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
 
 ## Getting Started
@@ -17,11 +17,15 @@ $ `git clone https://github.com/collaborative-open-plant-omics/Documentation.git
 
     $ `python3 -m venv venv`
 
-3. Execute the following command within the virtual environment:
+3. Activate the virtual environment
+
+    $ `source venv/bin/activate`
+
+4. Execute the following command within the virtual environment:
 
    $ `pip3 install -r requirements.txt`
 
-4. Write, commit then, push code to the repository
+5. Write, commit then, push code to the repository
 
 Visit [Configure a virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) to 
 learn more about Python virtual environments (if using PyCharm as an IDE).
@@ -81,6 +85,11 @@ $ `sphinx-build -b spelling html/_source _build`
 `"WARNING: html_static_path entry '../_static' does not exist"`
 
 **Solution**: Create a `_static` folder in the project root directory
+
+## Importing your Documentation into ReadTheDocs
+* [Read how to import a Read the Docs project into Read the Docs](https://docs.readthedocs.io/en/stable/intro/import-guide.html)
+
+* [Read how to integrate a .readthedocs.yaml configuration file into a Read the Docs project](https://docs.readthedocs.io/en/stable/config-file/v2.html#)
 
 
 

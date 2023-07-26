@@ -37,6 +37,7 @@ COPO: Guidelines
 
    updates/profile
    updates/samples
+   updates/sequence-annotations
    updates/reads
 
 .. toctree::
@@ -50,6 +51,11 @@ COPO: Guidelines
    discovery/copo-statistics
 
 .. toctree::
+   :caption: Advanced
+
+   advanced/docker-environment-set-up
+
+.. toctree::
    :caption: Policies
 
    policies/fair-data-principles
@@ -58,6 +64,7 @@ COPO: Guidelines
 .. toctree::
    :caption: Help
 
+   help/deployment-guide
    help/contact
    help/faq
    help/glossary
