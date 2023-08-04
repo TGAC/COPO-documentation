@@ -5,6 +5,8 @@ COPO documentation was created using the Sphinx reStructuredText (reST) markup l
 For more information about Sphinx visit:
 http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
 
+---
+
 ## Getting Started
 Clone the COPO **Documentation** GitHub repository: 
 
@@ -33,7 +35,7 @@ learn more about Python virtual environments (if using PyCharm as an IDE).
 ## Create a Sphinx configuration (if using PyCharm as an IDE)
 
 1. Navigate to Add New Configuration > Python docs
-2. Selec **Sphinx task**
+2. Select **Sphinx task**
 3. Input following configuration options:
    * Command: `html`
    * Input: `<path to the documentation root directory>`
@@ -43,12 +45,15 @@ learn more about Python virtual environments (if using PyCharm as an IDE).
 
 Visit [Run/debug configurations](https://www.jetbrains.com/help/pycharm/run-debug-configuration.html) to learn how to 
 create a configuration in PyCharm.
-    
-## Launch COPO Documenation locally
 
+---
+
+## Launch COPO Documentation locally
+### Public COPO Documentation
 To render locally, in the project documentation directory (there should be a _build folder):
 
  Run the command to build the project: $ `make html`
+                                       $ ``sphinx-build -b html . _build/``
  Run the command to do a full build of the project: $ `make clean html`
 
  To view the web browser, locate and manually open the `index.html` file located at - `_build/html/index.html`
@@ -61,7 +66,7 @@ To render locally, in the project documentation directory (there should be a _bu
 To render locally with automatic rebuild when changes are made and open the homepage of the generated 
 documentation in the default browser:
 
-$ `sphinx-autobuild --open-browser ./ _build/html`
+$ `sphinx-autobuild --open-browser ./ _build/html` or $ `make htmllive`
 
 Server will start at http://127.0.0.1:8000 
 
@@ -79,12 +84,39 @@ Server will start at http://127.0.0.1:8001
 To render locally with a spell checker enabled:
 $ `sphinx-build -b spelling html/_source _build`
 
-## Potenial issues
-**Issue** (when running the Sphinx project for the first time):
+### Internal COPO Documentation
+
+Repeat the steps above but, instead of running the command to build the project, run the command to build the project
+with the `htmlinternal` flag: 
+
+$ `make htmlinternal`
+$ ``sphinx-build -b html . _buildinternal/``
+
+Full build command: $ `make clean htmlinternal`
+View browser:  `_buildinternal/html/index.html` or via `http://localhost:63342/documentation/_buildinternal/html/index.html`
+Automatic rebuild: $ `sphinx-autobuild --port=8001 --open-browser ./ _buildinternal/html` or $ `make htmlinternallive`
+
+---
+
+## Potential issues
+**Issue #1** (when running the Sphinx project for the first time):
 
 `"WARNING: html_static_path entry '../_static' does not exist"`
 
-**Solution**: Create a `_static` folder in the project root directory
+**Solution #1**: Create a `_static` folder in the project root directory
+______________________________________________________________________
+
+**Issue #2**: `bash: make: command not found`
+**Solution #2**: $ `sudo apt install make`
+
+______________________________________________________________________
+
+**Issue #3**: `OSError: [Errno 98] Address already in use`
+**Solution #3**: $ `sudo lsof -i TCP:8001 | grep LISTEN | awk '{print $2}' | xargs kill -9`
+
+NB. `8001` is the port number. The solution above will kill the process running on that port.
+
+---
 
 ## Importing your Documentation into ReadTheDocs
 * [Read how to import a Read the Docs project into Read the Docs](https://docs.readthedocs.io/en/stable/intro/import-guide.html)

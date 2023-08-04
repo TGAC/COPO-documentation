@@ -16,12 +16,12 @@ Steps to Create a Tree of Life Profile
     .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: /assets/images/profile/profile_add_record_button_web_page.png
+      :target: https://github.com/collaborative-open-plant-omics/Documentation/blob/main/assets/images/profile/profile_add_record_button_web_page.png?raw=true
       :class: with-shadow with-border
 
       **ToL Profile: Add new profile record icon**
 
-#. **Contact COPO via email** dialogue is displayed indictating that the user is not a member of any manifest group
+#. **Contact COPO via email** dialogue is displayed indicating that the user is not a member of any manifest group
    and that the user must make a request to be added to a manifest group to make ToL manifest submissions
    if the user would like to do so.
 
@@ -30,7 +30,7 @@ Steps to Create a Tree of Life Profile
     .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :alt: Contact COPO dialogue
       :align: center
-      :target: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
 
       **ToL Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
@@ -43,10 +43,10 @@ Steps to Create a Tree of Life Profile
        :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` inorder to be added to a desired profile group and be
        granted access to choose your desired profile type.
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_tol.png
+    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :alt: Add profile form
       :align: center
-      :target: /assets/images/profile/profile_add_profile_form_web_page_tol.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :class: with-shadow with-border
 
       **ToL Profile: Add profile form dialogue**
@@ -66,27 +66,68 @@ Steps to Create a Tree of Life Profile
 
        <br>
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_tol.png
+    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :alt: Choose profile type on add profile form
       :align: center
-      :target: /assets/images/profile/profile_add_profile_form_web_page_tol.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :class: with-shadow with-border
 
       **ToL Profile form: Choose profile type**
+
+    If you request to be added to any of the profile types displayed (excluding the default Standalone profile type),
+    only that profile type will be listed in the **Profile type** dropdown menu.
 
     .. raw:: html
 
        <br>
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_tol.png
-      :alt: Choose associated profile type or subproject on add profile form
-      :align: center
-      :target: /assets/images/profile/profile_add_profile_form_web_page_tol.png
-      :class: with-shadow with-border
+    * Choose associated profile type(s) if required
+      More than one associated type or subproject or child project can be chosen.
 
-      **ToL Profile form: Choose associated profile type or a subproject**
+        .. figure:: /assets/images/profile/profile_add_profile_form_associatedType1.png
+          :alt: Choose associated profile type or subproject on add profile form
+          :align: center
+          :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
+          :class: with-shadow with-border
 
-   More than one associated type or subproject can be chosen.
+          **ASG Profile Type: Choose associated profile type or a subproject**
+
+        .. raw:: html
+
+           <br>
+
+        .. centered:: **OR**
+
+        .. raw:: html
+
+           <br>
+
+        .. figure:: /assets/images/profile/profile_add_profile_form_associatedType2.png
+          :alt: Choose associated profile type or subproject on add profile form
+          :align: center
+          :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
+          :class: with-shadow with-border
+
+          **DTOL Profile Type: Choose associated profile type or a subproject**
+
+        .. raw:: html
+
+           <br>
+
+        .. centered:: **OR**
+
+        .. raw:: html
+
+           <br>
+
+       .. figure:: /assets/images/profile/profile_add_profile_form_associatedType3.png
+          :alt: Choose associated profile type or subproject on add profile form
+          :align: center
+          :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
+          :class: with-shadow with-border
+
+          **ERGA Profile Type: Choose associated profile type or a subproject**
+
 
     .. raw:: html
 
@@ -95,12 +136,12 @@ Steps to Create a Tree of Life Profile
 #. The new profile will be displayed in the **Profile** list
 
     .. figure:: /assets/images/profile/profile_tol_profile_created.png
-      :alt: Stand-alone profile created
+      :alt: Tree of Life profile created
       :align: center
-      :target: /assets/images/profile/profile_tol_profile_created.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_created.png
       :class: with-shadow with-border
 
-      **Stand-alone Profile: Work profiles' web page displaying the created profile**
+      **ToL Profile: Work profiles' web page displaying the created profile**
 
     .. raw:: html
 
@@ -111,6 +152,11 @@ Steps to Create a Tree of Life Profile
       The **Work Profiles**' list can be sorted by date created, profile title or profile type.
 
       Choose the desired sort type from the **Sort by** dropdown menu (at the top-right of the profile record).
+
+
+.. raw:: html
+
+   <br>
 
 .. seealso::
 
@@ -137,7 +183,7 @@ The following component types are currently defined:
 .. figure:: /assets/images/profile/profile_tol_profile_components.png
    :alt: Tree of Life profile components
    :align: center
-   :target: /assets/images/profile/profile_tol_profile_components.png
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_components.png
    :class: with-shadow with-border
 
    **Tree of Life Profile Components**
@@ -151,11 +197,11 @@ The following component types are currently defined:
 
 
 .. rubric:: Footnotes
-.. [#f1] See: :term:`Tree of Life (ToL) <T>`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile/work profile<C>`.
+.. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
+.. [#f2] Also known as COPO profile. See term: :term:`COPO profile`.
 .. [#f3] Research objects refer to files, reads, assemblies, files and sequence annotations.
          A Stand-alone profile is considered as a *project* research object.
-         See: :term:`Profile component<P>`.
+         See term: :term:`Profile component`.
    
 
 ..
@@ -168,7 +214,3 @@ The following component types are currently defined:
 .. |profile-components-button| image:: /assets/images/profile/profile_components_button.png
    :height: 4ex
    :class: no-scaled-link
-   
-
-
-

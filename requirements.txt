@@ -16,7 +16,6 @@ snowballstemmer==2.2.0
 sphinx==6.2.1
 sphinx-autobuild==2021.03.14
 sphinx-autodoc-typehints==1.23.0
-sphinx-favicon==1.0.1
 sphinx-prompt==1.6.0
 sphinx-rtd-theme==1.2.2
 sphinx-toolbox==3.5.0

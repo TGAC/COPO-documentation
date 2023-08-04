@@ -32,8 +32,11 @@
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx_favicon',
+    'sphinx_toolbox.collapse',
     'sphinx_toolbox.wikipedia',
     'sphinxcontrib.email',
     'sphinxcontrib.spelling',
@@ -55,8 +58,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'COPO Project'
-copyright = '2017-2023, Collaborative Open Plant Omics (COPO), Earlham Institute'
-author = 'The Collaborative Open Plant Omics (COPO) team'
+copyright = '2017-2023, Collaborative OPen Plant Omics (COPO), Earlham Institute'
+author = 'The Collaborative OPen Plant Omics (COPO) team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -77,7 +80,7 @@ language = 'en'
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This patterns also effect to html_static_path and html_extra_path
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.venv']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '.venv', '_templates']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -92,7 +95,7 @@ todo_include_todos = False
 #
 html_theme = 'sphinx_rtd_theme'
 
-# Theme options are theme-specific and customize the look and feel of a theme
+# Theme options are theme-specific and customise the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
@@ -102,6 +105,12 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/custom.css',
+]
 
 # Change "View page source" which is displayed on each web page to "Edit on GitHub"
 html_context = {
@@ -114,22 +123,11 @@ html_context = {
 # mailTo configuration
 email_automode = True
 
+# Turn on sphinx.ext.autosummary
+autosummary_generate = True
+
 # fav icon for web page
-favicons = [
-    {
-        "sizes": "16x16",
-        "href": "/assets/images/favicon.png",
-    },
-    {
-        "sizes": "32x32",
-        "href": "/assets/images/favicon-32x32.png",
-    },
-    {
-        "rel": "apple-touch-icon",
-        "sizes": "180x180",
-        "href": "/assets/images/apple-icon-180x180.png",
-    },
-]
+html_favicon = 'favicon.ico'
 
 # -- Options for HTMLHelp output ------------------------------------------
 
@@ -183,8 +181,3 @@ texinfo_documents = [
      author, 'copo-project', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-
-# -- Options for adding custom CSS ---------------------------------------
-def setup(app):
-    app.add_css_file('css/custom.css')

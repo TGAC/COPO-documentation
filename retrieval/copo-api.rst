@@ -444,13 +444,13 @@ This results in a list of all profiles for the authenticated user.
 
 
 .. rubric:: Footnotes
-.. [#f1] See term: :term:`REST<R>`
-.. [#f2] See term: :term:`API<A>`
-.. [#f3] See term: :term:`RO-Crate<R>`
-.. [#f4] See term: :term:`Manifest ID<M>`
-.. [#f5] See term: :term:`DToL<D>`
-.. [#f6] See term: :term:`ENA<E>`
-.. [#f7] See term: :term:`Sample manager<S>`
+.. [#f1] See term: :term:`REST`
+.. [#f2] See term: :term:`API`
+.. [#f3] See term: :term:`RO-Crate`
+.. [#f4] See term: :term:`Manifest ID`
+.. [#f5] See term: :term:`DToL`
+.. [#f6] See term: :term:`ENA`
+.. [#f7] See term: :term:`Sample manager`
 
 
 ..

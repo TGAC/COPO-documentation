@@ -21,8 +21,3 @@ tasks such as depositing data to remote repositories involving the user.
    :class: with-shadow with-border
 
    **First time user: Email address prompt shown when a user logs into COPO for the first time**
-
-
-
-
-.. _profile-definition:

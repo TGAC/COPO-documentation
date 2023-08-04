@@ -14,7 +14,7 @@ The manifest wizard can be accessed via the **Prefilled template** download drop
 .. figure:: /assets/images/manifest/manifest_web_page.png
    :alt: Manifest web page
    :align: center
-   :target: /assets/images/manifest/manifest_web_page.png
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/manifest/manifest_web_page.png
    :class: with-shadow with-border
 
    **Manifest web page: Tabular information for various manifest types and their current versions**
@@ -26,7 +26,7 @@ The manifest wizard can be accessed via the **Prefilled template** download drop
 .. figure:: /assets/images/manifest/manifest_web_page_with_download_template_dropdown_menu_shown.png
    :alt: Manifest wizard web page
    :align: center
-   :target: /assets/images/manifest/manifest_web_page_with_download_template_dropdown_menu_shown.png
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/manifest/manifest_web_page_with_download_template_dropdown_menu_shown.png
    :class: with-shadow with-border
 
    **Manifest web page: Manifest download template options -** ``Blank template`` **and** ``Prefilled template``

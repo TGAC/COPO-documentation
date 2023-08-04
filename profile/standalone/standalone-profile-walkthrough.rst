@@ -14,7 +14,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: /assets/images/profile/profile_add_record_button_web_page.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Add new profile record icon**
@@ -33,7 +33,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :alt: Contact COPO dialogue
       :align: center
-      :target: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
@@ -44,7 +44,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :alt: Add profile form
       :align: center
-      :target: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Add profile form dialogue**
@@ -65,7 +65,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_standalone_profile_created.png
       :alt: Stand-alone profile created
       :align: center
-      :target: /assets/images/profile/profile_standalone_profile_created.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_created.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Work profiles' web page displaying the created profile**
@@ -105,13 +105,13 @@ The following component types are currently defined:
    #. :ref:`Sequence Annotations <sequence-annotations>`
    #. :doc:`Accessions <accessions-component-standalone>`
 
-.. figure:: /assets/images/profile/profile_standalone_profile_components.png
-   :alt: Stand-alone profile components
-   :align: center
-   :target: /assets/images/profile/profile_standalone_profile_components.png
-   :class: with-shadow with-border
+   .. figure:: /assets/images/profile/profile_standalone_profile_components.png
+      :alt: Stand-alone profile components
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components.png
+      :class: with-shadow with-border
 
-   **Stand-alone Profile Components**
+      **Stand-alone Profile Components**
 
 * Component instances defined within a profile will only be visible within that profile [#f1]_. 
 
@@ -120,11 +120,14 @@ The following component types are currently defined:
 
 * The number beside each component button represents the number of items or instances of the component added or created.
 
+.. raw:: html
+
+   <br>
 
 .. rubric:: Footnotes
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile/work profile<C>`.
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
 .. [#f2] Research objects refer to files, reads, assemblies, files and sequence annotations. A Stand-alone profile is
-   considered as a *project* research object. See: :term:`Profile component<P>`.
+   considered as a *project* research object. See: :term:`Profile component`.
 
 ..
     Images declaration

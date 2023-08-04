@@ -95,6 +95,14 @@ How can I add a subproject to a profile on COPO?
 
         **Add Profile form: Selecting Associated Profile Type dropdown menu**
 
+.. raw:: html
+
+   <hr>
+
+How can I add a subproject or secondary project to a primary project in ENA/ Biosamples?
+   Contact the :email:`COPO team <ei.copo@earlham.ac.uk>` with the request 
+   providing the project accession of the child/subproject and the project accession of 
+   the parent/primary project.
 
 .. raw:: html
 
@@ -180,8 +188,6 @@ How can I accept or reject samples that users have submitted?
 
    Alternatively, navigate to `Accept/Reject Samples' web page <https://copo-project.org/copo/accept_reject_sample>`__.
 
-Notes
-~~~~~
 
 .. note::
     * The |accept-reject-samples-button| button will only appear on the web page if you
@@ -190,8 +196,6 @@ Notes
 
 ..  _warnings:
 
-Warnings
-~~~~~~~~~
 
 .. warning::
     * If you have more than one permit ﬁle to upload, they **must** be uploaded at the

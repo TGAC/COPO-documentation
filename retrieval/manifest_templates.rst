@@ -4,7 +4,7 @@
 Downloading Manifest Templates
 =================================
 
-:term:`Manifests<M>` are used to record metadata about a biological research. Blank manifest templates are available
+:term:`Manifests<Manifest>` are used to record metadata about a biological research. Blank manifest templates are available
 for download below or on the `Manifest web page <https://copo-project.org/manifests/index>`__.
 
 :download:`ASG manifest template <../assets/files/manifests/ASG_manifest_template_v2.4.1.xlsx>`
@@ -30,9 +30,9 @@ guidance on how to record metadata in the manifest.
 
 The SOP for the various manifests are available below.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 :abbr:`ASG (Aquatic Symbiosis Genomics)` SOP
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 This follows most of the instructions outlied in the DToL SOP, with some minor changes and ommissions.
 
@@ -74,9 +74,9 @@ This will be made available soon.
 
    <hr>
 
-~~~~~~~~~~~~
-ERGA SOP
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+:abbr:`ERGA (European Reference Genome Atlas)`  SOP
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * :download:`ERGA SOP <../assets/files/SOP_ERGA_v2.4.2.pdf>`
 

@@ -24,7 +24,7 @@ elements over time:
 ..  figure:: /assets/images/statistics/statistics_over_time_web_page.png
     :alt: COPO Statistics over time web page
     :align: center
-    :target: /assets/images/statistics/statistics_over_time_web_page.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/statistics/statistics_over_time_web_page.png
     :class: with-shadow with-border
 
 **COPO Statistics: Line graph illustrating the number of samples recorded  over time**
@@ -37,7 +37,7 @@ elements over time:
 ..  figure:: /assets/images/statistics/statistics_over_time_with_dropdown_menu_web_page.png
     :alt: COPO Statistics over time web page with dropdown menu
     :align: center
-    :target: /assets/images/statistics/statistics_over_time_with_dropdown_menu_web_page.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/statistics/statistics_over_time_with_dropdown_menu_web_page.png
     :class: with-shadow with-border
 
 **COPO Statistics: Dropdown menu of research object elements that can be queried to get statistics of the number of
@@ -60,7 +60,7 @@ submitted based on the research elements or variables such as -
 ..  figure:: /assets/images/statistics/statistics_by_variable_web_page.png
     :alt: COPO Statistics over time web page
     :align: center
-    :target: /assets/images/statistics/statistics_by_variable_web_page.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/statistics/statistics_by_variable_web_page.png
     :class: with-shadow with-border
 
 **COPO Statistics: Bar graph illustrating total number of samples recorded for various** ``Lifestage`` **elements**
@@ -73,7 +73,7 @@ submitted based on the research elements or variables such as -
 ..  figure:: /assets/images/statistics/statistics_by_variable_with_dropdown_menu_web_page.png
     :alt: COPO Statistics over time web page with dropdown menu
     :align: center
-    :target: /assets/images/statistics/statistics_by_variable_with_dropdown_menu_web_page.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/statistics/statistics_by_variable_with_dropdown_menu_web_page.png
     :class: with-shadow with-border
 
 **COPO Statistics: Dropdown menu of elements/variables that can be queried to get statistics of the number of samples**

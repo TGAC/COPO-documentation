@@ -23,7 +23,7 @@ The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
 .. figure:: /assets/images/dashboard/dashboard_tol_web_page1.png
   :alt: Tree of Life dashboard 1.1
   :align: center
-  :target: /assets/images/dashboard/dashboard_tol_web_page1.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol_web_page1.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Overview of COPO statistics and ToL inspection**
@@ -35,7 +35,7 @@ The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
 .. figure:: /assets/images/dashboard/dashboard_tol_web_page2.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: /assets/images/dashboard/dashboard_tol_web_page2.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol_web_page2.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Geographical location of all GALs and Partners and an overview of manifest submissions**
@@ -54,7 +54,7 @@ and facilitates search faceting and data discovery of the results.
 .. figure:: /assets/images/tol_inspection/tol_inspection_web_page.png
   :alt: Tree of Life Inspection web page
   :align: center
-  :target: /assets/images/tol_inspection/tol_inspection_web_page.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/tol_inspection/tol_inspection_web_page.png
   :class: with-shadow with-border
 
   **ToL Inspection web page**
@@ -69,7 +69,7 @@ profile records by GALs [#f2]_  based on their taxonomy.
 .. figure:: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
   :alt: Tree of Life Inspection by Genome Acquisition Lab web page
   :align: center
-  :target: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
   :class: with-shadow with-border
 
   **ToL Inspection by GAL web page**
@@ -86,5 +86,5 @@ profile records by GALs [#f2]_  based on their taxonomy.
    <br>
 
 .. rubric:: Footnotes
-.. [#f1] See: :term:`Tree of Life (ToL) <T>`
-.. [#f2] See term: :term:`Genome Acquisition Lab (GAL) <G>`. Also referenced as Partner.
+.. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`
+.. [#f2] See term: :term:`Genome Acquisition Lab (GAL) <GAL>`. Also referenced as Partner.

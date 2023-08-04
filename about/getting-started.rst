@@ -4,7 +4,7 @@
 Getting started
 =================
 
-Collaborative Open Plant Omics (COPO) is a website portal where scientists describe their research objects (raw or
+Collaborative OPen Plant Omics (COPO) is a website portal where scientists describe their research objects (raw or
 processed data, reads, samples, images etc.) using community-sanctioned metadata sets and vocabularies [#f1]_.
 
 As a metadata broker, COPO encourages data generators to adhere to
@@ -38,6 +38,7 @@ Navigate to `COPO website <https://copo-project.org/>`__.
 
 ..  figure:: /assets/images/copo-homepage1.png
     :alt: COPO homepage
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/copo-homepage1.png
     :class: with-shadow with-border
 
 **COPO homepage: Click** ``Submit Data`` **button to proceed to the ORCID sign-in form (as shown below)**
@@ -47,6 +48,7 @@ Navigate to `COPO website <https://copo-project.org/>`__.
    <br>
 
 ..  figure:: /assets/images/copo-homepage2.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/copo-homepage2.png
     :alt: COPO homepage
     :class: with-shadow with-border
 
@@ -57,6 +59,7 @@ Navigate to `COPO website <https://copo-project.org/>`__.
    <br>
 
 ..  figure:: /assets/images/orcid_sign_in_form_web_page.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/orcid_sign_in_form_web_page.png
     :alt: ORCID sign-in form
     :class: with-shadow with-border
 

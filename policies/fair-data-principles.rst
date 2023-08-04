@@ -4,7 +4,7 @@
 Brokering Data in COPO with FAIR Data Principles
 ===================================================
 
-:term:`Findable, Accessible, Interoperable and Reusable (FAIR)<F>`  data enables data consumers (people or machines)
+:term:`Findable, Accessible, Interoperable and Reusable (FAIR)<FAIR>`  data enables data consumers (people or machines)
 to find, aggregate and analyse data that would otherwise be private or invisible, building on the existing web of
 linked data.
 
@@ -20,7 +20,7 @@ Findable
 
 Using DataTables' search engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-COPO uses :term:`DataTables<D>` to display tabular data. The data are indexed in the DataTables' *smart* search engine
+COPO uses :term:`DataTables` to display tabular data. The data are indexed in the DataTables' *smart* search engine
 and the search box is accessible within each table of data; it is located at the top right of the table. The search
 engine is updated automatically when metadata is added or updated.
 

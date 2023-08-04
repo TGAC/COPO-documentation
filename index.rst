@@ -3,19 +3,25 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-========================================
+===================
 COPO: Guidelines
-========================================
+===================
+
+Welcome to the guidelines for submission, updates and retrieval for the Collaborative OPen Omics project. Please use the
+links to find instructions specific to your needs. 
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
    :caption: Getting Started
+   :name: getting-started-section
 
    about/getting-started
+   about/copo-project-affiliations
    about/first-time-user-login
 
 .. toctree::
    :caption: COPO Submissions
+   :name: copo-submissions
 
    profile/standalone/standalone-profile-walkthrough
    submissions/files
@@ -25,8 +31,9 @@ COPO: Guidelines
 
 .. toctree::
    :caption: Tree of Life Submissions
+   :name: tol-submissions
 
-   profile/tol/tol-profile-walkthrough
+   profile/tol/tol-profile-walkthrough-index
    submissions/tol-general-submission-guide
    submissions/tol-asg-manifest-submissions
    submissions/tol-dtol-manifest-submissions
@@ -34,6 +41,7 @@ COPO: Guidelines
 
 .. toctree::
    :caption: COPO Data Updates
+   :name: copo-data-updates
 
    updates/profile
    updates/samples
@@ -42,6 +50,7 @@ COPO: Guidelines
 
 .. toctree::
    :caption: COPO Data Discovery & Retrieval
+   :name: copo-data-discovery-retrieval
 
    retrieval/manifest_templates
    retrieval/copo-api
@@ -52,19 +61,23 @@ COPO: Guidelines
 
 .. toctree::
    :caption: Advanced
+   :name: advanced
 
-   advanced/docker-environment-set-up
+   advanced/docker-environment-setup
+   advanced/copo-project-setup
+   advanced/useful-tools
 
 .. toctree::
    :caption: Policies
+   :name: policies
 
    policies/fair-data-principles
    policies/licence
 
 .. toctree::
    :caption: Help
+   :name: help
 
-   help/deployment-guide
    help/contact
    help/faq
    help/glossary

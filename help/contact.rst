@@ -7,7 +7,7 @@ respond as soon as possible.
 
 ..  figure:: /assets/images/contact/copo-contact-webpage.png
     :align: center
-    :target: /assets/images/contact/copo-contact-webpage.png
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/contact/copo-contact-webpage.png
     :alt: COPO contact form
     :class: with-shadow with-border
 

@@ -3,202 +3,234 @@ Glossary
 ############
 
 .. glossary::
-   A
-      :abbr:`API (Application Programming Interface)`
-        A :wikipedia:`software interface <API>` that allows two or more applications to communicate with each other.
+   :sorted:
 
-      :abbr:`ASG (Aquatic Symbiosis Genomics)`
-        A `project <https://www.aquaticsymbiosisgenomics.org/>`__ that aims to provide the genomic foundations
-        needed by scientists to answer key questions about the ecology and evolution of symbiosis in marine and
-        freshwater species, where at least one partner is a microbe.
+   :abbr:`API (Application Programming Interface)`
+     A :wikipedia:`software interface <API>` that allows two or more applications to communicate with each other.
 
-      Assembly
-        Any sequence records from coding or non-coding regions to full assembled chromosomes.
+   :abbr:`ASG (Aquatic Symbiosis Genomics)`
+     A `project <https://www.aquaticsymbiosisgenomics.org/>`__ that aims to provide the genomic foundations
+     needed by scientists to answer key questions about the ecology and evolution of symbiosis in marine and
+     freshwater species, where at least one partner is a microbe.
 
-   B
-      :abbr:`BGE (Biodiversity Genomics Europe)`
-        A `project <https://biodiversitygenomics.eu/>`__ that undertakes a comprehensive application of genomic
-        science to biodiversity research  will drive fundamental advances in conservation science and policy.
+   Assembly
+     Any sequence records from coding or non-coding regions to full assembled chromosomes.
 
-      Biocuration
-         The extraction of unstructured biological data from manifests into a structured, computable form.
+   :abbr:`BGE (Biodiversity Genomics Europe)`
+     A `project <https://biodiversitygenomics.eu/>`__ that undertakes a comprehensive application of genomic
+     science to biodiversity research  will drive fundamental advances in conservation science and policy.
 
-   C
-      :abbr:`COPO (Collaborative OPen Omics)`
-        `COPO <https://copo-project.org>`__ is a web-based tool for creating and managing metadata for research objects.
+   Biocuration
+     The extraction of unstructured biological data from manifests into a structured, computable form.
 
-      COPO profile
-        Also known as work profile. A collection of 'research objects' or components that contain data
-        generated on a biological research project or study.
+   :abbr:`COPO (Collaborative OPen Omics)`
+     `COPO <https://copo-project.org>`__ is a web-based tool for creating and managing metadata for research objects.
 
-      :abbr:`CRUD (Create, Read, Update and Delete)` operations
-        Comprises posting data (creating and/or updating data ), reading data (e.g. making queries) and deleting data.
+   COPO profile
+     Also known as work profile. A collection of 'research objects' or components that contain data
+     generated on a biological research project or study.
 
-   D
-      Darwin :abbr:`ToL (Tree of Life)` project
-        Aims to sequence the genomes of 70,000 species of eukaryotic organisms in Britain and Ireland.
+   :abbr:`CRUD (Create, Read, Update and Delete)` operations
+     Comprises posting data (creating and/or updating data ), reading data (e.g. making queries) and deleting data.
 
-        This `project <https://www.darwintreeoflife.org>`__ is a collaboration between biodiversity, genomics and
-        analysis partners that is transforming the manner by which biology, conservation and biotechnology are
-        conducted.
+   :abbr:`DToL (Darwin Tree of Life)`
+     Aims to sequence the genomes of 70,000 species of eukaryotic organisms in Britain and Ireland.
 
-      DataTables
-        A jQuery library plug-in that displays tabular data. They are used in COPO to display a list of research
-        objects. See `DataTables <https://datatables.net/>`__ for more information.
+     This `project <https://www.darwintreeoflife.org>`__ is a collaboration between biodiversity, genomics and
+     analysis partners that is transforming the manner by which biology, conservation and biotechnology are
+     conducted.
 
-      :abbr:`DNA (Deoxyribonucleic acide)`
-        The molecule inside cells that contains the genetic information responsible for the development and function
-        of an organism.
+   DataTables
+     A jQuery library plug-in that displays tabular data. They are used in COPO to display a list of research
+     objects. See `DataTables <https://datatables.net/>`__ for more information.
 
+   :abbr:`DB (Database)`
+     A :wikipedia:`database <Database>` is an organised collection of data, generally stored and accessed
+     electronically from a computer system.
 
-   E
-      :abbr:`ENA (European Nucleotide Archive)`
-        `ENA <https://www.ebi.ac.uk/ena/browser/home>`__ is a repository for nucleotide sequence data that provides
-        annotated DNA and RNA sequences . It also provides free and unrestricted access stores complementary
-        information such as experimental procedures that details sequence assemblies and other metadata related
-        to sequencing projects.
+   :abbr:`DNA (Deoxyribonucleic acide)`
+     The molecule inside cells that contains the genetic information responsible for the development and function
+     of an organism.
 
-        ENA is part of the `International Nucleotide Sequence Database Collaboration (INSDC) <https://www.insdc.org/>`__,
-        which comprises the `DNA DataBank of Japan (DDBJ) <https://www.ddbj.nig.ac.jp/index-e.html>`__,
-        the `European Molecular Biology Laboratory (EMBL) <https://www.embl.org/>`__,
-        and GenBank at the `National Center for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+   Dockerfile
+     A text-based file with no file extension that contains a script of instructions. Docker uses this script to
+     build a container image. See `Dockerfile reference <https://docs.docker.com/engine/reference/builder/>`__
 
-      :abbr:`ERGA (European Reference Genome Atlas)`
-        A `project <https://www.erga-biodiversity.eu>`__ that revolves around a pan-European scientific response to
-        current threats to biodiversity by studying reference genomes which provide the most complete insight into
-        the genetic basis that forms each species and represent a powerful resource in understanding how
-        biodiversity functions.
+   :abbr:`EBI (European Bioinformatics Institute)`
+     `EBI <https://www.ebi.ac.uk>`__ is a :abbr:`UK (United Kingdom)` government-funded public repository
+     for biological data that provides free access to biomedical and genomic information.
 
-   F
-      :abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)`
-        The ability to find, access, interoperate and reuse data with no or minimal human intervention.
+   :abbr:`EMBL (European Molecular Biology Laboratory)`
+     `EMBL <https://www.embl.org>`__ is a :abbr:`EU (European Union)` intergovernmental organisation that
+     performs basic research in molecular biology and provides services to the scientific community in its member
+     states.
 
-   G
-      :abbr:`GAL (Genome Acquisition Lab)`
-        Partners or companies that perform genome sequencing.
+   :abbr:`ENA (European Nucleotide Archive)`
+     `ENA <https://www.ebi.ac.uk/ena/browser/home>`__ is a repository for nucleotide sequence data that provides
+     annotated DNA and RNA sequences . It also provides free and unrestricted access stores complementary
+     information such as experimental procedures that details sequence assemblies and other metadata related
+     to sequencing projects.
 
-      Genome
-        A complete set of genetic information in an organism that is stored in long molecules of DNA called
-        chromosomes which living organisms.
+     ENA is part of the `International Nucleotide Sequence Database Collaboration (INSDC) <https://www.insdc.org/>`__,
+     which comprises the `DNA DataBank of Japan (DDBJ) <https://www.ddbj.nig.ac.jp/index-e.html>`__,
+     the `European Molecular Biology Laboratory (EMBL) <https://www.embl.org/>`__,
+     and GenBank at the `National Center for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
 
-      Genomics
-        The study of all or a substantial portion of the genes of an organism as a dynamic system, over time, to
-        determine how those genes interact and influence biological pathways, networks, and physiology.
+   :abbr:`ERGA (European Reference Genome Atlas)`
+     A `project <https://www.erga-biodiversity.eu>`__ that revolves around a pan-European scientific response to
+     current threats to biodiversity by studying reference genomes which provide the most complete insight into
+     the genetic basis that forms each species and represent a powerful resource in understanding how
+     biodiversity functions.
 
-   H
-      :abbr:`HTTP (Hypertext Transfer Protocol)`
-        A :wikipedia:`protocol <HTTP>` that allows communication between different systems. Similar to
-        :abbr:`HTTPS (Hypertext Transfer Protocol Secure)`.
+   :abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)`
+     The ability to find, access, interoperate and reuse data with no or minimal human intervention.
 
-        See also: :wikipedia:`HTTPS protocol <HTTPS>`
+   :abbr:`GAL (Genome Acquisition Lab)`
+     Partners or companies that perform genome sequencing.
 
-   M
-      Manifest
-        A :abbr:`csv (comma-separated values)` file or Microsoft (MS) Excel spreadsheet that contains metadata
-        regarding a research object.
+   Genome
+     A complete set of genetic information in an organism that is stored in long molecules of DNA called
+     chromosomes which living organisms.
 
-        The manifest is used by scientists to upload metadata into COPO.
+   Genomics
+     The study of all or a substantial portion of the genes of an organism as a dynamic system, over time, to
+     determine how those genes interact and influence biological pathways, networks, and physiology.
 
-      Manifest :abbr:`ID (Identification)`
-         A unique identifier assigned to each manifest record in COPO.
+   :abbr:`HTTP (Hypertext Transfer Protocol)`
+     A :wikipedia:`protocol <HTTP>` that allows communication between different systems. Similar to
+     :abbr:`HTTPS (Hypertext Transfer Protocol Secure)`.
 
-      Metadata
-         In-depth and controlled contextual information about a research object like geographical location,
-         time of collection, tube or well identification and specimen identification.
+     See also: :wikipedia:`HTTPS protocol <HTTPS>`
 
-         In life sciences, metadata facilitates :term:`biocuration <B>` which revolves around the structuring of
-         datasets in a way that allows automated search, query and retrieval.
+   :abbr:`IP (Internet Protocol)`
+     A :wikipedia:`protocol <IP>` that allows communication between different systems.
 
-      :abbr:`MIT (Massachusetts Institute of Technology)` licence
-            A permissive free software license from the Massachusetts Institute of Technology that has limited
-            restriction on the reuse of software.
+   MacOS
+     A series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001.
 
-   N
-      :abbr:`NCBI (National Center for Biotechnolofy Information)`
-        `NCBI <https://www.ncbi.nlm.nih.gov>`__ is a :abbr:`US (United States)` government-funded public repository
-        for biological data that provides free access to biomedical and genomic information.
+   Manifest
+     A :abbr:`csv (comma-separated values)` file or Microsoft (MS) Excel spreadsheet that contains metadata
+     regarding a research object.
 
-   O
-      Ontology field
-        An ontology field in COPO is an auto-complete control, that maps user input to semantically-enriched values,
-        which are explicit formal specifications of terms and their relationship to other terms in a domain.
+     The manifest is used by scientists to upload metadata into COPO.
 
-        .. image:: /assets/images/ontology-field.jpg
-           :target: /assets/images/ontology-field.jpg
+   Manifest :abbr:`ID (Identification)`
+     A unique identifier assigned to each manifest record in COPO.
 
-   P
-      Profile component
-        Also known as *research object*. It forms part of a research project or study.
+   Metadata
+     In-depth and controlled contextual information about a research object like geographical location,
+     time of collection, tube or well identification and specimen identification.
 
-        Templates for creating or describing research objects can be found :ref:`here <manifest_templates>`.
+     In life sciences, metadata facilitates :term:`biocuration <Biocuration>` which revolves around the structuring of
+     datasets in a way that allows automated search, query and retrieval.
 
-   R
-      Read the Docs
-        A documentation `hosting service <http://readthedocs.org>`__ based around Sphinx.
-        COPO documentation is hosted on `Read the Docs <http://copo-project.readthedocs.io/en/latest/>`__.
+   :abbr:`MIT (Massachusetts Institute of Technology)` licence
+     A permissive free software license from the Massachusetts Institute of Technology that has limited
+     restriction on the reuse of software.
 
-      Reads
-        A research object that holds raw read files and sequencing methods that refer to the DNA sequence
-        from a small section of DNA.
+   MongoDB
+     A document-oriented database program that uses JSON-like documents with optional schemas.
 
-        It can be associated with one or more files, assemblies and sequence annotations.
+   :abbr:`NCBI (National Center for Biotechnology Information)`
+     `NCBI <https://www.ncbi.nlm.nih.gov>`__ is a :abbr:`US (United States)` government-funded public repository
+     for biological data that provides free access to biomedical and genomic information.
 
-      Research
-        Systematic investigation, including research development, testing, and evaluation, designed to develop or
-        contribute to generalisable knowledge.
+   Ontology field
+     An ontology field in COPO is an auto-complete control, that maps user input to semantically-enriched values,
+     which are explicit formal specifications of terms and their relationship to other terms in a domain.
 
+     .. image:: /assets/images/ontology-field.jpg
+        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/ontology-field.jpg
 
-      :abbr:`REST (REpresentational State Transfer)`
-        Relies on a stateless, client-server and cacheable communications :term:`HTTP <H>` request protocol. In COPO, it
-        is used to communicate with the COPO API to perform :term:`CRUD <C>` operations using HTTP requests.
+   Profile component
+     Also known as *research object*. It forms part of a research project or study.
 
+     Templates for creating or describing research objects can be found :ref:`here <manifest_templates>`.
 
-      :abbr:`RNA-seq (Ribonucleic acid sequencing)`
-        Analysis based on next-generation sequencing (NGS) data has recently become the de facto standard for the
-        analysis of gene expression at the level of the whole transcriptome.
+   PyCharm
+     A Python IDE (Integrated Development Environment) that provides code analysis, a graphical debugger,
+     an integrated unit tester, integration with version control systems and supports web development with
+     Django.
 
-      :abbr:`RO-Crate (Research Object Crate)`
-        RO-Crate is based on schema.org annotations in JSON-LD, and aims to make best-practice in formal metadata
-        description accessible and practical for use in a wider variety of situations, from an individual researcher
-        working with a folder of data, to large data-intensive computational research environments.
+   Read the Docs
+     A documentation `hosting service <http://readthedocs.org>`__ based around Sphinx.
+     COPO documentation is hosted on `Read the Docs <http://copo-project.readthedocs.io/en/latest/>`__.
 
-        See more information about RO-Crate `here <https://www.researchobject.org/ro-crate/>`__.
+   Reads
+     A research object that holds raw read files and sequencing methods that refer to the DNA sequence
+     from a small section of DNA.
 
-   S
-      Sample
-        Also known as *biosample*. A research object that represents biological samples collected and sequenced in
-        real life.
+     It can be associated with one or more files, assemblies and sequence annotations.
 
-      Sample checklist
-        The checklist of metadata that the sample was registered with.
+   Research
+     Systematic investigation, including research development, testing, and evaluation, designed to develop or
+     contribute to generalisable knowledge.
 
-      Sample manager
-        A sample manager is a person who is responsible for accepting or rejecting samples in a research project.
+   :abbr:`REST (REpresentational State Transfer)`
+     Relies on a stateless, client-server and cacheable communications :term:`HTTP` request protocol. In COPO, it
+     is used to communicate with the COPO API to perform :term:`CRUD operations` using HTTP requests.
 
-      :abbr:`SRA (Sequence Read Archive )` accession
-        A unique identifier assigned to a sample by the Sequence Read Archive (SRA) database. It usually
-        starts with 'ERS' followed by a number.
+   :abbr:`RNA-seq (Ribonucleic acid sequencing)`
+     Analysis based on next-generation sequencing (NGS) data has recently become the de facto standard for the
+     analysis of gene expression at the level of the whole transcriptome.
 
-      Sequence annotation
-        A research object that is used to describe the process of marking specific features in a DNA, RNA or protein
-        sequence with descriptive information about structure or function.
+   :abbr:`RO-Crate (Research Object Crate)`
+     RO-Crate is based on schema.org annotations in JSON-LD, and aims to make best-practice in formal metadata
+     description accessible and practical for use in a wider variety of situations, from an individual researcher
+     working with a folder of data, to large data-intensive computational research environments.
 
-        It can be associated with one or more files, reads and assemblies.
+     See more information about RO-Crate `here <https://www.researchobject.org/ro-crate/>`__.
 
-      Singular stage
-       In datafile description, a **singular stage** is a stage of the description wizard in which all the files in the
-       description bundle are constrained (by the system) to share the same metadata.
+   Sample
+     Also known as *biosample*. A research object that represents biological samples collected and sequenced in
+     real life.
 
-      Specimen
-        Also known as biospecimen. It is a piece or portion of tissue, urine or other biologically derived material
-        used for diagnosis and analysis.
+   Sample checklist
+     The checklist of metadata that the sample was registered with.
 
-      :abbr:`SOP (Standard Operating Procedure)`
-        A manual compiled by various profile groups to help scientists fill in a manifest correctly.
+   Sample manager
+     A sample manager is a person who is responsible for accepting or rejecting samples in a research project.
 
-        See the `SOPs <fill_blank_manifests>` section for more information.
+   :abbr:`SRA (Sequence Read Archive )` accession
+     A unique identifier assigned to a sample by the Sequence Read Archive (SRA) database. It usually
+     starts with 'ERS' followed by a number.
 
-   T
-      :abbr:`ToL (Tree of Life)`
-        A worldwide collaborative effort of biologists and nature enthusiasts to provide information about
-        biodiversity, the characteristics of different groups of organisms and their evolutionary history (phylogeny).
+   Sequence annotation
+     A research object that is used to describe the process of marking specific features in a DNA, RNA or protein
+     sequence with descriptive information about structure or function.
+
+     It can be associated with one or more files, reads and assemblies.
+
+   Singular stage
+     In datafile description, a **singular stage** is a stage of the description wizard in which all the files in the
+     description bundle are constrained (by the system) to share the same metadata.
+
+   Specimen
+     Also known as biospecimen. It is a piece or portion of tissue, urine or other biologically derived material
+     used for diagnosis and analysis.
+
+   :abbr:`SOP (Standard Operating Procedure)`
+     A manual compiled by various profile groups to help scientists fill in a manifest correctly.
+
+     See the `SOPs <fill_blank_manifests>` section for more information.
+
+   Studio3T
+     Studio3T, formerly known as Robo3T, is a :abbr:`GUI (Graphical User Interface)` for MongoDB.
+        
+     Visit `Studio3T <https://studio3t.com/download/>`__ to download an appropriate version for your :abbr:`OS (Operating system)`.
+
+   :abbr:`ToL (Tree of Life)`
+     A worldwide collaborative effort of biologists and nature enthusiasts to provide information about
+     biodiversity, the characteristics of different groups of organisms and their evolutionary history (phylogeny).
+
+   Ubuntu
+     A :abbr:`Linux (Linux)` distribution based on Debian and composed mostly of free and open-source software.
+
+   :abbr: `URI (Uniform Resource Identifier)`
+     A string of characters that unambiguously identifies a particular resource.
+
+     See also: :wikipedia:`Uniform Resource Identifier <URI>`
+
+   :abbr:`VSCode (Visual Studio Code)`
+     VSCode is a lightweight but powerful source code editor which runs on your desktop and is available on Windows,
+     macOS and Linux.
