@@ -7,6 +7,8 @@ Tree of Life Profile
 In COPO, a :abbr:`ToL (Tree of Life)` [#f1]_ work profile [#f2]_ is required to submit research objects [#f3]_ such as
 samples.
 
+.. _tol-profile-steps:
+
 ---------------------------------------------
 Steps to Create a Tree of Life Profile
 ---------------------------------------------
@@ -35,6 +37,8 @@ Steps to Create a Tree of Life Profile
 
       **ToL Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
       submissions**
+
+.. _tol-profile-steps-details:
 
 #. Provide details for the new profile then, click **Save**
 
@@ -202,7 +206,9 @@ The following component types are currently defined:
 .. [#f3] Research objects refer to files, reads, assemblies, files and sequence annotations.
          A Stand-alone profile is considered as a *project* research object.
          See term: :term:`Profile component`.
-   
+.. [#f4] See term: :term:`ASG`.
+.. [#f5] See term: :term:`DTOL`.
+.. [#f6] See term: :term:`ERGA`.
 
 ..
     Images declaration

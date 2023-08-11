@@ -4,11 +4,21 @@
 Adding Children Projects To Parent Projects
 ==========================================================
 
-Please contact the :email:`COPO team <ei.copo@earlham.ac.uk>` if you would like child projects (subprojects) to be
-added to parent (main) projects.
+In COPO
+------------
+See **Choose associated profile type(s)** :ref:`section <tol-profile-steps-details>` when creating a profile for more
+details.
 
-Please provide the parent project accession and the child project
-accession(s) when making the email request.
+.. raw:: html
+
+   <hr>
+
+In Public Repositories
+------------------------
+Please contact the :email:`COPO team <ei.copo@earlham.ac.uk>` if you would like child projects (subprojects) to be
+added to parent (main) projects in public repositories like ENA [#f1]_ or NCBI [#f2]_.
+
+Please provide the parent project accession and the child project accession(s) when making the email request.
 
 .. only:: Internal
 
@@ -42,3 +52,11 @@ accession(s) when making the email request.
     .. centered:: **OR**
 
     In the terminal, query: $ ``curl -X 'GET' 'https://www.ebi.ac.uk/ena/submit/webin-v2/project/<parent-project-accession>' -H 'accept: */*'``
+
+.. raw:: html
+
+   <br>
+
+.. rubric:: Footnotes
+.. [#f1] See term: :term:`ENA`.
+.. [#f2] See term: :term:`NCBI`.
