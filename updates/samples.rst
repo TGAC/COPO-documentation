@@ -4,26 +4,29 @@
 Updating Samples
 ==============================
 
-Samples can be updated by re-uploading/re-submitting the manifest that was used to create them with the amended changes
-**before** the samples have been updated or rejected by a sample manager and submitted to
+Samples can be updated by reuploading/resubmitting the manifest that was used to create them with the amended changes
+**before** or **after** the samples have been accepted by a sample manager and submitted to
 :abbr:`ENA (European Nucleotide Archive)` [#f1]_.
 
-Please be aware that not all field values of existing samples can be updated. The fields that can be
-updated are listed below.
+Please note that not all field values of existing samples can be updated via the manifest resubmission update method.
+The fields that can be updated with that method are listed below.
 
+.. hint::
+
+   Collapse the list of fields that can be updated by for instance, clicking the **List of ASG project fields that
+   can be updated** item below.
 
 .. note::
 
-   * The manifest must be re-uploaded with the amendments included for the change or update to occur.
+   * The manifest must be uploaded again with the amendments included for the change or update to occur.
 
-   * You **cannot** re-upload a manifest with some of the existing samples removed and expect the samples to be removed
-     from the sample record. If you would like to remove or delete existing samples from the manifest record, please
-     contact :email:`COPO team <ei.copo@earlham.ac.uk>` for assistance detailing the profile title and reason for the
+   * You **cannot** reupload a manifest with some of the existing samples removed. The removed samples
+     (from the reuploaded manifest) will not be automatically removed from the manifest sample record. If you would
+     like existing samples to be removed or deleted from the manifest record, please contact
+     :email:`COPO team <ei.copo@earlham.ac.uk>` for assistance detailing the profile title and reason for the
      removal.
 
    * Fields are also referred to as columns in the manifest.
-
-   * If you would like to update a field that is not listed below, please contact :email:`COPO team <ei.copo@earlham.ac.uk>`
 
    * If you would like to update a field value of a sample that has already been accepted by a sample manager
      and submitted to ENA, please contact :email:`COPO team <ei.copo@earlham.ac.uk>`. Please note that the field value
@@ -192,8 +195,38 @@ updated are listed below.
 .. raw:: html
 
    <br>
+   <hr>
+
+Updating Taxonomy
+---------------------------
+
+To update the scientific name for a sample, please make an email request to the
+:email:`COPO team <ei.copo@earlham.ac.uk>` providing the **biosampleAccession** and the new **SCIENTIFIC_NAME** to be
+updated.
+
+.. note::
+
+   * The new value for the **SCIENTIFIC_NAME** field must be a valid scientific name and must be present in the NCBI
+     [#f2]_ Taxonomy database.
+   * ``<biosampleAccession>`` is the unique identifier for the sample in ENA.
+   * ``<SCIENTIFIC_NAME>`` is the new scientific name for the sample.
+
+Please make the request in the following format:
+
+.. code-block:: none
+   :caption: Format to make scientific name update
+
+   <biosampleAccession>:<SCIENTIFIC_NAME>
+
+
+.. raw:: html
+
    <br>
 
 .. rubric:: Footnotes
 
 .. [#f1] See term: :term:`ENA`.
+.. [#f2] See term: :term:`NCBI`.
+.. [#f3] See term: :term:`ASG`.
+.. [#f4] See term: :term:`DTOL`.
+.. [#f5] See term: :term:`ERGA`.

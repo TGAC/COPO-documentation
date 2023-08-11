@@ -30,7 +30,7 @@ Is there a way to analyse metadata submissions?
 Manifest Update
 --------------------
 How can I update values for samples that I have submitted in COPO?
-   Reupload the amended manifest. The desired value willl be updated once the
+   Reupload the amended manifest. The desired value will be updated once the
    field value is not a compliance field.
 
    Compliance fields are fields that cannot be updated once a manifest has been

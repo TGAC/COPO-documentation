@@ -52,6 +52,13 @@ Glossary
      The molecule inside cells that contains the genetic information responsible for the development and function
      of an organism.
 
+   Docker
+        A set of platform as a service (PaaS) products that use OS-level virtualisation to deliver software in
+        packages called containers. Containers are isolated from one another and bundle their own software, libraries
+        and configuration files; they can communicate with each other through well-defined channels.
+
+        Docker Engine is the software that oversees the hosting of the containers.
+
    Dockerfile
      A text-based file with no file extension that contains a script of instructions. Docker uses this script to
      build a container image. See `Dockerfile reference <https://docs.docker.com/engine/reference/builder/>`__

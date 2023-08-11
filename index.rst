@@ -47,6 +47,7 @@ links to find instructions specific to your needs.
    updates/samples
    updates/sequence-annotations
    updates/reads
+   updates/useful-tools
 
 .. toctree::
    :caption: COPO Data Discovery & Retrieval
@@ -65,7 +66,6 @@ links to find instructions specific to your needs.
 
    advanced/docker-environment-setup
    advanced/copo-project-setup
-   advanced/useful-tools
 
 .. toctree::
    :caption: Policies

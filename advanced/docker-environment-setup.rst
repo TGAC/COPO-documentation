@@ -529,9 +529,76 @@ or `on port 81000 <http://127.0.0.1:8000>`__.
    Install required VSCode extensions for the COPO project application by following the steps below:
 
     #. Navigate to the **Extensions** tab on the left-hand side of the VSCode IDE
-    #. Search for and install **Python** extension and **Copilot** extension (if needed)
+    #. Search for and install the following extensions:
+
+       * Python   (required)
+
 
    If your local machine is restarted, you will need to start the Docker container again at startup. To do this, run the
    following command in the terminal: $ ``docker start <container-ID-for-copo-web>``. You can retrieve the container ID
    by running the command below in the root project directory of the COPO project application in the terminal for the
    **copo/copo-web:v1.0.2**  Docker image: $ ``docker ps``
+
+.. raw:: html
+
+   <hr>
+
+------
+Tips
+------
+
+* Enable **Manage Unsafe Repositories** in **Source Control** in VSCode browser application to allow VSCode to access
+  the COPO GitHub project repository.
+
+* Install the following VSCode extensions:
+
+   * GitHub Copilot
+   * Prettier - Code formatter
+   * Git Extension Pack
+
+.. code-block:: git
+   :caption: Set GitHub configuration in terminal
+
+   git config --global user.name "<GitHub-username>"
+   git config --global user.email "<GitHub-email-address>"
+
+.. code-block:: docker
+   :caption: Docker command used to list all the running Docker containers
+
+   docker ps
+
+.. code-block:: docker
+   :caption: Docker command used to start, stop and restart a Docker service
+
+   sudo systemctl start docker
+   sudo systemctl stop docker
+   sudo systemctl restart docker
+
+.. code-block:: docker
+   :caption: Docker command used to start, stop and restart a container respectively
+
+   docker start
+   docker stop
+   docker restart
+
+.. code-block:: docker
+   :caption: Docker command used to execute a command in a running container
+
+   docker exec it <container-ID> bash
+
+.. code-block:: docker
+   :caption: Docker command used to find the installed version of docker
+
+   docker version
+
+.. code-block:: docker
+   :caption: Docker command used to know the details of all the running, stopped, or exited containers
+
+   docker ps -a
+
+.. code-block:: docker
+   :caption: Docker command used to create a volume so that the docker container can use it to store data
+
+   docker volume create <volume-name>
+
+

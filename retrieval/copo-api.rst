@@ -25,17 +25,20 @@ type as shown in the table below.
 
 Each endpoint results contain metadata provided by the submitter.
 
-+-----------------------+-------------------------------------------------+
-| **File Format**       | **Available Record Types**                      |
-+-----------------------+-------------------------------------------------+
-| csv                   | Study, Sample, Manifest                         |
-+-----------------------+-------------------------------------------------+
-| json                  | Study, Sample, Manifest                         |
-+-----------------------+-------------------------------------------------+
-| ro-crate              | Sample                                          |
-+-----------------------+-------------------------------------------------+
+.. list-table:: Available Result Formats for Records
+   :width: 100%
+   :align: center
+   :header-rows: 1
 
-A summary of how to use the end-points to retrieve data are as follows:
+   * - File Format
+     - Available Record Types
+   * - csv
+     - Study, Sample, Manifest
+   * - json
+     - Study, Sample, Manifest
+   * - ro-crate
+     - Sample
+
 
 .. _manifest-api-endpoints:
 
@@ -213,6 +216,14 @@ This results in a list of all the samples of a project in COPO.
 Fetch Sample Records by Associated Project Type
 """"""""""""""""""""""""""""""""""""""""""""""""""
 
+.. hint::
+
+   The associated project type is the project type that the sample is subproject of. For example, a sample may be
+   associated with a project type of "BGE" but the sample itself may be an "ERGA" sample.
+
+   In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
+   records, it is referred to as **associated_type**.
+
 .. code-block:: bash
 
    https://copo-project.org/api/sample/associated_tol_project/{values}
@@ -240,6 +251,20 @@ Fetch Sample Records between Dates
 
 This results in a list of all samples recorded in the given date period.
 
+Fetch Updatable Fields by Project
+""""""""""""""""""""""""""""""""""""""""
+.. code-block:: bash
+
+   https://copo-project.org/api/sample/updatable_fields/{project}
+
+.. centered:: OR
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/sample/updatable_fields/{project}" -H  "accept: */*"
+
+This results in list of fields that can be updated when a manifest is reuploaded/resubmitted in COPO based on the
+given ``{project}```.
 
 Fetch Sample Records by COPO ID
 """"""""""""""""""""""""""""""""""""""""
@@ -264,8 +289,9 @@ Fetch Sample Records by Biosample ID
 """"""""""""""""""""""""""""""""""""""""
 .. note::
 
-   Biosample accession IDs are assigned to sample records by ENA [#f6]_ after the samples have been approved by a sample
-   manager [#f7]_. The ``biosample_id`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id`` in ENA.
+   * Biosample accession IDs are assigned to sample records by ENA [#f6]_ after the samples have been approved by a sample
+     manager [#f7]_.
+   * The ``biosample_id`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id`` in ENA.
 
 .. code-block:: bash
 
@@ -376,6 +402,35 @@ Fetch Number of DToL Sample Records
 
 This results in the total number of Darwin Tree of Life (DToL) [#f5]_ registered sample records in COPO.
 
+Fetch Tree of Life (ToL) Projects Brokered by COPO
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/tol_projects
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H  "accept: application/json"
+
+This results in a list of all main/primary projects brokered by COPO.
+
+Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/associated_tol_projects
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
+
+This results in a list of all child projects/ subprojects brokered by COPO.
 
 .. raw:: html
 
@@ -458,4 +513,4 @@ This results in a list of all profiles for the authenticated user.
 ..
 .. |copo-api-live-server-button| image:: /assets/images/buttons/copo-api-live-server-button-option.png
    :height: 6ex
-   :target:  /assets/images/buttons/copo-api-live-server-button-option.png
+   :target:  https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/buttons/copo-api-live-server-button-option.png

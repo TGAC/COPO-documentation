@@ -1,10 +1,10 @@
 .. _getting-started:
 
 =================
-Getting started
+Getting Started
 =================
 
-Collaborative OPen Plant Omics (COPO) is a website portal where scientists describe their research objects (raw or
+Collaborative OPen Omics (COPO) is a website portal where scientists describe their research objects (raw or
 processed data, reads, samples, images etc.) using community-sanctioned metadata sets and vocabularies [#f1]_.
 
 As a metadata broker, COPO encourages data generators to adhere to
