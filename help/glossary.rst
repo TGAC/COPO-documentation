@@ -233,7 +233,7 @@ Glossary
    Ubuntu
      A :abbr:`Linux (Linux)` distribution based on Debian and composed mostly of free and open-source software.
 
-   :abbr: `URI (Uniform Resource Identifier)`
+   :abbr:`URI (Uniform Resource Identifier)`
      A string of characters that unambiguously identifies a particular resource.
 
      See also: :wikipedia:`Uniform Resource Identifier <URI>`

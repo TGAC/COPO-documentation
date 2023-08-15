@@ -28,6 +28,11 @@ Primary Projects
 Secondary Projects
 ~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+   In addition to the secondary projects outlined below, all projects listed under **Primary Projects** except
+   Stand-alone, can be added as a subproject of a larger project.
+
 .. hlist::
    :columns: 2
 

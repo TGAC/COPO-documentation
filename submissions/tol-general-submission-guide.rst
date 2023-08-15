@@ -1,8 +1,8 @@
 .. _tol-general-submission-guide:
 
-========================================
-General :abbr:`ToL(Tree of Life)` Submission Documentation
-========================================
+==============================================
+General Tree of Life Submission Documentation
+==============================================
 
 :download:`Download visual documentation <../assets/files/COPO_visual_user_documentation.pdf>`
 

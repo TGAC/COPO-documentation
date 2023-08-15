@@ -1,0 +1,39 @@
+FROM ubuntu:20.04
+
+ENV PYTHONUNBUFFERED 1
+
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+    default-jre \
+    rsync \
+    git \
+    nano \ 
+    libxml2-dev \
+    python3 \
+    build-essential \
+    make \
+    gcc \
+    python3-dev \
+    locales \
+    python3-pip \
+    python-is-python3 \
+    ruby-dev \
+    rubygems \
+    poppler-utils \
+    wget curl unzip less tcpdump iputils-ping vim && \
+    gem install sass && \
+    pip install --upgrade pip && \
+    apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/*
+
+COPY ./requirements/ /tmp/requirements/
+RUN pip install --use-deprecated=legacy-resolver -r /tmp/requirements/dev.txt
+
+WORKDIR /copo
+
+RUN wget -O webin-cli.jar https://github.com/enasequence/webin-cli/releases/download/6.5.0/webin-cli-6.5.0.jar
+
+# add aspera client to path
+COPY ./tools/reposit/.aspera/ /root/.aspera/
+ENV PATH /root/.aspera/cli/bin:$PATH
+
+# Install VSCode
+RUN curl -fsSL https://code-server.dev/install.sh | sh

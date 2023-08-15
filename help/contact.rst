@@ -2,8 +2,8 @@
 
 Contact COPO
 ==============================
-Send an email to the :email:`COPO team <ei.copo@earlham.ac.uk>` indicating your enquiry or request. The COPO team will
-respond as soon as possible.
+Send an email to the COPO team at :email:`ei.copo@earlham.ac.uk <ei.copo@earlham.ac.uk>`, indicating your enquiry or
+request. The COPO team will respond as soon as possible.
 
 ..  figure:: /assets/images/contact/copo-contact-webpage.png
     :align: center
