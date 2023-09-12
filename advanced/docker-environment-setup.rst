@@ -371,7 +371,7 @@ In the terminal, navigate to the root directory of the COPO project application 
 
     docker run --name postgresql -e POSTGRES_USER=<postres-username> -e POSTGRES_PASSWORD=<postres-password> -p 5432:5432 -v /data:/var/lib/postgresql/data -d postgres:9.6
 
-Replace ``<postgres-username>`` and ``<postgres-password>`` with the usename and password for PostgreSQL database respectively.
+Replace ``<postgres-username>`` and ``<postgres-password>`` with the username and password for PostgreSQL database respectively.
 
 .. code-block:: docker
    :caption: Enter the **local_copo_web** container
@@ -561,6 +561,21 @@ Tips
 
    git config --global user.name "<GitHub-username>"
    git config --global user.email "<GitHub-email-address>"
+
+.. code-block:: git
+   :caption: Create a tag via the terminal
+
+   git tag <tagname>
+
+.. code-block:: git
+   :caption: Push a particular tag to GitHub via the terminal
+
+   git push origin <tagname>
+
+.. code-block:: git
+   :caption: Remove an existing tag from GitHub via the terminal
+
+   git tag -d <tag-name>
 
 .. code-block:: docker
    :caption: Docker command used to list all the running Docker containers

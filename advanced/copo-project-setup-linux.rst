@@ -164,7 +164,7 @@ Alternatively, you can create a virtual environment for the project with the com
 .. warning::
     Here are solutions to possible errors that you might encounter after having ran the above commands:
 
-    * Possible error #1**: TypeError: 'Collection' object is not callable. If you meant to call the 'authenticate'
+    * **Possible error #1**: TypeError: 'Collection' object is not callable. If you meant to call the 'authenticate'
       method on a 'Database' object it is failing because no such method exists.
 
       **Solution #1**: Run the command: ``$ pip3 install pymongo==3.11.4``
@@ -189,6 +189,10 @@ Alternatively, you can create a virtual environment for the project with the com
       #. Change line 12 in **wizard_helper.py** file from ``pandas.io.json import json_normalize`` to
          ``from pandas import json_normalize``
       #. Run the command: ``pip3 install -r requirements/base.txt`` again to install the packages
+
+    * **Possible error #2**: text index required for $text query
+
+      **Solution #3**: Create an index in the SampleCollection in mongoDB: ``db.SampleCollection.createIndex( { "$**": "text" } )``
 
 .. raw:: html
 
@@ -223,7 +227,6 @@ Create a new MongoDB connection manually with the following details:
 .. centered:: OR
 
 **MongoDB URI**: ``mongodb://copo_user:password@localhost:27017/copo_mongo?retryWrites=true&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1``
- 
 
 
 .. raw:: html

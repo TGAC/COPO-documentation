@@ -28,10 +28,6 @@ The fields that can be updated with that method are listed below.
 
    * Fields are also referred to as columns in the manifest.
 
-   * If you would like to update a field value of a sample that has already been accepted by a sample manager
-     and submitted to ENA, please contact :email:`COPO team <ei.copo@earlham.ac.uk>`. Please note that the field value
-     will be updated in both COPO records and ENA records.
-
 .. collapse:: List of ASG project fields that can be updated
 
    .. hlist::

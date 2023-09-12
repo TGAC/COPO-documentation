@@ -16,7 +16,7 @@ $ `git clone https://github.com/collaborative-open-plant-omics/Documentation.git
 1. Navigate to the (cloned) project folder
 
 2. Create a Python virtual environment for the documentation with Python 3.x
-
+    $ `sudo apt install python3.10-venv`
     $ `python3 -m venv venv`
 
 3. Activate the virtual environment
