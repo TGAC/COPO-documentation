@@ -30,6 +30,10 @@ Glossary
      Also known as work profile. A collection of 'research objects' or components that contain data
      generated on a biological research project or study.
 
+     There are two general types of profiles in COPO: *Stand-alone* profiles and :abbr:`ToL (Tree of Life)` profiles.
+     :abbr:`ASG (Aquatic Symbiosis Genomics)`, :abbr:`DToL (Darwin Tree of Life)` and
+     :abbr:`ERGA (European Reference Genome Atlas)` are the ToL (primary) projects brokered through COPO.
+
    :abbr:`CRUD (Create, Read, Update and Delete)` operations
      Comprises posting data (creating and/or updating data ), reading data (e.g. making queries) and deleting data.
 

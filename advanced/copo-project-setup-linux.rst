@@ -180,11 +180,13 @@ Alternatively, you can create a virtual environment for the project with the com
       #. In the ``requirements/base.txt`` file located in the project directory, change the version numbers for the
       following packages so that all packages can be compatible with each other
 
+        * ``asgiref==3.7.2``
+        * ``cffi==1.15.1``
         * ``importlib-metadata==1.6.1``
-        * ``lxml``
-        * ``numpy``
-        * ``pandas``
-        * ``cffi`` 
+        * ``lxml==4.9.3``
+        * ``numpy==1.20.0``
+        * ``pandas==1.2.2``
+
 
       #. Change line 12 in **wizard_helper.py** file from ``pandas.io.json import json_normalize`` to
          ``from pandas import json_normalize``

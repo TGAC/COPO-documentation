@@ -556,23 +556,23 @@ Tips
    * Prettier - Code formatter
    * Git Extension Pack
 
-.. code-block:: git
+.. code-block:: bash
    :caption: Set GitHub configuration in terminal
 
    git config --global user.name "<GitHub-username>"
    git config --global user.email "<GitHub-email-address>"
 
-.. code-block:: git
+.. code-block:: bash
    :caption: Create a tag via the terminal
 
    git tag <tagname>
 
-.. code-block:: git
+.. code-block:: bash
    :caption: Push a particular tag to GitHub via the terminal
 
    git push origin <tagname>
 
-.. code-block:: git
+.. code-block:: bash
    :caption: Remove an existing tag from GitHub via the terminal
 
    git tag -d <tag-name>

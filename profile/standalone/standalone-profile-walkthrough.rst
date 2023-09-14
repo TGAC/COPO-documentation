@@ -19,7 +19,7 @@ Steps to Create a Stand-alone Profile
 
       **Stand-alone Profile: Add new profile record icon**
 
-#. **Contact COPO via email** dialogue is displayed indictating that the user is not a member of any manifest group
+#. **Contact COPO via email** dialogue is displayed indicating that the user is not a member of any manifest group
    and that the user must make a request to be added to a manifest group to make ToL manifest submissions
    if the user would like to do so.
 
@@ -132,11 +132,11 @@ The following component types are currently defined:
 ..
     Images declaration
 ..
-.. |add-profile-button| image:: /assets/images/profile/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/profile_add_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/profile/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
    :height: 4ex
    :class: no-scaled-link
 

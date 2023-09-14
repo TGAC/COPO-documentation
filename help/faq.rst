@@ -214,7 +214,7 @@ How can I accept or reject samples that users have submitted?
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-profile-button| image:: /assets/images/profile/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/profile_add_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -222,11 +222,11 @@ How can I accept or reject samples that users have submitted?
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-actions-button| image:: /assets/images/profile/profile_actions_button.png
+.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/profile/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
    :height: 4ex
    :class: no-scaled-link
 
