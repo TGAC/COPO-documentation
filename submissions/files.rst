@@ -9,16 +9,16 @@ How to Submit Files
   :ref:`Steps to Create a Stand-alone Profile <standalone-profile-walkthrough>` for guidance.
 
 .. seealso::
-  * :ref:`How to Delete Files <files_deletion>`
+  * :ref:`How to Delete Files <files-deletion>`
 
 .. raw:: html
 
    <hr>
 
 ------------------------------
-Accessing the Files Web Page
+Accessing the Files' Web Page
 ------------------------------
-The files' web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+The Files' web page can be accessed from the **Components** button or **Actions** button associated with a profile.
 
 .. raw:: html
 
@@ -27,11 +27,11 @@ The files' web page can be accessed from the **Components** button or **Actions*
 Use Components' Button to Navigate to Files' Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click the |profile-components-button| button associated with a profile. Then, click the  |files-button| from the popup
-menu displayed as shown below:
+Click the |profile-components-button| button associated with a profile. Then, click the  |files-component-button| from
+the popup menu displayed as shown below:
 
 .. figure:: /assets/images/profile/profile_standalone_profile_components_files.png
-  :alt: Stand-alone profile components
+  :alt: Stand-alone Files' profile component
   :align: center
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_files.png
   :class: with-shadow with-border
@@ -49,7 +49,7 @@ Click the |profile-actions-button| button associated with a profile. Then, click
 from the popup menu displayed as shown below:
 
 .. figure:: /assets/images/profile/profile_standalone_profile_actions_files.png
-  :alt: Stand-alone profile components
+  :alt: Stand-alone Files' profile action
   :align: center
   :height: 70ex
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_files.png
@@ -221,7 +221,7 @@ Submit Files via the Terminal
 
    <hr>
 
-.. _files_deletion:
+.. _files-deletion:
 
 =====================
 How to Delete Files
@@ -260,7 +260,7 @@ Click the desired file from the list of files displayed on the Files' web page. 
 ..
     Images declaration
 ..
-.. |files-button| image:: /assets/images/buttons/components_files_button.png
+.. |files-component-button| image:: /assets/images/buttons/components_files_button.png
    :height: 4ex
    :class: no-scaled-link
 

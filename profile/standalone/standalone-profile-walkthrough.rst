@@ -132,7 +132,7 @@ The following component types are currently defined:
 ..
     Images declaration
 ..
-.. |add-profile-button| image:: /assets/images/buttons/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/add_button.png
    :height: 4ex
    :class: no-scaled-link
 

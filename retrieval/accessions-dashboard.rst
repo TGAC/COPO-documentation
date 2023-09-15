@@ -1,4 +1,4 @@
-.. _accessions_dashboard:
+.. _accessions-dashboard:
 
 =======================
 Retrieving Accessions

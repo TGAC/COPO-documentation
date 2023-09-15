@@ -74,6 +74,6 @@ If the login is successful, a redirection is made to the COPO application.
 
 .. rubric:: Footnotes
 .. [#f1] :abbr:`SOPs (Standard Operating Procedures)` guide the metadata sets and vocabularies
-         See: :ref:`SOP guidelines <fill_blank_manifests>`.
+         See: :ref:`SOP guidelines <fill-blank-manifests>`.
 .. [#f2] See: :ref:`COPO FAIR data principles <fair-data-principles>`.
 

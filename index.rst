@@ -36,7 +36,9 @@ links to find instructions specific to your needs.
    profile/tol/tol-profile-walkthrough-index
    submissions/tol-general-submission-guide
    submissions/tol-asg-manifest-submissions
+   submissions/barcoding-manifest-submissions
    submissions/tol-dtol-manifest-submissions
+   submissions/dtol-env-manifest-submissions
    submissions/tol-erga-manifest-submissions
 
 .. toctree::

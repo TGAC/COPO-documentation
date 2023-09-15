@@ -1,4 +1,4 @@
-.. _profile_update:
+.. _profile-update:
 
 ==============================
 Updating Profiles

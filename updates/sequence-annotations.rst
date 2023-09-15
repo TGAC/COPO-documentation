@@ -1,4 +1,4 @@
-.. _sequence-annotations_update:
+.. _sequence-annotations-update:
 
 ==============================
 Updating Sequence Annotations

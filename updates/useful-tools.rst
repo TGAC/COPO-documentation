@@ -6,7 +6,7 @@ Adding Children Projects To Parent Projects
 
 In COPO
 ------------
-See **Choose associated profile type(s)** :ref:`section <tol-profile-steps-details>` when creating a profile for more
+See :ref:`Choose associated profile type(s) <tol-profile-steps-details>` section when creating a profile for more
 details.
 
 .. raw:: html

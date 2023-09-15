@@ -71,6 +71,19 @@ Glossary
      `EBI <https://www.ebi.ac.uk>`__ is a :abbr:`UK (United Kingdom)` government-funded public repository
      for biological data that provides free access to biomedical and genomic information.
 
+   :abbr:`EI (Earlham Institute)`
+     The `Earlham Institute <https://www.earlham.ac.uk>`__ is a hub of life science research, training, and innovation
+     focused on understanding the natural world through the lens of genomics. EI supports several projects including
+     :abbr:`COPO (Collaborative OPen Omics)` project.
+
+     EI is is one of four `Norwich BioScience Institutes (NBI) <https://www.nbi.ac.uk>`__ international centres
+     that is based in the Norwich Research Park in Eastern England. It is also one of eight institutes that receive
+     strategic funding from the `Biotechnology and Biological Sciences Research Council (BBSRC) <https://bbsrc.ukri.org>`__ ,
+     part of :abbr:`UKRI (United Kingdom Research and Innovation)`, as well as support from other research funders.
+
+     The other :abbr:`NBI (Norwich BioScience Institutes)` centres are `John Innes Centre (JIC) <https://www.jic.ac.uk>`__,
+     `Sainsbury Laboratory (TSL) <http://www.tsl.ac.uk>`__  and `Quadram Institute Bioscience (QIB) <https://quadram.ac.uk>`__.
+
    :abbr:`EMBL (European Molecular Biology Laboratory)`
      `EMBL <https://www.embl.org>`__ is a :abbr:`EU (European Union)` intergovernmental organisation that
      performs basic research in molecular biology and provides services to the scientific community in its member
@@ -100,8 +113,8 @@ Glossary
      Partners or companies that perform genome sequencing.
 
    Genome
-     A complete set of genetic information in an organism that is stored in long molecules of DNA called
-     chromosomes which living organisms.
+     A complete set of genetic material stored in long molecules of DNA in living organisms such as virus, oak tree or
+     an elephant.
 
    Genomics
      The study of all or a substantial portion of the genes of an organism as a dynamic system, over time, to
@@ -129,8 +142,9 @@ Glossary
      A unique identifier assigned to each manifest record in COPO.
 
    Metadata
-     In-depth and controlled contextual information about a research object like geographical location,
-     time of collection, tube or well identification and specimen identification.
+     In-depth and controlled contextual information about when, where, how and why data has been collected like
+     geographical location, time of collection, tube or well identification and specimen identification. Metadata can
+     relate to a research elements such as samples, assembles, annotations or experiments.
 
      In life sciences, metadata facilitates :term:`biocuration <Biocuration>` which revolves around the structuring of
      datasets in a way that allows automated search, query and retrieval.
@@ -223,7 +237,7 @@ Glossary
    :abbr:`SOP (Standard Operating Procedure)`
      A manual compiled by various profile groups to help scientists fill in a manifest correctly.
 
-     See the `SOPs <fill_blank_manifests>` section for more information.
+     See the `SOPs <fill-blank-manifests>` section for more information.
 
    Studio3T
      Studio3T, formerly known as Robo3T, is a :abbr:`GUI (Graphical User Interface)` for MongoDB.

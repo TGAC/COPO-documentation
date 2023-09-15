@@ -45,7 +45,7 @@ Steps to Create a Tree of Life Profile
     .. note::
        The **Profile type** dropdown menu will only display the **Stand-alone** option.
        :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` inorder to be added to a desired profile group and be
-       granted access to choose your desired profile type.
+       granted access to choose your desired profile type group.
 
     .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :alt: Add profile form
@@ -207,13 +207,13 @@ The following component types are currently defined:
          A Stand-alone profile is considered as a *project* research object.
          See term: :term:`Profile component`.
 .. [#f4] See term: :term:`ASG`.
-.. [#f5] See term: :term:`DTOL`.
+.. [#f5] See term: :term:`DToL`.
 .. [#f6] See term: :term:`ERGA`.
 
 ..
     Images declaration
 ..
-.. |add-profile-button| image:: /assets/images/buttons/profile_add_button.png
+.. |add-profile-button| image:: /assets/images/buttons/add_button.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -1,4 +1,4 @@
-.. _manifest_templates:
+.. _manifest-templates:
 
 =================================
 Downloading Manifest Templates
@@ -19,7 +19,7 @@ for download below or on the `Manifest web page <https://copo-project.org/manife
 
    <hr>
 
-.. _fill_blank_manifests:
+.. _fill-blank-manifests:
 
 -----------------------------------
 Recording Data in Manifests

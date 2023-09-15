@@ -46,7 +46,7 @@ Secondary Projects
 
 .. seealso::
 
-   :ref:`Standard Operating Procedure (SOP) for the various projects <fill_blank_manifests>`
+   :ref:`Standard Operating Procedure (SOP) for the various projects <fill-blank-manifests>`
    :ref:`Manifest template for the projects <manifest_templates>`
 
 .. raw:: html
@@ -55,7 +55,7 @@ Secondary Projects
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`Tree of Life <ToL>`
+.. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`
 .. [#f2] See term: :term:`ASG`.
 .. [#f3] See term: :term:`DToL`.
 .. [#f4] See term: :term:`ERGA`.

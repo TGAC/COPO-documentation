@@ -1,4 +1,4 @@
-.. _samples_update:
+.. _samples-update:
 
 ==============================
 Updating Samples
@@ -196,7 +196,7 @@ The fields that can be updated with that method are listed below.
 Updating Taxonomy
 ---------------------------
 
-To update the scientific name for a sample, please make an email request to the
+To update the scientific name for a (ASG/DTOL) sample, please make an email request to the
 :email:`COPO team <ei.copo@earlham.ac.uk>` providing the **biosampleAccession** and the new **SCIENTIFIC_NAME** to be
 updated.
 
@@ -224,5 +224,5 @@ Please make the request in the following format:
 .. [#f1] See term: :term:`ENA`.
 .. [#f2] See term: :term:`NCBI`.
 .. [#f3] See term: :term:`ASG`.
-.. [#f4] See term: :term:`DTOL`.
+.. [#f4] See term: :term:`DToL`.
 .. [#f5] See term: :term:`ERGA`.
