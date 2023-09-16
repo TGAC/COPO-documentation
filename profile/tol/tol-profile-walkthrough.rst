@@ -7,6 +7,20 @@ Tree of Life Profile
 In COPO, a :abbr:`ToL (Tree of Life)` [#f1]_ work profile [#f2]_ is required to submit research objects [#f3]_ such as
 samples.
 
+.. seealso::
+
+  * :ref:`How to Update Profiles <profile-update>`
+
+  * :ref:`How to Delete Profiles <profile_deletion>`
+
+  * :ref:`Sorting Profiles <sorting-profiles>`
+
+  * :ref:`Profile Types Legend <profile-types-legend>`
+
+.. raw:: html
+
+   <hr>
+
 .. _tol-profile-steps:
 
 ---------------------------------------------
@@ -64,7 +78,7 @@ Steps to Create a Tree of Life Profile
       Both profile **Title** and profile **Description** are mandatory form fields.
 
       Meaningful field values are recommended in the form boxes because the information will appear
-      in submissions of the research objects [#f2]_ associated with the profile, in public remote repositories.
+      in submissions of the research objects associated with the profile, in public remote repositories.
 
     .. raw:: html
 
@@ -94,7 +108,7 @@ Steps to Create a Tree of Life Profile
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
           :class: with-shadow with-border
 
-          **ASG Profile Type: Choose associated profile type or a subproject**
+          **ASG Profile Type: Choose associated profile type or a subproject** [#f4]_
 
         .. raw:: html
 
@@ -112,7 +126,7 @@ Steps to Create a Tree of Life Profile
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
           :class: with-shadow with-border
 
-          **DTOL Profile Type: Choose associated profile type or a subproject**
+          **DTOL Profile Type: Choose associated profile type or a subproject** [#f5]_
 
         .. raw:: html
 
@@ -130,7 +144,7 @@ Steps to Create a Tree of Life Profile
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
           :class: with-shadow with-border
 
-          **ERGA Profile Type: Choose associated profile type or a subproject**
+          **ERGA Profile Type: Choose associated profile type or a subproject** [#f6]_
 
 
     .. raw:: html
@@ -187,18 +201,76 @@ The following component types are currently defined:
 .. figure:: /assets/images/profile/profile_tol_profile_components.png
    :alt: Tree of Life profile components
    :align: center
+   :height: 25ex
    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_components.png
    :class: with-shadow with-border
 
    **Tree of Life Profile Components**
 
-* Component instances defined within a profile will only be visible within that profile [#f2]_.
+* Component instances defined within a profile will only be visible within that profile.
 
 * To access a component within a profile, click the component button displayed within the profile box after the
   |profile-components-button| profile **Components** button was clicked (see the screenshot above).
 
 * The number beside each component button represents the number of items or instances of the component added or created.
 
+.. raw:: html
+
+   <hr>
+
+.. _sorting-profiles:
+
+-------------------
+Sorting Profiles
+-------------------
+
+On the **Work Profiles** web page, profiles can be sorted by **date created**, **profile title** or **profile type**.
+
+Choose the desired sort option from the **Sort by** dropdown menu, |profile-sort-menu|,  (at the top-right of the
+profile record section) as shown below.
+
+Then, click the |down-arrow| arrow to sort in descending order or the |up-arrow| arrow to sort in ascending
+according to the chosen sort option.
+
+..  figure:: /assets/images/buttons/profile_sort_menu_with_options_displayed.png
+    :alt: Profile sort menu with options displayed
+    :align: center
+    :height: 20ex
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/buttons/profile_sort_menu_with_options_displayed.png
+    :class: with-shadow with-border
+
+    **Profile Sort Menu: Sort options displayed**
+
+.. raw:: html
+
+   <hr>
+
+.. _profile-types-legend:
+
+----------------------
+Profile Types Legend
+----------------------
+
+The **Profile Types legend** [#f7]_ is displayed at the right of the **Work Profiles** web page. It displays the acronym
+for created profile types and their corresponding profile type colours.
+
+.. hint::
+
+   Hover over the |info-icon| icon located beside the profile type acronym in the **Profile Types Legend**, the
+   backronym for the profile type will be displayed.
+
+..  figure:: /assets/images/profile/profile_types_legend.png
+    :alt: Profile Types Legend
+    :align: center
+    :height: 50ex
+    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_types_legend.png
+    :class: with-shadow with-border
+
+    **Profile Types Legend: Various profiles types that can be created in COPO and their corresponding colours**
+
+.. raw:: html
+
+   <hr>
 
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
@@ -209,6 +281,7 @@ The following component types are currently defined:
 .. [#f4] See term: :term:`ASG`.
 .. [#f5] See term: :term:`DToL`.
 .. [#f6] See term: :term:`ERGA`.
+.. [#f7] See term: :term:`Profile Types legend`.
 
 ..
     Images declaration
@@ -217,6 +290,22 @@ The following component types are currently defined:
    :height: 4ex
    :class: no-scaled-link
 
+.. |down-arrow| image:: /assets/images/buttons/down_arrow.png
+   :height: 2ex
+   :class: no-scaled-link
+
+.. |info-icon| image:: /assets/images/buttons/info_icon.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
    :height: 4ex
+   :class: no-scaled-link
+
+.. |profile-sort-menu| image:: /assets/images/buttons/profile_sort_menu.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |up-arrow| image:: /assets/images/buttons/up_arrow.png
+   :height: 2ex
    :class: no-scaled-link

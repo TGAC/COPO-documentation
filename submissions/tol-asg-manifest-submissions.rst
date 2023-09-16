@@ -17,6 +17,8 @@ How to Submit ASG Manifests
 
 .. seealso::
   * :ref:`How to Update Samples <samples-update>`
+  * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
+  * :ref:`Accessions profile component <accessions-component-tol>`
 
 .. raw:: html
 
@@ -31,8 +33,8 @@ The Samples' web page can be accessed from the **Components** button or **Action
 
    <hr>
 
-Use Components' Button to Navigate to Files' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use Components' Button to Navigate to Samples' Web Page
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |samples-component-button| from
 the popup menu displayed as shown below:
@@ -49,17 +51,17 @@ the popup menu displayed as shown below:
 
    <hr>
 
-Use Actions' Button to Navigate to Files' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use Actions' Button to Navigate to Samples' Web Page
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action,
 **Submit DTOL/ASG manifest** action from the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_tol_profile_actions_asg.png
+.. figure:: /assets/images/profile/profile_tol_profile_actions_asg_submit_sample_manifest.png
   :alt: 'Submit DTOL/ASG manifest' profile action
   :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_asg.png
+  :height: 60ex
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_asg_submit_sample_manifest.png
   :class: with-shadow with-border
 
   **Tree of Life Profile Actions: 'Submit DTOL/ASG manifest' action**
@@ -68,9 +70,56 @@ Click the |profile-actions-button| button associated with a profile. Then, click
 
    <hr>
 
------------------------------------------------
+----------------------
 Submit ASG Manifest
------------------------------------------------
+----------------------
+
+.. hint::
+
+  To download an **ASG** manifest template, click the |blank-manifest-download-button| button.
+
+#. Click |add-asg-manifest-button| button to add a **ASG** manifest from your local (computer) system.
+
+    .. figure:: /assets/images/samples/asg/asg_pointer_to_add_manifest_button.png
+      :alt: Pointer to 'Add Sample(s) from DTOL/ASG Spreadsheet' button
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/asg/asg_pointer_to_add_manifest_button.png
+      :class: with-shadow with-border
+
+      **ASG manifest submission: Click 'Add Sample(s) from DTOL/ASG Spreadsheet' button**
+
+   .. raw:: html
+
+      <br>
+
+#. An **Upload Spreadsheet** dialogue is displayed. Click the **Upload Sample Manifest** button to choose a file from
+   your local system.
+
+    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :alt: Upload Spreadsheet dialogue
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :class: with-shadow with-border
+
+      **ASG manifest submission: 'Upload Spreadsheet' dialogue**
+
+   .. raw:: html
+
+      <br>
+
+#. The new sample(s) will be displayed on the **Samples** web page after a successful submission.
+
+    .. figure:: /assets/images/samples/asg/asg_samples_submitted.png
+      :alt: Sample(s) submitted
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/asg/asg_samples_submitted.png
+      :class: with-shadow with-border
+
+      **ASG manifest submission: Samples' web page displaying the uploaded sample(s)**
+
+    .. raw:: html
+
+       <br><br>
 
 .. raw:: html
 
@@ -89,6 +138,14 @@ Submit ASG Manifest
 ..
     Images declaration
 ..
+.. |add-asg-manifest-button| image:: /assets/images/buttons/add_asg_manifest_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |samples-component-button| image:: /assets/images/buttons/components_samples_button.png
    :height: 4ex
    :class: no-scaled-link

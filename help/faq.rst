@@ -52,8 +52,8 @@ How can I be added to a profile group?
     the type of profile group that you would like to be assigned to.
 
     The desired profile type will be displayed in the **Profile Type**
-    dropdown menu in the **Add Profile** form afterthe request has been
-    approvded.
+    dropdown menu in the **Add Profile** form after the request has been
+    approved.
 
 .. raw:: html
 
@@ -196,7 +196,6 @@ How can I accept or reject samples that users have submitted?
 
 ..  _warnings:
 
-
 .. warning::
     * If you have more than one permit ﬁle to upload, they **must** be uploaded at the
       same time i.e. after you have clicked the |upload-permits-button| button, navigate
@@ -210,7 +209,7 @@ How can I accept or reject samples that users have submitted?
    :height: 4ex
    :class: no-scaled-link
 
-.. |accessions-dashboard-button| image:: /assets/images/dashboard/dashboard_accessions_button.png
+.. |accessions-dashboard-button| image:: /assets/images/buttons/dashboard_accessions_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -230,7 +229,7 @@ How can I accept or reject samples that users have submitted?
    :height: 4ex
    :class: no-scaled-link
 
-.. |tol-dashboard-button| image:: /assets/images/dashboard/dashboard_tol_button.png
+.. |tol-dashboard-button| image:: /assets/images/buttons/dashboard_tol_button.png
    :height: 4ex
    :class: no-scaled-link
 

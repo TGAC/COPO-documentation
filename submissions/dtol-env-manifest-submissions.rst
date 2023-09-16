@@ -6,7 +6,8 @@ How to Submit DTOL_ENV Manifests
 
 .. note::
 
-  * **DTOL_ENV** MANIFEST submission can only be done via a :abbr:`ToL (Tree of Life)` [#f1]_ profile [#f2]_. Please see:
+  * Darwin Tree of Life Environmental (DToL_ENV) samples' manifest submission can only be done via a
+    :abbr:`ToL (Tree of Life)` [#f1]_ profile [#f2]_. Please see:
     :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
   * In the **Add Profile** form, the **Profile type** dropdown menu will only display the **Stand-alone** option when

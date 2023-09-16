@@ -147,7 +147,7 @@ Submit Reads
 ..
     Images declaration
 ..
-.. |add-reads-manifest-button| image:: /assets/images/buttons/download_button.png
+.. |add-reads-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -155,7 +155,7 @@ Submit Reads
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-blank-manifest-download-button| image:: /assets/images/buttons/reads_blank_manifest_download_button.png
+.. |reads-blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
    :height: 4ex
    :class: no-scaled-link
 

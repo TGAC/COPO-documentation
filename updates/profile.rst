@@ -50,7 +50,6 @@ to edit or delete a profile record will be displayed once clicked.
 Deleting Profiles
 ------------------------------
 
-
 .. note::
 
     * Deleting a profile will **not** delete the associated COPO user account. The user account will still be able to log

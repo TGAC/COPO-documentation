@@ -172,6 +172,10 @@ Glossary
 
      Templates for creating or describing research objects can be found :ref:`here <manifest_templates>`.
 
+   Profile Types legend
+        This describes the types of the profiles that have been created. It is located at the right of the *
+        *Work Profiles** web page.
+
    PyCharm
      A Python IDE (Integrated Development Environment) that provides code analysis, a graphical debugger,
      an integrated unit tester, integration with version control systems and supports web development with

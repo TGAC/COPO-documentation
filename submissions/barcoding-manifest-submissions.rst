@@ -1,4 +1,4 @@
-.. _barcoding-manifests:
+.. _barcoding-manifest-submissions:
 
 ==================================
 How to Submit Barcoding Manifests

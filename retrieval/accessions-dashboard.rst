@@ -4,7 +4,7 @@
 Retrieving Accessions
 =======================
 
-Successful submissions result in accessions being created. The accessions can be explored
+Approved submissions result in accessions being created. The accessions can be explored
 on the `Accessions' dashboard <https://copo-project.org/copo/dashboard/accessions>`__ ,
 on the `ENA browser <https://www.ebi.ac.uk/ena/browser/home>`__  [#f1]_ or
 `NCBI Biosamples <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f2]_  (after they become public).
@@ -19,7 +19,7 @@ The types of accessions that are created are:
    * Assembly accessions
    * Sequence annotation accessions
 
-* :abbr:`ToL (Tree of Life)` submissions
+* :abbr:`ToL (Tree of Life)` [#f3]_ submissions
    * Biosample accessions
    * SRA accessions
    * Submission accessions
@@ -55,11 +55,13 @@ The types of accessions that are created are:
 .. seealso::
   * :ref:`Stand-alone profile components <standalone-profile-components>`
   * :ref:`ToL profile components <tol-profile-components>`
+  * :ref:`Accessions profile component <accessions-component-tol>`
 
 
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`ENA`.
 .. [#f2] See term: :term:`NCBI`.
+.. [#f3] See term: :term:`Tree of Life (ToL) <ToL>`.
 
 
 ..
