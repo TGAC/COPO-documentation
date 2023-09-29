@@ -250,6 +250,10 @@ Click the desired file from the list of files displayed on the Files' web page. 
 
    <br>
 
+.. raw:: html
+
+   <hr>
+
 .. rubric:: Footnotes
 .. [#f1] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
 

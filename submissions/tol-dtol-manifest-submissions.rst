@@ -108,19 +108,59 @@ Submit DTOL Manifest
 
       <br>
 
-#. The new sample(s) will be displayed on the **Samples** web page after a successful submission.
+#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialogue as shown below. Click the
+   |finish-button| button to submit the samples.
 
-    .. figure:: /assets/images/samples/dtol/dtol_samples_submitted.png
-      :alt: Sample(s) submitted
+   A :ref:`Submit Samples dialogue <dtol-samples-web-page-with-submitted-samples>` is then displayed before the samples
+   can be submitted.
+
+    .. figure:: /assets/images/samples/dtol/samples_dtol_upload_spreadsheet_dialogue_with_uploaded_samples.png
+      :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/dtol_samples_submitted.png
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/samples_dtol_upload_spreadsheet_dialogue_with_uploaded_samples.png
       :class: with-shadow with-border
 
-      **DTOL manifest submission: Samples' web page displaying the uploaded sample(s)**
+      **DTOL manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
 
-    .. raw:: html
+.. raw:: html
 
-       <br><br>
+  <hr>
+
+Submit Images
+~~~~~~~~~~~~~~~~~~~~
+
+Follow the steps indicated :ref:`here <images-submission>` for image submission.
+
+.. raw:: html
+
+  <hr>
+
+.. _dtol-samples-web-page-with-submitted-samples:
+
+A **Submit Samples** confirmation dialogue is displayed. If you decide to confirm the samples submission, click
+the **Confirm** button.
+
+   .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
+     :alt: 'Submit Samples' confirmation dialogue
+     :align: center
+     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :class: with-shadow with-border
+
+     **DTOL manifest submission: 'Submit Samples' confirmation dialogue**
+
+The new sample(s) will be displayed on the **Samples** web page after the confirmation.
+
+   .. figure:: /assets/images/samples/dtol/dtol_samples_submitted.png
+     :alt: Sample(s) submitted
+     :align: center
+     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/dtol_samples_submitted.png
+     :class: with-shadow with-border
+
+     **DTOL manifest submission: Samples' web page displaying the submitted sample(s)**
+
+.. raw:: html
+
+   <br>
 
 .. raw:: html
 
@@ -144,6 +184,10 @@ Submit DTOL Manifest
    :class: no-scaled-link
 
 .. |blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |finish-button| image:: /assets/images/buttons/finish_button1.png
    :height: 4ex
    :class: no-scaled-link
 

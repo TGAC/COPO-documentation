@@ -418,7 +418,7 @@ Fetch Tree of Life (ToL) Projects Brokered by COPO
 This results in a list of all main/primary projects brokered by COPO.
 
 Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
-""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 

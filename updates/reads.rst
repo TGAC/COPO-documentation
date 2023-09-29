@@ -1,4 +1,4 @@
-.. _reads_update:
+.. _reads-update:
 
 ==============================
 Updating Reads

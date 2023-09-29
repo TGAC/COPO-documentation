@@ -32,7 +32,7 @@ The manifest wizard can be accessed via the **Prefilled template** download drop
    **Manifest web page: Manifest download template options -** ``Blank template`` **and** ``Prefilled template``
 
 Blank manifest templates can be downloaded via the **Blank template** dropdown menu option or from the
-:ref:`Download Manifest Templates<manifest_templates>` section.
+:ref:`Download Manifest Templates<manifest-templates>` section.
 
 .. raw:: html
 

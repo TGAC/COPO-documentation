@@ -107,6 +107,19 @@ Submit ASG Manifest
 
       <br>
 
+.. raw:: html
+
+  <hr>
+
+Submit Images
+~~~~~~~~~~~~~~~~~~~~
+
+Follow the steps indicated :ref:`here <images-submission>` for image submission.
+
+.. raw:: html
+
+  <hr>
+
 #. The new sample(s) will be displayed on the **Samples** web page after a successful submission.
 
     .. figure:: /assets/images/samples/asg/asg_samples_submitted.png

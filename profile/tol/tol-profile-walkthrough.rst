@@ -187,9 +187,9 @@ Steps to Create a Tree of Life Profile
 
 .. _tol-profile-components:
 
--------------------
-Profile Components
--------------------
+----------------------------------
+Tree of Life Profile Components
+----------------------------------
 
 A COPO profile defines a set of component types from which instances of research objects can be created.
 
@@ -197,6 +197,7 @@ The following component types are currently defined:
 
 #. :doc:`Samples <samples>`
 #. :doc:`Accessions <accessions-component-tol>`
+#. :doc:`Barcoding manifests <barcoding-manifest-component>`
 
 .. figure:: /assets/images/profile/profile_tol_profile_components.png
    :alt: Tree of Life profile components

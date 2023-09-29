@@ -1,4 +1,4 @@
-.. _tol-erga_manifest-submissions:
+.. _tol-erga-manifest-submissions:
 
 ==============================
 How to Submit ERGA Manifests
@@ -122,7 +122,7 @@ Submit ERGA Manifest
 #. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialogue as shown below. Click the
    |finish-button| button to submit the samples.
 
-   A :ref:`Submit Samples dialogue <samples-web-page-with-submitted-samples>` is then displayed before the samples
+   A :ref:`Submit Samples dialogue <erga-samples-web-page-with-submitted-samples>` is then displayed before the samples
    can be submitted.
 
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
@@ -137,110 +137,25 @@ Submit ERGA Manifest
 
   <hr>
 
-.. _images-submission:
-
 Submit Images
 ~~~~~~~~~~~~~~~~~~~~
 
-.. note::
-
-   * Permits can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialogue.
-
-   * Permits can only be submitted via a ToL profile. Please see: :ref:`Steps to Create a Tree of Life Profile
-     <tol-profile-walkthrough>`for guidance.
-
-   * The filename of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
-     ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the file.
-
-
-#. The images table is empty under the **Sample Images** tab in the **Upload Spreadsheet** dialogue.
-
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_images_uploaded.png
-      :alt: Upload Spreadsheet dialogue with no image uploaded
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_images_uploaded.png
-      :class: with-shadow with-border
-
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with no permits uploaded**
-
-#. The images table is populated with the permits uploaded under the **Sample Images** tab in the
-   **Upload Spreadsheet** dialogue. Click the |finish-button| button to submit the images and samples.
-
-   A :ref:`Submit Samples dialogue <samples-web-page-with-submitted-samples>` is then displayed before the samples
-   can be submitted.
-
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_images_uploaded.png
-      :alt: Upload Spreadsheet dialogue with image(s) uploaded
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_images_uploaded.png
-      :class: with-shadow with-border
-
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with image(s) uploaded**
-
+Follow the steps indicated :ref:`here <images-submission>` for image submission.
 
 .. raw:: html
 
   <hr>
-
-.. _permits-submission:
 
 Submit Permits
 ~~~~~~~~~~~~~~~~~~~~
 
-.. note::
-
-   * Permits can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialogue.
-
-   * Permits can only be submitted via a :abbr:`ToL (Tree of Life)` [#f2]_ profile [#f3]_. Please see:
-     :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
-
-.. warning::
-    * If you have more than one permit ﬁle to upload, they **must** be uploaded at the
-      same time i.e. after you have clicked the |upload-permits-button| button, navigate
-      to the directory where the permits are stored and ``CTRL + click`` all of the
-      permits so that all the permits are highlighted and uploaded at the same time.
-
-
-#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialogue as shown below. Click the
-   |upload-permits-button| button to browse your local (computer) system for ``.pdf`` permits for the samples.
-
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples_permits_required.png
-      :alt: Upload Spreadsheet dialogue with uploaded samples
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples_permits_required.png
-      :class: with-shadow with-border
-
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
-
-#. The permits table is empty under the **Sample Permits** tab in the **Upload Spreadsheet** dialogue.
-
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_permits_uploaded.png
-      :alt: Upload Spreadsheet dialogue with no permits uploaded
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_permits_uploaded.png
-      :class: with-shadow with-border
-
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with no permits uploaded**
-
-#. The permits table is populated with the permits uploaded under the **Sample Permits** tab in the
-   **Upload Spreadsheet** dialogue. Click the |finish-button| button to submit the permits and samples.
-
-   A :ref:`Submit Samples dialogue <samples-web-page-with-submitted-samples>` is then displayed before the samples
-   can be submitted.
-
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_permits_uploaded.png
-      :alt: Upload Spreadsheet dialogue with permits uploaded
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_permits_uploaded.png
-      :class: with-shadow with-border
-
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with permits uploaded**
+Follow the steps indicated :ref:`here <permits-submission>` for permit submission.
 
 .. raw:: html
 
   <hr>
 
-.. _samples-web-page-with-submitted-samples:
+.. _erga-samples-web-page-with-submitted-samples:
 
 A **Submit Samples** confirmation dialogue is displayed. If you decide to confirm the samples submission, click
 the **Confirm** button.
@@ -292,7 +207,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
    :height: 4ex
    :class: no-scaled-link
 
-.. |finish-button| image:: /assets/images/buttons/finish_button.png
+.. |finish-button| image:: /assets/images/buttons/finish_button1.png
    :height: 4ex
    :class: no-scaled-link
 

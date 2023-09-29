@@ -122,6 +122,29 @@ Submit Assembly
 How to Delete Assemblies
 ===================================
 
+Click the desired assembly from the list of assemblies displayed on the **Assembly** web page. Then, click the **Delete** button
+(located in the top-right corner of the table) as shown below:
+
+.. figure:: /assets/images/assemblies/assemblies_pointer_to_delete_assembly_button.png
+  :alt: Delete assemblies button
+  :align: center
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/assemblies/assemblies_pointer_to_delete_assembly_button.png
+  :class: with-shadow with-border
+
+  **Assembly deletion: Click the "Delete" button to remove the highlighted assembly from the profile**
+
+.. figure:: /assets/images/assemblies/assemblies_deleted.png
+  :alt: Assemblies deleted successfully
+  :align: center
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/assemblies/assemblies_deleted.png
+  :class: with-shadow with-border
+
+  **Assembly deletion: Assembly record has been deleted**
+
+.. raw:: html
+
+   <br>
+
 .. raw:: html
 
    <hr>

@@ -11,8 +11,12 @@ How to Submit Reads
 
   * Once **Reads** have been submitted, they cannot be deleted.
 
+  * Files must be uploaded before a **Reads** manifest can be submitted.
+
 .. seealso::
-  * :ref:`How to Update Reads <reads_update>`
+
+  * :ref:`How to Update Reads <reads-update>`
+  * :ref:`How to Submit Files <files>`
 
 .. raw:: html
 
@@ -65,7 +69,7 @@ from the popup menu displayed as shown below:
    <hr>
 
 -------------
-Submit Reads
+Upload Reads
 -------------
 
 .. hint::
@@ -96,13 +100,13 @@ Submit Reads
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_pointer_to_add_reads_manifest_button.png
       :class: with-shadow with-border
 
-      **Reads' submission: Click 'Add Reads' from Spreadsheet' button**
+      **Reads' upload: Click 'Add Reads' from Spreadsheet' button**
 
    .. raw:: html
 
       <br>
 
-#. An **Upload Read Manifest** dialogue is displayed. Click the **Upload Read Manifest** button to choose a file from
+#. An **Upload Read Manifest** dialogue is displayed. Click the |reads-upload-button| button to choose a file from
    your local system.
 
     .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue.png
@@ -111,7 +115,22 @@ Submit Reads
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue.png
       :class: with-shadow with-border
 
-      **Reads' submission: 'Upload Read Manifest' dialogue**
+      **Reads' upload: 'Upload Read Manifest' dialogue**
+
+   .. raw:: html
+
+      <br>
+
+#. The uploaded manifest is shown in a table in the **Upload Read Manifest** dialogue as shown below. Click the
+   |reads-finish-button| button to submit the reads manifest.
+
+    .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :alt: Upload Read Manifest dialogue
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :class: with-shadow with-border
+
+      **Reads' upload: 'Upload Read Manifest' dialogue with uploaded manifest**
 
    .. raw:: html
 
@@ -119,18 +138,57 @@ Submit Reads
 
 #. The new read(s) will be displayed on the **Reads** web page after a successful submission.
 
+    .. hint::
+
+       Reads records that are highlighted **yellow** indicate that the records are pending submission. The records will
+       be highlighted **green** after a successful submission.
+
     .. figure:: /assets/images/reads/reads_uploaded.png
       :alt: Read(s) submitted
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_uploaded.png
       :class: with-shadow with-border
 
-      **Reads' submission: Reads' web page displaying the uploaded read(s)**
+      **Reads' upload: Reads' web page displaying the uploaded read(s)**
 
     .. raw:: html
 
-       <br><br>
+       <br>
 
+.. raw:: html
+
+   <hr>
+
+-------------
+Submit Reads
+-------------
+
+.. hint::
+
+   The submitted read record will be highlighted **green**.
+
+Click the desired reads records from the list of reads displayed on the **Reads'** web page. Then, click the **Submit** button
+(located in the top-right corner of the table) as shown below:
+
+.. figure:: /assets/images/reads/reads_pointer_to_submit_reads_button.png
+  :alt: Submit reads button
+  :align: center
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_pointer_to_submit_reads_button.png
+  :class: with-shadow with-border
+
+  **Reads submission: Click the "Submit" button to submit the highlighted read from the profile**
+
+.. figure:: /assets/images/reads/reads_submitted.png
+  :alt: Reads submitted successfully
+  :align: center
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_submitted.png
+  :class: with-shadow with-border
+
+  **Reads submission: The Read has been submitted**
+
+.. raw:: html
+
+   <br>
 
 .. raw:: html
 
@@ -152,6 +210,14 @@ Submit Reads
    :class: no-scaled-link
 
 .. |reads-component-button| image:: /assets/images/buttons/components_reads_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |reads-finish-button| image:: /assets/images/buttons/finish_button2.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |reads-upload-button| image:: /assets/images/buttons/reads_upload_button.png
    :height: 4ex
    :class: no-scaled-link
 

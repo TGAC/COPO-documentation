@@ -33,13 +33,15 @@ links to find instructions specific to your needs.
    :caption: Tree of Life Submissions
    :name: tol-submissions
 
-   profile/tol/tol-profile-walkthrough-index
+   profile/tol/tol-profile-walkthrough
    submissions/tol-general-submission-guide
    submissions/tol-asg-manifest-submissions
    submissions/barcoding-manifest-submissions
    submissions/tol-dtol-manifest-submissions
    submissions/dtol-env-manifest-submissions
    submissions/tol-erga-manifest-submissions
+   submissions/images
+   submissions/permits
 
 .. toctree::
    :caption: COPO Data Updates

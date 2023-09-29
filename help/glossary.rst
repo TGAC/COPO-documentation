@@ -170,7 +170,7 @@ Glossary
    Profile component
      Also known as *research object*. It forms part of a research project or study.
 
-     Templates for creating or describing research objects can be found :ref:`here <manifest_templates>`.
+     Templates for creating or describing research objects can be found :ref:`here <manifest-templates>`.
 
    Profile Types legend
         This describes the types of the profiles that have been created. It is located at the right of the *

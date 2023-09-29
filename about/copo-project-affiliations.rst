@@ -47,7 +47,7 @@ Secondary Projects
 .. seealso::
 
    :ref:`Standard Operating Procedure (SOP) for the various projects <fill-blank-manifests>`
-   :ref:`Manifest template for the projects <manifest_templates>`
+   :ref:`Manifest template for the projects <manifest-templates>`
 
 .. raw:: html
 

@@ -75,9 +75,9 @@ Server will start at http://127.0.0.1:8000
 To render locally with automatic rebuild when changes are made and open the homepage of the generated 
 documentation in the default browser on a specific port:
 
-$ `sphinx-autobuild --port=8001 --open-browser ./ _build/html`
+$ `sphinx-autobuild --port=8002 --open-browser ./ _build/html`
 
-Server will start at http://127.0.0.1:8001
+Server will start at http://127.0.0.1:8002
 
 **OR**
 
@@ -94,7 +94,7 @@ $ ``sphinx-build -b html . _buildinternal/``
 
 Full build command: $ `make clean htmlinternal`
 View browser:  `_buildinternal/html/index.html` or via `http://localhost:63342/documentation/_buildinternal/html/index.html`
-Automatic rebuild: $ `sphinx-autobuild --port=8001 --open-browser ./ _buildinternal/html` or $ `make htmlinternallive`
+Automatic rebuild: $ `sphinx-autobuild --port=8002 --open-browser ./ _buildinternal/html` or $ `make htmlinternallive`
 
 ---
 
@@ -112,9 +112,9 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 **Issue #3**: `OSError: [Errno 98] Address already in use`
-**Solution #3**: $ `sudo lsof -i TCP:8001 | grep LISTEN | awk '{print $2}' | xargs kill -9`
+**Solution #3**: $ `sudo lsof -i TCP:8002 | grep LISTEN | awk '{print $2}' | xargs kill -9`
 
-NB. `8001` is the port number. The solution above will kill the process running on that port.
+NB. `8002` is the port number. The solution above will kill the process running on that port.
 
 ---
 

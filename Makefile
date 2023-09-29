@@ -33,7 +33,7 @@ htmlinternal:
 htmllive:
 	@echo "Automatically building docs"
 	@mkdir -p $(BUILDDIR)
-	@$(SPHINXAUTOBUILD) --port=8001 --open-browser "$(SOURCEDIR)"/ "$(BUILDDIR)"
+	@$(SPHINXAUTOBUILD) --port=8002 --open-browser "$(SOURCEDIR)"/ "$(BUILDDIR)"
 	@echo
 	@echo "The HTML pages are in $(BUILDDIR)/html."
 
@@ -43,7 +43,7 @@ htmllive:
 htmlinternallive:
 	@echo "Automatically building internal docs"
 	@mkdir -p $(INTERNALBUILDDIR)
-	@$(SPHINXAUTOBUILD) --port=8001 --open-browser "$(SOURCEDIR)"/ "$(INTERNALBUILDDIR)"
+	@$(SPHINXAUTOBUILD) --port=8002 --open-browser "$(SOURCEDIR)"/ "$(INTERNALBUILDDIR)"
 	@echo
 	@echo "The internal HTML pages are in $(INTERNALBUILDDIR)/html."
 
