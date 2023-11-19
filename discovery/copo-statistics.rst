@@ -14,8 +14,10 @@ and can be accessed on the `Statistics web page <https://copo-project.org/copo/s
 ---------------------------
 Statistics over Time
 ---------------------------
+
 `Statistics <https://copo-project.org/copo/stats/time_series>`__ can be generated for the following research object
 elements over time:
+
 * Samples
 * Datafiles
 * Profiles
@@ -50,8 +52,10 @@ samples over time**
 ---------------------------
 Statistics by Variable
 ---------------------------
+
 `Statistics <https://copo-project.org/copo/stats/variable_histogram>`__ can be generated for the number of samples
 submitted based on the research elements or variables such as -
+
 * Date of Collection
 * Sex
 * Harzard Group

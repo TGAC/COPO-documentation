@@ -1,7 +1,7 @@
 .. _barcoding-manifest-submissions:
 
 ==================================
-How to Submit Barcoding Manifests
+Barcoding Manifest Submission
 ==================================
 
 .. note::
@@ -15,19 +15,22 @@ How to Submit Barcoding Manifests
 
 .. seealso::
 
+  * :ref:`How to Delete Barcoding Manifests <barcoding-manifests-deletion>`
   * :ref:`How to Submit Aquatic Symbiosis Genomics (ASG) samples <tol-asg-manifest-submissions>`
   * :ref:`How to Submit Darwin Tree of Life (DToL) samples <tol-dtol-manifest-submissions>`
   * :ref:`How to Submit Darwin Tree of Life Environmental (DToL_ENV) samples <dtol-env-manifest-submissions>`
   * :ref:`How to Submit European Reference Genome Atlas (ERGA) samples <tol-erga-manifest-submissions>`
-  * :ref:`How to Delete Barcoding Manifests <barcoding-manifests-deletion>`
+
 
 .. raw:: html
 
    <hr>
 
-------------------------------------------------
+How to Submit Barcoding Manifests
+----------------------------------
+
 Accessing the Barcoding Manifest Web Page
-------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **Barcoding Manifest** web page can be accessed from the **Components** button or **Actions** button associated with a profile.
 
@@ -36,7 +39,7 @@ The **Barcoding Manifest** web page can be accessed from the **Components** butt
    <hr>
 
 Use Components' Button to Navigate to Barcoding Manifest Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |barcoding-manifest-component-button| from
 the popup menu displayed as shown below:
@@ -54,7 +57,7 @@ the popup menu displayed as shown below:
    <hr>
 
 Use Actions' Button to Navigate to Barcoding Manifest Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Barcoding Manifest** action
 from the popup menu displayed as shown below:
@@ -76,9 +79,9 @@ from the popup menu displayed as shown below:
 
    <hr>
 
--------------------------
+
 Upload Barcoding Manifest
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. hint::
 
@@ -167,9 +170,9 @@ Upload Barcoding Manifest
 
    <hr>
 
----------------------------
+
 Submit Barcoding Manifests
----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. hint::
 
@@ -200,9 +203,9 @@ Click the desired barcoding manifests records from the list of barcoding manifes
 
 .. _barcoding-manifests-deletion:
 
-===================================
+
 How to Delete Barcoding Manifests
-===================================
+-----------------------------------
 
 .. note::
 
@@ -233,7 +236,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 ..
     Images declaration
@@ -242,7 +245,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
    :height: 4ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
+.. |barcoding-manifest-blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -13,8 +13,8 @@ The fields that can be updated with that method are listed below.
 
 .. hint::
 
-   Collapse the list of fields that can be updated by for instance, clicking the **List of ASG project fields that
-   can be updated** item below.
+   To view a list of fields that can be updated, collapse the list of fields that can be updated by clicking the
+   |collapsible-item-arrow| button below.
 
 .. note::
 
@@ -115,7 +115,9 @@ The fields that can be updated with that method are listed below.
       * ASSOCIATED_TRADITIONAL_KNOWLEDGE_OR_BIOCULTURAL_PROJECT_ID
       * ASSOCIATED_TRADITIONAL_KNOWLEDGE_OR_BIOCULTURAL_RIGHTS_APPLICABLE
       * BARCODE_HUB
+      * BARCODING_STATUS
       * BARCODE_PLATE_PRESERVATIVE
+      * BIOBANKED_TISSUE_PRESERVATIVE
       * COLLECTED_BY
       * COLLECTION_LOCATION
       * COLLECTOR_AFFILIATION
@@ -130,7 +132,7 @@ The fields that can be updated with that method are listed below.
       * DESCRIPTION_OF_COLLECTION_METHOD
       * DIFFICULT_OR_HIGH_PRIORITY_SAMPLE
       * DNA_REMOVED_FOR_BIOBANKING
-      * DNA_VOUCHER_FOR_BIOBANKING
+      * DNA_VOUCHER_ID_FOR_BIOBANKING
       * ELEVATION
       * ETHICS_PERMITS_DEF
       * ETHICS_PERMITS_FILENAME
@@ -163,6 +165,9 @@ The fields that can be updated with that method are listed below.
       * PRESERVATIVE_SOLUTION
       * PRESERVED_BY
       * PRESERVER_AFFILIATION
+      * PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING
+      * PROXY_VOUCHER_ID
+      * PROXY_VOUCHER_LINK
       * PURPOSE_OF_SPECIMEN
       * REGULATORY_COMPLIANCE
       * RELATIONSHIP
@@ -187,37 +192,13 @@ The fields that can be updated with that method are listed below.
       * TISSUE_VOUCHER_ID_FOR_BIOBANKING
       * TUBE_OR_WELL_ID_FOR_BARCODING
       * VOUCHER_ID
+      * VOUCHER_INSTITUTION
+      * VOUCHER_LINK
 
 .. raw:: html
 
    <br>
-   <hr>
 
-Updating Taxonomy
----------------------------
-
-To update the scientific name for a (ASG/DTOL) sample, please make an email request to the
-:email:`COPO team <ei.copo@earlham.ac.uk>` providing the **biosampleAccession** and the new **SCIENTIFIC_NAME** to be
-updated.
-
-.. note::
-
-   * The new value for the **SCIENTIFIC_NAME** field must be a valid scientific name and must be present in the NCBI
-     [#f2]_ Taxonomy database.
-   * ``<biosampleAccession>`` is the unique identifier for the sample in ENA.
-   * ``<SCIENTIFIC_NAME>`` is the new scientific name for the sample.
-
-Please make the request in the following format:
-
-.. code-block:: none
-   :caption: Format to make scientific name update
-
-   <biosampleAccession>:<SCIENTIFIC_NAME>
-
-
-.. raw:: html
-
-   <br>
 
 .. rubric:: Footnotes
 
@@ -226,3 +207,11 @@ Please make the request in the following format:
 .. [#f3] See term: :term:`ASG`.
 .. [#f4] See term: :term:`DToL`.
 .. [#f5] See term: :term:`ERGA`.
+
+
+..
+    Images declaration
+..
+.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+   :height: 2ex
+   :class: no-scaled-link

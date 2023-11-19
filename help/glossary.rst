@@ -23,6 +23,12 @@ Glossary
    Biocuration
      The extraction of unstructured biological data from manifests into a structured, computable form.
 
+   Compliance field
+        A compliance field in COPO is a field that is used to check whether the user has entered the correct
+        information. It is usually a field that is required to be filled in.
+
+        Compliance fields cannot be updated once a manifest has been uploaded and approved by a sample manager.
+
    :abbr:`COPO (Collaborative OPen Omics)`
      `COPO <https://copo-project.org>`__ is a web-based tool for creating and managing metadata for research objects.
 
@@ -137,6 +143,9 @@ Glossary
      regarding a research object.
 
      The manifest is used by scientists to upload metadata into COPO.
+
+   Manifest Checklist
+      A list of fields that are required to be filled in for a sample to be considered valid.
 
    Manifest :abbr:`ID (Identification)`
      A unique identifier assigned to each manifest record in COPO.

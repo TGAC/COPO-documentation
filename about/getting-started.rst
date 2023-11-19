@@ -8,8 +8,8 @@ Collaborative OPen Omics (COPO) is a website portal where scientists describe th
 processed data, reads, samples, images etc.) using community-sanctioned metadata sets and vocabularies [#f1]_.
 
 As a metadata broker, COPO encourages data generators to adhere to
-:abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)` [#f2]_ when submitting research objects, using semantic
-terms to add meaning to them and specify relationships between them.
+:abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)` [#f2]_ principles when submitting research objects,
+using semantic terms to add meaning to them and specify relationships between them.
 
 COPO uses public or institutional repositories like
 `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
@@ -17,10 +17,18 @@ COPO uses public or institutional repositories like
 research objects to the wider scientific community.
 
 COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`_.
-Contributions are welcomed in the `GitHub repository <https://github.com/collaborative-open-plant-omics/COPO>`__.
+Contributions are welcomed in the `GitHub repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
 
 Visit the `COPO website <https://copo-project.org/>`__  to make manifest submissions. An ORCID ID is required to
 access the application.
+
+The website requires cookies, fonts and the limited processing of your personal data in order to function well. By using
+the portal you are consenting to this. To find out more about how COPO uses cookies and your personal data, please see
+our :ref:`privacy-notice` and :ref:`terms-of-use`.
+
+.. raw:: html
+
+   <br>
 
 .. hint::
 
@@ -34,7 +42,20 @@ access the application.
 Accessing COPO Website
 ---------------------------
 
-Navigate to `COPO website <https://copo-project.org/>`__.
+There are two ways to access the COPO website: **Demo** mode and **Production** mode.
+
+Navigate to `COPO live website <https://copo-project.org/>`__ to access the production mode **or** navigate to the
+`COPO demo website <https://demo.copo-project.org/>`__ to access the demonstration mode.
+
+.. note::
+
+   * **Production mode** is the live version of the COPO application. It is recommended to submit real data to the
+     production mode because the submissions are made to the final repository.
+
+   * **Demo mode** is a testing environment for the COPO application. It is not recommended to submit real data to the
+     demo mode because any submissions done are considered test submissions and there will be no submissions to
+     the final repository.
+
 
 ..  figure:: /assets/images/copo-homepage1.png
     :alt: COPO homepage
@@ -42,6 +63,8 @@ Navigate to `COPO website <https://copo-project.org/>`__.
     :class: with-shadow with-border
 
 **COPO homepage: Click** ``Submit Data`` **button to proceed to the ORCID sign-in form (as shown below)**
+
+Alternatively, click ``Try Demo`` button to access the demo mode.
 
 .. raw:: html
 
@@ -73,7 +96,8 @@ If the login is successful, a redirection is made to the COPO application.
    <hr>
 
 .. rubric:: Footnotes
-.. [#f1] :abbr:`SOPs (Standard Operating Procedures)` guide the metadata sets and vocabularies
+
+.. [#f1] :abbr:`SOPs (Standard Operating Procedures)` guide the metadata sets and vocabularies for manifests.
          See: :ref:`SOP guidelines <fill-blank-manifests>`.
 .. [#f2] See: :ref:`COPO FAIR data principles <fair-data-principles>`.
 

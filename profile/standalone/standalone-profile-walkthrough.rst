@@ -40,6 +40,7 @@ Steps to Create a Stand-alone Profile
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
+      :height: 400px
 
       **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
       submissions**
@@ -51,6 +52,7 @@ Steps to Create a Stand-alone Profile
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :class: with-shadow with-border
+      :height: 400px
 
       **Stand-alone Profile: Add profile form dialogue**
 
@@ -99,17 +101,18 @@ A COPO profile defines a set of component types from which instances of research
 
 The following component types are currently defined:
 
+   #. :ref:`Accessions <accessions-component>`
+   #. :ref:`Assembly <assemblies>`
    #. :ref:`Files <files>`
    #. :ref:`Reads <reads>`
-   #. :ref:`Assembly <assemblies>`
    #. :ref:`Sequence Annotations <sequence-annotations>`
-   #. :doc:`Accessions <accessions-component-standalone>`
 
    .. figure:: /assets/images/profile/profile_standalone_profile_components.png
       :alt: Stand-alone profile components
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components.png
       :class: with-shadow with-border
+      :height: 650px
 
       **Stand-alone Profile Components**
 
@@ -125,7 +128,7 @@ The following component types are currently defined:
    <br>
 
 .. rubric:: Footnotes
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 .. [#f2] Research objects refer to files, reads, assemblies, files and sequence annotations. A Stand-alone profile is
    considered as a *project* research object. See: :term:`Profile component`.
 

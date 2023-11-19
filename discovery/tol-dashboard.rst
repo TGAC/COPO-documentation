@@ -4,26 +4,30 @@
 Tree of Life Dashboard
 ========================
 
-The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
+The Tree of Life (ToL) dashboard can be explored on the
 `Tol dashboard web page <https://copo-project.org/copo/dashboard/tol>`__ .
 
 .. note::
-  You need to be logged in order to access the Tree of Life dashboard.
+
+   Few information will be displayed on the Tree of Life dashboard if you are not logged into COPO.
 
 .. hint::
-  * The Tree of Life dashboard provides an overview of COPO statistics, ToL inspection, manifest submission
-    and world map of GALs and partners.
+
+  * The Tree of Life dashboard provides an overview of COPO statistics, abbr:`ToL(Tree of Life)` [#f1]_ inspection,
+    manifest submission and world map of Genome Acquisition Labs (GAL)s and partners.
 
   * Click a card item on the dashboard to explore the data further.
+
+  * Click a map location on the world map to view more details about a GAL or Partner.
 
 .. raw:: html
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol_web_page1.png
+.. figure:: /assets/images/dashboard/dashboard_tol1.png
   :alt: Tree of Life dashboard 1.1
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol_web_page1.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol1.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Overview of COPO statistics and ToL inspection**
@@ -32,13 +36,30 @@ The :abbr:`ToL(Tree of Life)` [#f1]_ dashboard can be explored on the
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol_web_page2.png
+.. figure:: /assets/images/dashboard/dashboard_tol2.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol_web_page2.png
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol2.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Geographical location of all GALs and Partners and an overview of manifest submissions**
+
+.. raw:: html
+
+   <br>
+
+.. figure:: /assets/images/dashboard/dashboard_tol_world_map_with_popup_dialogue.png
+  :alt: Tree of Life dashboard 1.2
+  :align: center
+  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_tol_world_map_with_popup_dialogue.png
+  :class: with-shadow with-border
+
+  **ToL Dashboard: Popup dialogue with more information about one of the GALs**
+
+  To view more details about a GAL or Partner, click one of the map locations on the world map.
+
+  A popup dialogue will be displayed information about the GAL or Partner such as name, state, country, and number
+  of samples produced.
 
 .. raw:: html
 
@@ -57,7 +78,7 @@ and facilitates search faceting and data discovery of the results.
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/tol_inspection/tol_inspection_web_page.png
   :class: with-shadow with-border
 
-  **ToL Inspection web page**
+  **Tree of Life (ToL) Inspection web page**
 
 -------------------------------------------------
 Tree of Life Inspection by Genome Acquisition Lab
@@ -72,7 +93,7 @@ profile records by GALs [#f2]_  based on their taxonomy.
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
   :class: with-shadow with-border
 
-  **ToL Inspection by GAL web page**
+  **Tree of Life (ToL) Inspection by Genome Acquisition Lab (GAL) web page**
 
 .. raw:: html
 

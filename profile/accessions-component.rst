@@ -1,4 +1,6 @@
-.. _accessions-component-tol:
+:orphan:
+
+.. _accessions-component:
 
 ===========
 Accessions

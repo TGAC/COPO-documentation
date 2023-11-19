@@ -1,13 +1,10 @@
 .. _sequence-annotations:
 
 ===================================
-How to Submit Sequence Annotations
+Sequence Annotations Submission
 ===================================
 
 .. note::
-
-  * **Sequence Annotations'** [#f1]_ submission can only be done via a Stand-alone profile [#f2]_. Please see:
-    :ref:`Steps to Create a Stand-alone Profile <standalone-profile-walkthrough>` for guidance.
 
   * Reads must be uploaded before a **Sequence Annotation** can be submitted.
 
@@ -20,18 +17,21 @@ How to Submit Sequence Annotations
 
    <hr>
 
+How to Submit Sequence Annotations
+------------------------------------
 
 Accessing the Sequence Annotations' Web Page
---------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Sequence Annotations'** web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+The **Sequence Annotations'** [#f1]_ web page can be accessed from the **Components** button or **Actions** button
+associated with a profile [#f2]_.
 
 .. raw:: html
 
    <hr>
 
 Use Components' Button to Navigate to Sequence Annotations' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |sequence-annotations-component-button| from
 the popup menu displayed as shown below:
@@ -41,6 +41,7 @@ the popup menu displayed as shown below:
   :align: center
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
   :class: with-shadow with-border
+  :height: 600px
 
   **Stand-alone Profile Components: Sequence Annotations' component button**
 
@@ -49,7 +50,7 @@ the popup menu displayed as shown below:
    <hr>
 
 Use Actions' Button to Navigate to Sequence Annotations' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Annotation** action
 from the popup menu displayed as shown below:
@@ -68,7 +69,7 @@ from the popup menu displayed as shown below:
    <hr>
 
 Submit Sequence Annotations
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click |add-sequence-annotations-button| button to add **Sequence Annotations'** as shown below:
 
@@ -153,9 +154,8 @@ Submit Sequence Annotations
 
 .. _sequence-annotations-deletion:
 
-===================================
 How to Delete Sequence Annotations
-===================================
+-----------------------------------
 
 .. note::
 
@@ -190,7 +190,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 
 .. rubric:: Footnotes
 .. [#f1] See: :term:`Sequence Annotation`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 .. raw:: html
 

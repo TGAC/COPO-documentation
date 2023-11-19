@@ -1,31 +1,24 @@
 .. _files:
 
 =====================
-How to Submit Files
+Files Submission
 =====================
 
-.. note::
-  Files' submission can only be done via a Stand-alone profile [#f1]_. Please see:
-  :ref:`Steps to Create a Stand-alone Profile <standalone-profile-walkthrough>` for guidance.
-
-.. seealso::
-  * :ref:`How to Delete Files <files-deletion>`
-
-.. raw:: html
-
-   <hr>
-
+How to Submit Files
 ------------------------------
+
 Accessing the Files' Web Page
-------------------------------
-The Files' web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The Files' web page can be accessed from the **Components** button or **Actions** button associated with a
+profile [#f1]_.
 
 .. raw:: html
 
    <hr>
 
 Use Components' Button to Navigate to Files' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |files-component-button| from
 the popup menu displayed as shown below:
@@ -35,6 +28,7 @@ the popup menu displayed as shown below:
   :align: center
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_files.png
   :class: with-shadow with-border
+  :height: 600px
 
   **Stand-alone Profile Components: Files component button**
 
@@ -43,7 +37,7 @@ the popup menu displayed as shown below:
    <hr>
 
 Use Actions' Button to Navigate to Files' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action, **Upload Files** action
 from the popup menu displayed as shown below:
@@ -61,9 +55,9 @@ from the popup menu displayed as shown below:
 
    <hr>
 
------------------------------------------------
+
 Submit Files from your Local (Computer) System
------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click the |add-files-via-computer-button| button on the Files web page to add a new file by browsing your
    local file system
@@ -117,9 +111,8 @@ Submit Files from your Local (Computer) System
 
    <hr>
 
-------------------------------
 Submit Files via the Terminal
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Click the |add-files-via-terminal-button| button on the Files web page to add a new file from a cluster via the
    terminal.
@@ -144,6 +137,7 @@ Submit Files via the Terminal
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue.png
       :class: with-shadow with-border
+      :height: 400px
 
       **Files submission: Move Data dialogue**
 
@@ -164,6 +158,7 @@ Submit Files via the Terminal
         :align: center
         :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details1.png
         :class: with-shadow with-border
+        :height: 400px
 
         **Move Data dialogue: Input the filename(s) returned after having ran the** $ ``ls - F1`` **command in the
         terminal. Then, click the** ``Process`` **button.**
@@ -177,6 +172,7 @@ Submit Files via the Terminal
         :align: center
         :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details2.png
         :class: with-shadow with-border
+        :height: 400px
 
         **Move Data dialogue: Command outputted after having clicked command in the** ``Process`` **button. Copy the
         command displayed.**
@@ -201,12 +197,12 @@ Submit Files via the Terminal
    after the command has been executed successfully in the terminal.
 
     .. figure:: /assets/images/files/files_uploaded2.png
-      :alt: Files submitted
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_uploaded2.png
-      :class: with-shadow with-border
+       :alt: Files submitted
+       :align: center
+       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_uploaded2.png
+       :class: with-shadow with-border
 
-      **Files submission: Files' web page displaying the uploaded file(s)**
+       **Files submission: Files' web page displaying the uploaded file(s)**
 
     .. raw:: html
 
@@ -214,8 +210,8 @@ Submit Files via the Terminal
 
     .. hint::
 
-      To add more files via the terminal, click the |add-files-via-terminal-button1| button (once files have been
-      submitted to the profile) as an alternative to clicking the |add-files-via-terminal-button| button.
+       To add more files via the terminal, click the |add-files-via-terminal-button1| button (once files have been
+       submitted to the profile) as an alternative to clicking the |add-files-via-terminal-button| button.
 
 .. raw:: html
 
@@ -223,9 +219,9 @@ Submit Files via the Terminal
 
 .. _files-deletion:
 
-=====================
+
 How to Delete Files
-=====================
+--------------------
 
 Click the desired file from the list of files displayed on the Files' web page. Then, click the **Delete** button
 (located in the top-right corner of the table) as shown below:
@@ -255,7 +251,8 @@ Click the desired file from the list of files displayed on the Files' web page. 
    <hr>
 
 .. rubric:: Footnotes
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 .. raw:: html
 

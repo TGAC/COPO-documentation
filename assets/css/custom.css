@@ -1,3 +1,12 @@
-span.underline {
+.underline {
     text-decoration: underline;
+}
+
+.text-indent {
+  text-indent: 1em;
+}
+
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+  white-space: normal;
 }

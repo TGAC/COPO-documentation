@@ -55,7 +55,7 @@ The types of accessions that are created are:
 .. seealso::
   * :ref:`Stand-alone profile components <standalone-profile-components>`
   * :ref:`ToL profile components <tol-profile-components>`
-  * :ref:`Accessions profile component <accessions-component-tol>`
+  * :ref:`Accessions profile component <accessions-component>`
 
 
 .. rubric:: Footnotes

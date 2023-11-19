@@ -5,6 +5,7 @@ Projects Brokered through COPO
 ---------------------------------------
 
 .. hint::
+
    * Primary projects are also known as umbrella projects or main projects and are the main focus of the project.
      In COPO, primary projects are regarded as **Profile type** or :abbr:`ToL(Tree of Life)` [#f1]_ project.
 
@@ -24,6 +25,8 @@ Primary Projects
    * European Reference Genome Atlas (ERGA) [#f4]_
    * Stand-alone
 
+.. _copo-project-associated-projects:
+
 ~~~~~~~~~~~~~~~~~~
 Secondary Projects
 ~~~~~~~~~~~~~~~~~~
@@ -38,6 +41,7 @@ Secondary Projects
 
    * Biodiversity Genomics Europe (BGE)
    * European Reference Genome Atlas - Pilot (ERGA_PILOT)
+   * European Reference Genome Atlas - Satellites (ERGA_SATELLITES)
    * Population Genomics (POP_GENOMICS)
 
 .. raw:: html
@@ -46,8 +50,9 @@ Secondary Projects
 
 .. seealso::
 
-   :ref:`Standard Operating Procedure (SOP) for the various projects <fill-blank-manifests>`
-   :ref:`Manifest template for the projects <manifest-templates>`
+   * :ref:`Standard Operating Procedure (SOP) <fill-blank-manifests>` for the various projects
+   * :ref:`Manifest template <manifest-templates>` for the various projects
+   * :ref:`Using manifest wizard to prefill manifests <manifest_wizard>`
 
 .. raw:: html
 

@@ -1,13 +1,13 @@
 .. _reads:
 
 =====================
-How to Submit Reads
+Reads Submission
 =====================
 
-.. note::
+How to Submit Reads
+---------------------
 
-  * **Reads'** [#f1]_ submission can only be done via a Stand-alone profile [#f2]_. Please see:
-    :ref:`Steps to Create a Stand-alone Profile <standalone-profile-walkthrough>` for guidance.
+.. note::
 
   * Once **Reads** have been submitted, they cannot be deleted.
 
@@ -16,23 +16,25 @@ How to Submit Reads
 .. seealso::
 
   * :ref:`How to Update Reads <reads-update>`
+  * :ref:`Explore Various Types of Reads Checklist <manifest-checklist>`
   * :ref:`How to Submit Files <files>`
 
 .. raw:: html
 
    <hr>
 
-------------------------------
 Accessing the Reads' Web Page
-------------------------------
-The **Reads'** web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The **Reads'** [#f1]_  web page can be accessed from the **Components** button or **Actions** button associated with
+a profile [#f2]_.
 
 .. raw:: html
 
    <hr>
 
 Use Components' Button to Navigate to Reads' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |reads-component-button| from
 the popup menu displayed as shown below:
@@ -42,6 +44,7 @@ the popup menu displayed as shown below:
   :align: center
   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_reads.png
   :class: with-shadow with-border
+  :height: 600px
 
   **Stand-alone Profile Components: Reads component button**
 
@@ -50,7 +53,7 @@ the popup menu displayed as shown below:
    <hr>
 
 Use Actions' Button to Navigate to Reads' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Reads** action
 from the popup menu displayed as shown below:
@@ -68,9 +71,8 @@ from the popup menu displayed as shown below:
 
    <hr>
 
--------------
 Upload Reads
--------------
+~~~~~~~~~~~~~~
 
 .. hint::
 
@@ -87,6 +89,8 @@ Upload Reads
       :class: with-shadow with-border
 
       **Reads' web page: Checklist dropdown menu with checklist options displayed**
+
+    An overview of each **Reads** checklist option is explained in the Reads' checklist section.
 
    .. raw:: html
 
@@ -159,9 +163,8 @@ Upload Reads
 
    <hr>
 
--------------
 Submit Reads
--------------
+~~~~~~~~~~~~~~
 
 .. hint::
 
@@ -196,7 +199,7 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 
 .. rubric:: Footnotes
 .. [#f1] See: :term:`Reads`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 .. raw:: html
 
@@ -221,7 +224,7 @@ Click the desired reads records from the list of reads displayed on the **Reads'
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
+.. |reads-blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
    :height: 4ex
    :class: no-scaled-link
 

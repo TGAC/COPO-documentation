@@ -7,10 +7,11 @@ Using COPO API
 The `COPO API <https://copo-project.org/api/>`_  is a RESTful website service that allows users to interact
 with the COPO system. The API is built using the Django :abbr:`REST (REpresentational State Transfer)` [#f1]_ Framework.
 
-.. important::
+.. hint::
 
-   Click this button to ensure that the API endpoints results in the live COPO API server results:
-   |copo-api-live-server-button|
+   The button, |copo-api-live-server-button|, indicates that the API method endpoints will produce results from the
+   website host server i.e. if the live COPO website is used to query the endpoint, then, the live results will
+   be retrieved while the opposite occurs if one uses the demo website to query the API method endpoints.
 
 
 .. raw:: html
@@ -39,6 +40,159 @@ Each endpoint results contain metadata provided by the submitter.
    * - ro-crate
      - Sample
 
+.. note::
+
+   The live COPO website API endpoints are used in the examples below.
+
+   To use the demo website API endpoints, replace ``https://copo-project.org/api/`` with
+   ``https://demo.copo-project.org/api/`` in the examples below.
+
+.. _audit-api-endpoints:
+
+Audit Endpoints
+~~~~~~~~~~~~~~~~~~~~
+
+Fetch Sample Updates Between Dates
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/{from}/{to}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/{from}/{to}" -H  "accept: application/json"
+
+This results in a list of sample updates that occurred between a given date period.
+
+Fetch Sample Updates by Manifest ID
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}" -H  "accept: application/json"
+
+This results in a list of sample updates by manifest :abbr:`IDs (Identifications)` [#f4]_.
+
+Fetch Sample Updates by COPO ID
+""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/{copo_id}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/copo_id/{copo_id}" -H  "accept: application/json"
+
+This results in a list of sample updates based on ``{copo_id}``.
+
+Fetch Sample Updates by Update Type
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/update_type/{update_type}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/update_type/{update_type}" -H  "accept: application/json"
+
+This results in a list of sample updates based who performed the update. The ``update_type`` can be **system**
+or **user**.
+
+A **system** update occurs when the update was performed by COPO while a **user** update occurs when a user reuploads
+a manifest with amended sample metadata.
+
+Please note that not all sample information that has been uploaded already can be updated when the manifest is
+reuploaded. Only fields that are updatable are updated when a manifest is reuploaded.
+
+See the :ref:`samples-update` section for more information as well as the
+:ref:`Fetch updatable fields by project <sample-api-endpoints-updatable-fields>` API method.
+
+
+Fetch Sample Updates by Field and Field Value
+""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/{field}/{field_value}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/{field}/{field_value}" -H  "accept: application/json"
+
+This results in a list of sample updates based on a sample field value and one of the following sample fields:
+
+* RACK_OR_PLATE_ID
+* SPECIMEN_ID
+* TUBE_OR_WELL_ID
+* biosampleAccession
+* public_name
+* sraAccession
+
+Fetch Sample Updates by ASG Sample Type
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/asg
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/asg" -H  "accept: application/json"
+
+This results in a list of updates for :abbr:`ASG (Aquatic Symbiosis Genomics)` [#f8]_. sample types.
+
+Fetch Sample Updates by DTOL Sample Type
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/dtol
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/dtol" -H  "accept: application/json"
+
+This results in a list of updates for :abbr:`DToL (Darwin Tree of Life Samples)` [#f9]_. sample types.
+
+Fetch Sample Updates by ERGA Sample Type
+""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/audit/sample/erga
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/audit/sample/erga" -H  "accept: application/json"
+
+This results in a list of updates for :abbr:`ERGA (European Reference Genome Atlas)` [#f10]_. sample types.
+
+.. raw:: html
+
+   <hr>
 
 .. _manifest-api-endpoints:
 
@@ -60,6 +214,21 @@ Fetch Manifests
 
 This results in a list of all manifest :abbr:`IDs (Identifications)` [#f4]_. The manifest identification can be
 used to retrieve records in the other endpoints.
+
+Fetch Current Manifest Versions
+"""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/manifest/current_version
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
+
+This displays the current or latest manifest version of each manifest project brokered through COPO.
 
 
 Fetch Sample Records by Manifest ID
@@ -241,6 +410,21 @@ Fetch Sample Records between Dates
 
 .. code-block:: bash
 
+   https://copo-project.org/api/sample/project/manifest_version/fields
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/sample/project/manifest_version/fields}" -H  "accept: application/json"
+
+This results in a list of fields of a project for a given manifest version.
+
+Fetch Sample Records between Dates
+"""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
    https://copo-project.org/api/sample/{from}/{to}
 
 .. centered:: **OR**
@@ -250,6 +434,8 @@ Fetch Sample Records between Dates
    $ curl -X GET "https://copo-project.org/api/sample/{from}/{to}" -H  "accept: application/json"
 
 This results in a list of all samples recorded in the given date period.
+
+.. _sample-api-endpoints-updatable-fields:
 
 Fetch Updatable Fields by Project
 """"""""""""""""""""""""""""""""""""""""
@@ -289,8 +475,8 @@ Fetch Sample Records by Biosample ID
 """"""""""""""""""""""""""""""""""""""""
 .. note::
 
-   * Biosample accession IDs are assigned to sample records by ENA [#f6]_ after the samples have been approved by a sample
-     manager [#f7]_.
+   * Biosample accession IDs are assigned to sample records by ENA [#f9]_ after the samples have been approved by a sample
+     manager [#f10]_.
    * The ``biosample_id`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id`` in ENA.
 
 .. code-block:: bash
@@ -366,76 +552,6 @@ This results in full sample information for the sample records returned from the
 
    <hr>
 
-.. _statistics-api-endpoints:
-
-Statistics' Endpoints
-~~~~~~~~~~~~~~~~~~~~~~
-
-Fetch Number of COPO Users
-""""""""""""""""""""""""""""
-
-.. code-block:: bash
-
-   https://copo-project.org/api/stats/number_of_users
-
-.. centered:: **OR**
-
-.. code::
-
-   $ curl -X GET "https://copo-project.org/api/stats/number_of_users" -H  "accept: application/json"
-
-This results in the total number of registered users in COPO.
-
-
-Fetch Number of DToL Sample Records
-""""""""""""""""""""""""""""""""""""""
-
-.. code-block:: bash
-
-   https://copo-project.org/api/stats/number_of_dtol_samples
-
-.. centered:: **OR**
-
-.. code::
-
-   $ curl -X GET "https://copo-project.org/api/stats/number_of_dtol_samples" -H  "accept: application/json"
-
-This results in the total number of Darwin Tree of Life (DToL) [#f5]_ registered sample records in COPO.
-
-Fetch Tree of Life (ToL) Projects Brokered by COPO
-""""""""""""""""""""""""""""""""""""""""""""""""""
-
-.. code-block:: bash
-
-   https://copo-project.org/api/stats/tol_projects
-
-.. centered:: **OR**
-
-.. code::
-
-   $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H  "accept: application/json"
-
-This results in a list of all main/primary projects brokered by COPO.
-
-Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-.. code-block:: bash
-
-   https://copo-project.org/api/stats/associated_tol_projects
-
-.. centered:: **OR**
-
-.. code::
-
-   $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
-
-This results in a list of all child projects/ subprojects brokered by COPO.
-
-.. raw:: html
-
-   <hr>
-
 .. _profile-api-endpoints:
 
 Profile Endpoints
@@ -492,10 +608,81 @@ Fetch Profile Records
 
 This results in a list of all profiles for the authenticated user.
 
+.. raw:: html
+
+   <hr>
+
+.. _statistics-api-endpoints:
+
+Statistics' Endpoints
+~~~~~~~~~~~~~~~~~~~~~~
+
+Fetch Number of COPO Users
+""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/number_of_users
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/number_of_users" -H  "accept: application/json"
+
+This results in the total number of registered users in COPO.
+
+
+Fetch Number of Sample Records by Sample Type
+"""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/number_of_samples/{sample_type}
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/number_of_dtol_samples/{sample_type}" -H  "accept: application/json"
+
+This results in the total number of registered sample records in COPO by a given sample type.
+
+Fetch Tree of Life (ToL) Projects Brokered by COPO
+""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/tol_projects
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H  "accept: application/json"
+
+This results in a list of all main/primary projects brokered by COPO.
+
+Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/stats/associated_tol_projects
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
+
+This results in a list of all child projects/ subprojects brokered by COPO.
+
 
 .. raw:: html
 
-   <br>
+   <hr>
+   <br><br>
 
 
 .. rubric:: Footnotes
@@ -503,9 +690,12 @@ This results in a list of all profiles for the authenticated user.
 .. [#f2] See term: :term:`API`
 .. [#f3] See term: :term:`RO-Crate`
 .. [#f4] See term: :term:`Manifest ID`
-.. [#f5] See term: :term:`DToL`
-.. [#f6] See term: :term:`ENA`
-.. [#f7] See term: :term:`Sample manager`
+.. [#f5] See term: :term:`ASG`.
+.. [#f6] See term: :term:`DToL`.
+.. [#f7] See term: :term:`ERGA`.
+.. [#f8] See term: :term:`DToL`
+.. [#f9] See term: :term:`ENA`
+.. [#f10] See term: :term:`Sample manager`
 
 
 ..

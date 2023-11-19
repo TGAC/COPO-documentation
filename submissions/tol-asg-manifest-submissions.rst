@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tol-asg-manifest-submissions:
 
 ==============================
@@ -18,7 +20,7 @@ How to Submit ASG Manifests
 .. seealso::
   * :ref:`How to Update Samples <samples-update>`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
-  * :ref:`Accessions profile component <accessions-component-tol>`
+  * :ref:`Accessions profile component <accessions-component>`
 
 .. raw:: html
 
@@ -27,44 +29,8 @@ How to Submit ASG Manifests
 --------------------------------
 Accessing the Samples' Web Page
 --------------------------------
-The Samples' web page can be accessed from the **Components** button or **Actions** button associated with a profile.
 
-.. raw:: html
-
-   <hr>
-
-Use Components' Button to Navigate to Samples' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Click the |profile-components-button| button associated with a profile. Then, click the  |samples-component-button| from
-the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_tol_profile_components_samples.png
-  :alt: Samples' profile component
-  :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_components_samples.png
-  :class: with-shadow with-border
-
-  **Tree of Life Profile Components: Samples component button**
-
-.. raw:: html
-
-   <hr>
-
-Use Actions' Button to Navigate to Samples' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action,
-**Submit DTOL/ASG manifest** action from the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_tol_profile_actions_asg_submit_sample_manifest.png
-  :alt: 'Submit DTOL/ASG manifest' profile action
-  :align: center
-  :height: 60ex
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_asg_submit_sample_manifest.png
-  :class: with-shadow with-border
-
-  **Tree of Life Profile Actions: 'Submit DTOL/ASG manifest' action**
+Please see :ref:`Samples web page access guide <accessing-samples-web-page>` for more information.
 
 .. raw:: html
 
@@ -141,7 +107,7 @@ Follow the steps indicated :ref:`here <images-submission>` for image submission.
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`ASG`.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f3] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 
 .. raw:: html
@@ -155,7 +121,7 @@ Follow the steps indicated :ref:`here <images-submission>` for image submission.
    :height: 4ex
    :class: no-scaled-link
 
-.. |blank-manifest-download-button| image:: /assets/images/buttons/download_button.png
+.. |blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
    :height: 4ex
    :class: no-scaled-link
 

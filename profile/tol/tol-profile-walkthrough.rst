@@ -4,17 +4,26 @@
 Tree of Life Profile
 =======================
 
-In COPO, a :abbr:`ToL (Tree of Life)` [#f1]_ work profile [#f2]_ is required to submit research objects [#f3]_ such as
-samples.
+In COPO, a Tree of Life (ToL) work profile [#f1]_ is required to submit research objects [#f3]_ such as
+samples, barcoding manifests, sequence annotations, reads, assemblies and files.
+
+A :abbr:`ToL (Tree of Life)` [#f2]_  profile can be used to create one of the following biodiversity projects:
+
+* Aquatic Symbiosis Genomics (ASG)
+* European Reference Genome Atlas (ERGA)
+* Darwin Tree of Life Environmental (DTOL_ENV)
+* Darwin Tree of Life (DTOL)
+
+.. raw:: html
+
+   <br>
 
 .. seealso::
 
   * :ref:`How to Update Profiles <profile-update>`
-
   * :ref:`How to Delete Profiles <profile_deletion>`
-
+  * :ref:`Sharing Profiles <sharing-profiles>`
   * :ref:`Sorting Profiles <sorting-profiles>`
-
   * :ref:`Profile Types Legend <profile-types-legend>`
 
 .. raw:: html
@@ -48,65 +57,80 @@ Steps to Create a Tree of Life Profile
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
+      :height: 400px
 
       **ToL Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
       submissions**
 
 .. _tol-profile-steps-details:
 
-#. Provide details for the new profile then, click **Save**
+Provide Profile Title & Description
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    .. note::
-       The **Profile type** dropdown menu will only display the **Stand-alone** option.
-       :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` inorder to be added to a desired profile group and be
-       granted access to choose your desired profile type group.
+3. In the **Add Profile** form dialogue, provide details for the new profile then, click **Save**
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
+   .. note::
+      The **Profile Type** dropdown menu by default will only display the **Stand-alone** option.
+
+      If your desired profile type is not displayed in the **Profile Type**  dropdown menu,
+      :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group that you would
+      like to be granted access to. Thereafter, the desired profile type option will be displayed in the dropdown menu.
+
+   .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :alt: Add profile form
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :class: with-shadow with-border
+      :height: 400px
 
       **ToL Profile: Add profile form dialogue**
 
-    .. raw:: html
+   .. raw:: html
 
-       <br>
+      <br>
 
-    .. hint::
+   .. hint::
 
       Both profile **Title** and profile **Description** are mandatory form fields.
 
       Meaningful field values are recommended in the form boxes because the information will appear
       in submissions of the research objects associated with the profile, in public remote repositories.
 
-    .. raw:: html
 
-       <br>
+Choose Profile Type
+~~~~~~~~~~~~~~~~~~~~
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol2.png
+   .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :alt: Choose profile type on add profile form
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :class: with-shadow with-border
+      :height: 400px
 
       **ToL Profile form: Choose profile type**
 
-    If you request to be added to any of the profile types displayed (excluding the default Standalone profile type),
-    only that profile type will be listed in the **Profile type** dropdown menu.
+   .. raw:: html
 
-    .. raw:: html
+      <br>
 
-       <br>
+   If you request to be added to any of the profile types displayed (excluding the default **Stand-alone** profile type),
+   only that profile type will be listed in the **Profile type** dropdown menu.
 
-    * Choose associated profile type(s) if required
-      More than one associated type or subproject or child project can be chosen.
+   .. raw:: html
+
+      <br>
+
+Choose Associated Profile Type(s) (if required)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    * More than one associated type also known as subproject or child project can be chosen.
 
         .. figure:: /assets/images/profile/profile_add_profile_form_associatedType1.png
           :alt: Choose associated profile type or subproject on add profile form
           :align: center
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
           :class: with-shadow with-border
+          :height: 500px
 
           **ASG Profile Type: Choose associated profile type or a subproject** [#f4]_
 
@@ -125,6 +149,7 @@ Steps to Create a Tree of Life Profile
           :align: center
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
           :class: with-shadow with-border
+          :height: 500px
 
           **DTOL Profile Type: Choose associated profile type or a subproject** [#f5]_
 
@@ -143,15 +168,40 @@ Steps to Create a Tree of Life Profile
           :align: center
           :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
           :class: with-shadow with-border
+          :height: 500px
 
           **ERGA Profile Type: Choose associated profile type or a subproject** [#f6]_
 
+          .. raw:: html
 
-    .. raw:: html
+             <br>
 
-       <br>
+Choose Sequencing Centre (if required)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. The new profile will be displayed in the **Profile** list
+      .. note::
+
+         The **Sequencing Centre** dropdown menu will only display if the
+         **European Reference Genome Atlas (ERGA)** profile type is selected.
+
+
+      .. figure:: /assets/images/profile/profile_add_profile_form_sequencingCentre.png
+         :alt: Choose sequencing centre on add profile form
+         :align: center
+         :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_sequencingCentre.png
+         :class: with-shadow with-border
+         :height: 500px
+
+         **ERGA Profile Type: Choose sequencing centre**
+
+      .. raw:: html
+
+         <br>
+
+Profile created
+~~~~~~~~~~~~~~~~
+
+4. The new profile will be displayed in the **Profile** list
 
     .. figure:: /assets/images/profile/profile_tol_profile_created.png
       :alt: Tree of Life profile created
@@ -159,7 +209,7 @@ Steps to Create a Tree of Life Profile
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_created.png
       :class: with-shadow with-border
 
-      **ToL Profile: Work profiles' web page displaying the created profile**
+      **ToL Profile: 'Work Profiles' web page displaying the created profile**
 
     .. raw:: html
 
@@ -167,10 +217,12 @@ Steps to Create a Tree of Life Profile
 
     .. hint::
 
-      The **Work Profiles**' list can be sorted by date created, profile title or profile type.
+      The list of profiles or profile records on the **Work Profiles** web page can be sorted by date created, profile title or
+      profile type.
 
       Choose the desired sort type from the **Sort by** dropdown menu (at the top-right of the profile record).
 
+      See more information in the :ref:`Sorting Profiles <sorting-profiles>` section.
 
 .. raw:: html
 
@@ -195,14 +247,18 @@ A COPO profile defines a set of component types from which instances of research
 
 The following component types are currently defined:
 
-#. :doc:`Samples <samples>`
-#. :doc:`Accessions <accessions-component-tol>`
+#. :ref:`Accessions <accessions-component>`
+#. :ref:`Assembly <assemblies>`
 #. :doc:`Barcoding manifests <barcoding-manifest-component>`
+#. :ref:`Files <files>`
+#. :ref:`Reads <reads>`
+#. :doc:`Samples <samples-component>`
+#. :ref:`Sequence Annotations <sequence-annotations>`
 
 .. figure:: /assets/images/profile/profile_tol_profile_components.png
    :alt: Tree of Life profile components
    :align: center
-   :height: 25ex
+   :height: 35ex
    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_components.png
    :class: with-shadow with-border
 
@@ -219,70 +275,16 @@ The following component types are currently defined:
 
    <hr>
 
-.. _sorting-profiles:
-
--------------------
-Sorting Profiles
--------------------
-
-On the **Work Profiles** web page, profiles can be sorted by **date created**, **profile title** or **profile type**.
-
-Choose the desired sort option from the **Sort by** dropdown menu, |profile-sort-menu|,  (at the top-right of the
-profile record section) as shown below.
-
-Then, click the |down-arrow| arrow to sort in descending order or the |up-arrow| arrow to sort in ascending
-according to the chosen sort option.
-
-..  figure:: /assets/images/buttons/profile_sort_menu_with_options_displayed.png
-    :alt: Profile sort menu with options displayed
-    :align: center
-    :height: 20ex
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/buttons/profile_sort_menu_with_options_displayed.png
-    :class: with-shadow with-border
-
-    **Profile Sort Menu: Sort options displayed**
-
-.. raw:: html
-
-   <hr>
-
-.. _profile-types-legend:
-
-----------------------
-Profile Types Legend
-----------------------
-
-The **Profile Types legend** [#f7]_ is displayed at the right of the **Work Profiles** web page. It displays the acronym
-for created profile types and their corresponding profile type colours.
-
-.. hint::
-
-   Hover over the |info-icon| icon located beside the profile type acronym in the **Profile Types Legend**, the
-   backronym for the profile type will be displayed.
-
-..  figure:: /assets/images/profile/profile_types_legend.png
-    :alt: Profile Types Legend
-    :align: center
-    :height: 50ex
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_types_legend.png
-    :class: with-shadow with-border
-
-    **Profile Types Legend: Various profiles types that can be created in COPO and their corresponding colours**
-
-.. raw:: html
-
-   <hr>
-
 .. rubric:: Footnotes
-.. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f2] Also known as COPO profile. See term: :term:`COPO profile`.
+
+.. [#f1] Also known as COPO profile. See term: :term:`COPO profile`.
+.. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
 .. [#f3] Research objects refer to files, reads, assemblies, files and sequence annotations.
          A Stand-alone profile is considered as a *project* research object.
          See term: :term:`Profile component`.
 .. [#f4] See term: :term:`ASG`.
 .. [#f5] See term: :term:`DToL`.
 .. [#f6] See term: :term:`ERGA`.
-.. [#f7] See term: :term:`Profile Types legend`.
 
 ..
     Images declaration
@@ -291,22 +293,6 @@ for created profile types and their corresponding profile type colours.
    :height: 4ex
    :class: no-scaled-link
 
-.. |down-arrow| image:: /assets/images/buttons/down_arrow.png
-   :height: 2ex
-   :class: no-scaled-link
-
-.. |info-icon| image:: /assets/images/buttons/info_icon.png
-   :height: 4ex
-   :class: no-scaled-link
-
 .. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
    :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-sort-menu| image:: /assets/images/buttons/profile_sort_menu.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |up-arrow| image:: /assets/images/buttons/up_arrow.png
-   :height: 2ex
    :class: no-scaled-link

@@ -7,7 +7,7 @@ Setting Up COPO Project Locally with Docker
 The central instance of COPO runs on a pool of three virtual machines. The following set up instructions are structured
 in a similar manner using one node. Feel free to make changes for a bigger or smaller pool.
 
-Clone the `GitHub COPO project repository <https://github.com/collaborative-open-plant-omics/COPO>`__.
+Clone the `GitHub COPO project repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
 
 Visual Studio Code (VSCode) is recommended for running the COPO project after having sat up the Docker environment.
 You can download VSCode from `here <https://code.visualstudio.com/>`__ for your local machine.

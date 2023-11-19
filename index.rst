@@ -20,28 +20,28 @@ links to find instructions specific to your needs.
    about/first-time-user-login
 
 .. toctree::
-   :caption: COPO Submissions
-   :name: copo-submissions
+   :caption: COPO Profile
+   :name: copo-profile
 
    profile/standalone/standalone-profile-walkthrough
-   submissions/files
-   submissions/reads
-   submissions/assemblies
-   submissions/sequence-annotations
+   profile/tol/tol-profile-walkthrough
+   profile/sharing-profiles
+   profile/sorting-profiles
+   profile/profile-types-legend
 
 .. toctree::
-   :caption: Tree of Life Submissions
-   :name: tol-submissions
+   :caption: COPO Data Submission
+   :name: copo-submission
 
-   profile/tol/tol-profile-walkthrough
    submissions/tol-general-submission-guide
-   submissions/tol-asg-manifest-submissions
+   submissions/assemblies
    submissions/barcoding-manifest-submissions
-   submissions/tol-dtol-manifest-submissions
-   submissions/dtol-env-manifest-submissions
-   submissions/tol-erga-manifest-submissions
+   submissions/files
    submissions/images
    submissions/permits
+   submissions/reads
+   submissions/samples
+   submissions/sequence-annotations
 
 .. toctree::
    :caption: COPO Data Updates
@@ -63,6 +63,7 @@ links to find instructions specific to your needs.
    discovery/tol-dashboard
    retrieval/accessions-dashboard
    discovery/copo-statistics
+   discovery/manifest-checklist
 
 .. toctree::
    :caption: Advanced
@@ -77,10 +78,13 @@ links to find instructions specific to your needs.
 
    policies/fair-data-principles
    policies/licence
+   policies/privacy-notice
+   policies/terms-of-use
 
 .. toctree::
    :caption: Help
    :name: help
+   :maxdepth: 2
 
    help/contact
    help/faq
@@ -98,3 +102,6 @@ links to find instructions specific to your needs.
 .. Declare 'underline' role
 .. role:: underline
     :class: `underline`
+
+.. role:: text-indent
+    :class: `text-indent`

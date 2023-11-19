@@ -1,8 +1,11 @@
 .. _permits-submission:
 
 =====================
-How to Submit Permits
+Permits Submission
 =====================
+
+How to Submit Permits
+------------------------------
 
 .. note::
 
@@ -18,9 +21,11 @@ How to Submit Permits
       permits so that all the permits are highlighted and uploaded at the same time.
 
 .. seealso::
-  * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
-  * :ref:`Images Submission <images-submission>`
-  * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
+
+   * :ref:`Downloading Submitted Permits <permits-submission-download-permits>`
+   * :ref:`Images Submission <images-submission>`
+   * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
+   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 
 #. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialogue as shown below. Click the
    |upload-permits-button| button to browse your local (computer) system for ``.pdf`` permits for the samples.
@@ -71,17 +76,162 @@ How to Submit Permits
 
    <hr>
 
+.. _permits-submission-download-permits:
+
+Download Submitted Permits
+------------------------------
+
+.. note::
+
+   *  Permits can only be downloaded **after** they have been submitted.
+   *  Permits **cannot** be deleted or modified after they have been submitted.
+   *  The |accept-reject-samples-button| button will only appear on the web page if you
+      are assigned as a sample manager.
+
+.. hint::
+
+   * To **select multiple** sample records, hold down the ``Ctrl`` key on your keyboard and click on the sample records
+     that you would like to select.
+   * To **select a range** of sample records, hold down the ``Shift`` key on your keyboard and click on the first and
+     last sample records that you would like to select.
+   * To **select all** sample records, click |select-all-button|
+   * To **select filtered** sample records, click |select-filtered-button|
+   * To **clear selection** of sample records, click |clear-selection-button|
+
+.. raw:: html
+
+  <br>
+
+On Samples web page
+~~~~~~~~~~~~~~~~~~~~~~~
+
+#. Navigate to the **Samples** web page.
+
+   See :ref:`How to access Samples web page <accessing-samples-web-page>` section for guidance.
+
+#. Select the sample record(s) that you would like to download permits for.
+
+   Then, click the |download-permits-button1| button to download permit(s) submitted for the selected sample record(s).
+
+   .. figure:: /assets/images/samples/samples_pointer_to_download_permits_button.png
+      :alt: Samples web page with sample record(s) selected and a pointer to the 'Download permits' button
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_pointer_to_download_permits_button.png
+      :class: with-shadow with-border
+
+      **Samples web page: Pointer to 'Download permits' button**
+
+   .. raw:: html
+
+      <br>
+
+#. If any permit submission(s) exist for the selected sample record(s), the permits will be automatically downloaded for
+   the selected sample record(s) as shown below:
+
+   .. hint::
+
+      Permits will be downloaded as a ``.zip`` file
+
+   If no permits were submitted for the selected sample record(s), a message is displayed in the popup
+   dialogue indicating such as shown below:
+
+   .. figure:: /assets/images/samples/samples_download_permits_dialogue_with_no_permits_exist_message.png
+      :alt: No permits exists message in popup dialogue for selected sample record(s)
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_download_permits_dialogue_with_no_permits_exist_message.png
+      :class: with-shadow with-border
+
+      **Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**
+
+.. raw:: html
+
+   <hr>
+
+.. _permits-submission-download-permits-sample-managers:
+
+On Accept or Reject Samples web page
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you have been assigned as a **sample manager**, you can view the permits submitted for submitted sample(s) on the
+`Accept/Reject Samples' web page <https://copo-project.org/copo/accept_reject_sample>`__ by following the
+steps below:
+
+.. note::
+
+   *  Permits can only be downloaded for submitted samples that are **pending** action by a sample manager or have been
+      **accepted** by a sample manager.
+
+
+#. Navigate to the **Accept or Reject Samples** web page.
+
+   See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
+   guidance on how to access the **Accept or Reject Samples** web page.
+
+#. Select the sample record(s) that you would like to download the permits for.
+
+   Then, click the |download-permits-button2| button to download permit(s) submitted for the selected sample record(s).
+
+#. If any permit submission(s) exist for the selected sample record(s), the permits will be automatically downloaded for
+   the selected sample record(s) as shown below:
+
+   .. hint::
+
+      Permits are downloaded as a ``.zip`` file
+
+   If no permits were submitted for the selected sample record(s), a message is displayed in the popup
+   dialogue indicating such as shown below:
+
+   .. figure:: /assets/images/samples/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
+      :alt: No permits exists message in popup dialogue for selected sample record(s)
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
+      :class: with-shadow with-border
+
+      **Accept or Reject Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**
+
+
+.. raw:: html
+
+   <br>
+
+.. raw:: html
+
+   <hr>
+
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`ERGA`.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f3] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 
 ..
     Images declaration
 ..
+.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |clear-selection-button| image:: /assets/images/buttons/clear_selection_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |download-permits-button1| image:: /assets/images/buttons/permits_download_button1.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |download-permits-button2| image:: /assets/images/buttons/permits_download_button2.png
+   :height: 4ex
+   :class: no-scaled-link
 
 .. |finish-button| image:: /assets/images/buttons/finish_button1.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |select-all-button| image:: /assets/images/buttons/select_all_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |select-filtered-button| image:: /assets/images/buttons/select_filtered_button.png
    :height: 4ex
    :class: no-scaled-link
 

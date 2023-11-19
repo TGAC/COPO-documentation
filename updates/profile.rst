@@ -19,6 +19,7 @@ to edit or delete a profile record will be displayed once clicked.
     :align: center
     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_edit_record.png
     :class: with-shadow with-border
+    :height: 400px
 
     **COPO Profile: Click the** ``Edit`` **button**
 
@@ -27,6 +28,7 @@ to edit or delete a profile record will be displayed once clicked.
     :align: center
     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_edit_record_details.png
     :class: with-shadow with-border
+    :height: 550px
 
     **COPO Profile: Edit the existing details.  Click the** ``Save`` **button to update the profile.**
 
@@ -68,6 +70,7 @@ to edit or delete a profile record will be displayed once clicked.
     :align: center
     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_delete_record.png
     :class: with-shadow with-border
+    :height: 400px
 
     **COPO Profile: Click the** ``Delete`` **button**
 
@@ -100,6 +103,6 @@ to edit or delete a profile record will be displayed once clicked.
     Images declaration
 ..
 
-.. |vertical-ellipsis-icon| image:: /assets/images/profile/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/buttons/profile_vertical_ellipsis_icon.png
    :height: 4ex
    :class: no-scaled-link

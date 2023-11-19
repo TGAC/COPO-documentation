@@ -1,13 +1,10 @@
 .. _assemblies:
 
 ==============================
-How to Submit Assemblies
+Assembly Submission
 ==============================
 
 .. note::
-
-  * **Assembly** [#f1]_ submission can only be done via a Stand-alone profile [#f2]_. Please see:
-    :ref:`Steps to Create a Stand-alone Profile <standalone-profile-walkthrough>` for guidance.
 
   * Once **assemblies** have been submitted, they cannot be updated.
 
@@ -18,18 +15,21 @@ How to Submit Assemblies
 
    <hr>
 
+How to Submit Assemblies
+------------------------------
 
 Accessing the Assembly Web Page
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Assembly** web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+The **Assembly** [#f1]_  web page can be accessed from the **Components** button or **Actions** button associated
+with a profile [#f2]_.
 
 .. raw:: html
 
    <hr>
 
 Use Components' Button to Navigate to Assembly Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |assembly-component-button| from
 the popup menu displayed as shown below:
@@ -47,7 +47,7 @@ the popup menu displayed as shown below:
    <hr>
 
 Use Actions' Button to Navigate to Assembly Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Assembly** action
 from the popup menu displayed as shown below:
@@ -66,7 +66,7 @@ from the popup menu displayed as shown below:
    <hr>
 
 Submit Assembly
-------------------
+~~~~~~~~~~~~~~~~~~
 
 #. Click |add-assemblies-record-button| button to add an **assembly** as shown below:
 
@@ -118,9 +118,8 @@ Submit Assembly
 
 .. _assemblies-deletion:
 
-===================================
 How to Delete Assemblies
-===================================
+---------------------------
 
 Click the desired assembly from the list of assemblies displayed on the **Assembly** web page. Then, click the **Delete** button
 (located in the top-right corner of the table) as shown below:
@@ -151,7 +150,7 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
 
 .. rubric:: Footnotes
 .. [#f1] See: :term:`Assembly`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile/work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 .. raw:: html
 
