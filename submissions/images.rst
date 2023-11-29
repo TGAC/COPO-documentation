@@ -73,7 +73,7 @@ View Submitted Images
 
    *  Images can only be viewed **after** they have been submitted.
    *  Images **cannot** be deleted or modified after they have been submitted.
-   *  The |accept-reject-samples-button| button will only appear on the web page if you
+   *  The |accept-reject-samples-navigation-button| button will only appear on the web page if you
       are assigned as a sample manager.
 
 .. hint::
@@ -149,74 +149,12 @@ On Samples web page
 
    <hr>
 
-.. _images-submission-view-images-sample-managers:
-
 On Accept or Reject Samples web page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have been assigned as a **sample manager**, you can view the images submitted for submitted sample(s) on the
-`Accept/Reject Samples' web page <https://copo-project.org/copo/accept_reject_sample>`__ by following the
-steps below:
-
-.. note::
-
-   *  Images can only be viewed for submitted samples that are **pending** action by a sample manager or have been
-      **accepted** by a sample manager.
-
-
-#. Navigate to the **Accept or Reject Samples** web page.
-
-   See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
-   guidance on how to access the **Accept or Reject Samples** web page.
-
-#. Select the sample record(s) that you would like to view the images for.
-
-   Then, click the |view-images-button2| button to view image(s) submitted for the selected sample record(s).
-
-   .. figure:: /assets/images/samples/samples_accept_reject_pointer_to_view_images_button.png
-     :alt: 'Accept or Reject Samples' web page
-     :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_accept_reject_pointer_to_view_images_button.png
-     :class: with-shadow with-border
-
-     **Accept or Reject Samples web page: Pointer to 'View images' button**
-
-   .. raw:: html
-
-      <br>
-
-#. If any image submission(s) exist for the selected sample record(s), a popup dialogue will be displayed with the
-   image(s) submitted for the selected sample record(s) as shown below:
-
-   .. hint::
-
-      Click the image to view a larger version.
-
-   .. figure:: /assets/images/samples/samples_accept_reject_view_images_dialogue_with_images_displayed.png
-      :alt: View images popup dialogue with images displayed for selected sample record(s)
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_accept_reject_view_images_dialogue_with_images_displayed.png
-      :class: with-shadow with-border
-
-      **Accept or Reject Samples web page: Popup dialogue displaying submitted image(s) for selected sample record(s)**
-
-   .. raw:: html
-
-      <br>
-
-   .. centered:: **OR**
-
-   If no images were submitted for the selected sample record(s), a message is displayed in the popup
-   dialogue indicating such as shown below:
-
-   .. figure:: /assets/images/samples/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
-      :alt: No images exists message in popup dialogue for selected sample record(s)
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
-      :class: with-shadow with-border
-
-      **Accept or Reject Samples web page: Popup dialogue displaying message, 'No images exist for selected sample record(s)'**
-
+If you have been assigned as a **sample manager**, see
+`View submitted images section for sample managers <images-submission-view-images-sample-managers>` for more
+information.
 
 .. raw:: html
 
@@ -232,7 +170,7 @@ steps below:
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -253,9 +191,5 @@ steps below:
    :class: no-scaled-link
 
 .. |view-images-button1| image:: /assets/images/buttons/images_view_button1.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |view-images-button2| image:: /assets/images/buttons/images_view_button2.png
    :height: 4ex
    :class: no-scaled-link

@@ -18,7 +18,9 @@ How to Submit DTOL Manifests
   *  Samples cannot be deleted after they have been submitted.
 
 .. seealso::
+
   * :ref:`How to Update Samples <samples-update>`
+  * :ref:`downloading-submitted-sample-manifest`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
   * :ref:`Accessions profile component <accessions-component>`
 
@@ -26,7 +28,6 @@ How to Submit DTOL Manifests
 
    <hr>
 
---------------------------------
 Accessing the Samples' Web Page
 --------------------------------
 
@@ -36,7 +37,8 @@ Please see :ref:`Samples web page access guide <accessing-samples-web-page>` for
 
    <hr>
 
-----------------------
+.. _submit-manifest-dtol:
+
 Submit DTOL Manifest
 ----------------------
 
@@ -132,7 +134,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
    <hr>
 
 .. rubric:: Footnotes
-.. [#f1] See term: :term:`DTOL`.
+.. [#f1] See term: :term:`DToL`. *DToL* may sometimes be referred to as *DTOL*.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
 .. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 

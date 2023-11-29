@@ -18,7 +18,9 @@ How to Submit ASG Manifests
   *  Samples cannot be deleted after they have been submitted.
 
 .. seealso::
+
   * :ref:`How to Update Samples <samples-update>`
+  * :ref:`downloading-submitted-sample-manifest`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
   * :ref:`Accessions profile component <accessions-component>`
 
@@ -35,6 +37,8 @@ Please see :ref:`Samples web page access guide <accessing-samples-web-page>` for
 .. raw:: html
 
    <hr>
+
+.. _submit-manifest-asg:
 
 ----------------------
 Submit ASG Manifest

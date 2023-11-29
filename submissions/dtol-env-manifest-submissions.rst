@@ -19,13 +19,16 @@ How to Submit DTOL_ENV Manifests
   * Samples cannot be deleted after they have been submitted.
 
 .. seealso::
+
   * :ref:`How to Update Samples <samples-update>`
+  * :ref:`downloading-submitted-sample-manifest`
 
 .. raw:: html
 
    <hr>
 
 .. rubric:: Footnotes
+
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
 .. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 

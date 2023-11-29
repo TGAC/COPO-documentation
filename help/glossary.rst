@@ -24,10 +24,8 @@ Glossary
      The extraction of unstructured biological data from manifests into a structured, computable form.
 
    Compliance field
-        A compliance field in COPO is a field that is used to check whether the user has entered the correct
-        information. It is usually a field that is required to be filled in.
-
-        Compliance fields cannot be updated once a manifest has been uploaded and approved by a sample manager.
+        A compliance field in COPO is a mandatory field that cannot be updated after a manifest has been uploaded or
+        submitted before or after the samples have been accepted or rejected by a sample manager.
 
    :abbr:`COPO (Collaborative OPen Omics)`
      `COPO <https://copo-project.org>`__ is a web-based tool for creating and managing metadata for research objects.
@@ -46,9 +44,12 @@ Glossary
    :abbr:`DToL (Darwin Tree of Life)`
      Aims to sequence the genomes of 70,000 species of eukaryotic organisms in Britain and Ireland.
 
-     This `project <https://www.darwintreeoflife.org>`__ is a collaboration between biodiversity, genomics and
+     It is one of the :abbr:`ToL (Tree of Life)` projects brokered through COPO. The
+     `project <https://www.darwintreeoflife.org>`__ is a collaboration between biodiversity, genomics and
      analysis partners that is transforming the manner by which biology, conservation and biotechnology are
      conducted.
+
+     *DToL* may sometimes be referred to as *DTOL*.
 
    DataTables
      A jQuery library plug-in that displays tabular data. They are used in COPO to display a list of research
@@ -144,7 +145,7 @@ Glossary
 
      The manifest is used by scientists to upload metadata into COPO.
 
-   Manifest Checklist
+   Manifest checklist
       A list of fields that are required to be filled in for a sample to be considered valid.
 
    Manifest :abbr:`ID (Identification)`
@@ -228,6 +229,13 @@ Glossary
 
    Sample manager
      A sample manager is a person who is responsible for accepting or rejecting samples in a research project.
+
+     This person can also upload manifest on behalf of sample submitters.
+
+   Sample submitter
+        A sample submitter is a person who submits or uploads samples to a research project.
+
+        Sample submitters may also be referred to as manifest providers or manifest submitters.
 
    :abbr:`SRA (Sequence Read Archive )` accession
      A unique identifier assigned to a sample by the Sequence Read Archive (SRA) database. It usually

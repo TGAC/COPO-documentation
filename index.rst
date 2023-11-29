@@ -11,13 +11,13 @@ Welcome to the guidelines for submission, updates and retrieval for the Collabor
 links to find instructions specific to your needs. 
 
 .. toctree::
-   :titlesonly:
    :caption: Getting Started
    :name: getting-started-section
 
    about/getting-started
    about/copo-project-affiliations
    about/first-time-user-login
+   about/sample-managers-guidelines
 
 .. toctree::
    :caption: COPO Profile

@@ -19,7 +19,7 @@ research objects to the wider scientific community.
 COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`_.
 Contributions are welcomed in the `GitHub repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
 
-Visit the `COPO website <https://copo-project.org/>`__  to make manifest submissions. An ORCID ID is required to
+Visit the `COPO website <https://copo-project.org>`__  to make manifest submissions. An ORCID ID is required to
 access the application.
 
 The website requires cookies, fonts and the limited processing of your personal data in order to function well. By using
@@ -38,14 +38,13 @@ our :ref:`privacy-notice` and :ref:`terms-of-use`.
 
    <hr>
 
----------------------------
 Accessing COPO Website
----------------------------
+------------------------
 
 There are two ways to access the COPO website: **Demo** mode and **Production** mode.
 
-Navigate to `COPO live website <https://copo-project.org/>`__ to access the production mode **or** navigate to the
-`COPO demo website <https://demo.copo-project.org/>`__ to access the demonstration mode.
+Navigate to `COPO live website <https://copo-project.org/copo>`__ to access the production mode **or** navigate to the
+`COPO demo website <https://demo.copo-project.org/copo>`__ to access the demonstration mode.
 
 .. note::
 

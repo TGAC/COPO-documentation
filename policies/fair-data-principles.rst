@@ -1,6 +1,5 @@
 .. _fair-data-principles:
 
-===================================================
 Brokering Data in COPO with FAIR Data Principles
 ===================================================
 
@@ -14,7 +13,6 @@ In COPO, the FAIR principles are applied as follows:
 
    <hr>
 
-----------
 Findable
 ----------
 
@@ -42,7 +40,7 @@ Metadata can also be found via the :ref:`COPO API <copo-api>`.
 
    <hr>
 
-----------
+
 Accessible
 ----------
 The required data can be retrieved freely with unrestricted access or via authentication and authorisation mechanisms,
@@ -52,9 +50,8 @@ where necessary.
 
    <hr>
 
---------------------
 Interoperable
---------------------
+--------------
 Data are integrated and available on ENA and NCBI. Data can be exported in csv, json or ro-crate format using
 the COPO API.
 
@@ -62,7 +59,7 @@ the COPO API.
 
    <hr>
 
-----------
+
 Reusable
 ----------
 Metadata are well-described with a plurality of accurate and relevant attributes. They are published to public
@@ -72,9 +69,8 @@ repositories and can be accessed with the COPO API via a clear and accessible da
 
    <hr>
 
---------------------
 FAIR Webinars
---------------------
+--------------
 
 **Webinar**: COPO: Extending the frontiers of “FAIR” Data in Agriculture as part of RDA/IGAD webinar series
 

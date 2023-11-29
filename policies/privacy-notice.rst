@@ -20,7 +20,6 @@ using our website, you hereby consent to our Privacy Notice and agree to its ter
 
    <br>
 
-----------------
 Data Collected
 ----------------
 

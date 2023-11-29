@@ -1,6 +1,5 @@
 .. _copo-project-setup-windows:
 
-------------------------------------
 Set Up COPO Project on Windows
 ------------------------------------
 

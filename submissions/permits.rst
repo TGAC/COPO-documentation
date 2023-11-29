@@ -85,7 +85,7 @@ Download Submitted Permits
 
    *  Permits can only be downloaded **after** they have been submitted.
    *  Permits **cannot** be deleted or modified after they have been submitted.
-   *  The |accept-reject-samples-button| button will only appear on the web page if you
+   *  The |accept-reject-samples-navigation-button| button will only appear on the web page if you
       are assigned as a sample manager.
 
 .. hint::
@@ -147,48 +147,12 @@ On Samples web page
 
    <hr>
 
-.. _permits-submission-download-permits-sample-managers:
-
 On Accept or Reject Samples web page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have been assigned as a **sample manager**, you can view the permits submitted for submitted sample(s) on the
-`Accept/Reject Samples' web page <https://copo-project.org/copo/accept_reject_sample>`__ by following the
-steps below:
-
-.. note::
-
-   *  Permits can only be downloaded for submitted samples that are **pending** action by a sample manager or have been
-      **accepted** by a sample manager.
-
-
-#. Navigate to the **Accept or Reject Samples** web page.
-
-   See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
-   guidance on how to access the **Accept or Reject Samples** web page.
-
-#. Select the sample record(s) that you would like to download the permits for.
-
-   Then, click the |download-permits-button2| button to download permit(s) submitted for the selected sample record(s).
-
-#. If any permit submission(s) exist for the selected sample record(s), the permits will be automatically downloaded for
-   the selected sample record(s) as shown below:
-
-   .. hint::
-
-      Permits are downloaded as a ``.zip`` file
-
-   If no permits were submitted for the selected sample record(s), a message is displayed in the popup
-   dialogue indicating such as shown below:
-
-   .. figure:: /assets/images/samples/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
-      :alt: No permits exists message in popup dialogue for selected sample record(s)
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
-      :class: with-shadow with-border
-
-      **Accept or Reject Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**
-
+If you have been assigned as a **sample manager**, see
+`Download submitted permits section for sample managers <permits-submission-download-permits-sample-managers>` for more
+information.
 
 .. raw:: html
 
@@ -207,7 +171,7 @@ steps below:
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -216,10 +180,6 @@ steps below:
    :class: no-scaled-link
 
 .. |download-permits-button1| image:: /assets/images/buttons/permits_download_button1.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |download-permits-button2| image:: /assets/images/buttons/permits_download_button2.png
    :height: 4ex
    :class: no-scaled-link
 

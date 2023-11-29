@@ -56,13 +56,13 @@ Click the |profile-actions-button| button associated with a profile. Then, click
 from the popup menu displayed as shown below:
 
 .. figure:: /assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
-  :alt: Stand-alone Sequence Annotations' profile action
-  :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
-  :class: with-shadow with-border
+   :alt: Stand-alone Sequence Annotations' profile action
+   :align: center
+   :height: 70ex
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
+   :class: with-shadow with-border
 
-  **Stand-alone Profile Actions: 'Submit Annotation' action**
+   **Stand-alone Profile Actions: 'Submit Annotation' action**
 
 .. raw:: html
 
@@ -74,12 +74,12 @@ Submit Sequence Annotations
 #. Click |add-sequence-annotations-button| button to add **Sequence Annotations'** as shown below:
 
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
-      :alt: Pointer to 'Add Record' button
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
-      :class: with-shadow with-border
+       :alt: Pointer to 'Add Record' button
+       :align: center
+       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
+       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: Click 'Add Record' button**
+       **Sequence Annotations' submission: Click 'Add Record' button**
 
    .. raw:: html
 
@@ -92,13 +92,13 @@ Submit Sequence Annotations
    were previously uploaded.
 
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
-      :alt: Add Sequence Annotation dialogue with no sample accession chosen from SAMPLE dropdown menu
-      :align: center
-      :height: 70ex
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
-      :class: with-shadow with-border
+       :alt: Add Sequence Annotation dialogue with no sample accession chosen from SAMPLE dropdown menu
+       :align: center
+       :height: 70ex
+       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
+       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: 'Submit Annotation' dialogue with no sample accession chosen from SAMPLE dropdown menu**
+       **Sequence Annotations' submission: 'Submit Annotation' dialogue with no sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 
@@ -125,24 +125,24 @@ Submit Sequence Annotations
        records will be highlighted **green** after a successful automatic submission.
 
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded1.png
-      :alt: Sequence Annotation(s) pending submission
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded1.png
-      :class: with-shadow with-border
+       :alt: Sequence Annotation(s) pending submission
+       :align: center
+       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded1.png
+       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: Sequence Annotations' web page displaying the (pending) uploaded sequence annotation(s)**
+       **Sequence Annotations' submission: Sequence Annotations' web page displaying the (pending) uploaded sequence annotation(s)**
 
     .. raw:: html
 
        <br>
 
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded2.png
-      :alt: Sequence Annotation(s) submitted
-      :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
-      :class: with-shadow with-border
+       :alt: Sequence Annotation(s) submitted
+       :align: center
+       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
+       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
+ **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
 
     .. raw:: html
 
@@ -165,18 +165,18 @@ Click the desired sequence annotation from the list of sequence annotations disp
 web page. Then, click the **Delete** button (located in the top-right corner of the table) as shown below:
 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
-  :alt: Delete sequence annotations button
-  :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotations_button.png
-  :class: with-shadow with-border
+   :alt: Delete sequence annotations button
+   :align: center
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotations_button.png
+   :class: with-shadow with-border
 
-  **Sequence annotation deletion: Click the "Delete" button to remove the highlighted sequence annotation from the profile**
+   **Sequence annotation deletion: Click the "Delete" button to remove the highlighted sequence annotation from the profile**
 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_deleted.png
-  :alt: Sequence annotations deleted successfully
-  :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
-  :class: with-shadow with-border
+   :alt: Sequence annotations deleted successfully
+   :align: center
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
+   :class: with-shadow with-border
 
   **Sequence annotation deletion: Sequence annotation record has been deleted**
 

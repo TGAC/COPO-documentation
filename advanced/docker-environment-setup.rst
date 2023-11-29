@@ -32,7 +32,6 @@ You can download VSCode from `here <https://code.visualstudio.com/>`__ for your 
 
    <hr>
 
----------------
 Install Docker
 ---------------
 Follow the official `Docker installation documentation <https://docs.docker.com/engine/install/>`__ for your
@@ -41,7 +40,6 @@ distribution.
 Make changes to your firewall, iptables and security groups to serve a website, use Docker swarm and redis.
 The port number will depend on your setup and if you choose to use the default ports for each service.
 
-----------------------------
 Initialise Docker Swarm
 ----------------------------
 

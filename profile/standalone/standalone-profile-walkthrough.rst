@@ -3,6 +3,7 @@
 ====================
 Stand-alone Profile
 ====================
+
 In COPO, a Stand-alone work profile [#f1]_ is required to submit files, reads, assemblies and sequence annotations.
 
 .. seealso::
@@ -10,7 +11,6 @@ In COPO, a Stand-alone work profile [#f1]_ is required to submit files, reads, a
    * See :ref:`Steps to create Tree of Life (ToL) profile <tol-profile-walkthrough>` if you would like to make ToL
      manifest submissions
 
----------------------------------------------
 Steps to Create a Stand-alone Profile
 ---------------------------------------------
 
@@ -93,7 +93,6 @@ Steps to Create a Stand-alone Profile
 
 .. _standalone-profile-components:
 
------------------------------------
 Stand-alone Profile Components
 -----------------------------------
 

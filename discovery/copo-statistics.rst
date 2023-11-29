@@ -5,17 +5,16 @@ COPO Statistics
 ==================
 
 Statistics are generated for each COPO instance over time and by a variable. The statistics are automatically updated
-and can be accessed on the `Statistics web page <https://copo-project.org/copo/stats>`__.
+and can be accessed on the `Statistics web page <https://copo-project.org/copo/tol_dashboard/stats>`__.
 
 .. raw:: html
 
    <hr>
 
----------------------------
 Statistics over Time
 ---------------------------
 
-`Statistics <https://copo-project.org/copo/stats/time_series>`__ can be generated for the following research object
+`Statistics <https://copo-project.org/copo/tol_dashboard/stats/time_series>`__ can be generated for the following research object
 elements over time:
 
 * Samples
@@ -49,11 +48,10 @@ samples over time**
 
    <hr>
 
----------------------------
 Statistics by Variable
 ---------------------------
 
-`Statistics <https://copo-project.org/copo/stats/variable_histogram>`__ can be generated for the number of samples
+`Statistics <https://copo-project.org/copo/tol_dashboard/stats/variable_histogram>`__ can be generated for the number of samples
 submitted based on the research elements or variables such as -
 
 * Date of Collection

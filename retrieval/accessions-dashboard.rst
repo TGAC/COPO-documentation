@@ -5,7 +5,7 @@ Retrieving Accessions
 =======================
 
 Approved submissions result in accessions being created. The accessions can be explored
-on the `Accessions' dashboard <https://copo-project.org/copo/dashboard/accessions>`__ ,
+on the `Accessions' dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__ ,
 on the `ENA browser <https://www.ebi.ac.uk/ena/browser/home>`__  [#f1]_ or
 `NCBI Biosamples <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f2]_  (after they become public).
 
@@ -49,7 +49,7 @@ The types of accessions that are created are:
        <br>
 
 .. note::
-    * The |accept-reject-samples-button| button will only appear on the web page if you
+    * The |accept-reject-samples-navigation-button| button will only appear on the web page if you
       are granted permission to be a sample manager.
 
 .. seealso::
@@ -67,6 +67,6 @@ The types of accessions that are created are:
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link

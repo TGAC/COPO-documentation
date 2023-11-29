@@ -596,7 +596,7 @@ Sample Manifest Checklists
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`Manifest Checklist`.
+.. [#f1] See term: :term:`Manifest checklist`.
 .. [#f2] See term: :term:`ENA`.
 
 ..

@@ -18,7 +18,9 @@ How to Submit ERGA Manifests
   *  Samples cannot be deleted after they have been submitted.
 
 .. seealso::
+
   * :ref:`How to Update Samples <samples-update>`
+  * :ref:`downloading-submitted-sample-manifest`
   * :ref:`How to Submit Permits <permits-submission>`
   * :ref:`How to Submit Images <images-submission>`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
@@ -28,7 +30,6 @@ How to Submit ERGA Manifests
 
    <hr>
 
---------------------------------
 Accessing the Samples' Web Page
 --------------------------------
 
@@ -38,7 +39,8 @@ Please see :ref:`Samples web page access guide <accessing-samples-web-page>` for
 
    <hr>
 
-----------------------
+.. _submit-manifest-erga:
+
 Submit ERGA Manifest
 ----------------------
 
@@ -60,7 +62,7 @@ Submit ERGA Manifest
 
       <br>
 
-#. An **Accept Code of Conduct** popup dialogue is displayed. If you decide to accept it, click the **Ok** button.
+#. An **Accept Code of Conduct** popup dialogue is displayed. If you decide to accept it, click the **Okay** button.
 
     .. figure:: /assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
       :alt: 'Accept Code of Conduct' dialogue

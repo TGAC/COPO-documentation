@@ -1,6 +1,5 @@
 .. _copo-project-setup-linux:
 
--------------------------------
 Set Up COPO Project on Linux
 -------------------------------
 .. note::

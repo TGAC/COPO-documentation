@@ -1,8 +1,7 @@
 .. _copo-project-affiliations:
 
----------------------------------------
 Projects Brokered through COPO
----------------------------------------
+================================
 
 .. hint::
 
@@ -12,9 +11,8 @@ Projects Brokered through COPO
    * Secondary projects are also known as subprojects or child projects and are part of the main project. In COPO,
      secondary projects are regarded as **Associated profile type** or associated :abbr:`ToL(Tree of Life)` project.
 
-~~~~~~~~~~~~~~~~~~
 Primary Projects
-~~~~~~~~~~~~~~~~~~
+-------------------
 
 .. hlist::
    :columns: 2
@@ -27,9 +25,8 @@ Primary Projects
 
 .. _copo-project-associated-projects:
 
-~~~~~~~~~~~~~~~~~~
 Secondary Projects
-~~~~~~~~~~~~~~~~~~
+--------------------
 
 .. note::
 

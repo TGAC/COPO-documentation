@@ -48,7 +48,6 @@ to edit or delete a profile record will be displayed once clicked.
 
 .. _profile_deletion:
 
-------------------------------
 Deleting Profiles
 ------------------------------
 

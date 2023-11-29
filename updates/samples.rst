@@ -1,19 +1,23 @@
 .. _samples-update:
 
-==============================
+=================
 Updating Samples
-==============================
+=================
 
 Samples can be updated by reuploading/resubmitting the manifest that was used to create them with the amended changes
 **before** or **after** the samples have been accepted by a sample manager and submitted to
 :abbr:`ENA (European Nucleotide Archive)` [#f1]_.
 
 Please note that not all field values of existing samples can be updated via the manifest resubmission update method.
-The fields that can be updated with that method are listed below.
+The fields that can be updated with that method are listed below. Those fields are known as *non-compliance fields*
+while the fields that are not listed or cannot be updated are known as *compliance fields* [#f2]_.
+
+See the :ref:`downloading-submitted-sample-manifest` section for guidelines about how to download a manifest that was
+already submitted.
 
 .. hint::
 
-   To view a list of fields that can be updated, collapse the list of fields that can be updated by clicking the
+   To view a list of fields that can be updated for a particular project, collapse the list of fields by clicking the
    |collapsible-item-arrow| button below.
 
 .. note::
@@ -28,7 +32,11 @@ The fields that can be updated with that method are listed below.
 
    * Fields are also referred to as columns in the manifest.
 
-.. collapse:: List of ASG project fields that can be updated
+.. raw:: html
+
+   <br>
+
+.. collapse:: List of Aquatic Symbiosis Genomics (ASG) project fields that can be updated
 
    .. hlist::
       :columns: 2
@@ -65,9 +73,9 @@ The fields that can be updated with that method are listed below.
 
 .. raw:: html
 
-   <br>
+   <br><br>
 
-.. collapse:: List of DTOL project fields that can be updated
+.. collapse:: List of Darwin Tree of Life Samples (DToL) project fields that can be updated
 
    .. hlist::
       :columns: 2
@@ -104,9 +112,9 @@ The fields that can be updated with that method are listed below.
 
 .. raw:: html
 
-   <br>
+   <br><br>
 
-.. collapse:: List of ERGA project fields that can be updated
+.. collapse:: List of European Reference Genome Atlas (ERGA) project fields that can be updated
 
    .. hlist::
       :columns: 1
@@ -197,17 +205,13 @@ The fields that can be updated with that method are listed below.
 
 .. raw:: html
 
-   <br>
+   <br><hr>
 
 
 .. rubric:: Footnotes
 
 .. [#f1] See term: :term:`ENA`.
-.. [#f2] See term: :term:`NCBI`.
-.. [#f3] See term: :term:`ASG`.
-.. [#f4] See term: :term:`DToL`.
-.. [#f5] See term: :term:`ERGA`.
-
+.. [#f2] See term: :term:`Compliance field`.
 
 ..
     Images declaration

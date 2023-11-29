@@ -1,8 +1,8 @@
 .. _useful-tools:
 
-==========================================================
-Adding Children Projects To Parent Projects
-==========================================================
+============================================
+Adding Children Projects to Parent Projects
+============================================
 
 In COPO
 ------------
@@ -26,7 +26,6 @@ Please provide the parent project accession and the child project accession(s) w
 
        <hr>
 
-    --------------------------------------------------------------------------------
     Get Parent Project Records by Project Accession  on ENA Webin REST V2 service
     --------------------------------------------------------------------------------
 
@@ -58,5 +57,6 @@ Please provide the parent project accession and the child project accession(s) w
    <br>
 
 .. rubric:: Footnotes
+
 .. [#f1] See term: :term:`ENA`.
 .. [#f2] See term: :term:`NCBI`.

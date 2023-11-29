@@ -23,7 +23,7 @@ How can I view accessions after I have submitted samples, reads, or experiments 
 
    * The accessions dashboard will be displayed.
 
-   * Alternatively, navigate to the `Accessions' dashboard <https://copo-project.org/copo/dashboard/accessions/>`__.
+   * Alternatively, navigate to the `Accessions' dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__.
 
 .. raw:: html
 
@@ -38,13 +38,13 @@ Is there a way to analyse metadata submissions?
 
       <br>
 
-   #. `Tree of Life dashboard <https://copo-project.org/copo/dashboard/tol>`__
+   #. `Tree of Life dashboard <https://copo-project.org/copo/tol_dashboard/tol>`__
        * Alternatively, click the |tol-dashboard-button| button.
-   #. `Tree of Life inspection web page <https://copo-project.org/copo/tol_inspect>`__
+   #. `Tree of Life inspection web page <https://copo-project.org/copo/tol_dashboard/tol_inspectt>`__
        * Alternatively, click the |tol-inspect-button| button.
-   #. `Tree of Life inspection by Genome Acquisition Lab web page <https://copo-project.org/copo/tol_inspect/gal>`__
+   #. `Tree of Life inspection by Genome Acquisition Lab web page <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__
        * Alternatively, click the |tol-inspect-by-gal-button| button.
-   #. `Statistics web page <https://copo-project.org/copo/stats>`__
+   #. `Statistics web page <https://copo-project.org/copo/tol_dashboard/stats>`__
 
 .. raw:: html
 
@@ -439,6 +439,8 @@ What are the formats that I download samples in?
 
    <hr>
 
+.. _faq-sample-managers:
+
 Sample Managers
 --------------------
 
@@ -452,7 +454,7 @@ How can I be assigned as a sample manager?
       <br>
 
    * Make a request to the :email:`COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group
-     that you would like to be assigned as a sample manager to.
+     that you would like to be assigned as a sample manager.
 
    * The permission will be granted after the request has been approved.
 
@@ -469,15 +471,16 @@ How can I know if I have been assigned as a sample manager?
 
       <br>
 
-   * The |accept-reject-samples-button| button will be displayed on the web page.
+   * The |accept-reject-samples-navigation-button| button will be displayed on the web page.
 
    * The **accept/reject samples** web page will be displayed once the button is clicked.
+
+   * Alternatively, if you can navigate to the `Accept/Reject Samples' web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__
+     with an **Unauthorisation** error web page being displayed then, you are a sample manager.
 
 .. raw:: html
 
    <br>
-
-.. _accessing-accept-reject-samples-web-page:
 
 How can I accept or reject samples that users have submitted?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -486,19 +489,11 @@ How can I accept or reject samples that users have submitted?
 
    .. note::
 
-      The |accept-reject-samples-button| button will only appear on the web page if you
-      are granted permission to be a sample manager.
+      See :ref:`accessing-accept-reject-samples-web-page` section for guidelines on accessing the
+      **Accept or Reject Samples** web page.
 
-      Once the button is clicked, the **accept/reject samples** web page will be displayed.
 
-   * If you have been granted permission as a sample manager, you will receive an email
-     notifying you that a sample has been submitted after a user uploads a manifest.
-
-   * Similarly, you will receive an email when samples have been rejected.
-
-   * Click the |accept-reject-samples-button| button to accept or reject samples.
-
-   * Alternatively, navigate to `Accept/Reject Samples' web page <https://copo-project.org/copo/accept_reject_sample>`__.
+   See :ref:`accept-reject-samples` section for more information.
 
 .. raw:: html
 
@@ -540,6 +535,45 @@ Can I view images that users have uploaded in COPO?
 
   <br>
 
+.. _faq-sample-managers-within-several-manifest-groups:
+
+If I belong to more than one sample manager manifest group, how can I view or accept samples that belong to them?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+
+      * The manifest dropdown menu will only be displayed on the **Accept or Reject samples** web page if you as a
+        sample manager, belongs to more than one sample manager manifest group.
+
+      * If the *dtol* sample manager group dropdown menu option is selected, both Aquatic Symbiosis Genomics (ASG)
+        profiles and  Darwin Tree of Life (DToL) profiles will be displayed in the **All profiles** tab and/or
+        **Profiles for My Sequencing Centre** the **Accept or Reject samples** web page will be displayed
+        (if any exists).
+
+   * Choose desired sample manager group from the manifest group dropdown menu.
+
+   * Click the |accept-reject-samples-navigation-button| button to accept or reject samples.
+
+     .. figure:: /assets/images/profile/profile_new_user_add_email_address_dialogue.png
+        :alt: Add email address dialogue
+        :align: center
+        :class: with-shadow with-border
+
+        **Accept or Reject samples: Email address prompt shown when a user logs into COPO for the first time**
+
+
+   See :ref:`Viewing images <images-submission-view-images-sample-managers>` section for more information.
+
+.. raw:: html
+
+  <br>
+
 .. raw:: html
 
    <hr>
@@ -552,7 +586,7 @@ Can I view images that users have uploaded in COPO?
 ..
     Images declaration
 ..
-.. |accept-reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
 

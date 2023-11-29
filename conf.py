@@ -58,7 +58,7 @@ master_doc = 'index'
 # General information about the project.
 project = 'COPO Project'
 copyright = '2017-2023, Collaborative OPen Omics (COPO), Earlham Institute'
-author = 'The Collaborative OPen Omics (COPO) team'
+author = 'The Collaborative OPen Omics (COPO) project team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

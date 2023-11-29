@@ -5,7 +5,7 @@ Tree of Life Dashboard
 ========================
 
 The Tree of Life (ToL) dashboard can be explored on the
-`Tol dashboard web page <https://copo-project.org/copo/dashboard/tol>`__ .
+`Tol dashboard web page <https://copo-project.org/copo/tol_dashboard/tol>`__ .
 
 .. note::
 
@@ -65,11 +65,10 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <hr>
 
---------------------------
 Tree of Life Inspection
 --------------------------
 
-A `ToL inspection <https://copo-project.org/copo/tol_inspect>`__  analyses the sample metadata of COPO profile records
+A `ToL inspection <https://copo-project.org/copo/tol_dashboard/tol_inspect>`__  analyses the sample metadata of COPO profile records
 and facilitates search faceting and data discovery of the results.
 
 .. figure:: /assets/images/tol_inspection/tol_inspection_web_page.png
@@ -80,11 +79,10 @@ and facilitates search faceting and data discovery of the results.
 
   **Tree of Life (ToL) Inspection web page**
 
--------------------------------------------------
 Tree of Life Inspection by Genome Acquisition Lab
 -------------------------------------------------
 
-A `ToL inspection by GAL <https://copo-project.org/copo/tol_inspect/gal>`__  analyses the sample metadata of COPO
+A `ToL inspection by GAL <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__  analyses the sample metadata of COPO
 profile records by GALs [#f2]_  based on their taxonomy.
 
 .. figure:: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png

@@ -41,7 +41,7 @@ How to Download Submitted Sample Manifest
    submitted.
 
    Samples can be updated by resubmitting the manifest with the updated metadata. See :ref:`samples-update` section
-   for more information.
+   for more information about which fields can be updated.
 
 .. note::
 
