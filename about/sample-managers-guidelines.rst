@@ -407,7 +407,15 @@ steps below:
    * Permits can only be downloaded for submitted samples that are **pending** action by a sample manager or have been
      **accepted** by a sample manager.
 
+   * Permits **cannot** be downloaded for samples within the **Processing Samples** tab and **Rejected Samples** tab.
+
    * Permits exist for :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profiles only.
+
+.. hint::
+
+   To download submitted permits for samples within the **Accepted Samples** tab, ``CTRL + Click`` the desired sample
+   record(s) then, click the |download-permits-button2| button to download permit(s) submitted for the selected
+   record(s).
 
 
 #. Navigate to the **Accept or Reject Samples** web page.
@@ -456,6 +464,12 @@ steps below:
    *  Images can only be viewed for submitted samples that are **pending** action by a sample manager or have been
       **accepted** by a sample manager.
 
+   * Images **cannot** be viewed for samples within the **Processing Samples** tab and **Rejected Samples** tab.
+
+.. hint::
+
+   To view submitted images for samples within the **Accepted Samples** tab, ``CTRL + Click`` the desired sample
+   record(s) then, click the |view-images-button2| button to view image(s) submitted for the selected record(s).
 
 #. Navigate to the **Accept or Reject Samples** web page.
 
