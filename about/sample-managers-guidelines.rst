@@ -407,8 +407,6 @@ steps below:
    * Permits can only be downloaded for submitted samples that are **pending** action by a sample manager or have been
      **accepted** by a sample manager.
 
-   * Permits **cannot** be downloaded for samples within the **Processing Samples** tab and **Rejected Samples** tab.
-
    * Permits exist for :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profiles only.
 
 .. hint::
@@ -458,13 +456,6 @@ View Submitted Images
 If you have been assigned as a **sample manager**, you can view the images submitted for submitted sample(s) on the
 `Accept/Reject Samples' web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__ by following the
 steps below:
-
-.. note::
-
-   *  Images can only be viewed for submitted samples that are **pending** action by a sample manager or have been
-      **accepted** by a sample manager.
-
-   * Images **cannot** be viewed for samples within the **Processing Samples** tab and **Rejected Samples** tab.
 
 .. hint::
 

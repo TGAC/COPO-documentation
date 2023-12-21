@@ -508,10 +508,6 @@ Can I download permits that users have uploaded in COPO?
 
       <br>
 
-   .. note::
-
-      Permits **cannot** be downloaded for samples within the **Processing Samples** tab and **Rejected Samples** tab.
-
    Yes, on the **Accept or Reject Samples** web page, permits can be downloaded by selecting the desired sample record(s)
    then, clicking the |download-permits-button2| button on the web page.
 
@@ -529,10 +525,6 @@ Can I view images that users have uploaded in COPO?
    .. raw:: html
 
       <br>
-
-   .. note::
-
-      Images **cannot** be viewed for samples within the **Processing Samples** tab and **Rejected Samples** tab.
 
    Yes, on the **Accept or Reject Samples** web page, images can be viewed by selecting the desired sample record(s)
    then, clicking the |view-images-button2| button on the web page.
