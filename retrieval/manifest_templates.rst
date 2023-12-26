@@ -145,7 +145,9 @@ This will be made available soon.
 
 .. rubric:: Footnotes
 
-[#f5]
+.. [#f1] See term: :term:`ASG (Aquatic Symbiosis Genomics) <ASG>`.
+.. [#f2] See term: :term:`DToL (Darwin Tree of Life) <DToL>`.
+.. [#f3] See term: :term:`ERGA (European Reference Genome Atlas) <ERGA>`.
 .. [#f4] See term: :term:`SOP`.
 
 
