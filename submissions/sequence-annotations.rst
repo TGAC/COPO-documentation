@@ -142,7 +142,7 @@ Submit Sequence Annotations
        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
        :class: with-shadow with-border
 
- **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
+    **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
 
     .. raw:: html
 
@@ -178,7 +178,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
    :class: with-shadow with-border
 
-  **Sequence annotation deletion: Sequence annotation record has been deleted**
+   **Sequence annotation deletion: Sequence annotation record has been deleted**
 
 .. raw:: html
 

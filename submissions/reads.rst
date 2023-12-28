@@ -16,7 +16,7 @@ How to Submit Reads
 .. seealso::
 
   * :ref:`How to Update Reads <reads-update>`
-  * :ref:`Explore Various Types of Reads Checklist <manifest-checklist>`
+  * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
   * :ref:`How to Submit Files <files>`
 
 .. raw:: html
@@ -76,7 +76,14 @@ Upload Reads
 
 .. hint::
 
-  To download a blank **Reads'** manifest template, click the |reads-blank-manifest-download-button| button.
+   To download a blank **Reads'** manifest template, click the |reads-blank-manifest-download-button| button.
+
+.. important::
+
+   The **Reads** checklist dropdown menu is only available for **Standalone** profiles.
+
+   If you are submitting **Reads** for a profile other than a Standalone profile, please proceed to upload the Reads
+   from your local file system after you have clicked the |add-reads-manifest-button| button.
 
 
 #. On the **Reads'** web page, click the checklist dropdown to view a list of available checklists that support **Reads'**
@@ -90,13 +97,19 @@ Upload Reads
 
       **Reads' web page: Checklist dropdown menu with checklist options displayed**
 
-    An overview of each **Reads** checklist option is explained in the Reads' checklist section.
+    An overview of each **Reads** checklist option is explained in the :ref:`Reads' checklist section <sample-manifest-checklists>`.
 
    .. raw:: html
 
       <br>
 
 #. Click |add-reads-manifest-button| button to add **Reads'** from a spreadsheet for the chosen checklist as shown below:
+
+     .. note::
+
+        The colour of the |add-reads-manifest-button| button is based on the type of profile that you are submitting a
+        Reads for. See the :ref:`profile-types-legend` section regarding the colour code for the various types of
+        project profiles on COPO.
 
     .. figure:: /assets/images/reads/reads_pointer_to_add_reads_manifest_button.png
       :alt: Pointer to 'Add Reads' from Spreadsheet' button
@@ -133,6 +146,7 @@ Upload Reads
       :align: center
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
+      :height: 600px
 
       **Reads' upload: 'Upload Read Manifest' dialogue with uploaded manifest**
 
@@ -208,7 +222,8 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 ..
     Images declaration
 ..
-.. |add-reads-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+
+.. |add-reads-manifest-button| image:: /assets/images/buttons/add_reads_manifest_button.png
    :height: 4ex
    :class: no-scaled-link
 

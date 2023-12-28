@@ -21,6 +21,8 @@ and `annotation checklists <https://ena-docs.readthedocs.io/en/latest/submit/seq
 
   <br>
 
+.. _barcoding-manifest-checklists:
+
 Barcoding Manifest Checklists
 ----------------------------------
 
@@ -48,6 +50,9 @@ Barcoding Manifest Checklists
 .. raw:: html
 
   <hr>
+
+.. _sample-manifest-checklists:
+
 
 Sample Manifest Checklists
 ----------------------------------

@@ -117,10 +117,8 @@ The following component types are currently defined:
 
 * Component instances defined within a profile will only be visible within that profile [#f1]_. 
 
-* To access a component within a profile, click the component button displayed within the profile box after the
-  |profile-components-button| profile **Components** button was clicked (see the screenshot above).
-
-* The number beside each component button represents the number of items or instances of the component added or created.
+* To access a component within a profile, click the component button displayed within the popup after the
+  |profile-components-button| button was clicked (see the screenshot above).
 
 .. raw:: html
 

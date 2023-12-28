@@ -122,6 +122,11 @@ Choose Profile Type
 Choose Associated Profile Type(s) (if required)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+      .. note::
+
+         The **Associated Profile Type** dropdown menu will only display if the
+         **European Reference Genome Atlas (ERGA)** profile type is selected.
+
     * More than one associated type also known as subproject or child project can be chosen.
 
         .. figure:: /assets/images/profile/profile_add_profile_form_associatedType1.png
@@ -264,10 +269,8 @@ The following component types are currently defined:
 
 * Component instances defined within a profile will only be visible within that profile.
 
-* To access a component within a profile, click the component button displayed within the profile box after the
-  |profile-components-button| profile **Components** button was clicked (see the screenshot above).
-
-* The number beside each component button represents the number of items or instances of the component added or created.
+* To access a component within a profile, click the component button displayed within the popup after the
+  |profile-components-button| button was clicked (see the screenshot above).
 
 .. raw:: html
 
