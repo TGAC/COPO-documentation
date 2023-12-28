@@ -24,8 +24,8 @@ Data Collected
 ----------------
 
 COPO adopts appropriate data collection, validation, storage and processing practices as well as security  measures 
-to protect against unauthorised access, alteration, disclosure or destruction of your personal information, Orcid 
-credentials and metadata provided on our service.
+to protect against unauthorised access, alteration, disclosure or destruction of your personal information,
+`Orcid <https://orcid.org/>`_  credentials and metadata provided on our service.
 
 Information collected:
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,7 +33,7 @@ Information collected:
 * Internet Protocol (IP) address
 * Operating system
 * Browser
-* Firstname, lastname and username after you sign into the service with your `Orcid <https://orcid.org/>`_ credentials
+* First name, last name and username after you sign into the service with your Orcid credentials
 * Email address (after you input it in the dialog shown after a first-time access to the service)
 * Date and time when a profile record and manifests are created or updated
 * Metadata submitted. Metadata is the essential information about when, where, how and why data has been collected.
@@ -52,6 +52,7 @@ Usage of information collected:
 * To monitor errors and exceptions that may occur during metadata submission
 * To register your email address with your COPO user account and to submit your email address to public repositories
   after manifest submissions
+* To send email notifications when submitted samples have been accepted or rejected by a sample manager
 
 .. raw:: html
 
@@ -94,7 +95,7 @@ Data Retention
 Cookies
 ----------
 
-This service uses "cookies" to store information about the web pages on the service that the visitor has  accessed 
+This service uses "cookies" to store information about the web pages that the visitor has accessed
 or visited.
 
 The information is used to log any errors or exceptions that may occur and user sessions.
