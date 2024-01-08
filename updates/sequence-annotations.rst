@@ -25,13 +25,13 @@ section for more information.
 
    Then, click the **Edit** button to update or edit the annotation as shown below:
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
-       :alt: Pointer to 'Edit' button
-       :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
-       :class: with-shadow with-border
+   .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
+      :alt: Pointer to 'Edit' button
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
+      :class: with-shadow with-border
 
-       **Sequence Annotations' update: Click 'Edit' button after having clicked the desired sequence annotation**
+      **Sequence Annotations' update: Click 'Edit' button after having clicked the desired sequence annotation**
 
    .. raw:: html
 

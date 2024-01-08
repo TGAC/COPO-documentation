@@ -16,8 +16,9 @@ COPO uses public or institutional repositories like
 `National Center for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__ to share the
 research objects to the wider scientific community.
 
-COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`_.
+COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`__.
 Contributions are welcomed in the `GitHub repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
+All contributors must abide by the code of conduct described in the :ref:`code-of-conduct` section.
 
 Visit the `COPO website <https://copo-project.org>`__  to make manifest submissions. An ORCID ID is required to
 access the application.

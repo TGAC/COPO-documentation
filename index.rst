@@ -78,6 +78,7 @@ links to find instructions specific to your needs.
 
    policies/fair-data-principles
    policies/licence
+   policies/code-of-conduct
    policies/privacy-notice
    policies/terms-of-use
 

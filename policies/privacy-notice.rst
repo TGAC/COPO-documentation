@@ -25,7 +25,7 @@ Data Collected
 
 COPO adopts appropriate data collection, validation, storage and processing practices as well as security  measures 
 to protect against unauthorised access, alteration, disclosure or destruction of your personal information,
-`Orcid <https://orcid.org/>`_  credentials and metadata provided on our service.
+`Orcid <https://orcid.org/>`__  credentials and metadata provided on our service.
 
 Information collected:
 ~~~~~~~~~~~~~~~~~~~~~~~

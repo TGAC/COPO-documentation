@@ -6,7 +6,7 @@ Licence
 
 COPO is licensed under the Massachusetts Institute of Technology (MIT) licence. See below for details.
 
-Copyright (c) 2020, Collaborative OPen Omics Project (COPO) Project Development and Documentation
+Copyright (c) 2017-2024, Collaborative OPen Omics Project (COPO) Project Development and Documentation
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this documentation and associated software files (the "Software"), to deal
