@@ -5,10 +5,12 @@ Updating Profiles
 ==============================
 
 .. warning::
+
    Profile types cannot be changed or updated once they have been created.  If you need to change the profile type,
    you will need to delete the profile and create a new one.
 
 .. seealso::
+
    :ref:`Deleting Profiles <profile_deletion>`
 
 To edit a profile,  click the |vertical-ellipsis-icon| icon that is associated with the desired profile. The option

@@ -20,6 +20,18 @@ already submitted.
    To view a list of fields that can be updated for a particular project, collapse the list of fields by clicking the
    |collapsible-item-arrow| button below.
 
+.. important::
+
+   The amended manifest or updated spreadsheet file **must** be uploaded to the same profile that was initially used
+   to upload the manifest (before any modifications were done).
+
+   An error will occur if you perform one of the following actions:
+
+   * Upload the amended manifest to a different profile [#f3]_ (other than the one used to upload the manifest to
+     initially)
+   * Upload the amended manifest to a new profile
+   * Delete a profile that already has samples associated with it
+
 .. note::
 
    * The manifest must be uploaded again with the amendments included for the change or update to occur.
@@ -212,6 +224,7 @@ already submitted.
 
 .. [#f1] See term: :term:`ENA`.
 .. [#f2] See term: :term:`Compliance field`.
+.. [#f3] Also known as COPO profile. See term: :term:`COPO profile`.
 
 ..
     Images declaration
