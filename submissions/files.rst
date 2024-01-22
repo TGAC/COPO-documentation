@@ -114,6 +114,24 @@ Submit Files from your Local (Computer) System
 Submit Files via the Terminal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _files-submission-via-terminal-hint:
+
+.. hint::
+
+      If you encounter the server certificate error, ``curl: (60) Peer's Certificate issuer is not recognized.``, please
+      perform one of the the following resolutions:
+
+      * **Resolution #1**: Run the command below in the terminal (if you have ``sudo`` rights on your device)
+
+         .. code-block:: bash
+
+            $ sudo apt-get install ca-certificates
+
+        .. centered:: **OR**
+
+      * **Resolution #2**: Replace ``https`` with ``http`` in the generated command
+        indicated :ref:`here <files-submission-via-terminal-copy-commands>` then, run the command in the terminal again.
+
 #. Click the |add-files-via-terminal-button| button on the Files web page to add a new file from a cluster via the
    terminal.
 
@@ -167,6 +185,8 @@ Submit Files via the Terminal
 
            <br>
 
+   .. _files-submission-via-terminal-copy-commands:
+
    * .. figure:: /assets/images/files/files_move_data_dialogue_with_details2.png
         :alt: Move Data dialogue with result (a command) after having clicked the "Process" button
         :align: center
@@ -176,6 +196,9 @@ Submit Files via the Terminal
 
         **Move Data dialogue: Command outputted after having clicked command in the** ``Process`` **button. Copy the
         command displayed.**
+
+        If you encounter the server certificate error, ``curl: (60) Peer's Certificate issuer is not recognized.``,
+        please see the :ref:`hint <files-submission-via-terminal-hint>` at the beginning of this section.
 
    * .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input2.png
         :alt: Terminal with command pasted
