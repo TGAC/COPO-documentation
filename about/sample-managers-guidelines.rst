@@ -534,8 +534,12 @@ Upload Manifest or Update Submitted Manifest on behalf of Manifest Submitters
 
 .. hint::
 
-   * See the :ref:`samples-update` section for information about which field values can be updated.
-     Samples can be updated by resubmitting the manifest with the updated metadata.
+   * **All** sample field values can be updated by sample managers.
+
+   * **Some** sample field values can be updated by sample providers. See the :ref:`samples-update` section for
+     information about which field values can be updated by sample providers.
+
+   * Samples can be updated by resubmitting the manifest with the updated metadata.
 
 The following steps can be followed to upload a manifest or update a submitted manifest on behalf of a manifest
 submitter [#f2]_:
