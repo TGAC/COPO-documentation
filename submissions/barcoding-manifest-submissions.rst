@@ -85,7 +85,9 @@ Upload Barcoding Manifest
 
 .. hint::
 
-  To download a blank **Barcoding Manifest** template, click the |barcoding-manifest-blank-manifest-download-button| button.
+  * To download a blank **Barcoding Manifest** template, click the |barcoding-manifest-blank-manifest-download-button| button.
+
+  * In the **Barcoding Manifest**, the field, **Organism**, refers to the biosample accession of the sample.
 
 #. On the **Barcoding Manifests'** web page, click the checklist dropdown to view a list of available checklists that support **Barcoding Manifests'**
    submission as shown below:
