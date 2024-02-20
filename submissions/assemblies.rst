@@ -8,7 +8,19 @@ Assembly Submission
 
   * Once **assemblies** have been submitted, they cannot be updated.
 
+  * If you would like to register your own *locus tag* [#f1]_  tag to your assembly, please contact the
+    :email:`COPO team <ei.copo@earlham.ac.uk>`.
+
+    If not :abbr:`ENA (European Nucleotide Archive)` [#f2]_ will automatically assign a locus tag to your assembly
+    after it has been submitted in COPO and deposited on ENA.
+    See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
+    for more details.
+
+    The documentation includes rules that the locus tag prefix should conform to if you would like to
+    use your own locus tag.
+
 .. seealso::
+
   * :ref:`How to Delete Assemblies <assemblies-deletion>`
 
 .. raw:: html
@@ -21,8 +33,8 @@ How to Submit Assemblies
 Accessing the Assembly Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Assembly** [#f1]_  web page can be accessed from the **Components** button or **Actions** button associated
-with a profile [#f2]_.
+The **Assembly** [#f3]_  web page can be accessed from the **Components** button or **Actions** button associated
+with a profile [#f4]_.
 
 .. raw:: html
 
@@ -149,8 +161,11 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
    <hr>
 
 .. rubric:: Footnotes
-.. [#f1] See: :term:`Assembly`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+
+.. [#f1] See term: :term:`Locus tag`.
+.. [#f2] See term: :term:`ENA`.
+.. [#f3] See: :term:`Assembly`.
+.. [#f4] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
 
 .. raw:: html
 

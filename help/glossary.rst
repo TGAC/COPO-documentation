@@ -136,6 +136,11 @@ Glossary
    :abbr:`IP (Internet Protocol)`
      A :wikipedia:`protocol <IP>` that allows communication between different systems.
 
+   Locus tag
+     Adapted from
+     `ENA's definition <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_:
+     Locus tags are identifiers applied systematically to every gene in a sequencing project.
+
    MacOS
      A series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001.
 
