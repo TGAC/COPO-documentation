@@ -76,14 +76,23 @@ Upload Reads
 
 .. hint::
 
-   To download a blank **Reads'** manifest template, click the |reads-blank-manifest-download-button| button.
+   * To download a blank **Reads'** manifest template, click the |reads-blank-manifest-download-button| button.
+
+   * For guidance on how to fill in the **Reads** manifest to submit *paired* reads, please see the
+     :ref:`Reads manifest for paired reads <faq-reads-manifest-paired-reads>` :abbr:`FAQ (Frequently Asked Question)`.
 
 .. important::
 
    The **Reads** checklist dropdown menu is only available for **Standalone** profiles.
 
-   If you are submitting **Reads** for a profile other than a Standalone profile, please proceed to upload the Reads
+   If you are submitting **Reads** for a profile other than a Standalone profile, please proceed to upload the reads
    from your local file system after you have clicked the |add-reads-manifest-button| button.
+
+.. note::
+
+   The colour of the |add-reads-manifest-button| button is based on the type of profile that you are submitting a
+   Reads for. See the :ref:`profile-types-legend` section regarding the colour code for the various types of project
+   profiles on COPO.
 
 
 #. On the **Reads'** web page, click the checklist dropdown to view a list of available checklists that support **Reads'**

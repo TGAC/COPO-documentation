@@ -669,6 +669,9 @@ submitter [#f2]_:
 
    <hr>
 
+
+
+
 .. rubric:: Footnotes
 
 .. [#f1] See term: :term:`Sample manager`
@@ -706,3 +709,28 @@ submitter [#f2]_:
 .. |view-images-button2| image:: /assets/images/buttons/images_view_button2.png
    :height: 4ex
    :class: no-scaled-link
+
+The COPO development team documentation was done to help users understand the COPO system and how to use it.
+The documentation is a living document and will be updated as the COPO system evolves.
+
+Future members of the COPO team can use the documentation as a guide to understand the COPO system and how to use it.
+This limits the need for extensive training and allows new members to get up to speed quickly.
+Additionally, the documentation can be used as a reference guide for the COPO team members.
+Advantages include the ability to quickly look up information and to have a consistent reference guide for all team members.
+to continue the development of the COPO system.
+
+
+The documentation is also useful for the COPO users. It provides a guide on how to use the COPO system and how to navigate the system.
+
+The COPO documentation is a living document and will be updated as the COPO system evolves. The documentation will be updated to reflect the changes in the COPO system.
+
+
+
+
+Notable impacts of the COPO project team documentation include:
+ - Limiting the need for extensive training and allows new project team members to get up to speed quickly and efficiently
+ - Provides a consistent reference guide for all project team members
+ - Allows for quick look up of information
+ - Provides a guide on how to use the COPO system, solve notable bugs/user requests and how to navigate the system for the COPO users
+    - The documentation is a living document and will be updated as the COPO system evolves
+    - The documentation reflects up-to-date procedures, methods and guidelines to navigate the COPO system from a project developer's perspective

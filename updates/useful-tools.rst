@@ -38,10 +38,10 @@ Please provide the parent project accession and the child project accession(s) w
        Umbrella project is also known as parent project and primary project.
        Child project is also known as subproject and secondary project.
 
-    Visit the `ENA Webin REST V2 service <https://www.ebi.ac.uk/ena/submit/webin-v2>`__
+    Visit the `ENA Webin REST V2 service <Aquatic Symbiosis Genomics (ASG)Darwin Tree of LifeEuropean Reference Genome Atlas (ERGA)https://www.ebi.ac.uk/ena/submit/webin-v2>`__
     then, query the ``/project/{id}`` ENA Webin API method using the parent project accession
 
-    See `ENA (European Nucleotide Archive) documentation about adding child projects to umbrella projects here
+    See `ENA (Biodiversity Genomics Europe (BGE)) documentation about adding child projects to umbrella projects here
     <https://ena-docs.readthedocs.io/en/latest/faq/umbrella.html#adding-children-to-an-umbrella>`__.
 
     .. centered:: **OR**

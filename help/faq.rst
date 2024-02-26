@@ -349,6 +349,39 @@ How can I create components for a profile?
 
    <hr>
 
+Reads
+--------------------
+
+.. _faq-reads-manifest-paired-reads:
+
+How do I fill in the Reads manifest to submit paired reads?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   * Ensure that the **Reads** manifest contains the following:
+
+      * **PAIRED** as the value for the **Library layout** column
+      *  File names in the **File name** column separated by a comma
+
+     See below for a snapshot of a **Reads** manifest for paired reads:
+
+     .. figure:: /assets/images/reads/reads_manifest_paired.png
+        :alt: Reads manifest for paired reads
+        :align: center
+        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_manifest_paired.png
+        :class: with-shadow with-border
+
+        **Reads' manifest for paired reads**
+
+.. raw:: html
+
+   <hr>
+
 Samples
 --------------------
 
