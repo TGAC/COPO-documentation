@@ -280,9 +280,12 @@ The following component types are currently defined:
 
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
 .. [#f2] Also known as COPO profile. See term: :term:`COPO profile`.
-.. [#f3] Research objects refer to files, reads, assemblies, files and sequence annotations.
-         A Stand-alone profile is considered as a *project* research object.
-         See term: :term:`Profile component`.
+.. [#f3] Also known as profile component. See term: :term:`Profile component`.
+
+         Research objects refer to files, reads, assemblies, files samples,
+         barcodes (also known as targeted sequences in European Nucleotide Archive (ENA)) and sequence annotations.
+
+         A Tree of Life (ToL) profile is considered as a *project* research object.
 .. [#f4] See term: :term:`ASG`.
 .. [#f5] See term: :term:`DToL`.
 .. [#f6] See term: :term:`ERGA`.

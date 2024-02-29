@@ -34,9 +34,9 @@ links to find instructions specific to your needs.
    :name: copo-submission
 
    submissions/tol-general-submission-guide
+   submissions/files
    submissions/assemblies
    submissions/barcoding-manifest-submissions
-   submissions/files
    submissions/images
    submissions/permits
    submissions/reads

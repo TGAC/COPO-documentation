@@ -4,7 +4,14 @@
 Stand-alone Profile
 ====================
 
-In COPO, a Stand-alone work profile [#f1]_ is required to submit files, reads, assemblies and sequence annotations.
+In COPO, a Stand-alone work profile [#f1]_ is required to submit research objects [#f2]_ such as files, reads,
+assemblies and sequence annotations.
+
+.. note::
+
+   COPO work profiles are regarded as *project* research objects in :abbr:`ENA (European Nucleotide Archive)` [#f3]_.
+   after :ref:`reads submission <reads>`. Thus, modifications to the the project in
+   :abbr:`ENA (European Nucleotide Archive)` must be done to the desired profile in COPO.
 
 .. seealso::
 
@@ -25,15 +32,10 @@ Steps to Create a Stand-alone Profile
       **Stand-alone Profile: Add new profile record icon**
 
 #. **Contact COPO via email** dialogue is displayed indicating that the user is not a member of any manifest group
-   and that the user must make a request to be added to a manifest group to make ToL manifest submissions
-   if the user would like to do so.
+   and that the user must make a request to be added to a manifest group to make :abbr:`ToL (Tree of Life)` manifest
+   submissions if the user would like to do so.
 
    Click **Okay** to close the dialogue.
-
-    .. note::
-
-       Submissions such as files, reads, assemblies, files and sequence annotations can only be made using a
-       Stand-alone profile type.
 
     .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :alt: Contact COPO dialogue
@@ -42,8 +44,8 @@ Steps to Create a Stand-alone Profile
       :class: with-shadow with-border
       :height: 400px
 
-      **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
-      submissions**
+      **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make Tree of Life (ToL)
+      manifest submissions**
 
 #. Provide details for the new profile then, click **Save**
 
@@ -65,7 +67,7 @@ Steps to Create a Stand-alone Profile
       Both profile **Title** and profile **Description** are mandatory form fields.
 
       Meaningful field values are recommended in the form boxes because the information will appear
-      in submissions of the research objects [#f2]_ associated with the profile, in public remote repositories.
+      in submissions of the research objects associated with the profile, in public remote repositories.
 
 #. The new profile will be displayed in the **Profile** list
 
@@ -96,7 +98,7 @@ Steps to Create a Stand-alone Profile
 Stand-alone Profile Components
 -----------------------------------
 
-A COPO profile defines a set of component types from which instances of research objects can be created.
+A COPO profile defines a set of component types from which instances of research objects [#f2]_ can be created.
 
 The following component types are currently defined:
 
@@ -125,9 +127,14 @@ The following component types are currently defined:
    <br>
 
 .. rubric:: Footnotes
+
 .. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
-.. [#f2] Research objects refer to files, reads, assemblies, files and sequence annotations. A Stand-alone profile is
-   considered as a *project* research object. See: :term:`Profile component`.
+.. [#f2] Also known as profile component. See term: :term:`Profile component`.
+
+         Research objects refer to files, reads, assemblies, files and sequence annotations.
+
+         A Stand-alone profile is considered as a *project* research object.
+.. [#f3] See term: :term:`ENA`.
 
 ..
     Images declaration

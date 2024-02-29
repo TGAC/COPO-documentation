@@ -11,7 +11,7 @@ runs, reads, assemblies and sequence annotations accessions are created after th
 been submitted.
 
 .. seealso::
-  * :ref:`Accessions' Dashboard <accessions-dashboard>`
+  * :ref:`Accessions Dashboard <accessions-dashboard>`
 
 .. raw:: html
 

@@ -23,7 +23,7 @@ How can I view accessions after I have submitted samples, reads, or experiments 
 
    * The accessions dashboard will be displayed.
 
-   * Alternatively, navigate to the `Accessions' dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__.
+   * Alternatively, navigate to the `Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__.
 
 .. raw:: html
 
@@ -50,23 +50,46 @@ Is there a way to analyse metadata submissions?
 
    <hr>
 
-Manifest Update
+Assemblies
 --------------------
 
-How can I update values for samples that I have submitted in COPO?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _faq-assemblies-submission-file-types:
 
-.. collapse:: Reupload the amended manifest.
+What are the types of files that are required for assembly submissions in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
 
    .. raw:: html
 
       <br>
 
-   .. note::
-      * The manifest must be reuploaded in the same profile that the samples were submitted in.
+   See the `European Nucleotide Archive's (ENA's) documentation <https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#files-for-genome-assembly-submissions>`__
+   for details about the types of files that can be submitted for assembly submissions.
 
-   * The desired value(s) will be updated once the field value is not a compliance field [#f1]_.
-   * See the :ref:`samples-update` section for information about which field values can be updated.
+.. raw:: html
+
+  <br>
+
+.. _faq-assemblies-submission-locus-tag-assignment:
+
+How can I assign my own locus tag to assemblies?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Contact the :email:`COPO team <ei.copo@earlham.ac.uk>` with the request indicating the locus tag that you would
+   like to assign.
+
+   If not, European Nucleotide Archive (ENA) will automatically assign a locus tag to your assembly
+   after it has been submitted in COPO and deposited on ENA.
+
+   See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
+   for more details. The documentation outlines rules that the locus tag prefix should conform to.
 
 .. raw:: html
 
@@ -380,10 +403,47 @@ How do I fill in the Reads manifest to submit paired reads?
 
 .. raw:: html
 
+   <br>
+
+.. _faq-reads-submission-file-types:
+
+What are the types of files that are required for read submissions in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   See the `European Nucleotide Archive's (ENA's) documentation <https://ena-docs.readthedocs.io/en/latest/submit/fileprep/reads.html#accepted-read-data-formats>`__
+   for details about the types of files that can be submitted for read submissions.
+
+.. raw:: html
+
    <hr>
 
 Samples
 --------------------
+
+How can I update values for samples that I have submitted in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Reupload the amended manifest.
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+      * The manifest **must** be reuploaded in the same profile that the samples were submitted in.
+
+   * The desired value(s) will be updated once the field value is not a compliance field [#f1]_.
+   * See the :ref:`samples-update` section for information about which field values can be updated.
+
+.. raw:: html
+
+   <br>
 
 Can I delete samples that have submitted?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

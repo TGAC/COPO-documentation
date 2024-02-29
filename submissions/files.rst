@@ -7,6 +7,24 @@ Files Submission
 How to Submit Files
 ------------------------------
 
+.. hint::
+
+   * See :abbr:`ENA (European Nucleotide Archive)` `assembly submission file types documentation <https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#files-for-genome-assembly-submissions>`__
+     for the types of files that can be submitted in COPO for assembly submissions.
+
+   * See :abbr:`ENA (European Nucleotide Archive)` `read submission file types documentation <https://ena-docs.readthedocs.io/en/latest/submit/fileprep/reads.html#accepted-read-data-formats>`__
+     for the types of files that can be submitted in COPO for read submissions.
+
+.. seealso::
+
+  * :ref:`How to Delete Files <files-deletion>`
+  * :ref:`How to Submit Reads <reads>`
+  * :ref:`How to Submit Assemblies <assemblies>`
+
+.. raw:: html
+
+   <hr>
+
 Accessing the Files' Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -241,7 +259,6 @@ Submit Files via the Terminal
    <hr>
 
 .. _files-deletion:
-
 
 How to Delete Files
 --------------------

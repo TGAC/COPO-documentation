@@ -16,6 +16,11 @@ Glossary
    Assembly
      Any sequence records from coding or non-coding regions to full assembled chromosomes.
 
+   Barcoding manifest
+     In COPO, barcoding manifest submissions contain short assembled and annotated sequences that represent
+     interesting features or gene regions. In :abbr:`ENA (European Nucleotide Archive)`, the barcoding manifests are
+     referred to as *targeted sequences*.
+
    :abbr:`BGE (Biodiversity Genomics Europe)`
      A `project <https://biodiversitygenomics.eu/>`__ that undertakes a comprehensive application of genomic
      science to biodiversity research  will drive fundamental advances in conservation science and policy.

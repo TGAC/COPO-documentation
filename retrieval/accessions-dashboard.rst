@@ -30,7 +30,7 @@ The types of accessions that are created are:
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_accessions_other_projects.png
       :class: with-shadow with-border
 
-      **Accessions' Dashboard: Tree of Life projects' accessions**
+      **Accessions Dashboard: Tree of Life projects' accessions**
 
 .. raw:: html
 
@@ -42,7 +42,7 @@ The types of accessions that are created are:
       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_accessions_standalone_projects.png
       :class: with-shadow with-border
 
-      **Accessions' Dashboard: Stand-alone projects' accessions**
+      **Accessions Dashboard: Stand-alone projects' accessions**
 
 .. raw:: html
 

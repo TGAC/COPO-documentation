@@ -9,15 +9,16 @@ How to Submit Reads
 
 .. note::
 
-  * Once **Reads** have been submitted, they cannot be deleted.
+  * Once **reads** have been submitted, they cannot be deleted.
 
-  * Files must be uploaded before a **Reads** manifest can be submitted.
+  * Files must be uploaded before a **reads** manifest can be submitted. See: :ref:`How to Submit Files <files>`.
 
 .. seealso::
 
   * :ref:`How to Update Reads <reads-update>`
   * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
   * :ref:`How to Submit Files <files>`
+  * :ref:`Types of Files for Read Submissions <faq-reads-submission-file-types>`
 
 .. raw:: html
 
@@ -83,9 +84,9 @@ Upload Reads
 
 .. important::
 
-   The **Reads** checklist dropdown menu is only available for **Standalone** profiles.
+   The **reads** checklist dropdown menu is only available for **Stand-alone** profiles.
 
-   If you are submitting **Reads** for a profile other than a Standalone profile, please proceed to upload the reads
+   If you are submitting **reads** for a profile other than a Stand-alone profile, please proceed to upload the reads
    from your local file system after you have clicked the |add-reads-manifest-button| button.
 
 .. note::

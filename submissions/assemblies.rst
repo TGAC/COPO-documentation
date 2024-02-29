@@ -8,20 +8,14 @@ Assembly Submission
 
   * Once **assemblies** have been submitted, they cannot be updated.
 
-  * If you would like to register your own *locus tag* [#f1]_  tag to your assembly, please contact the
-    :email:`COPO team <ei.copo@earlham.ac.uk>`.
-
-    If not :abbr:`ENA (European Nucleotide Archive)` [#f2]_ will automatically assign a locus tag to your assembly
-    after it has been submitted in COPO and deposited on ENA.
-    See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
-    for more details.
-
-    The documentation includes rules that the locus tag prefix should conform to if you would like to
-    use your own locus tag.
+  * Files must be uploaded before **assemblies** can be submitted. See: :ref:`How to Submit Files <files>`.
 
 .. seealso::
 
   * :ref:`How to Delete Assemblies <assemblies-deletion>`
+  * :ref:`How to Submit Files <files>`
+  * :ref:`Types of Files for Assembly Submissions <faq-assemblies-submission-file-types>`
+  * :ref:`Assigning your own Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
 
 .. raw:: html
 

@@ -12,6 +12,7 @@ Sequence Annotations Submission
 
   * :ref:`How to Update Sequence Annotations <sequence-annotations-update>`
   * :ref:`How to Delete Sequence Annotations <sequence-annotations-deletion>`
+  * :ref:`How to Submit Reads <reads>`
 
 .. raw:: html
 
