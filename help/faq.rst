@@ -297,6 +297,8 @@ How can I view more profiles that I have created in COPO?
 
    <br>
 
+.. _faq-profiles-view-more-information:
+
 How can I view more information about a profile that I have created in COPO?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -367,6 +369,21 @@ How can I create components for a profile?
    #. Complete the action/task
    #. Click the |profile-components-button| button associated with the profile record to view
       the component of the action that was performed
+
+.. raw:: html
+
+   <br>
+
+How can I make profiles or projects public or visible in European Nucleotide Archive (ENA)?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   See :ref:`releasing-profiles` section for more information.
 
 .. raw:: html
 
@@ -587,6 +604,22 @@ How can I accept or reject samples that users have submitted?
 
 
    See :ref:`accept-reject-samples` section for more information.
+
+.. raw:: html
+
+   <br>
+
+How can I download sample manifests that have been submitted by manifest providers or sample submitters?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+  See :ref:`Downloading submitted sample manifest <samples-submission-download-sample-manifest-sample-managers>` section for more
+  information.
 
 .. raw:: html
 

@@ -45,7 +45,12 @@ How to Download Submitted Sample Manifest
 
 .. note::
 
-   At least one sample record (in a manifest) must be submitted before a manifest can be downloaded.
+   * At least one sample record (in a manifest) must be submitted before a manifest can be downloaded.
+
+   * The colour of the |add-manifest-button| button is based on the type of profile that you are making a submission to.
+
+     See the :ref:`profile-types-legend` section regarding the colour code for the various types of project
+     profiles on COPO.
 
 The following steps describe how to download a submitted sample manifest:
 
@@ -76,6 +81,11 @@ The following steps describe how to download a submitted sample manifest:
 ..
     Images declaration
 ..
+
+.. |add-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |download-sample-manifest-button| image:: /assets/images/buttons/samples_download_manifest_button.png
    :height: 4ex
    :class: no-scaled-link

@@ -22,7 +22,9 @@ A :abbr:`ToL (Tree of Life)` profile can be used to create one of the following 
 
   * :ref:`How to Update Profiles <profile-update>`
   * :ref:`How to Delete Profiles <profile_deletion>`
+  * :ref:`How to Make Profiles (also known as Projects) Public <releasing-profiles>`
   * :ref:`Sharing Profiles <sharing-profiles>`
+  * :ref:`Releasing Profiles (Studies) <releasing-profiles>`
   * :ref:`Sorting Profiles <sorting-profiles>`
   * :ref:`Profile Types Legend <profile-types-legend>`
 
@@ -272,6 +274,9 @@ The following component types are currently defined:
 * To access a component within a profile, click the component button displayed within the popup after the
   |profile-components-button| button was clicked (see the screenshot above).
 
+* Profile actions can be accessed via the |profile-actions-button| button. The actions describe the process of each
+  component within a profile.
+
 .. raw:: html
 
    <hr>
@@ -294,6 +299,10 @@ The following component types are currently defined:
     Images declaration
 ..
 .. |add-profile-button| image:: /assets/images/buttons/add_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -26,6 +26,7 @@ links to find instructions specific to your needs.
    profile/standalone/standalone-profile-walkthrough
    profile/tol/tol-profile-walkthrough
    profile/sharing-profiles
+   profile/releasing-profiles
    profile/sorting-profiles
    profile/profile-types-legend
 

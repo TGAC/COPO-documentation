@@ -393,6 +393,96 @@ Rejecting samples
 
    <hr>
 
+.. _samples-submission-download-sample-manifest-sample-managers:
+
+Download Submitted Sample Manifests
+------------------------------------
+
+As a **sample manager**, you can download submitted (filled) manifests by following the steps below:
+
+#. Navigate to the **Accept or Reject Samples** web page.
+
+   See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
+   guidance.
+
+#. On the left of the **Accept or Reject Samples web page**, click the |link-icon| icon in the **Samples link** table
+   column of the table row for the profile that you would like upload a manifest for or update a submitted manifest
+   for as shown below:
+
+   If the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile or :abbr:`DTOL (Darwin Tree of Life)`
+   profile, navigate to the **Samples** web page by clicking the |link-icon| icon in the **Samples link** table
+   column of the table row for the desired profile in the **All Profiles** tab as shown below:
+
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :class: with-shadow with-border
+
+      **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with a DTOL profile**
+
+   .. raw:: html
+
+            <br>
+
+   Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the same action occurs.
+
+   .. centered:: **OR**
+
+   If the desired profile is an :abbr:`ERGA (European Reference Genome Atlas)` profile, navigate to the **Samples**
+   web page by clicking the |link-icon| icon in the **Samples link** table column of the table row for the desired
+   profile in the **Profiles for My Sequencing Centre** tab as shown below:
+
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :class: with-shadow with-border
+
+      **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with an ERGA profile**
+
+   .. raw:: html
+
+      <br>
+
+#. The **Samples** web page will be displayed as shown below:
+
+    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
+        :align: center
+        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :class: with-shadow with-border
+
+        **Samples web page for a DTOL profile**
+
+    .. raw:: html
+
+       <br>
+
+    Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the **Samples** web page
+    will be displayed.
+
+    .. centered:: **OR**
+
+    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile
+        :align: center
+        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :class: with-shadow with-border
+
+        **Samples web page for an ERGA profile**
+
+   .. raw:: html
+
+      <br>
+
+#. Download the submitted manifest by following the guidelines described in the
+   :ref:`downloading-submitted-sample-manifest` section
+
+.. raw:: html
+
+   <hr>
+
 .. _permits-submission-download-permits-sample-managers:
 
 Download Submitted Permits

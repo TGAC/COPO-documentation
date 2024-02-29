@@ -187,10 +187,15 @@ Glossary
      .. image:: /assets/images/ontology-field.jpg
         :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/ontology-field.jpg
 
+   Profile action
+     A set of actions that can be performed on a profile. They are correlated with the profile components in COPO.
+
    Profile component
      Also known as *research object*. It forms part of a research project or study.
 
      Templates for creating or describing research objects can be found :ref:`here <manifest-templates>`.
+
+     Profile components are correlated with profile actions in COPO.
 
    Profile Types legend
         This describes the types of the profiles that have been created. It is located at the right of the *
