@@ -20,6 +20,7 @@ with the COPO system. The API is built using the Django :abbr:`REST (REpresentat
 
 API End-points
 ---------------
+
 The COPO :abbr:`API (Application Programming Interface)` [#f2]_ comprises manifest, sample, statistics and profile
 endpoints. Their results are available for download in csv, json or ro-crate [#f3]_ file formats depending on the record
 type as shown in the table below.
@@ -34,9 +35,9 @@ Each endpoint results contain metadata provided by the submitter.
    * - File Format
      - Available Record Types
    * - csv
-     - Study, Sample, Manifest
+     - Audit, Sample, Manifest
    * - json
-     - Study, Sample, Manifest
+     - Audit, Sample, Manifest
    * - ro-crate
      - Sample
 
@@ -215,6 +216,25 @@ Fetch Manifests
 This results in a list of all manifest :abbr:`IDs (Identifications)` [#f4]_. The manifest identification can be
 used to retrieve records in the other endpoints.
 
+Fetch Manifests by Sequencing Centre
+""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
+
+This results in a list of manifest :abbr:`IDs (Identifications)` [#f4]_ that are associated with the
+given ``sequencing_centre``. In the API URL, replace ``<sequencing-centre>`` with the name of the sequencing centre.
+
+The manifest identification can be used to retrieve records in the other endpoints.
+
+
 Fetch Current Manifest Versions
 """""""""""""""""""""""""""""""
 
@@ -231,8 +251,8 @@ Fetch Current Manifest Versions
 This displays the current or latest manifest version of each manifest project brokered through COPO.
 
 
-Fetch Sample Records by Manifest ID
-"""""""""""""""""""""""""""""""""""""
+Fetch Sample Records in a Manifest by Manifest ID
+""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 
@@ -401,9 +421,26 @@ Fetch Sample Records by Associated Project Type
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/sample/sample/associated_tol_project/{values}" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/sample/associated_tol_project/{values}" -H  "accept: application/json"
 
 This results in a list of all sample records of a given associated project type(s) in COPO.
+
+Fetch Sample Project Fields by Manifest Version
+""""""""""""""""""""""""""""""""""""""""""""""""""
+.. code-block:: bash
+
+   https://copo-project.org/api/sample/project/manifest_version/fields
+
+.. centered:: OR
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/sample/project/manifest_version/fields" -H  "accept: application/json"
+
+This results in a list of sample fields by project and manifest version.
+
+If no manifest version is provided, the latest manifest version is used. If no project is provided, all project
+types are used.
 
 Fetch Sample Records between Dates
 """""""""""""""""""""""""""""""""""
@@ -450,7 +487,7 @@ Fetch Updatable Fields by Project
    $ curl -X GET "https://copo-project.org/api/sample/updatable_fields/{project}" -H  "accept: */*"
 
 This results in list of fields that can be updated when a manifest is reuploaded/resubmitted in COPO based on the
-given ``{project}```.
+given ``{project}``.
 
 Fetch Sample Records by COPO ID
 """"""""""""""""""""""""""""""""""""""""
@@ -509,6 +546,22 @@ Fetch Sample Records by Field and Values
    $ curl -X GET "https://copo-project.org/api/sample/sample_field/{field}/{values}" -H  "accept: application/json"
 
 This results in full sample information for the sample records returned from the given ``{field}/{values}``.
+
+Fetch Sample Records by Sequencing Centre
+""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
+
+This results in full sample information for the sample records based on the given ``sequencing_centre``.
+In the API URL, replace ``<sequencing-centre>`` with the name of the sequencing centre.
 
 Fetch Study Records by Sample ID
 """"""""""""""""""""""""""""""""""""""""
@@ -633,20 +686,23 @@ Fetch Number of COPO Users
 This results in the total number of registered users in COPO.
 
 
-Fetch Number of Sample Records by Sample Type
-"""""""""""""""""""""""""""""""""""""""""""""
+Fetch Number of Sample Records by Sample Type and Date
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. code-block:: bash
 
-   https://copo-project.org/api/stats/number_of_samples/{sample_type}
+   https://copo-project.org/api/stats/number_of_samples
 
 .. centered:: **OR**
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/stats/number_of_dtol_samples/{sample_type}" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/stats/number_of_samples" -H  "accept: application/json"
 
-This results in the total number of registered sample records in COPO by a given sample type.
+This results in the total number of registered sample records in COPO by a given sample type and date.
+
+If no sample type is provided and no start date and end date are provided, COPO will return the total number
+of samples.
 
 Fetch Tree of Life (ToL) Projects Brokered by COPO
 """"""""""""""""""""""""""""""""""""""""""""""""""
