@@ -50,6 +50,8 @@ Secondary Projects
    * :ref:`Standard Operating Procedure (SOP) <fill-blank-manifests>` for the various projects
    * :ref:`Manifest template <manifest-templates>` for the various projects
    * :ref:`Using manifest wizard to prefill manifests <manifest_wizard>`
+   * :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
+     :abbr:`FAQ (Frequently Asked Question)`
 
 .. raw:: html
 

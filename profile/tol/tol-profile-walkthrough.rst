@@ -190,6 +190,8 @@ Choose Sequencing Centre (if required)
          The **Sequencing Centre** dropdown menu will only display if the
          **European Reference Genome Atlas (ERGA)** profile type is selected.
 
+         See the :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
+         :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
       .. figure:: /assets/images/profile/profile_add_profile_form_sequencingCentre.png
          :alt: Choose sequencing centre on add profile form

@@ -388,6 +388,54 @@ How can I make profiles or projects public or visible in European Nucleotide Arc
 .. raw:: html
 
    <hr>
+.. raw:: html
+
+   <br>
+
+.. _faq-profiles-sequencing-centres-list:
+
+What are the names of the sequencing centres whose samples are brokered through COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Currently, there are 20 sequencing centres whose samples are brokered through COPO.
+
+   Each COPO :abbr:`ERGA (European Reference Genome Atlas)` profile should be associated with a sequencing centre.
+
+   The following are the names of the sequencing centres:
+
+   .. hlist::
+      :columns: 2
+
+      * CENTRO NACIONAL DE ANÁLISIS GENÓMICO
+      * DNA SEQUENCING AND GENOMICS LABORATORY, HELSINKI GENOMICS CORE FACILITY
+      * EARLHAM INSTITUTE
+      * FUNCTIONAL GENOMIC CENTER ZURICH
+      * GENOSCOPE
+      * HANSEN LAB, DENMARK
+      * INDUSTRY PARTNER
+      * LAUSANNE GENOMIC TECHNOLOGIES FACILITY
+      * LEIBNIZ INSTITUTE FOR THE ANALYSIS OF BIODIVERSITY CHANGE, MUSEUM KOENIG, BONN
+      * NEUROMICS SUPPORT FACILITY, UANTWERP, VIB
+      * NGS BERN
+      * NGS COMPETENCE CENTER TÜBINGEN
+      * NORWEGIAN SEQUENCING CENTRE
+      * Other_ERGA_Associated_GAL
+      * SANGER INSTITUTE
+      * SCILIFELAB
+      * SVARDAL LAB, ANTWERP
+      * UNIVERSITY OF BARI
+      * UNIVERSITY OF FLORENCE
+      * WEST GERMAN GENOME CENTRE
+
+.. raw:: html
+
+   <hr>
 
 Reads
 --------------------
