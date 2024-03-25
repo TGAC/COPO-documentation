@@ -273,7 +273,7 @@ Glossary
    :abbr:`SOP (Standard Operating Procedure)`
      A manual compiled by various profile groups to help scientists fill in a manifest correctly.
 
-     See the `SOPs <fill-blank-manifests>` section for more information.
+     See the :ref:`SOPs <fill-blank-manifests>` section for more information.
 
    Studio3T
      Studio3T, formerly known as Robo3T, is a :abbr:`GUI (Graphical User Interface)` for MongoDB.
@@ -291,6 +291,13 @@ Glossary
      A string of characters that unambiguously identifies a particular resource.
 
      See also: :wikipedia:`Uniform Resource Identifier <URI>`
+
+   Virtual sample
+     A virtual sample is a research object that is submitted to COPO under a
+     :ref:`Stand-alone profile <standalone-profile-walkthrough>`. It represents samples in a **run** sequencing file.
+
+     See the :ref:`Virtual sample submission <standalone-profile-virtual-sample-submissions>` section for more
+     information.
 
    :abbr:`VSCode (Visual Studio Code)`
      VSCode is a lightweight but powerful source code editor which runs on your desktop and is available on Windows,

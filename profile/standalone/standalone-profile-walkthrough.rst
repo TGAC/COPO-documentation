@@ -140,6 +140,35 @@ The following component types are currently defined:
 
    <hr>
 
+.. _standalone-profile-virtual-sample-submissions:
+
+Submitting Virtual Samples
+-----------------------------------
+
+Please follow the steps below to submit virtual samples [#f5]_:
+
+#. Create a Stand-alone profile or select an existing one.
+   See :ref:`Steps to create a Stand-alone profile <standalone-profile-walkthrough>`.
+
+#. Submit reads to the Stand-alone profile. See :ref:`Submitting Reads <reads>` section.
+
+   .. important::
+
+        * Files **must** be uploaded before reads submission can be made.
+        * Reads submission is required before making a virtual sample submission.
+
+#. All virtual sample submissions require a description.
+
+   Provide the virtual sample description to the :email:`COPO team <ei.copo@earlham.ac.uk>` as well as the
+   (completed) reads manifest file. COPO will add the sample description in ENA [#f3]_.
+
+.. hint::
+    Accessions are available a few minutes after reads have been submitted.
+
+.. raw:: html
+
+   <hr>
+
 .. rubric:: Footnotes
 
 .. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
@@ -150,6 +179,7 @@ The following component types are currently defined:
          A Stand-alone profile is considered as a *project* research object.
 .. [#f3] See term: :term:`ENA`.
 .. [#f4] See term: :term:`Profile action`.
+.. [#f5] See term: :term:`Virtual sample`.
 
 ..
     Images declaration

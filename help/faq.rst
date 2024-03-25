@@ -570,7 +570,7 @@ How can I download permits that have been uploaded?
 
    <br>
 
-What are the formats that I download samples in?
+What are the formats that I can download samples in?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
@@ -592,6 +592,25 @@ What are the formats that I download samples in?
      in csv format.
 
      See :ref:`How to access Samples web page <accessing-samples-web-page>` section for guidance.
+
+.. raw:: html
+
+   <br>
+
+.. _faq-virtual-sample-submissions:
+
+How can I submit virtual samples in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Virtual samples are research objects that are submitted to COPO under a Stand-alone profile.
+
+   See the :ref:`standalone-profile-virtual-sample-submissions` section for more information.
 
 .. raw:: html
 
