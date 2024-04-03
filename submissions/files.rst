@@ -77,6 +77,11 @@ from the popup menu displayed as shown below:
 Submit Files from your Local (Computer) System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. note::
+
+   The maximum file size that can be uploaded from your local (computer) system is 1GB or 700 MB. If you have a file
+   larger than 1GB or 700 MB, please :ref:`submit the file via the terminal <files-submission-via-terminal>`.
+
 #. Click the |add-files-via-computer-button| button on the Files web page to add a new file by browsing your
    local file system
 
@@ -128,6 +133,8 @@ Submit Files from your Local (Computer) System
 .. raw:: html
 
    <hr>
+
+.. _files-submission-via-terminal:
 
 Submit Files via the Terminal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
