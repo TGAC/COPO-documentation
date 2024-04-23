@@ -17,6 +17,19 @@ Click the links below to learn more about each type of manifest submission:
 
    <br>
 
+.. image:: /assets/files/presentations/copo_sample_submission_process_illustration.gif
+   :alt: Samples submission and validation process in COPO
+   :align: center
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/files/presentations/copo_sample_submission_process_illustration.gif
+   :class: with-shadow with-border
+   :scale: 60%
+
+.. centered:: **Samples submission and validation process in COPO**
+
+.. raw:: html
+
+   <br>
+
 .. seealso::
 
     * :ref:`How to access Samples web page <accessing-samples-web-page>`

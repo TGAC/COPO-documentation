@@ -73,7 +73,7 @@ file or class name and description of purpose be included on the
 same "printed page" as the copyright notice for easier
 identification within third-party archives.
 
-Copyright 2017-2024, Collaborative OPen Omics (COPO)
+Copyright 2014-2024, Collaborative OPen Omics (COPO)
 
 Licensed under the Apache Licence, Version 2.0 (the "Licence");
 you may not use this file except in compliance with the Licence.

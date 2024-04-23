@@ -92,6 +92,13 @@ links to find instructions specific to your needs.
    help/faq
    help/glossary
 
+.. toctree::
+   :caption: Seminar Materials
+   :name: seminar materials
+   :maxdepth: 2
+
+   presentations/presentation-materials
+
 
 
 .. Indices and tables

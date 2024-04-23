@@ -69,6 +69,8 @@ repositories and can be accessed with the COPO API via a clear and accessible da
 
    <hr>
 
+.. _presentations-webinars-fair:
+
 FAIR Webinars
 --------------
 
