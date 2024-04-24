@@ -10,6 +10,9 @@ This section entails presentations and other materials that have been used to in
 
    <hr>
 
+Seminar presentations
+----------------------
+
 #. **Advancing Biodiversity Research: The Evolution of Collaborative OPen Omics (COPO) Project**
 
    - Presented at the Earlham Institute internal seminar
@@ -46,7 +49,34 @@ This section entails presentations and other materials that have been used to in
 
 .. raw:: html
 
-   <br><hr>
+   <hr>
+
+Poster presentations
+----------------------
+
+#. **Collaborative OPen Omics (COPO) - Building, Testing and Deployment**
+
+   - **Authors**: COPO team - Aaliyah Providence, Debby Ku and Felix Shaw
+
+   - **Abstract**:
+      Collaborative OPen Omics (COPO) is a user-friendly platform that allows scientists to easily upload, update, and
+      publish metadata while adhering to community standards, promoting transparent data sharing. Built with
+      cutting-edge technology, it utilises Docker Swarm for seamless service management, ensuring continuous
+      availability, scalability, and ease of maintenance.
+
+      Security is prioritised in COPO's architecture, with distinct network layers preventing direct client access
+      to back-end data repositories. Docker secrets are employed to enforce strict measures against unauthorised
+      access, enhancing data protection and platform integrity.
+
+      Overall, COPO provides a sophisticated solution for scientific data management, integrating modern methodologies
+      and security protocols to facilitate collaborative research efforts and promote scientific advancement.
+
+   - :download:`Download poster presentation <../assets/files/presentations/copo_poster_building_testing_and_deployment.pdf>`
+
+
+.. raw:: html
+
+   <hr>
 
 .. seealso::
 
