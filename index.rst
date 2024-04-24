@@ -93,8 +93,8 @@ links to find instructions specific to your needs.
    help/glossary
 
 .. toctree::
-   :caption: Seminar Materials
-   :name: seminar materials
+   :caption: Presentation Materials
+   :name: presentation materials
    :maxdepth: 2
 
    presentations/presentation-materials
