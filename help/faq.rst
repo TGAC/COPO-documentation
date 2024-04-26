@@ -7,6 +7,63 @@ Frequently Asked Questions
 
    To view the entire answer to a question, collapse the answer by clicking the |collapsible-item-arrow| button below.
 
+Assemblies
+--------------------
+
+.. _faq-assemblies-submission-file-types:
+
+What are the types of files that are required for assembly submissions in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   See the `European Nucleotide Archive's (ENA's) documentation <https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#files-for-genome-assembly-submissions>`__
+   for details about the types of files that can be submitted for assembly submissions.
+
+.. raw:: html
+
+  <br>
+
+.. _faq-assemblies-submission-locus-tag-assignment:
+
+How can I assign my own locus tag to assemblies?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+  .. hint::
+
+     Each profile in COPO is known as a study or project in :abbr:`ENA (European Nucleotide Archive)` (after reads
+     have been submitted).
+
+  .. note::
+
+     Reads submission **must** be done in order for a locus tag to be assigned to the project.
+
+     This is because a project submission is done to European Nucleotide Archive (ENA) once reads submission has
+     been completed.
+
+  Contact the :email:`COPO team <ei.copo@earlham.ac.uk>` with the request indicating the locus tag that you would
+  like to assign.
+
+  If not, :abbr:`ENA (European Nucleotide Archive)` will automatically assign a locus tag to your assembly
+  after it has been submitted in COPO and deposited to ENA.
+
+  See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
+  for more details. The documentation outlines rules that the locus tag prefix should conform to.
+
+.. raw:: html
+
+   <hr>
+
 Dashboard
 --------------------
 
@@ -45,51 +102,6 @@ Is there a way to analyse metadata submissions?
    #. `Tree of Life inspection by Genome Acquisition Lab web page <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__
        * Alternatively, click the |tol-inspect-by-gal-button| button.
    #. `Statistics web page <https://copo-project.org/copo/tol_dashboard/stats>`__
-
-.. raw:: html
-
-   <hr>
-
-Assemblies
---------------------
-
-.. _faq-assemblies-submission-file-types:
-
-What are the types of files that are required for assembly submissions in COPO?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. collapse:: Click to view answer
-
-   .. raw:: html
-
-      <br>
-
-   See the `European Nucleotide Archive's (ENA's) documentation <https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#files-for-genome-assembly-submissions>`__
-   for details about the types of files that can be submitted for assembly submissions.
-
-.. raw:: html
-
-  <br>
-
-.. _faq-assemblies-submission-locus-tag-assignment:
-
-How can I assign my own locus tag to assemblies?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. collapse:: Click to view answer
-
-   .. raw:: html
-
-      <br>
-
-   Contact the :email:`COPO team <ei.copo@earlham.ac.uk>` with the request indicating the locus tag that you would
-   like to assign.
-
-   If not, European Nucleotide Archive (ENA) will automatically assign a locus tag to your assembly
-   after it has been submitted in COPO and deposited on ENA.
-
-   See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
-   for more details. The documentation outlines rules that the locus tag prefix should conform to.
 
 .. raw:: html
 
