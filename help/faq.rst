@@ -107,6 +107,18 @@ Is there a way to analyse metadata submissions?
 
    <hr>
 
+Files
+--------------------
+
+How do I know when data files that have been uploaded to COPO are public on European Nucleotide Archive (ENA)?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See :ref:`files-ena-upload-status-after-copo-metadata-submission` section for more information.
+
+.. raw:: html
+
+   <hr>
+
 Permits
 --------------------
 

@@ -12,6 +12,7 @@ Sequence Annotations Submission
 
   * :ref:`How to Update Sequence Annotations <sequence-annotations-update>`
   * :ref:`How to Delete Sequence Annotations <sequence-annotations-deletion>`
+  * :ref:`How to check if data files associated with sequence annotation submissions have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
   * :ref:`How to Submit Reads <reads>`
 
 .. raw:: html
@@ -168,7 +169,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :alt: Delete sequence annotations button
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotations_button.png
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :class: with-shadow with-border
 
    **Sequence annotation deletion: Click the "Delete" button to remove the highlighted sequence annotation from the profile**

@@ -18,6 +18,7 @@ How to Submit Files
 .. seealso::
 
   * :ref:`How to Delete Files <files-deletion>`
+  * :ref:`How to check if data files associated with a metadata submission have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
   * :ref:`How to Submit Reads <reads>`
   * :ref:`How to Submit Assemblies <assemblies>`
 
@@ -140,24 +141,6 @@ Submit Files from your Local (Computer) System
 Submit Files via the Terminal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _files-submission-via-terminal-hint:
-
-.. hint::
-
-      If you encounter the server certificate error, ``curl: (60) Peer's Certificate issuer is not recognized.``, please
-      perform one of the the following resolutions:
-
-      * **Resolution #1**: Run the command below in the terminal (if you have ``sudo`` rights on your device)
-
-         .. code-block:: bash
-
-            $ sudo apt-get install ca-certificates
-
-        .. centered:: **OR**
-
-      * **Resolution #2**: Replace ``https`` with ``http`` in the generated command
-        indicated :ref:`here <files-submission-via-terminal-copy-commands>` then, run the command in the terminal again.
-
 #. Click the |add-files-via-terminal-button| button on the Files web page to add a new file from a cluster via the
    terminal.
 
@@ -185,58 +168,64 @@ Submit Files via the Terminal
 
       **Files submission: Move Data dialogue**
 
-   * .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input1.png
-        :alt: Terminal with command inputted
-        :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_terminal_input1.png
-        :class: with-shadow with-border
+   .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input1.png
+      :alt: Terminal with command inputted
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_terminal_input1.png
+      :class: with-shadow with-border
 
-        **Input** $ ``ls - F1`` **command in the terminal**
+      **Input** $ ``ls - F1`` **command in the terminal**
 
-        .. raw:: html
+      .. raw:: html
 
-           <br>
+         <br>
 
-   * .. figure:: /assets/images/files/files_move_data_dialogue_with_details1.png
-        :alt: Move Data dialogue with details inputted
-        :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details1.png
-        :class: with-shadow with-border
-        :height: 400px
+   .. figure:: /assets/images/files/files_move_data_dialogue_with_details1.png
+      :alt: Move Data dialogue with details inputted
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details1.png
+      :class: with-shadow with-border
+      :height: 400px
 
-        **Move Data dialogue: Input the filename(s) returned after having ran the** $ ``ls - F1`` **command in the
-        terminal. Then, click the** ``Process`` **button.**
+      **Move Data dialogue: Input the filename(s) returned after having ran the** $ ``ls - F1`` **command in the
+      terminal. Then, click the** ``Process`` **button.**
 
-        .. raw:: html
+      .. raw:: html
 
-           <br>
+         <br>
 
-   .. _files-submission-via-terminal-copy-commands:
+   .. _files-submission-via-terminal-download-commands:
 
-   * .. figure:: /assets/images/files/files_move_data_dialogue_with_details2.png
-        :alt: Move Data dialogue with result (a command) after having clicked the "Process" button
-        :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details2.png
-        :class: with-shadow with-border
-        :height: 400px
+   .. figure:: /assets/images/files/files_move_data_dialogue_with_details2.png
+      :alt: Move Data dialogue with result (a command) after having clicked the "Process" button
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_with_details2.png
+      :class: with-shadow with-border
+      :height: 400px
 
-        **Move Data dialogue: Command outputted after having clicked command in the** ``Process`` **button. Copy the
-        command displayed.**
+      **Move Data dialogue: Command outputted after having clicked command in the** ``Process`` **button. Download the
+      command displayed.**
 
-        If you encounter the server certificate error, ``curl: (60) Peer's Certificate issuer is not recognized.``,
-        please see the :ref:`hint <files-submission-via-terminal-hint>` at the beginning of this section.
+      The downloaded file will have *unknown* or *download* as the file name depending on the browser you are using.
 
-   * .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input2.png
-        :alt: Terminal with command pasted
-        :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_terminal_input2.png
-        :class: with-shadow with-border
+   .. raw:: html
 
-        **Paste the copied command in the terminal**
+      <br>
 
-        .. raw:: html
+   .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input2.png
+      :alt: Terminal with command pasted
+      :align: center
+      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/files/files_move_data_dialogue_terminal_input2.png
+      :class: with-shadow with-border
 
-           <br>
+      **Paste the copied command in the terminal**
+
+      Alternatively, you can make the downloaded file executable then, run the file in the directory
+      where the files are located:
+
+      .. raw:: html
+
+         <br>
 
    .. raw:: html
 
@@ -292,11 +281,49 @@ Click the desired file from the list of files displayed on the Files' web page. 
 
 .. raw:: html
 
-   <br>
+   <hr>
+
+.. _files-ena-upload-status-after-copo-metadata-submission:
+
+Checking ENA File Upload Status
+--------------------------------
+
+.. note::
+
+   A reads, annotations or assembly submission must be completed before the file(s) can be uploaded to
+   ENA (European Nucleotide Archive).
+
+After having completed a reads, annotations or assembly submission and associated a file(s) to it during the
+submission process in COPO, the file(s) are submitted to ENA (European Nucleotide Archive).
+
+The status of the file(s) uploaded to the :abbr:`ENA (European Nucleotide Archive)` can be checked in the column,
+**ENA File Processing Status**, on the reads, annotations or assembly web page.
+
+The **ENA File Processing Status** column is highlighted with a red rectangle border in the image below:
+
+.. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+   :alt: ENA (European Nucleotide Archive) File Processing Status column on the reads, annotations or assembly web page
+   :align: center
+   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+   :class: with-shadow with-border
+
+   **ENA File Processing Status: The status of the file(s) uploaded to ENA (European Nucleotide Archive)**
 
 .. raw:: html
 
-   <hr>
+   <br>
+
+.. hint::
+
+   * Rows with a status of **"File archived: PUBLIC"** or in a green colour indicate that the file(s) have been successfully
+     submitted to :abbr:`ENA (European Nucleotide Archive)`.
+
+   * Rows with a status of **"Invalid file integrity: PRIVATE"** or in a red colour indicate that the file(s) failed
+     to be submitted to :abbr:`ENA (European Nucleotide Archive)`.
+
+.. raw:: html
+
+   <br> <hr>
 
 .. rubric:: Footnotes
 
