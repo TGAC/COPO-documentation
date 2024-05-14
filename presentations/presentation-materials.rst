@@ -62,11 +62,6 @@ Seminar presentations
 
    - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_23042024_Advancing_Biodiversity_Research_The_Evolution_of_COPO.pptx>`
 
-   .. raw:: html
-
-      <br>
-
-
 .. raw:: html
 
    <hr>
