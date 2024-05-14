@@ -6,12 +6,36 @@ COPO Presentations
 
 This section entails presentations and other materials that have been used to introduce COPO to various audiences.
 
+.. hint::
+
+    * Click the download link below to access the presentations
+
+    * View the seminar presentations in slide show mode to see the animations.
+
 .. raw:: html
 
    <hr>
 
 Seminar presentations
 ----------------------
+
+#. **Leveraging COPO to submit READ/Assembly/Sequencing Annotation data to ENA and get data published**
+
+   - Presented at the Earlham Institute internal seminar
+
+   - **Date**: Tuesday 14th May, 2024
+
+   - **Presenter**: Debby Ku, Research Software Engineer of the COPO team
+
+   - **Abstract**:
+      How users can leverage COPO to submit reads, assemblies and sequencing annotation data to European Nucleotide
+      Archive (ENA) and get the data published
+
+   - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_14052024_Leveraging_COPO_to_submit_READ_ Assembly_Sequencing_Annotation_data_to_ENA_and_get_data_published.pptx>`
+
+   .. raw:: html
+
+         <hr>
 
 #. **Advancing Biodiversity Research: The Evolution of Collaborative OPen Omics (COPO) Project**
 
@@ -42,10 +66,6 @@ Seminar presentations
 
       <br>
 
-   .. hint::
-
-        Click the download link above to access the presentation slides. View the presentation in slide show mode
-        to see the animations.
 
 .. raw:: html
 
