@@ -101,9 +101,14 @@ Automatic rebuild: $ `sphinx-autobuild --port=8002 --open-browser ./ _buildinter
 ## Potential issues
 **Issue #1** (when running the Sphinx project for the first time):
 
-`"WARNING: html_static_path entry '../_static' does not exist"`
+`"WARNING: html_static_path entry '../_static' does not exist"` 
 
-**Solution #1**: Create a `_static` folder in the project root directory
+**OR**
+
+`WARNING: html_static_path entry '_static' does not exist`
+
+**Solution #1**: Create a `_static` folder in the project root directory 
+                 Command to do so: $ `mkdir _static`
 ______________________________________________________________________
 
 **Issue #2**: `bash: make: command not found`
@@ -115,6 +120,14 @@ ______________________________________________________________________
 **Solution #3**: $ `sudo lsof -i TCP:8002 | grep LISTEN | awk '{print $2}' | xargs kill -9`
 
 NB. `8002` is the port number. The solution above will kill the process running on that port.
+______________________________________________________________________
+
+**Issue #4 (Mac)**: `NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'`
+**Solution #3 (Mac)**: Install Enchant C library
+                       $ `brew update`
+                       $ `brew install enchant`
+
+NB: Install [Homebrew](https://brew.sh/) before running the commands above
 
 ---
 
