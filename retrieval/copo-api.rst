@@ -26,9 +26,10 @@ endpoints. Their results are available for download in csv, json or ro-crate [#f
 type as shown in the table below.
 
 Most of the API endpoints can be queried by a desired standard. See the **Available Standards for Records** table
-below for the record types that can be queried in each standard.
+below for the record types that can be queried in each standard. This enhances interoperability since systems may be
+compliant with other standards.
 
-To query multiple standards, provide them as a ``%2C%20`` separated in the API :abbr:`URL (Uniform Resource Locator)`.
+To query by multiple standards, provide them as a ``%2C%20`` separated in the API :abbr:`URL (Uniform Resource Locator)`.
 ``%2C%20`` is the encoding URL for the comma (,) character.
 
 For example, to query the endpoint in the standards - Darwin Core (DWC), European Nucleotide Archive (ENA) and
@@ -447,7 +448,7 @@ Fetch Sample Records by Associated Project Type
    * In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
      records, it is referred to as **associated_type**.
 
-   * To query multiple associated project types, provide them as a ``%2C%20`` separated in the API URL. ``%2C%20``
+   * To query by multiple associated project types, provide them as a ``%2C%20`` separated in the API URL. ``%2C%20``
      is the URL encoding for the comma (,) character.
 
      For example, to query the endpoint for the associated project types :abbr:`BGE (Biodiversity Genomics Europe)`
@@ -557,7 +558,7 @@ Fetch Sample Records by Biosample Accession
      sample has been accepted by a sample manager [#f10]_.
    * The ``biosampleAccession`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id``
      in :abbr:`ENA (European Nucleotide Archive)`.
-   * To query multiple biosample accessions, provide them as a comma separated list in this endpoint.
+   * To query by multiple biosample accessions, provide them as a comma separated list in this endpoint.
 
 
 .. code-block:: bash
