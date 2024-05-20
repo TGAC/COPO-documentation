@@ -25,6 +25,18 @@ The COPO :abbr:`API (Application Programming Interface)` [#f2]_ comprises manife
 endpoints. Their results are available for download in csv, json or ro-crate [#f3]_ file formats depending on the record
 type as shown in the table below.
 
+Most of the API endpoints can be queried by a desired standard. See the **Available Standards for Records** table
+below for the record types that can be queried in each standard.
+
+To query multiple standards, provide them as a ``%2C%20`` separated in the API :abbr:`URL (Uniform Resource Locator)`.
+``%2C%20`` is the encoding URL for the comma (,) character.
+
+For example, to query the endpoint in the standards - Darwin Core (DWC), European Nucleotide Archive (ENA) and
+Minimum Information about any (x) Sequence (MIxS), add the separator to the end of the API URL like this:
+``?standard=dwc%2C%20ena%2C%20mixs``
+
+By default, the API endpoints will return results in the **tol** (Tree of Life) standard.
+
 Each endpoint results contain metadata provided by the submitter.
 
 .. list-table:: Available Result Formats for Records
@@ -40,6 +52,27 @@ Each endpoint results contain metadata provided by the submitter.
      - Audit, Sample, Manifest
    * - ro-crate
      - Sample
+
+.. list-table:: Available Standards for Records
+   :width: 100%
+   :align: center
+   :header-rows: 1
+
+   * - Standard
+     - Backronym
+     - Available Records Types
+   * - dwc
+     - Darwin Core
+     - Sample, Manifest
+   * - ena
+     - European Nucleotide Archive
+     - Sample, Manifest
+   * - mixs
+     - Minimum Information about any (x) Sequence
+     - Sample, Manifest
+   * - tol
+     - Tree of Life
+     - Sample, Manifest
 
 .. note::
 
@@ -407,11 +440,19 @@ Fetch Sample Records by Associated Project Type
 
 .. hint::
 
-   The associated project type is the project type that the sample is subproject of. For example, a sample may be
-   associated with a project type of "BGE" but the sample itself may be an "ERGA" sample.
+   * The associated project type is the project type that the sample is a subproject of. For example, a sample may be
+     associated with a project type of :abbr:`BGE (Biodiversity Genomics Europe)` but the sample itself may be
+     an :abbr:`ERGA (European Reference Genome Atlas)` sample.
 
-   In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
-   records, it is referred to as **associated_type**.
+   * In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
+     records, it is referred to as **associated_type**.
+
+   * To query multiple associated project types, provide them as a ``%2C%20`` separated in the API URL. ``%2C%20``
+     is the URL encoding for the comma (,) character.
+
+     For example, to query the endpoint for the associated project types :abbr:`BGE (Biodiversity Genomics Europe)`
+     and :abbr:`ERGA_PILOT (European Reference Genome Atlas - Pilot)`, add ``BGE%2C%20ERGA_PILOT``
+     like this: ``sample/associated_tol_project/BGE%2C%20ERGA_PILOT`` to the end of the API URL.
 
 .. code-block:: bash
 
@@ -508,26 +549,28 @@ Fetch Sample Records by COPO ID
 
 This results in full sample information for the sample records returned from the given ``{copo_ids}``.
 
-Fetch Sample Records by Biosample ID
-""""""""""""""""""""""""""""""""""""""""
+Fetch Sample Records by Biosample Accession
+""""""""""""""""""""""""""""""""""""""""""""
 .. note::
 
-   * Biosample accession IDs are assigned to sample records by ENA [#f9]_ after the samples have been approved by a sample
-     manager [#f10]_.
-   * The ``biosample_id`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id`` in ENA.
+   * A biosample accession is a unique identifier (ID) that is assigned to a sample record by ENA [#f9]_ after the
+     sample has been accepted by a sample manager [#f10]_.
+   * The ``biosampleAccession`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id``
+     in :abbr:`ENA (European Nucleotide Archive)`.
+   * To query multiple biosample accessions, provide them as a comma separated list in this endpoint.
+
 
 .. code-block:: bash
 
-   https://copo-project.org/api/sample/biosample_id/{biosample_ids}
+   https://copo-project.org/api/sample/biosampleAccession/{biosampleAccessions}
 
 .. centered:: OR
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/sample/biosample_id/{biosample_ids}" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/sample/biosampleAccession/{biosampleAccessions}" -H  "accept: application/json"
 
-This results in full sample information for the sample records returned from the given ``{biosample_ids}``.
-
+This results in full sample information for the sample record returned from the given ``{biosampleAccessions}``.
 
 Fetch Sample Records by Field and Values
 """"""""""""""""""""""""""""""""""""""""""""""""""
