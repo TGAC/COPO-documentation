@@ -112,9 +112,9 @@ html_static_path = ['_static']
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
-html_css_files = [
-    'css/custom.css',
-]
+# html_css_files = [
+#     'css/custom.css',
+# ]
 
 # Change "View page source" which is displayed on each web page to "Edit on GitHub"
 html_context = {
