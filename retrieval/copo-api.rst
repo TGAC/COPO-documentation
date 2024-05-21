@@ -29,12 +29,12 @@ Most of the API endpoints can be queried by a desired standard. See the **Availa
 below for the record types that can be queried in each standard. This enhances interoperability since systems may be
 compliant with other standards.
 
-To query by multiple standards, provide them as a ``%2C%20`` separated in the API :abbr:`URL (Uniform Resource Locator)`.
-``%2C%20`` is the encoding URL for the comma (,) character.
+To query by multiple standards, provide them as a ``%2C`` separated in the API :abbr:`URL (Uniform Resource Locator)`.
+``%2C`` is the encoding URL for the comma (,) character.
 
 For example, to query the endpoint in the standards - Darwin Core (DWC), European Nucleotide Archive (ENA) and
 Minimum Information about any (x) Sequence (MIxS), add the separator to the end of the API URL like this:
-``?standard=dwc%2C%20ena%2C%20mixs``
+``?standard=dwc%2Cena%2Cmixs``
 
 By default, the API endpoints will return results in the **tol** (Tree of Life) standard.
 
@@ -448,12 +448,12 @@ Fetch Sample Records by Associated Project Type
    * In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
      records, it is referred to as **associated_type**.
 
-   * To query by multiple associated project types, provide them as a ``%2C%20`` separated in the API URL. ``%2C%20``
+   * To query by multiple associated project types, provide them as a ``%2C`` separated in the API URL. ``%2C``
      is the URL encoding for the comma (,) character.
 
      For example, to query the endpoint for the associated project types :abbr:`BGE (Biodiversity Genomics Europe)`
-     and :abbr:`ERGA_PILOT (European Reference Genome Atlas - Pilot)`, add ``BGE%2C%20ERGA_PILOT``
-     like this: ``sample/associated_tol_project/BGE%2C%20ERGA_PILOT`` to the end of the API URL.
+     and :abbr:`ERGA_PILOT (European Reference Genome Atlas - Pilot)`, add ``BGE%2CERGA_PILOT``
+     like this: ``sample/associated_tol_project/BGE%2CERGA_PILOT`` to the end of the API URL.
 
 .. code-block:: bash
 
@@ -556,10 +556,17 @@ Fetch Sample Records by Biosample Accession
 
    * A biosample accession is a unique identifier (ID) that is assigned to a sample record by ENA [#f9]_ after the
      sample has been accepted by a sample manager [#f10]_.
+
    * The ``biosampleAccession`` is referred to as ``biosampleAccession`` in COPO and ``biosample_id``
      in :abbr:`ENA (European Nucleotide Archive)`.
-   * To query by multiple biosample accessions, provide them as a comma separated list in this endpoint.
 
+   * To query by multiple biosample accessions, provide them as a ``%2C`` separated in the API URL in this endpoint.
+     ``%2C`` is the encoding URL for the comma (,) character.
+
+     For example, to query sample records by the biosample accessions - ``SAMEA12816320``, ``SAMEA115502883``,
+     ``SAMEA112168601`` and ``SAMEA112168603``, add ``SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603``
+     to the end of the API URL like this:
+     ``sample/biosampleAccession/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603`` .
 
 .. code-block:: bash
 
