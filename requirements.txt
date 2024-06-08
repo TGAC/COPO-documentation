@@ -25,3 +25,4 @@ sphinxcontrib-websupport==1.2.4
 sphinxcontrib-youtube==1.2.0
 sphinxemoji==0.2.0
 urllib3==2.0.4
+tornado>=6.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
