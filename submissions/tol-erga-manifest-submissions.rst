@@ -53,7 +53,7 @@ Submit ERGA Manifest
     .. figure:: /assets/images/samples/erga/erga_pointer_to_add_manifest_button.png
       :alt: Pointer to 'Add Sample(s) from ERGA Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/erga_pointer_to_add_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/erga_pointer_to_add_manifest_button.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: Click 'Add Sample(s) from ERGA Spreadsheet' button**
@@ -67,7 +67,7 @@ Submit ERGA Manifest
     .. figure:: /assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
       :alt: 'Accept Code of Conduct' dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Accept Code of Conduct' dialogue**
@@ -78,7 +78,7 @@ Submit ERGA Manifest
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Spreadsheet' dialogue**
@@ -96,7 +96,7 @@ Submit ERGA Manifest
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
       :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
@@ -131,7 +131,7 @@ the **Confirm** button.
    .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
      :alt: 'Submit Samples' confirmation dialogue
      :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
      :class: with-shadow with-border
 
      **ERGA manifest submission: 'Submit Samples' confirmation dialogue**
@@ -141,7 +141,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
    .. figure:: /assets/images/samples/erga/erga_samples_submitted.png
      :alt: Sample(s) submitted
      :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/erga/erga_samples_submitted.png
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/erga_samples_submitted.png
      :class: with-shadow with-border
 
      **ERGA manifest submission: Samples' web page displaying the submitted sample(s)**

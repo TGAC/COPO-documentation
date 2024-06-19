@@ -16,7 +16,7 @@ according to the chosen sort option.
     :alt: Profile sort menu with options displayed
     :align: center
     :height: 20ex
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/buttons/profile_sort_menu_with_options_displayed.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/buttons/profile_sort_menu_with_options_displayed.png
     :class: with-shadow with-border
 
     **Profile Sort Menu: Sort options displayed**

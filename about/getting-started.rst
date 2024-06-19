@@ -17,7 +17,7 @@ COPO uses public or institutional repositories like
 research objects to the wider scientific community.
 
 COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`__.
-Contributions are welcomed in the `GitHub repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
+Contributions are welcomed in the `GitHub repository <https://github.com/TGAC/COPO-production>`__.
 All contributors must abide by the code of conduct described in the :ref:`code-of-conduct` section.
 
 Visit the `COPO website <https://copo-project.org>`__  to make manifest submissions. An ORCID ID is required to
@@ -59,7 +59,7 @@ Navigate to `COPO live website <https://copo-project.org/copo>`__ to access the 
 
 ..  figure:: /assets/images/copo-homepage1.png
     :alt: COPO homepage
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/copo-homepage1.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/copo-homepage1.png
     :class: with-shadow with-border
 
 **COPO homepage: Click** ``Submit Data`` **button to proceed to the ORCID sign-in form (as shown below)**
@@ -71,7 +71,7 @@ Alternatively, click ``Try Demo`` button to access the demo mode.
    <br>
 
 ..  figure:: /assets/images/copo-homepage2.png
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/copo-homepage2.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/copo-homepage2.png
     :alt: COPO homepage
     :class: with-shadow with-border
 
@@ -82,7 +82,7 @@ Alternatively, click ``Try Demo`` button to access the demo mode.
    <br>
 
 ..  figure:: /assets/images/orcid_sign_in_form_web_page.png
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/orcid_sign_in_form_web_page.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/orcid_sign_in_form_web_page.png
     :alt: ORCID sign-in form
     :class: with-shadow with-border
 

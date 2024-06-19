@@ -70,7 +70,7 @@ Option 2: Using Windows Terminal
 #. Setup PyCharm Professional with a JetBrains account and a school email
 #. Add/Authorise GitHub account to PyCharm
 
-#. Clone the `COPO project GitHub repository <https://github.com/collaborative-open-plant-omics/COPO>`__ instead of
+#. Clone the `COPO project GitHub repository <https://github.com/TGAC/COPO-production>`__ instead of
    downloading it as a ``.zip`` file from the GitHub repository
 
 #. Open the cloned COPO project in PyCharm

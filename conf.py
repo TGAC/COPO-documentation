@@ -119,8 +119,8 @@ html_static_path = ['_static']
 # Change "View page source" which is displayed on each web page to "Edit on GitHub"
 html_context = {
     'display_github': True,
-    'github_user': 'collaborative-open-plant-omics',
-    'github_repo': 'Documentation',
+    'github_user': 'TGAC',
+    'github_repo': 'COPO-documentation',
     'github_version': 'main/docs/',
 }
 

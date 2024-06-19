@@ -51,7 +51,7 @@ the popup menu displayed as shown below:
 .. figure:: /assets/images/profile/profile_tol_profile_components_samples.png
    :alt: Samples' profile component
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_components_samples.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_components_samples.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -73,7 +73,7 @@ Depending on the type of profile that you have created, click the action,
 .. figure:: /assets/images/profile/profile_tol_profile_actions_only1.png
    :alt: 'Submit DTOL/ASG manifest' profile action
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_only1.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only1.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -87,7 +87,7 @@ if you have created an **European Reference Genome Atlas (ERGA)** profile:
 .. figure:: /assets/images/profile/profile_tol_profile_actions_only2.png
    :alt: 'Submit ERGA manifest' profile action
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_only2.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only2.png
    :class: with-shadow with-border
    :height: 400px
 

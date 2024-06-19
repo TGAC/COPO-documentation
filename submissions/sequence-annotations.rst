@@ -41,7 +41,7 @@ the popup menu displayed as shown below:
 .. figure:: /assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
   :alt: Stand-alone Sequence Annotations' profile component
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
   :class: with-shadow with-border
   :height: 600px
 
@@ -61,7 +61,7 @@ from the popup menu displayed as shown below:
    :alt: Stand-alone Sequence Annotations' profile action
    :align: center
    :height: 70ex
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
    :class: with-shadow with-border
 
    **Stand-alone Profile Actions: 'Submit Annotation' action**
@@ -78,7 +78,7 @@ Submit Sequence Annotations
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
        :alt: Pointer to 'Add Record' button
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
        :class: with-shadow with-border
 
        **Sequence Annotations' submission: Click 'Add Record' button**
@@ -97,7 +97,7 @@ Submit Sequence Annotations
        :alt: Add Sequence Annotation dialogue with no sample accession chosen from SAMPLE dropdown menu
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
        :class: with-shadow with-border
 
        **Sequence Annotations' submission: 'Submit Annotation' dialogue with no sample accession chosen from SAMPLE dropdown menu**
@@ -110,7 +110,7 @@ Submit Sequence Annotations
       :alt: Add Sequence Annotation dialogue with sample accession chosen from SAMPLE dropdown menu
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue2.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue2.png
       :class: with-shadow with-border
 
       **Sequence Annotations' submission: 'Submit Annotation' dialogue with sample accession chosen from SAMPLE dropdown menu**
@@ -129,7 +129,7 @@ Submit Sequence Annotations
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded1.png
        :alt: Sequence Annotation(s) pending submission
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded1.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded1.png
        :class: with-shadow with-border
 
        **Sequence Annotations' submission: Sequence Annotations' web page displaying the (pending) uploaded sequence annotation(s)**
@@ -141,7 +141,7 @@ Submit Sequence Annotations
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded2.png
        :alt: Sequence Annotation(s) submitted
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
        :class: with-shadow with-border
 
     **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
@@ -169,7 +169,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :alt: Delete sequence annotations button
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :class: with-shadow with-border
 
    **Sequence annotation deletion: Click the "Delete" button to remove the highlighted sequence annotation from the profile**
@@ -177,7 +177,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_deleted.png
    :alt: Sequence annotations deleted successfully
    :align: center
-   :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
    :class: with-shadow with-border
 
    **Sequence annotation deletion: Sequence annotation record has been deleted**

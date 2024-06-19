@@ -37,7 +37,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_record_button_web_page.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Add new profile record icon**
@@ -51,7 +51,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :alt: Contact COPO dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -63,7 +63,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_standalone.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_standalone.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -85,7 +85,7 @@ Steps to Create a Stand-alone Profile
     .. figure:: /assets/images/profile/profile_standalone_profile_created.png
       :alt: Stand-alone profile created
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_created.png
       :class: with-shadow with-border
 
       **Stand-alone Profile: Work profiles' web page displaying the created profile**
@@ -122,7 +122,7 @@ The following component types are currently defined:
    .. figure:: /assets/images/profile/profile_standalone_profile_components.png
       :alt: Stand-alone profile components
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components.png
       :class: with-shadow with-border
       :height: 650px
 

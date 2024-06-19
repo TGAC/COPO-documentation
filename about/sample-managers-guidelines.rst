@@ -74,7 +74,7 @@ samples for more than one manifest group by following the steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu is shown is sample manager belongs to more than one manifest group
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Manifest dropdown menu beside 'Choose to Accept or Reject' web page title**
@@ -90,7 +90,7 @@ samples for more than one manifest group by following the steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu options are shown after the dropdown menu is clicked
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Manifest dropdown menu with options displayed**
@@ -168,7 +168,7 @@ Accepting ASG or DTOL  samples
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_asg_dtol.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for ASG or DTOL profiles
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_asg_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_asg_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepting samples within ASG or DTOL profiles**
@@ -206,7 +206,7 @@ Accepting ERGA samples as a BGE checker
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga_bge_checker.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for ERGA profiles as a Biodiversity Genomics Europe (BGE) checker
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga_bge_checker.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga_bge_checker.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepting samples within ERGA profiles as a Biodiversity Genomics Europe (BGE) checker**
@@ -222,7 +222,7 @@ Accepting ERGA samples as a BGE checker
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_from_pending_bge_checker_stage_at_pending_stage.png
       :alt: Accepted samples on the 'Accept or Reject Samples' web page for ERGA profiles are displayed in in 'Pending Samples' tab
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_from_pending_bge_checker_stage_at_pending_stage.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_from_pending_bge_checker_stage_at_pending_stage.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Samples accepted by Biodiversity Genomics Europe (BGE) checker are displayed in 'Pending Samples' tab**
@@ -264,7 +264,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for ERGA profiles
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepting samples within ERGA profiles**
@@ -281,7 +281,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
       :alt: Accept samples confirmation dialogue on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accept samples confirmation dialogue**
@@ -296,7 +296,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :alt: Accepted ASG or DTOL samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ASG or DTOL samples at the processing stage**
@@ -306,7 +306,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
       :alt: Accepted samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ERGA samples at the processing stage**
@@ -321,7 +321,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :alt: Accepted samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ASG or DTOL samples at the accepted stage**
@@ -331,7 +331,7 @@ Accepting ERGA samples as a Sample Manager
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
       :alt: Accepted ERGA samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ERGA samples at the accepted stage**
@@ -370,7 +370,7 @@ Rejecting samples
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_reject_samples_button.png
       :alt: Rejecting samples on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_reject_samples_button.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_reject_samples_button.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Rejecting samples**
@@ -384,7 +384,7 @@ Rejecting samples
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_rejected_samples_at_rejected_stage.png
       :alt: Rejected samples at the 'Rejected Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_rejected_samples_at_rejected_stage.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_rejected_samples_at_rejected_stage.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Rejected samples at the rejected stage**
@@ -416,7 +416,7 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with a DTOL profile**
@@ -436,7 +436,7 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with an ERGA profile**
@@ -450,7 +450,7 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
         :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
         :class: with-shadow with-border
 
         **Samples web page for a DTOL profile**
@@ -467,7 +467,7 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile
         :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
         :class: with-shadow with-border
 
         **Samples web page for an ERGA profile**
@@ -528,7 +528,7 @@ steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
       :alt: No permits exists message in popup dialogue for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**
@@ -564,7 +564,7 @@ steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_view_images_button.png
      :alt: 'Accept or Reject Samples' web page
      :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_view_images_button.png
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_view_images_button.png
      :class: with-shadow with-border
 
      **Accept or Reject Samples web page: Pointer to 'View images' button**
@@ -583,7 +583,7 @@ steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_images_displayed.png
       :alt: View images popup dialogue with images displayed for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_images_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_images_displayed.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialogue displaying submitted image(s) for selected sample record(s)**
@@ -600,7 +600,7 @@ steps below:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
       :alt: No images exists message in popup dialogue for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialogue displaying message, 'No images exist for selected sample record(s)'**
@@ -650,7 +650,7 @@ submitter [#f2]_:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with a DTOL profile**
@@ -670,7 +670,7 @@ submitter [#f2]_:
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with an ERGA profile**
@@ -684,7 +684,7 @@ submitter [#f2]_:
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
         :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
         :class: with-shadow with-border
 
         **Samples web page for a DTOL profile**
@@ -701,7 +701,7 @@ submitter [#f2]_:
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile
         :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
         :class: with-shadow with-border
 
         **Samples web page for an ERGA profile**

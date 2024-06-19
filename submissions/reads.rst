@@ -44,7 +44,7 @@ the popup menu displayed as shown below:
 .. figure:: /assets/images/profile/profile_standalone_profile_components_reads.png
   :alt: Stand-alone Reads' profile component
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_components_reads.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_reads.png
   :class: with-shadow with-border
   :height: 600px
 
@@ -64,7 +64,7 @@ from the popup menu displayed as shown below:
   :alt: Stand-alone Reads' profile action
   :align: center
   :height: 70ex
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_reads.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_reads.png
   :class: with-shadow with-border
 
   **Stand-alone Profile Actions: 'Submit Reads' action**
@@ -103,7 +103,7 @@ Upload Reads
     .. figure:: /assets/images/reads/reads_with_checklist_dropdown_list.png
       :alt: Available checklist options
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_with_checklist_dropdown_list.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_with_checklist_dropdown_list.png
       :class: with-shadow with-border
 
       **Reads' web page: Checklist dropdown menu with checklist options displayed**
@@ -125,7 +125,7 @@ Upload Reads
     .. figure:: /assets/images/reads/reads_pointer_to_add_reads_manifest_button.png
       :alt: Pointer to 'Add Reads' from Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_pointer_to_add_reads_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_pointer_to_add_reads_manifest_button.png
       :class: with-shadow with-border
 
       **Reads' upload: Click 'Add Reads' from Spreadsheet' button**
@@ -140,7 +140,7 @@ Upload Reads
     .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue.png
       :alt: Upload Read Manifest dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue.png
       :class: with-shadow with-border
 
       **Reads' upload: 'Upload Read Manifest' dialogue**
@@ -155,7 +155,7 @@ Upload Reads
     .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
       :alt: Upload Read Manifest dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
       :height: 600px
 
@@ -175,7 +175,7 @@ Upload Reads
     .. figure:: /assets/images/reads/reads_uploaded.png
       :alt: Read(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_uploaded.png
       :class: with-shadow with-border
 
       **Reads' upload: Reads' web page displaying the uploaded read(s)**
@@ -201,7 +201,7 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 .. figure:: /assets/images/reads/reads_pointer_to_submit_reads_button.png
   :alt: Submit reads button
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_pointer_to_submit_reads_button.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_pointer_to_submit_reads_button.png
   :class: with-shadow with-border
 
   **Reads submission: Click the "Submit" button to submit the highlighted read from the profile**
@@ -209,7 +209,7 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 .. figure:: /assets/images/reads/reads_submitted.png
   :alt: Reads submitted successfully
   :align: center
-  :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_submitted.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_submitted.png
   :class: with-shadow with-border
 
   **Reads submission: The Read has been submitted**

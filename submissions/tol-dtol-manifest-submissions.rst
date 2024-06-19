@@ -51,7 +51,7 @@ Submit DTOL Manifest
     .. figure:: /assets/images/samples/dtol/dtol_pointer_to_add_manifest_button.png
       :alt: Pointer to 'Add Sample(s) from DTOL/ASG Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/dtol_pointer_to_add_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/dtol/dtol_pointer_to_add_manifest_button.png
       :class: with-shadow with-border
 
       **DTOL manifest submission: Click 'Add Sample(s) from DTOL/ASG Spreadsheet' button**
@@ -66,7 +66,7 @@ Submit DTOL Manifest
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :class: with-shadow with-border
 
       **DTOL manifest submission: 'Upload Spreadsheet' dialogue**
@@ -84,7 +84,7 @@ Submit DTOL Manifest
     .. figure:: /assets/images/samples/dtol/samples_dtol_upload_spreadsheet_dialogue_with_uploaded_samples.png
       :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/samples_dtol_upload_spreadsheet_dialogue_with_uploaded_samples.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/dtol/samples_dtol_upload_spreadsheet_dialogue_with_uploaded_samples.png
       :class: with-shadow with-border
 
       **DTOL manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
@@ -110,7 +110,7 @@ the **Confirm** button.
    .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
      :alt: 'Submit Samples' confirmation dialogue
      :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
      :class: with-shadow with-border
 
      **DTOL manifest submission: 'Submit Samples' confirmation dialogue**
@@ -120,7 +120,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
    .. figure:: /assets/images/samples/dtol/dtol_samples_submitted.png
      :alt: Sample(s) submitted
      :align: center
-     :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/samples/dtol/dtol_samples_submitted.png
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/dtol/dtol_samples_submitted.png
      :class: with-shadow with-border
 
      **DTOL manifest submission: Samples' web page displaying the submitted sample(s)**

@@ -19,7 +19,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_options_edit_record.png
     :alt: Edit profile option
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_edit_record.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_edit_record.png
     :class: with-shadow with-border
     :height: 400px
 
@@ -28,7 +28,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_options_edit_record_details.png
     :alt: Profile update details
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_edit_record_details.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_edit_record_details.png
     :class: with-shadow with-border
     :height: 550px
 
@@ -38,7 +38,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_record_updated.png
     :alt: Profile updated message
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile_record_updated.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile_record_updated.png
     :class: with-shadow with-border
 
     **COPO Profile: Profile record has been updated.  Wait 3 seconds for the web page to be automatically reloaded.**
@@ -69,7 +69,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_options_delete_record.png
     :alt: Delete profile option
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_delete_record.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_delete_record.png
     :class: with-shadow with-border
     :height: 400px
 
@@ -78,7 +78,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_options_delete_confirmation_dialogue.png
     :alt: Profile deletion confirmation dialogue
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_delete_confirmation_dialogue.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_delete_confirmation_dialogue.png
     :class: with-shadow with-border
 
     **COPO Profile: A confirmation dialog will appear.  Click the** ``Confirm`` **button to confirm the deletion.**
@@ -86,7 +86,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_options_delete_error_dialogue.png
     :alt: Profile deletion error dialogue
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_options_delete_error_dialogue.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_delete_error_dialogue.png
     :class: with-shadow with-border
 
     **COPO Profile: An error will occur if you try to remove a profile that that has associated samples or datafiles.**
@@ -94,7 +94,7 @@ to edit or delete a profile record will be displayed once clicked.
 ..  figure:: /assets/images/profile/profile_record_deleted.png
     :alt: Profile deleted dialogue
     :align: center
-    :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_record_deleted.png
+    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_record_deleted.png
     :class: with-shadow with-border
 
     **COPO Profile: Profile record has been deleted.  Wait 3 seconds for the web page to be automatically reloaded.**

@@ -198,7 +198,7 @@ How can I create a profile on COPO?
      ..  figure:: /assets/images/profile/profile_add_form.png
          :alt: Profile types dropdown menu
          :align: center
-         :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_add_form.png
+         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_form.png
          :class: with-shadow with-border
          :width: 400px
          :height: 400px
@@ -243,7 +243,7 @@ How can I add a subproject to a profile on COPO?
    ..  figure:: /assets/images/profile/profile_form_associated_types.png
        :alt: Associated profile types dropdown menu
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_form_associated_types.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_form_associated_types.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
@@ -348,7 +348,7 @@ How can I view more information about a profile that I have created in COPO?
    ..  figure:: /assets/images/profile/profile_view_more_button_with_popup_displayed.png
        :alt: Profile view more information popup dialog
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_view_more_button_with_popup_displayed.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_view_more_button_with_popup_displayed.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
@@ -485,7 +485,7 @@ How do I fill in the Reads manifest to submit paired reads?
      .. figure:: /assets/images/reads/reads_manifest_paired.png
         :alt: Reads manifest for paired reads
         :align: center
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/reads/reads_manifest_paired.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_manifest_paired.png
         :class: with-shadow with-border
 
         **Reads' manifest for paired reads**

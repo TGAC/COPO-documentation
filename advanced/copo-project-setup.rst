@@ -7,7 +7,7 @@ Setting Up COPO Project Locally without Docker
 The COPO project is built on the Django framework and uses MongoDB, Redis, and PostgreSQL databases.
 Python is the main programming language used in the project.
 
-The open source project is hosted on `GitHub <https://github.com/collaborative-open-plant-omics/COPO>`__.
+The open source project is hosted on `GitHub <https://github.com/TGAC/COPO-production>`__.
 
 According to your OS, please choose the appropriate link below for instructions on how to set up the project on your
 local machine:

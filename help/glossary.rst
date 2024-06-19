@@ -185,7 +185,7 @@ Glossary
      which are explicit formal specifications of terms and their relationship to other terms in a domain.
 
      .. image:: /assets/images/ontology-field.jpg
-        :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/ontology-field.jpg
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/ontology-field.jpg
 
    Profile action
      A set of actions that can be performed on a profile. They are correlated with the profile components in COPO.

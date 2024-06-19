@@ -7,7 +7,7 @@ Setting Up COPO Project Locally with Docker
 The central instance of COPO runs on a pool of three virtual machines. The following set up instructions are structured
 in a similar manner using one node. Feel free to make changes for a bigger or smaller pool.
 
-Clone the `GitHub COPO project repository <https://github.com/collaborative-open-plant-omics/COPO-production>`__.
+Clone the `GitHub COPO project repository <https://github.com/TGAC/COPO-production>`__.
 
 Visual Studio Code (VSCode) is recommended for running the COPO project after having sat up the Docker environment.
 You can download VSCode from `here <https://code.visualstudio.com/>`__ for your local machine.
@@ -251,7 +251,7 @@ for your local machine.
 
 Place the downloaded Dockerfile in the COPO project root directory.
 
-Alternatively, you can use the Dockerfile present in the root project directory :download:`Dockerfile for demonstration environment <https://raw.githubusercontent.com/collaborative-open-plant-omics/COPO/development/services/web20/Dockerfile>`.
+Alternatively, you can use the Dockerfile present in the root project directory :download:`Dockerfile for demonstration environment <https://raw.githubusercontent.com/TGAC/COPO/development/services/web20/Dockerfile>`.
 
 .. note::
     The Dockerfile is configured to build the **local_copo_web** container image with the tag, ``v1.0.1``. If you have
@@ -286,7 +286,7 @@ The **redis**, **postgres** and **mongo** Docker services are created on the swa
 :download:`local compose file </assets/files/setup/local_copo.compose.yaml>` file to create the services.
 
 Alternatively, you can download :download:`compose file for demonstration environment
-<https://raw.githubusercontent.com/collaborative-open-plant-omics/COPO/development/services/copo.compose.yaml>`.
+<https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`.
 
 Replace the ``<path-to-project-root-directory>`` with the absolute path to the COPO project root directory.
 
@@ -415,7 +415,7 @@ project application from the local `Django admin website <http://127.0.0.1:8000/
    CTRL + Q
    exit
 
-The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/collaborative-open-plant-omics/COPO/development/setup_scripts/3_db_setup.sh>`.
+The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/3_db_setup.sh>`.
 This file is located in the **set_up_scripts** directory of the COPO project root directory.
 
 .. raw:: html
@@ -445,7 +445,7 @@ root directory of the project.
    psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c "INSERT INTO socialaccount_socialapp (id, provider, name, client_id, secret, key) VALUES (1, 'orcid', 'Orcid', '$ORCID_CLIENT_ID', '$ORCID_SECRET', '')"
    psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'INSERT INTO socialaccount_socialapp_sites (id, socialapp_id, site_id) VALUES (1, 1, 1)'
 
-The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/collaborative-open-plant-omics/COPO/development/setup_scripts/3_db_setup.sh>`.
+The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/3_db_setup.sh>`.
 This file is located in the **set_up_scripts** directory of the COPO project root directory.
 
 .. raw:: html
@@ -460,7 +460,7 @@ The COPO project is updated frequently and as such is under active development. 
 (or the latest) version, download the
 :download:`local compose file </assets/files/setup/local_copo.compose.yaml>`  or the :download:`compose file for
 demonstration environment
-<https://raw.githubusercontent.com/collaborative-open-plant-omics/COPO/development/services/copo.compose.yaml>`
+<https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`
 on the swarm manager or root directory of the project if you have one node.
 
 Then, run the following commands in the terminal:

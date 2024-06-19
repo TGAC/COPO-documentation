@@ -34,7 +34,7 @@ To make a profile public, please follow the steps below:
    .. figure:: /assets/images/profile/profile_standalone_profile_actions_only_with_release_study_action_pointer.png
       :alt: Stand-alone profile actions with release study action
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_standalone_profile_actions_only_with_release_study_action_pointer.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_only_with_release_study_action_pointer.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -45,7 +45,7 @@ To make a profile public, please follow the steps below:
    .. figure:: /assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_asg_pointer.png
       :alt: Aquatic Genome Symbiosis (ASG) or  Darwin Tree of Life Samples (DToL) profile actions with release study action
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_asg_pointer.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_asg_pointer.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -56,7 +56,7 @@ To make a profile public, please follow the steps below:
    .. figure:: /assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_erga_pointer.png
       :alt: European Reference Genome Atlas (ERGA) profile actions with release study action
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_erga_pointer.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only_with_release_study_action_erga_pointer.png
       :class: with-shadow with-border
       :height: 300px
 

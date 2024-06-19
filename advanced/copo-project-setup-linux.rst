@@ -205,7 +205,7 @@ Set Up Mongo Database in COPO Project
 .. note::
    Replace the username and password for MongoDB with your own username and password
 
-Run the **4_mongo_setup.sh** `MongoDB set up script <https://github.com/collaborative-open-plant-omics/COPO/blob/development/setup_scripts/4_mongo_setup.sh>`__ to configure the MongoDB database on your machine
+Run the **4_mongo_setup.sh** `MongoDB set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/mongoDB_setup.sh>`__ to configure the MongoDB database on your machine
 
 
 Set up MongoDB in Studio3T
@@ -239,7 +239,7 @@ Set Up PostgreSQL Database in COPO Project
 .. note::
    Replace the username and password of PostgreSQL with your own username and password
 
-Run the **3_db_setup.sh** `PostgreSQL set up script <https://github.com/collaborative-open-plant-omics/COPO/blob/development/setup_scripts/3_db_setup.sh>`__ to configure the PostgreSQL database on your machine
+Run the **3_db_setup.sh** `PostgreSQL set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/postgresqlDB_setup.sh>`__ to configure the PostgreSQL database on your machine
 
 .. raw:: html
 

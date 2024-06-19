@@ -27,7 +27,7 @@ The types of accessions that are created are:
 .. figure:: /assets/images/dashboard/dashboard_accessions_other_projects.png
       :alt: Tree of Life projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_accessions_other_projects.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_other_projects.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Tree of Life projects' accessions**
@@ -39,7 +39,7 @@ The types of accessions that are created are:
 .. figure:: /assets/images/dashboard/dashboard_accessions_standalone_projects.png
       :alt: Stand-alone projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/dashboard/dashboard_accessions_standalone_projects.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_standalone_projects.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Stand-alone projects' accessions**

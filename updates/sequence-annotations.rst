@@ -28,7 +28,7 @@ section for more information.
    .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
       :alt: Pointer to 'Edit' button
       :align: center
-      :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
       :class: with-shadow with-border
 
       **Sequence Annotations' update: Click 'Edit' button after having clicked the desired sequence annotation**
@@ -44,7 +44,7 @@ section for more information.
        :alt: Add Sequence Annotation dialogue with updated information
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations_update_add_sequence_annotation_dialogue.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations_update_add_sequence_annotation_dialogue.png
        :class: with-shadow with-border
 
        **Sequence Annotations' update: 'Submit Annotation' dialogue with updated information**
@@ -64,7 +64,7 @@ section for more information.
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_updated1.png
        :alt: Updated Sequence Annotation(s) pending submission
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_updated1.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_updated1.png
        :class: with-shadow with-border
 
        **Sequence Annotations' update: Sequence Annotations' web page displaying the (pending) updated sequence annotation(s)**
@@ -76,7 +76,7 @@ section for more information.
     .. figure:: /assets/images/sequence_annotations/sequence_annotations_updated2.png
        :alt: Updated Sequence Annotation(s) after submission
        :align: center
-       :target: https://raw.githubusercontent.com/collaborative-open-plant-omics/Documentation/main/assets/images/sequence_annotations/sequence_annotations_updated2.png
+       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/sequence_annotations/sequence_annotations_updated2.png
        :class: with-shadow with-border
 
     **Sequence Annotations' update: Sequence Annotations' web page displaying the updated sequence annotation(s) after it has been submitted**
