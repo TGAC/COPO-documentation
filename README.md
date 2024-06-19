@@ -46,6 +46,12 @@ learn more about Python virtual environments (if using PyCharm as an IDE).
 Visit [Run/debug configurations](https://www.jetbrains.com/help/pycharm/run-debug-configuration.html) to learn how to 
 create a configuration in PyCharm.
 
+## Upgrade all packages in requirements.txt
+
+1. Install pip-upgrader: $ `pip3 install pip-upgrader`
+2. Navigate to the project directory: $ `cd Documentation`
+3. Upgrade the packages: $ `pip-upgrade`
+
 ---
 
 ## Launch COPO Documentation locally
@@ -123,11 +129,32 @@ NB. `8002` is the port number. The solution above will kill the process running 
 ______________________________________________________________________
 
 **Issue #4 (Mac)**: `NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'`
-**Solution #3 (Mac)**: Install Enchant C library
+**Solution #4.1 (Linux)**: Install Enchant C library
+                       $ `sudo apt-get install enchant-2`
+**Solution #4.2 (Mac)**: Install Enchant C library
                        $ `brew update`
                        $ `brew install enchant`
 
-NB: Install [Homebrew](https://brew.sh/) before running the commands above
+**NB**: Install [Homebrew](https://brew.sh/) before running the commands above
+
+______________________________________________________________________
+
+**Issue #5 (Mac)**: `Extension error: Could not import extension sphinxcontrib.email (exception: dlopen(~/site-packages/lxml/etree.cpython-39-darwin.so, 0x0002):'`
+                    `(mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64'))`
+**Solution #5 (Mac)**: Force reinstall **lxml** package so that it is assigned to the correct OS architecture
+                       $ `pip3 install lxml==5.2.2  --compile --force-reinstall`
+
+**NB**: Find the version of the currently installed **lxml** package: $ `pip3 show lxml`
+        The version is displayed by the **Version**
+______________________________________________________________________
+
+**Issue #6 (Mac)**: `Could not import extension sphinxcontrib.spelling (exception: The 'enchant' C library was not found and maybe needs to be installed`
+**Solution #6 (Mac)**: Downgrade sphinxcontrib.spelling by forcing reinstall of **sphinxcontrib.spelling** package 
+                       so that it is assigned to the correct OS architecture
+                       $ `pip3 install sphinxcontrib.spelling==7.7.0  --compile --force-reinstall`
+
+**NB**: Find the version of the currently installed **sphinxcontrib.spelling** package: $ `pip3 show sphinxcontrib.spelling`
+        The version is displayed by the **Version**
 
 ---
 
