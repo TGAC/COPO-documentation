@@ -17,6 +17,10 @@ COPO uses public or institutional repositories like
 research objects to the wider scientific community.
 
 COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`__.
+It was launched in September 2014 and as a
+`Biotechnology and Biological Sciences Research Council (BBSRC) <https://bbsrc.ukri.org/>`__
+funded project as Collaborative Open Plant Omics (COPO) and has since been expanded to include all life sciences.
+
 Contributions are welcomed in the `GitHub repository <https://github.com/TGAC/COPO-production>`__.
 All contributors must abide by the code of conduct described in the :ref:`code-of-conduct` section.
 

@@ -149,12 +149,22 @@ ______________________________________________________________________
 ______________________________________________________________________
 
 **Issue #6 (Mac)**: `Could not import extension sphinxcontrib.spelling (exception: The 'enchant' C library was not found and maybe needs to be installed`
-**Solution #6 (Mac)**: Downgrade sphinxcontrib.spelling by forcing reinstall of **sphinxcontrib.spelling** package 
+**Solution #6 (Mac)**: Downgrade `sphinxcontrib.spelling` by forcing reinstall of `sphinxcontrib.spelling` package 
                        so that it is assigned to the correct OS architecture
                        $ `pip3 install sphinxcontrib.spelling==7.7.0  --compile --force-reinstall`
 
-**NB**: Find the version of the currently installed **sphinxcontrib.spelling** package: $ `pip3 show sphinxcontrib.spelling`
+**NB**: Find the version of the currently installed `sphinxcontrib.spelling` package: $ `pip3 show sphinxcontrib.spelling`
         The version is displayed by the **Version**
+
+______________________________________________________________________
+
+**Issue #7**: `Requirements are not installing` or `old pacage versions are still being recognised despite being upgraded`
+**Solution #7**: Delete the `venv` directory file (if it exists) from the project directory then, recreate the virtual 
+                 environment and install the requirements
+                 $ `rm -rf venv`
+                 $ `python3 -m venv venv`
+                 $ `source venv/bin/activate`
+                 $ `pip3 install -r requirements.txt`
 
 ---
 

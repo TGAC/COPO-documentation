@@ -57,7 +57,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'COPO Project'
-copyright = '2014-2024, Collaborative OPen Omics (COPO). Licensed under Apache License 2.0'
+copyright = '2014-2024, Collaborative OPen Omics (COPO), Earlham Institute. Licensed under Apache License 2.0'
 author = 'The Collaborative OPen Omics (COPO) project team'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -121,7 +121,8 @@ html_context = {
     'display_github': True,
     'github_user': 'TGAC',
     'github_repo': 'COPO-documentation',
-    'github_version': 'main/docs/',
+    'github_version': 'main',
+    'conf_py_path': '/'
 }
 
 # mailTo configuration

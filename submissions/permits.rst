@@ -14,6 +14,15 @@ How to Submit Permits
    * Permits can only be submitted via a :abbr:`ToL (Tree of Life)` [#f2]_ profile [#f3]_. Please see:
      :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
+   * If you are using a Windows operating system (OS) to upload permits, the filename of the permits should exclude
+     the extension  ``.pdf`` or ``.PDF``. This is because Windows OS by default, hides file extensions which results in
+     it not being visible to you.
+
+     If you would like to see the file extension, you can enable it by following these
+     `guidelines <https://support.microsoft.com/en-gb/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01>`__.
+
+     Ultimately, the permit filename should be in the format: ``permit_name.pdf`` not ``permit_name.pdf.pdf``.
+
 .. warning::
     * If you have more than one permit ﬁle to upload, they **must** be uploaded at the
       same time i.e. after you have clicked the |upload-permits-button| button, navigate
