@@ -67,9 +67,9 @@ This follows most of the instructions outlined in the DToL SOP, with some minor 
 
 :download:`ASG SOP <../assets/files/sops/ASG_MANIFEST_SOP_v2.5.pdf>`
 
-.. :ref:`ASG SOP GitHub repository <  >`__
+.. ..:ref:`ASG SOP GitHub repository <  >`__
 
-|:globe_with_meridians:| `ASG Project <https://www.sanger.ac.uk/collaboration/aquatic-symbiosis-genomics-project>`__
+|globe| `ASG Project <https://www.sanger.ac.uk/collaboration/aquatic-symbiosis-genomics-project>`__
 
 .. raw:: html
 
@@ -83,9 +83,9 @@ This follows most of the instructions outlined in the DToL SOP, with some minor 
 
 .. rst-class:: fa fa-github
 
-`DToL SOP GitHub repository <https://github.com/darwintreeoflife/metadata>`__
+|whitespace| `DToL SOP GitHub repository <https://github.com/darwintreeoflife/metadata>`__
 
-|:globe_with_meridians:| `DToL Project <https://www.darwintreeoflife.org>`__
+|globe| `DToL Project <https://www.darwintreeoflife.org>`__
 
 .. raw:: html
 
@@ -107,14 +107,14 @@ This will be made available soon.
    <hr>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-:abbr:`ERGA (European Reference Genome Atlas)`  SOP
+:abbr:`ERGA (European Reference Genome Atlas)` SOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :download:`ERGA SOP <../assets/files/sops/ERGA_MANIFEST_SOP_v2.5.pdf>`
 
 .. rst-class:: fa fa-github
 
-`ERGA SOP GitHub repository <https://github.com/ERGA-consortium/ERGA-sample-manifest>`__
+|whitespace| `ERGA SOP GitHub repository <https://github.com/ERGA-consortium/ERGA-sample-manifest>`__
 
 .. raw:: html
 
@@ -126,9 +126,9 @@ This will be made available soon.
 
 :download:`POP_GENOMICS SOP <../assets/files/sops/POPGENOMICS_MANIFEST_SOP_v1.1.pdf>`
 
-.. rst-class:: fa fa-github
+.. .. rst-class:: fa fa-github
 
-`ERGA SOP GitHub repository <https://github.com/ERGA-consortium/ERGA-sample-manifest>`__
+.. ..`ERGA SOP GitHub repository <https://github.com/ERGA-consortium/ERGA-sample-manifest>`__
 
 .. raw:: html
 
@@ -162,3 +162,10 @@ This will be made available soon.
 .. |sop-download-button| image:: /assets/images/buttons/download_button_sop.png
    :height: 4ex
    :class: no-scaled-link
+
+..
+    Unicode declaration
+..
+.. |globe|  unicode:: U+1F310
+
+.. |whitespace|  unicode:: U+0020
