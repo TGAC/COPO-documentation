@@ -5,3 +5,4 @@ _templates
 .vscode
 .DS_Store
 .idea
+venv
