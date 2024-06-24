@@ -32,9 +32,18 @@ already submitted.
    * Upload the amended manifest to a new profile
    * Delete a profile that already has samples associated with it
 
+   The |finish-button| button will **not appear** if a manifest requires permits and the permits have not been
+   reuploaded. The permits **must** be reuploaded in order for the **Finish** button to appear when updating samples
+   within a manifest. See the :ref:`No finish button displayed after manifest update and validation process
+   <faq-samples-update-successful-validation-but-no-finish-button>` :abbr:`FAQ (Frequently Asked Question)` for
+   insights.
+
 .. note::
 
    * The manifest must be uploaded again with the amendments included for the change or update to occur.
+
+   * If the manifest requires permits, the permits must be reuploaded before the manifest update can be completed. The
+     **Finish** button will appear once the manifest validates successfully and the permits have been reuploaded.
 
    * You **cannot** reupload a manifest with some of the existing samples removed. The removed samples
      (from the reuploaded manifest) will not be automatically removed from the manifest sample record. If you would
@@ -231,4 +240,8 @@ already submitted.
 ..
 .. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
    :height: 2ex
+   :class: no-scaled-link
+
+.. |finish-button| image:: /assets/images/buttons/manifest_wizard_finish_button.png
+   :height: 4ex
    :class: no-scaled-link

@@ -645,6 +645,8 @@ What are the types of files that are required for read submissions in COPO?
 Samples
 --------------------
 
+.. _faq-samples-update-successful-validation-but-no-finish-button:
+
 Why is the 'Finish' button not visible in the 'Upload Spreadsheet' dialog even though the manifest has been successfully uploaded and validated?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
