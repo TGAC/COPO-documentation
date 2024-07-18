@@ -1,13 +1,13 @@
 .. _copo-project-setup-linux:
 
 Set Up COPO Project on Linux
--------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 .. note::
    If you are using a different :abbr:`OS (Operating system)` other than Ubuntu, you can skip this step.
    See :doc:`COPO project guidelines for Windows users <copo-project-setup-windows>` if Windows is your preferred OS.
 
 Install Python
-~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
@@ -21,7 +21,7 @@ Install Python
    <hr>
 
 Install Python Development Tools
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
 
@@ -35,7 +35,7 @@ Install Python Development Tools
    <hr>
 
 Install Required Packages
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
    :caption: Install required packages and enable the databases to start on boot
@@ -60,7 +60,7 @@ Install Required Packages
    <hr>
 
 Install Integrated Development Environment (IDE)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Any :abbr:`IDE (Integrated Development Environment)` can be used to work on the project. However, we recommend using
 one of the following IDEs:
 
@@ -98,7 +98,7 @@ Visit `VSCode website <https://code.visualstudio.com/download>`__ to download an
    <hr>
 
 Configure IDE
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 PyCharm
 """"""""
@@ -111,6 +111,7 @@ PyCharm
 
 
 If using PyCharm IDE, add a new configuration by following the steps below:
+
 #. Navigate to Add New Configuration
 #. Select **Django server**
 #. Click **Save**
@@ -125,6 +126,7 @@ create a configuration in PyCharm.
 VSCode
 """"""""
 If using VSCode IDE, add a new configuration by following the steps below:
+
 #. Navigate to Run -> Add Configuration
 #. Edit the **launch.json** file that is created with the following file contents:
 
@@ -134,18 +136,19 @@ If using VSCode IDE, add a new configuration by following the steps below:
 
 
 Declare Environment Variables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Set secrets in the environment variables in your **.bashrc** file. Activate  **.bashrc** file by running the
 command: ``source .bashrc``
 
 If using PyCharm IDE, declare the environment variables in the following places:
+
 * Edit Configurations > Environment variables
 * File->Settings->Build, Execution, Deployment->Console->Python console
 * File->Settings->Build, Execution, Deployment->Console->Django console
 * File->Settings->Languages & Frameworks->Django->Enable Django
 
-Set up Python virtual environment
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Set up Python Virtual Environment
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Run the following commands within the project directory to set up a Python virtual environment for the project
 
 Alternatively, you can create a virtual environment for the project with the command: ``python3 -m venv venv``
@@ -201,7 +204,7 @@ Alternatively, you can create a virtual environment for the project with the com
 
 
 Set Up Mongo Database in COPO Project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. note::
    Replace the username and password for MongoDB with your own username and password
 
@@ -216,6 +219,7 @@ Set up MongoDB in Studio3T
    The hostname,``localhost``,, can also be substituted with the IP address of ``127.0.0.1``
 
 Create a new MongoDB connection manually with the following details:
+
 * **Connection Name**: ``copo_mongo``
 * **Connection Type**: ``Standalone Connection``
 * **Hostname**: ``localhost``
@@ -227,30 +231,31 @@ Create a new MongoDB connection manually with the following details:
 
 .. centered:: OR
 
-**MongoDB URI**: ``mongodb://copo_user:password@localhost:27017/copo_mongo?retryWrites=true&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1``
-
+**MongoDB URI**: ``mongodb://copo_user:password@localhost:27017/?retryWrites=true&loadBalanced=false&serverSelectionTimeoutMS=5000&connectTimeoutMS=10000&authSource=admin``
 
 .. raw:: html
 
    <hr>
 
 Set Up PostgreSQL Database in COPO Project
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. note::
    Replace the username and password of PostgreSQL with your own username and password
 
-Run the **3_db_setup.sh** `PostgreSQL set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/postgresqlDB_setup.sh>`__ to configure the PostgreSQL database on your machine
+Run the **postgresqlDB_setup.sh** `PostgreSQL set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/postgresqlDB_setup.sh>`__ to configure the PostgreSQL database on your machine
 
 .. raw:: html
 
    <hr>
 
 Launch COPO Website
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
+
 .. code-block:: bash
    :caption: Launch COPO website using the following command
 
    python manage.py runserver
 
-Alternatively, click on the **Run** button (i.e the green play button) on the top-right corner of the PyCharm IDE
+Alternatively, click the **Run** button (i.e the green play button) on the top-right corner of the PyCharm IDE
 to launch the website.

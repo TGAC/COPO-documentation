@@ -1,10 +1,10 @@
 .. _copo-project-setup-windows:
 
 Set Up COPO Project on Windows
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Option 1: Using Ubuntu Terminal
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Set up Ubuntu terminal on Windows by enabling the **Windows Subsystem for Linux** through the following steps.
 
 # Navigate to Control Panel-->Programs--> Turn Windows Features On Or Off
@@ -38,7 +38,8 @@ Set up Ubuntu terminal on Windows by enabling the **Windows Subsystem for Linux*
     * **Error #2**: WslRegisterDistribution failed with error: 0x80370102. Error: 0x80370102 The virtual machine
       could not be started because a required feature is not installed.
       **Solution**:
-      * Run Windows PowerShell under Administrator rights (Right-click on the Windows 10 Start button and
+
+      * Run Windows PowerShell under Administrator rights (Right-click the Windows 10 Start button and
       select “Windows PowerShell (Admin)"
       * Copy-paste the following command:
       * Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
@@ -49,7 +50,7 @@ Set up Ubuntu terminal on Windows by enabling the **Windows Subsystem for Linux*
    <hr>
 
 Option 2: Using Windows Terminal
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. note::
 
    * Commands are entered in the command prompt

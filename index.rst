@@ -70,8 +70,7 @@ links to find instructions specific to your needs.
    :caption: Advanced
    :name: advanced
 
-   advanced/docker-environment-setup
-   advanced/copo-project-setup
+   advanced/project-local-setup-index
 
 .. toctree::
    :caption: Policies

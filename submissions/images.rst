@@ -78,9 +78,9 @@ View Submitted Images
 
 .. hint::
 
-   * To **select multiple** sample records, hold down the ``Ctrl`` key on your keyboard and click on the sample records
+   * To **select multiple** sample records, hold down the ``Ctrl`` key on your keyboard and click the sample records
      that you would like to select.
-   * To **select a range** of sample records, hold down the ``Shift`` key on your keyboard and click on the first and
+   * To **select a range** of sample records, hold down the ``Shift`` key on your keyboard and click the first and
      last sample records that you would like to select.
    * To **select all** sample records, click |select-all-button|
    * To **select filtered** sample records, click |select-filtered-button|

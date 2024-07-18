@@ -1,9 +1,13 @@
-.. _docker-environment-setup:
+.. _project-local-setup-index:
 
-==============================================
-Setting Up COPO Project Locally with Docker
-==============================================
+===============================
+Setting Up COPO Project Locally
+===============================
 
+.. _copo-project-setup-with-docker:
+
+With Docker
+------------
 The central instance of COPO runs on a pool of three virtual machines. The following set up instructions are structured
 in a similar manner using one node. Feel free to make changes for a bigger or smaller pool.
 
@@ -21,7 +25,7 @@ You can download VSCode from `here <https://code.visualstudio.com/>`__ for your 
    A Python virtual environment is not required to run the COPO project application locally since the project is
    running via Docker containers. However, if you would like to run the project locally without Docker and within
    a Python virtual environment, please refer to the
-   :doc:`COPO project setup with PyCharm documentation <copo-project-setup>`.
+   :doc:`COPO project setup with PyCharm documentation <copo-project-setup-without-docker>`.
 
 
 .. warning::
@@ -33,7 +37,7 @@ You can download VSCode from `here <https://code.visualstudio.com/>`__ for your 
    <hr>
 
 Install Docker
----------------
+~~~~~~~~~~~~~~
 Follow the official `Docker installation documentation <https://docs.docker.com/engine/install/>`__ for your
 distribution.
 
@@ -41,7 +45,7 @@ Make changes to your firewall, iptables and security groups to serve a website, 
 The port number will depend on your setup and if you choose to use the default ports for each service.
 
 Initialise Docker Swarm
-----------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: docker
    :caption: Start a Docker swarm
@@ -70,16 +74,14 @@ Check out the Docker documentation if you want to change the default port.
 
    <hr>
 
-------------------------------------
 Add Docker Node Labels
-------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~
 Label the node as a web service, nginx service, mongo service, postgres service and backup service. The web service
 and nginx service will be deployed on the frontend network. The mongo service, postgres service and backup service
 will be deployed on the backend network.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Adding One Docker Node Label
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hint::
    ``$HOSTNAME`` is a bash variable that returns the hostname of the machine. You can use the hostname of the machine
@@ -98,9 +100,8 @@ Adding One Docker Node Label
        --label-add backup-service=true \
        $HOSTNAME
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Adding More than Docker One Node Labels
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 If you are using more than one Docker node, you can label the other nodes as follows:
 
 **Node 1**
@@ -146,9 +147,9 @@ If you are using more than one Docker node, you can label the other nodes as fol
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create Docker Volumes
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
 Docker volumes are used to persist data via the plugin, **local-persist**. This ensures that the data is not lost when
 the containers are restarted. Volumes are created on the swarm manager.
 
@@ -180,9 +181,8 @@ Substitute the paths in commands before running it.
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create Networks on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 On the swarm manager create two networks - one for the frontend and one for the backend. The front-end network will be
 used by the web service and the nginx service while the backend network will be used by the database services.
@@ -202,9 +202,8 @@ used by the web service and the nginx service while the backend network will be 
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create Secrets on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All secrets are file based. You will need to create some of the keys with third parties
 and choose passwords before proceeding with the COPO setup.
@@ -243,9 +242,9 @@ and choose passwords before proceeding with the COPO setup.
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Build COPO Project Docker Image
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Download the Dockerfile :download:`Dockerfile_local  <../assets/files/setup/Dockerfile_local>`.
 for your local machine.
 
@@ -278,9 +277,8 @@ with a Docker image.
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Deploy Docker Image on Docker Swarm Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **redis**, **postgres** and **mongo** Docker services are created on the swarm manager. Download the
 :download:`local compose file </assets/files/setup/local_copo.compose.yaml>` file to create the services.
@@ -354,9 +352,8 @@ Update the tag, save the file then, exit by inputting: ``CTRL + O`` then, ``ENTE
 
    <hr>
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Set up PostgreSQL database
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the terminal, navigate to the root directory of the COPO project application then, run the following commands.:
 
@@ -415,7 +412,7 @@ project application from the local `Django admin website <http://127.0.0.1:8000/
    CTRL + Q
    exit
 
-The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/3_db_setup.sh>`.
+The commands above can be accessed in the :download:`postgresqlDB_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/postgresqlDB_setup.sh>`.
 This file is located in the **set_up_scripts** directory of the COPO project root directory.
 
 .. raw:: html
@@ -445,16 +442,15 @@ root directory of the project.
    psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c "INSERT INTO socialaccount_socialapp (id, provider, name, client_id, secret, key) VALUES (1, 'orcid', 'Orcid', '$ORCID_CLIENT_ID', '$ORCID_SECRET', '')"
    psql -h 'localhost' -U  $POSTGRES_USER -d 'copo' -c 'INSERT INTO socialaccount_socialapp_sites (id, socialapp_id, site_id) VALUES (1, 1, 1)'
 
-The commands above can be accessed in the :download:`3_db_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/3_db_setup.sh>`.
+The commands above can be accessed in the :download:`postgresqlDB_setup.sh script <https://raw.githubusercontent.com/TGAC/COPO/development/setup_scripts/postgresqlDB_setup.sh>`.
 This file is located in the **set_up_scripts** directory of the COPO project root directory.
 
 .. raw:: html
 
    <hr>
 
-------------------------------
 Updating COPO Website Service
-------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The COPO project is updated frequently and as such is under active development. To update your instance to a newer
 (or the latest) version, download the
@@ -498,9 +494,8 @@ Update the Docker tag, save the file then, exit it by inputting: ``CTRL + O`` th
 
    <hr>
 
--------------------
 Launch COPO Website
--------------------
+~~~~~~~~~~~~~~~~~~~
 The COPO project application can be accessed locally on `port 8100 <http://127.0.0.1:8100/>`__ via the VSCode browser
 extension.
 
@@ -541,9 +536,8 @@ or `on port 81000 <http://127.0.0.1:8000>`__.
 
    <hr>
 
-------
 Tips
-------
+~~~~~
 
 * Enable **Manage Unsafe Repositories** in **Source Control** in VSCode browser application to allow VSCode to access
   the COPO GitHub project repository.
@@ -613,5 +607,11 @@ Tips
    :caption: Docker command used to create a volume so that the docker container can use it to store data
 
    docker volume create <volume-name>
+
+.. raw:: html
+
+   <hr>
+
+.. include:: copo-project-setup-without-docker.rst
 
 

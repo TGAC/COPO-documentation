@@ -1,8 +1,7 @@
-.. _copo-project-setup:
+.. _copo-project-setup-without-docker:
 
-===============================================
-Setting Up COPO Project Locally without Docker
-===============================================
+Without Docker
+---------------
 
 The COPO project is built on the Django framework and uses MongoDB, Redis, and PostgreSQL databases.
 Python is the main programming language used in the project.
