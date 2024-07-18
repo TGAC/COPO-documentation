@@ -23,9 +23,9 @@ You can download VSCode from `here <https://code.visualstudio.com/>`__ for your 
 
 .. hint::
    A Python virtual environment is not required to run the COPO project application locally since the project is
-   running via Docker containers. However, if you would like to run the project locally without Docker and within
+   running via Docker coÏntainers. However, if you would like to run the project locally without Docker and within
    a Python virtual environment, please refer to the
-   :doc:`COPO project setup with PyCharm documentation <copo-project-setup-without-docker>`.
+   :ref:`COPO project setup with PyCharm documentation <copo-project-setup-without-docker>`.
 
 
 .. warning::
@@ -245,7 +245,7 @@ and choose passwords before proceeding with the COPO setup.
 Build COPO Project Docker Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the Dockerfile :download:`Dockerfile_local  <../assets/files/setup/Dockerfile_local>`.
+Download the Dockerfile :download:`Dockerfile_local  <../../assets/files/setup/Dockerfile_local>`.
 for your local machine.
 
 Place the downloaded Dockerfile in the COPO project root directory.
@@ -256,7 +256,7 @@ Alternatively, you can use the Dockerfile present in the root project directory 
     The Dockerfile is configured to build the **local_copo_web** container image with the tag, ``v1.0.1``. If you have
     a different tag and container name, you will need to change the Dockerfile accordingly.
 
-    If you are using a Mac OS, download the :download:`Dockerfile_mac  <../assets/files/setup/Dockerfile_mac>`.
+    If you are using a Mac OS, download the :download:`Dockerfile_mac  <../../assets/files/setup/Dockerfile_mac>`.
 
 
 Visit `here <https://docs.docker.com/get-started/02_our_app/>`__ for more information on how to build an application

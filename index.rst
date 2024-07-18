@@ -70,7 +70,7 @@ links to find instructions specific to your needs.
    :caption: Advanced
    :name: advanced
 
-   advanced/project-local-setup-index
+   advanced/project_setup/project-local-setup-index
 
 .. toctree::
    :caption: Policies

@@ -25,6 +25,7 @@ Set up Ubuntu terminal on Windows by enabling the **Windows Subsystem for Linux*
 .. hint::
    In the Ubuntu terminal (which can be found in the Microsoft Store or from the **Start** menu or by searching for
    **Ubuntu** using the search bar):
+
    * To copy text: highlight desired text then, ``right-click``
    * To paste text: ``right-click``
 
@@ -37,10 +38,11 @@ Set up Ubuntu terminal on Windows by enabling the **Windows Subsystem for Linux*
 
     * **Error #2**: WslRegisterDistribution failed with error: 0x80370102. Error: 0x80370102 The virtual machine
       could not be started because a required feature is not installed.
+
       **Solution**:
 
       * Run Windows PowerShell under Administrator rights (Right-click the Windows 10 Start button and
-      select “Windows PowerShell (Admin)"
+        select “Windows PowerShell (Admin)"
       * Copy-paste the following command:
       * Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
       * Restart the PC or laptop

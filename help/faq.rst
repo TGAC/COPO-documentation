@@ -51,11 +51,19 @@ How can I assign my own locus tag to assemblies?
      This is because a project submission is done to European Nucleotide Archive (ENA) once reads submission has
      been completed.
 
-  Contact the :email:`COPO team <ei.copo@earlham.ac.uk>` with the request indicating the locus tag that you would
-  like to assign.
+  You can assign a custom locus tag when creating a profile in COPO. See the image below for guidance.
 
-  If not, :abbr:`ENA (European Nucleotide Archive)` will automatically assign a locus tag to your assembly
-  after it has been submitted in COPO and deposited to ENA.
+  .. figure:: /assets/images/profile/profile_add_form_profile_form_locus_tag.png
+     :alt: Adding locus tag to a profile
+     :align: center
+     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_form_profile_form_locus_tag.png
+     :class: with-shadow with-border
+     :height: 400px
+
+     **Profile form: Adding locus tag**
+
+  If a locus tag is not assigned, :abbr:`ENA (European Nucleotide Archive)` will automatically assign a locus
+  tag to your assembly after it has been submitted in COPO and deposited to ENA.
 
   See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
   for more details. The documentation outlines rules that the locus tag prefix should conform to.
