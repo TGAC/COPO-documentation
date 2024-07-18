@@ -56,7 +56,7 @@ submitted based on the research elements or variables such as -
 
 * Date of Collection
 * Sex
-* Harzard Group
+* Hazard Group
 * Organism Part
 
 ..  figure:: /assets/images/statistics/statistics_by_variable_web_page.png

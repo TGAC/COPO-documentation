@@ -7,7 +7,7 @@ Retrieving Accessions
 Approved submissions result in accessions being created. The accessions can be explored
 on the `Accessions' dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__ ,
 on the `ENA browser <https://www.ebi.ac.uk/ena/browser/home>`__  [#f1]_ or
-`NCBI Biosamples <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f2]_  (after they become public).
+`NCBI BioSample <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f2]_  (after they become public).
 
 The types of accessions that are created are:
 

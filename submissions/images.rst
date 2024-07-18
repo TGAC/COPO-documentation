@@ -22,7 +22,7 @@ How to Submit Images
   * :ref:`Viewing Submitted Images <images-submission-view-images>`
   * :ref:`Permits Submission <permits-submission>`
   * :ref:`How to Submit ASG Manifests <tol-asg-manifest-submissions>`
-  * :ref:`How to Submit DTOL Manifests <tol-dtol-manifest-submissions>`
+  * :ref:`How to Submit DToL Manifests <tol-dtol-manifest-submissions>`
   * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 

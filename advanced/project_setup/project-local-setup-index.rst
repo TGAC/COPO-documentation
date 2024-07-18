@@ -23,7 +23,7 @@ You can download VSCode from `here <https://code.visualstudio.com/>`__ for your 
 
 .. hint::
    A Python virtual environment is not required to run the COPO project application locally since the project is
-   running via Docker coÏntainers. However, if you would like to run the project locally without Docker and within
+   running via Docker containers. However, if you would like to run the project locally without Docker and within
    a Python virtual environment, please refer to the
    :ref:`COPO project setup with PyCharm documentation <copo-project-setup-without-docker>`.
 
