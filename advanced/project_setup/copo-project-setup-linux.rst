@@ -87,7 +87,7 @@ Visit `PyCharm website <https://www.jetbrains.com/pycharm/download>`__ to downlo
 :abbr:`VSCode (Visual Studio Code)` is a lightweight but powerful source code editor which runs on your desktop and
 is available on Windows, macOS and Linux.
 
-It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for
+It comes with built-in support for JavaScript (JS), TypeScript and Node.js and has a rich ecosystem of extensions for
 other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity).
 
 Visit `VSCode website <https://code.visualstudio.com/download>`__ to download an appropriate version for your
@@ -130,7 +130,7 @@ If using VSCode IDE, add a new configuration by following the steps below:
 #. Navigate to Run -> Add Configuration
 #. Edit the **launch.json** file that is created with the following file contents:
 
-.. literalinclude:: /assets/files/setup/launch.json
+.. literalinclude:: /assets/files/setup/project/launch.json
    :language: json
    :caption: VSCode **launch.json** configuration file contents
 

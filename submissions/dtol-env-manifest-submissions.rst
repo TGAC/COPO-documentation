@@ -30,7 +30,7 @@ How to Submit DTOL_ENV Manifests
 .. rubric:: Footnotes
 
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 

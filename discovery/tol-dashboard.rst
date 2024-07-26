@@ -65,6 +65,8 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <hr>
 
+.. _tol-inspection:
+
 Tree of Life Inspection
 --------------------------
 
@@ -78,6 +80,8 @@ and facilitates search faceting and data discovery of the results.
   :class: with-shadow with-border
 
   **Tree of Life (ToL) Inspection web page**
+
+.. _tol-inspection-by-gal:
 
 Tree of Life Inspection by Genome Acquisition Lab
 -------------------------------------------------

@@ -74,6 +74,7 @@ from the popup menu displayed as shown below:
 
    <hr>
 
+.. _files-submission-via-browser:
 
 Submit Files from your Local (Computer) System
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -327,7 +328,7 @@ The **ENA File Processing Status** column is highlighted with a red rectangle bo
 
 .. rubric:: Footnotes
 
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 
@@ -336,6 +337,7 @@ The **ENA File Processing Status** column is highlighted with a red rectangle bo
 ..
     Images declaration
 ..
+
 .. |files-component-button| image:: /assets/images/buttons/components_files_button.png
    :height: 4ex
    :class: no-scaled-link

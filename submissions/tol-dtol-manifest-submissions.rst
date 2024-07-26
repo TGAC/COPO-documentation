@@ -136,7 +136,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`DToL`. *DToL* may sometimes be referred to as *DTOL*.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f3] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 
 .. raw:: html
@@ -146,6 +146,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
 ..
     Images declaration
 ..
+
 .. |add-dtol-manifest-button| image:: /assets/images/buttons/add_manifest_button.png
    :height: 4ex
    :class: no-scaled-link

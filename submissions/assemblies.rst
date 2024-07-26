@@ -72,6 +72,8 @@ from the popup menu displayed as shown below:
 
    <hr>
 
+.. _assemblies-submission-section:
+
 Submit Assembly
 ~~~~~~~~~~~~~~~~~~
 
@@ -160,7 +162,7 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
 .. [#f1] See term: :term:`Locus tag`.
 .. [#f2] See term: :term:`ENA`.
 .. [#f3] See: :term:`Assembly`.
-.. [#f4] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f4] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 

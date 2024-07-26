@@ -70,6 +70,8 @@ from the popup menu displayed as shown below:
 
    <hr>
 
+.. _sequence-annotations-submission-section:
+
 Submit Sequence Annotations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -192,7 +194,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 
 .. rubric:: Footnotes
 .. [#f1] See: :term:`Sequence Annotation`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 

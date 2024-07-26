@@ -83,7 +83,7 @@ To make a profile public, please follow the steps below:
 
 .. rubric:: Footnotes
 
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 .. [#f2] See term: :term:`ENA`.
 
 ..

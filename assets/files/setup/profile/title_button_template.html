@@ -1,0 +1,79 @@
+<!-- your_app/templates/your_app/title_buttons.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title Buttons</title>
+    <link rel="stylesheet" href="{% static 'your_app/css/styles.css' %}">
+    <script src="{% static 'your_app/js/title_buttons.js' %}"></script>
+</head>
+<body>
+    <ul>
+        <li>
+            <button title="Add new profile record" class="big circular ui icon primary button new-component-template copo-tooltip">
+                <i class="icon add sign"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Quick tour" class="big circular ui icon orange button takeatour quick-tour-template copo-tooltip">
+                <i class="icon lightbulb"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Add Sample(s) from Spreadsheet" class="big circular ui icon button new-samples-spreadsheet-template copo-tooltip">
+                <i class="icon table sign"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Add Read(s) from Read Spreadsheet" class="big circular ui icon button new-reads-spreadsheet-template copo-tooltip">
+                <i class="icon table sign"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Add new file by browsing local file system" class="big circular ui icon primary button new-local-file copo-tooltip">
+                <i class="icon desktop sign"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Add new file by terminal" class="big circular ui icon primary button new-terminal-file copo-tooltip">
+                <i class="icon terminal sign"></i>
+            </button>
+        </li>
+        <li>
+            <button title="Add Tagged Sequence (s) from Tagged Sequence Spreadsheet" class="big circular ui icon button new-taggedseq-spreadsheet-template copo-tooltip">
+                <i class="icon table sign"></i>
+            </button>
+        </li>
+        <li>
+            <a title="Download Blank Manifest Template" class="big circular ui icon brown button download-blank-manifest-template copo-tooltip" target="_blank" href="#blank_manifest_url">
+                <i class="icon download sign"></i>
+            </a>
+        </li>
+        <li>
+            <a title="Download Standard Operating Procedure (SOP)" class="big circular ui icon yellow button download-sop copo-tooltip" target="_blank" href="#sop_url">
+                <i class="icon download sign"></i>
+            </a>
+        </li>
+        <li>
+            <button style="display: none" title="Accept/Reject TOL Samples" class="big circular ui icon teal button accept_reject_samples copo-tooltip">
+                <i class="icon tasks sign"></i>
+            </button>
+        </li>
+        <li>
+            <button style="display: none" title="Inspect TOL" class="big circular ui icon yellow button tol_inspect copo-tooltip">
+                <i class="icon clipboard list"></i>
+            </button>
+        </li>
+        <li>
+            <button class="big circular ui icon green button tol_inspect_gal copo-tooltip" title="Inspect TOL by GAL">
+                <i class="icon building"></i>
+            </button>
+        </li>
+        <li>
+            <button style="display: none" title="View Accessions Dashboard" class="big circular ui icon pink button copo_accessions copo-tooltip">
+                <i class="icon sitemap"></i>
+            </button>
+        </li>
+    </ul>
+</body>
+</html>

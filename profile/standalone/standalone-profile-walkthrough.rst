@@ -171,7 +171,7 @@ Please follow the steps below to submit virtual samples [#f5]_:
 
 .. rubric:: Footnotes
 
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f1] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 .. [#f2] Also known as profile component. See term: :term:`Profile component`.
 
          Research objects refer to files, reads, assemblies, files and sequence annotations.

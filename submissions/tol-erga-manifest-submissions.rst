@@ -157,7 +157,7 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`ERGA`.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f3] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 
 .. raw:: html

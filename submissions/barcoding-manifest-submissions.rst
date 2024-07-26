@@ -172,6 +172,7 @@ Upload Barcoding Manifest
 
    <hr>
 
+.. _barcoding-manifest-submissions-section:
 
 Submit Barcoding Manifests
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -238,7 +239,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 ..
     Images declaration

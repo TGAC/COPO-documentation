@@ -188,6 +188,8 @@ Upload Reads
 
    <hr>
 
+.. _reads-submission-section:
+
 Submit Reads
 ~~~~~~~~~~~~~~
 
@@ -224,7 +226,7 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 
 .. rubric:: Footnotes
 .. [#f1] See: :term:`Reads`.
-.. [#f2] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 

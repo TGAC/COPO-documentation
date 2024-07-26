@@ -71,6 +71,10 @@ links to find instructions specific to your needs.
    :name: advanced
 
    advanced/project_setup/project-local-setup-index
+   advanced/project_setup/project-application-structure.rst
+   advanced/project_setup/setup-django-admin-interface
+   advanced/profile_setup/profile-setup-index
+   advanced/profile_setup/profile-management-on-django-admin-interface
 
 .. toctree::
    :caption: Policies

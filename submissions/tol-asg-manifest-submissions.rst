@@ -111,7 +111,7 @@ Follow the steps indicated :ref:`here <images-submission>` for image submission.
 .. rubric:: Footnotes
 .. [#f1] See term: :term:`ASG`.
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
-.. [#f3] Also known as COPO profile. See: :term:`COPO profile  or work profile<COPO profile>`.
+.. [#f3] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 
 .. raw:: html

@@ -1,13 +1,14 @@
 .. _project-local-setup-index:
 
-===============================
-Setting Up COPO Project Locally
-===============================
+==========================
+COPO Project Local Setup
+==========================
 
 .. _copo-project-setup-with-docker:
 
-With Docker
-------------
+Project Setup With Docker
+--------------------------
+
 The central instance of COPO runs on a pool of three virtual machines. The following set up instructions are structured
 in a similar manner using one node. Feel free to make changes for a bigger or smaller pool.
 
@@ -245,7 +246,7 @@ and choose passwords before proceeding with the COPO setup.
 Build COPO Project Docker Image
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the Dockerfile :download:`Dockerfile_local  <../../assets/files/setup/Dockerfile_local>`.
+Download the Dockerfile :download:`Dockerfile_local  <../../assets/files/setup/project/Dockerfile_local>`.
 for your local machine.
 
 Place the downloaded Dockerfile in the COPO project root directory.
@@ -256,7 +257,7 @@ Alternatively, you can use the Dockerfile present in the root project directory 
     The Dockerfile is configured to build the **local_copo_web** container image with the tag, ``v1.0.1``. If you have
     a different tag and container name, you will need to change the Dockerfile accordingly.
 
-    If you are using a Mac OS, download the :download:`Dockerfile_mac  <../../assets/files/setup/Dockerfile_mac>`.
+    If you are using a Mac OS, download the :download:`Dockerfile_mac  <../../assets/files/setup/project/Dockerfile_mac>`.
 
 
 Visit `here <https://docs.docker.com/get-started/02_our_app/>`__ for more information on how to build an application
@@ -281,7 +282,7 @@ Deploy Docker Image on Docker Swarm Manager
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The **redis**, **postgres** and **mongo** Docker services are created on the swarm manager. Download the
-:download:`local compose file </assets/files/setup/local_copo.compose.yaml>` file to create the services.
+:download:`local compose file </assets/files/setup/project/local_copo.compose.yaml>` file to create the services.
 
 Alternatively, you can download :download:`compose file for demonstration environment
 <https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`.
@@ -292,7 +293,7 @@ Replace the ``<path-to-project-root-directory>`` with the absolute path to the C
     The Docker compose file is configured to use the secrets and volumes created above. If you have used different
     names for the secrets and volumes, you will need to change the compose file accordingly.
 
-    If you are using a Mac OS, download the :download:`Mac compose file  </assets/files/setup/mac_copo.compose.yaml>`.
+    If you are using a Mac OS, download the :download:`Mac compose file  </assets/files/setup/project/mac_copo.compose.yaml>`.
 
     The following commands should be run from the root directory of the COPO project.
 
@@ -318,7 +319,7 @@ Update the tag, save the file then, exit by inputting: ``CTRL + O`` then, ``ENTE
 
 .. collapse:: Compose file to configure COPO project application locally with Docker
 
-   .. literalinclude:: /assets/files/setup/local_copo.compose.yaml
+   .. literalinclude:: /assets/files/setup/project/local_copo.compose.yaml
       :language: yaml
       :caption: Local Compose file for COPO project application
 
@@ -454,7 +455,7 @@ Updating COPO Website Service
 
 The COPO project is updated frequently and as such is under active development. To update your instance to a newer
 (or the latest) version, download the
-:download:`local compose file </assets/files/setup/local_copo.compose.yaml>`  or the :download:`compose file for
+:download:`local compose file </assets/files/setup/project/local_copo.compose.yaml>`  or the :download:`compose file for
 demonstration environment
 <https://raw.githubusercontent.com/TGAC/COPO/development/services/copo.compose.yaml>`
 on the swarm manager or root directory of the project if you have one node.
@@ -506,7 +507,7 @@ Within the VSCode IDE browser, add a new configuration by following the steps be
 
 .. collapse:: VSCode configuration file
 
-   .. literalinclude:: /assets/files/setup/launch.json
+   .. literalinclude:: /assets/files/setup/project/launch.json
       :language: json
       :caption: VSCode **launch.json** configuration file contents
 
@@ -613,5 +614,14 @@ Tips
    <hr>
 
 .. include:: copo-project-setup-without-docker.rst
+
+
+..
+    Images declaration
+..
+
+.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+   :height: 2ex
+   :class: no-scaled-link
 
 
