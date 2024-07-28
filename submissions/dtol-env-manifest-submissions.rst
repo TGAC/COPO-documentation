@@ -12,7 +12,7 @@ How to Submit DTOL_ENV Manifests
     :abbr:`ToL (Tree of Life)` [#f1]_ profile [#f2]_. Please see:
     :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
-  * In the **Add Profile** form, the **Profile type** dropdown menu will only display the **Stand-alone** option when
+  * In the **Add Profile** form, the **Profile type** dropdown menu will only display the **Genomics** option when
     creating a profile on COPO. :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` inorder to be added to a desired
     profile group and be granted access to choose your desired profile type group.
 

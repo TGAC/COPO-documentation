@@ -38,33 +38,14 @@ Use Components' Button to Navigate to Sequence Annotations' Web Page
 Click the |profile-components-button| button associated with a profile. Then, click the  |sequence-annotations-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
-  :alt: Stand-alone Sequence Annotations' profile component
+.. figure:: /assets/images/profile/profile_genomics_profile_components_sequence_annotations.png
+  :alt: Genomics Sequence Annotations' profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_sequence_annotations.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components_sequence_annotations.png
   :class: with-shadow with-border
   :height: 600px
 
-  **Stand-alone Profile Components: Sequence Annotations' component button**
-
-.. raw:: html
-
-   <hr>
-
-Use Actions' Button to Navigate to Sequence Annotations' Web Page
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Annotation** action
-from the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
-   :alt: Stand-alone Sequence Annotations' profile action
-   :align: center
-   :height: 70ex
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_sequence_annotations.png
-   :class: with-shadow with-border
-
-   **Stand-alone Profile Actions: 'Submit Annotation' action**
+  **Genomics Profile Components: Sequence Annotations' component button**
 
 .. raw:: html
 
@@ -208,10 +189,6 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
    :class: no-scaled-link
 
 .. |sequence-annotations-component-button| image:: /assets/images/buttons/components_sequence_annotations_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

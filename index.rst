@@ -23,7 +23,7 @@ links to find instructions specific to your needs.
    :caption: COPO Profile
    :name: copo-profile
 
-   profile/standalone/standalone-profile-walkthrough
+   profile/genomics/genomics-profile-walkthrough
    profile/tol/tol-profile-walkthrough
    profile/sharing-profiles
    profile/releasing-profiles

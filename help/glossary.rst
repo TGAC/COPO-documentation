@@ -39,7 +39,7 @@ Glossary
      Also known as work profile. A collection of 'research objects' or components that contain data
      generated on a biological research project or study.
 
-     There are two general types of profiles in COPO: *Stand-alone* profiles and :abbr:`ToL (Tree of Life)` profiles.
+     There are two general types of profiles in COPO: *Genomics* profiles and :abbr:`ToL (Tree of Life)` profiles.
      :abbr:`ASG (Aquatic Symbiosis Genomics)`, :abbr:`DToL (Darwin Tree of Life)` and
      :abbr:`ERGA (European Reference Genome Atlas)` are the ToL (primary) projects brokered through COPO.
 
@@ -187,15 +187,10 @@ Glossary
      .. image:: /assets/images/ontology-field.jpg
         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/ontology-field.jpg
 
-   Profile action
-     A set of actions that can be performed on a profile. They are correlated with the profile components in COPO.
-
    Profile component
      Also known as *research object*. It forms part of a research project or study.
 
      Templates for creating or describing research objects can be found :ref:`here <manifest-templates>`.
-
-     Profile components are correlated with profile actions in COPO.
 
    Profile Types legend
         This describes the types of the profiles that have been created. It is located at the right of the *
@@ -294,9 +289,9 @@ Glossary
 
    Virtual sample
      A virtual sample is a research object that is submitted to COPO under a
-     :ref:`Stand-alone profile <standalone-profile-walkthrough>`. It represents samples in a **run** sequencing file.
+     :ref:`Genomics profile <genomics-profile-walkthrough>`. It represents samples in a **run** sequencing file.
 
-     See the :ref:`Virtual sample submission <standalone-profile-virtual-sample-submissions>` section for more
+     See the :ref:`Virtual sample submission <genomics-profile-virtual-sample-submissions>` section for more
      information.
 
    :abbr:`VSCode (Visual Studio Code)`

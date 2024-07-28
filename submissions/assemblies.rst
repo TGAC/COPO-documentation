@@ -16,7 +16,7 @@ Assembly Submission
   * :ref:`How to Submit Files <files>`
   * :ref:`Types of Files for Assembly Submissions <faq-assemblies-submission-file-types>`
   * :ref:`How to check if data files associated with assembly submissions have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
-  * :ref:`Assigning your own Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
+  * :ref:`Creating a custom Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
 
 .. raw:: html
 
@@ -41,32 +41,13 @@ Use Components' Button to Navigate to Assembly Web Page
 Click the |profile-components-button| button associated with a profile. Then, click the  |assembly-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_standalone_profile_components_assembly.png
-  :alt: Stand-alone Assembly profile component
+.. figure:: /assets/images/profile/profile_genomics_profile_components_assembly.png
+  :alt: Genomics Assembly profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_assembly.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components_assembly.png
   :class: with-shadow with-border
 
-  **Stand-alone Profile Components: Assembly component button**
-
-.. raw:: html
-
-   <hr>
-
-Use Actions' Button to Navigate to Assembly Web Page
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Assembly** action
-from the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_standalone_profile_actions_assembly.png
-  :alt: Stand-alone Assembly profile action
-  :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_assembly.png
-  :class: with-shadow with-border
-
-  **Stand-alone Profile Actions: 'Submit Assembly action**
+  **Genomics Profile Components: Assembly component button**
 
 .. raw:: html
 
@@ -176,10 +157,6 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
    :class: no-scaled-link
 
 .. |assembly-component-button| image:: /assets/images/buttons/components_assembly_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

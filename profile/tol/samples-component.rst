@@ -59,51 +59,11 @@ the popup menu displayed as shown below:
 
 .. raw:: html
 
-   <hr>
-
-Use Actions' Button to Navigate to Samples' Web Page
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Click the |profile-actions-button| button associated with a profile.
-
-Depending on the type of profile that you have created, click the action,
-**Submit DTOL/ASG manifest** action from the popup menu displayed as shown below if you have created a
-**Darwin Tree of Life (DToL)** profile or **Aquatic Symbiosis Genomics (ASG)** profile
-
-.. figure:: /assets/images/profile/profile_tol_profile_actions_only1.png
-   :alt: 'Submit DTOL/ASG manifest' profile action
-   :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only1.png
-   :class: with-shadow with-border
-   :height: 400px
-
-   **Tree of Life Profile Actions: 'Submit DTOL/ASG manifest' action for a DTOL/ASG profile**
-
-.. centered:: **OR**
-
-Click the action, **Submit ERGA manifest** action from the popup menu displayed as shown below
-if you have created an **European Reference Genome Atlas (ERGA)** profile:
-
-.. figure:: /assets/images/profile/profile_tol_profile_actions_only2.png
-   :alt: 'Submit ERGA manifest' profile action
-   :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_only2.png
-   :class: with-shadow with-border
-   :height: 400px
-
-   **Tree of Life Profile Actions: 'Submit ERGA manifest' action (for an ERGA profile)**
-
-.. raw:: html
-
    <br><br>
 
 ..
     Images declaration
 ..
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
-   :height: 4ex
-   :class: no-scaled-link
 
 .. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
    :height: 4ex

@@ -61,7 +61,7 @@ Terms of Use
 * Samples cannot be deleted after they have been submitted; they can only be updated. More details
   about what field values can be updated can be found in the :ref:`samples-update` section in our documentation.
 
-* Please see our documentation on the various profile components for :ref:`standalone-profile-walkthrough` and
+* Please see our documentation on the various profile components for :ref:`genomics-profile-walkthrough` and
   :ref:`tol-profile-walkthrough` for more information concerning the restrictions and possibilities of the various
   research objects.
 

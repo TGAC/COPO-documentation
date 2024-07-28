@@ -1,10 +1,10 @@
-.. _standalone-profile-walkthrough:
+.. _genomics-profile-walkthrough:
 
 ====================
-Stand-alone Profile
+Genomics Profile
 ====================
 
-In COPO, a Stand-alone work profile [#f1]_ is required to submit research objects [#f2]_ such as files, reads,
+In COPO, a Genomics work profile [#f1]_ is required to submit research objects [#f2]_ such as files, reads,
 assemblies and sequence annotations.
 
 .. hint::
@@ -29,7 +29,7 @@ assemblies and sequence annotations.
 
    <hr>
 
-Steps to Create a Stand-alone Profile
+Steps to Create a Genomics Profile
 ---------------------------------------------
 
 #. Click the |add-profile-button| **Add new record** icon to view the **Add Profile** form
@@ -40,34 +40,18 @@ Steps to Create a Stand-alone Profile
       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
-      **Stand-alone Profile: Add new profile record icon**
-
-#. **Contact COPO via email** dialogue is displayed indicating that the user is not a member of any manifest group
-   and that the user must make a request to be added to a manifest group to make :abbr:`ToL (Tree of Life)` manifest
-   submissions if the user would like to do so.
-
-   Click **Okay** to close the dialogue.
-
-    .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
-      :alt: Contact COPO dialogue
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
-      :class: with-shadow with-border
-      :height: 400px
-
-      **Stand-alone Profile: Contact COPO dialogue is displayed regarding getting access to make Tree of Life (ToL)
-      manifest submissions**
+      **Genomics Profile: Add new profile record icon**
 
 #. Provide details for the new profile then, click **Save**
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_standalone.png
+    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_genomics.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_standalone.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_genomics.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Stand-alone Profile: Add profile form dialogue**
+      **Genomics Profile: Add profile form dialogue**
 
     .. raw:: html
 
@@ -82,13 +66,13 @@ Steps to Create a Stand-alone Profile
 
 #. The new profile will be displayed in the **Profile** list
 
-    .. figure:: /assets/images/profile/profile_standalone_profile_created.png
-      :alt: Stand-alone profile created
+    .. figure:: /assets/images/profile/profile_genomics_profile_created.png
+      :alt: Genomics profile created
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_created.png
       :class: with-shadow with-border
 
-      **Stand-alone Profile: Work profiles' web page displaying the created profile**
+      **Genomics Profile: Work profiles' web page displaying the created profile**
 
     .. raw:: html
 
@@ -104,9 +88,9 @@ Steps to Create a Stand-alone Profile
 
    <hr>
 
-.. _standalone-profile-components:
+.. _genomics-profile-components:
 
-Stand-alone Profile Components
+Genomics Profile Components
 -----------------------------------
 
 A COPO profile defines a set of component types from which instances of research objects [#f2]_ can be created.
@@ -119,38 +103,35 @@ The following component types are currently defined:
    #. :ref:`Reads <reads>`
    #. :ref:`Sequence Annotations <sequence-annotations>`
 
-   .. figure:: /assets/images/profile/profile_standalone_profile_components.png
-      :alt: Stand-alone profile components
+   .. figure:: /assets/images/profile/profile_genomics_profile_components.png
+      :alt: Genomics profile components
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components.png
       :class: with-shadow with-border
       :height: 650px
 
-      **Stand-alone Profile Components**
+      **Genomics Profile Components**
 
 * Component instances defined within a profile will only be visible within that profile [#f1]_. 
 
 * To access a component within a profile, click the component button displayed within the popup after the
   |profile-components-button| button was clicked (see the screenshot above).
 
-* Profile actions [#f4]_ can be accessed via the |profile-actions-button| button. The actions describe the process of each
-  component within a profile.
-
 .. raw:: html
 
    <hr>
 
-.. _standalone-profile-virtual-sample-submissions:
+.. _genomics-profile-virtual-sample-submissions:
 
 Submitting Virtual Samples
 -----------------------------------
 
-Please follow the steps below to submit virtual samples [#f5]_:
+Please follow the steps below to submit virtual samples [#f4]_:
 
-#. Create a Stand-alone profile or select an existing one.
-   See :ref:`Steps to create a Stand-alone profile <standalone-profile-walkthrough>`.
+#. Create a Genomics profile or select an existing one.
+   See :ref:`Steps to create a Genomics profile <genomics-profile-walkthrough>`.
 
-#. Submit reads to the Stand-alone profile. See :ref:`Submitting Reads <reads>` section.
+#. Submit reads to the Genomics profile. See :ref:`Submitting Reads <reads>` section.
 
    .. important::
 
@@ -176,19 +157,14 @@ Please follow the steps below to submit virtual samples [#f5]_:
 
          Research objects refer to files, reads, assemblies, files and sequence annotations.
 
-         A Stand-alone profile is considered as a *project* research object.
+         A Genomics profile is considered as a *project* research object.
 .. [#f3] See term: :term:`ENA`.
-.. [#f4] See term: :term:`Profile action`.
-.. [#f5] See term: :term:`Virtual sample`.
+.. [#f4] See term: :term:`Virtual sample`.
 
 ..
     Images declaration
 ..
 .. |add-profile-button| image:: /assets/images/buttons/add_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

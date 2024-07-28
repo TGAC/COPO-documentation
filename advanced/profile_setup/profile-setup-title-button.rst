@@ -8,9 +8,10 @@ functionalities or data points that contribute to the profile's overall purpose.
 
 .. seealso::
 
-   * `Component configuration <profile-setup-component>`_
-   * `ProfileType configuration <profile-setup-profile-type>`_
-   * `RecordActionButton configuration <profile-setup-record-action-button>`_
+   * :ref:`Defining TitleButton Django model <django-model-definition>`
+   * `Component structure <profile-setup-component>`_
+   * `ProfileType structure <profile-setup-profile-type>`_
+   * `RecordActionButton structure <profile-setup-record-action-button>`_
 
 .. raw:: html
 
@@ -138,48 +139,51 @@ The PostgreSQL table **TitleButton** consists of the following fields:
 
    <hr>
 
-Usage of TitleButton in Project
--------------------------------------
+Referencing Created TitleButton in Project
+-------------------------------------------
 
-Create a Django app to manage the ``TitleButton`` Django model and render the buttons in the template.
+.. note::
 
-See the :ref:`project-application-structure` section which explains the structure of a Django project.
+   * Ensure that a Django app is created to manage the ``TitleButton`` Django model and render the buttons in the
+     template.
 
-Refer to the following steps to create the Django application and configure the buttons:
+     Refer to the :ref:`profile-setup-component-creation` section which explains how to create a Django app for
+     a component
 
-* views.py: Defines the TitleButtonView class to render the template.
+   * Ensure that static files like :abbr:`CSS (Cascading Style Sheets)` and :abbr:`JS (JavaScript)` files are correctly
+     configured in the Django project ``settings.py`` file
 
-* urls.py: Configures the URL routing to the view.
+     .. code-block:: python
 
-* Template (title_buttons.html): Contains HTML and references each element in the TitleButton table.
+        # settings.py
+        STATIC_URL = '/static/'
+        STATICFILES_DIRS = [BASE_DIR / 'static']
 
-* JavaScript (JS) (title_buttons.js): Handles the button click events.
+.. hint::
 
-1. Creating the Views
-^^^^^^^^^^^^^^^^^^^^^^
+   Click the |collapsible-item-arrow| button below to view the contents
 
-In the ``views.py`` file, we will define views that render the template containing the buttons.
+.. seealso::
+
+   :ref:`project-application-structure` section which explains the structure of a Django project.
 
 .. code-block:: python
+   :caption: Define views that render the template containing the buttons in views.py
 
-   # your_app/views.py
+   # myapp/views.py
    from django.shortcuts import render
    from django.views import View
+   from .models import TitleButton
 
    class TitleButtonView(View):
-       template_name = 'your_app/title_buttons.html'
-
        def get(self, request):
-           return render(request, self.template_name)
-
-2. Configuring URLs
-^^^^^^^^^^^^^^^^^^^
-
-In the ``urls.py`` file, we will configure the URL routing to access the view defined above.
+           my_models = TitleButton.objects.all()
+           return render(request, 'myapp/myapp.html', {'title_button_def': my_models})
 
 .. code-block:: python
+   :caption: Configure URL routing to the view defined above in the urls.py
 
-   # your_app/urls.py
+   # myapp/urls.py
    from django.urls import path
    from .views import TitleButtonView
 
@@ -187,59 +191,27 @@ In the ``urls.py`` file, we will configure the URL routing to access the view de
        path('title-buttons/', TitleButtonView.as_view(), name='title_buttons'),
    ]
 
-3. Creating the Template
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-In the template HTML file (``title_buttons.html``), we will reference each element from the TitleButton table.
-
-.. collapse:: Title button example template
-
-   .. literalinclude:: /assets/files/setup/profile/title_button_template.html
-      :language: html
-      :caption: Example template of TitleButton model
-
 .. raw:: html
 
-   <br>
+   <hr>
 
-4. Creating JavaScript for Button Actions
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* In the template HTML file (``myapp.html``), reference each element from the TitleButton table.
 
-In the :abbr:`JS (JavaScript)` file (title_buttons.js), we can handle any JavaScript functionality needed for the buttons.
+.. collapse:: TitleButton example template
 
-.. code-block:: javascript
-
-   // your_app/static/your_app/js/title_buttons.js
-   document.addEventListener('DOMContentLoaded', function() {
-       document.querySelectorAll('.copo-tooltip').forEach(button => {
-           button.addEventListener('click', function(event) {
-               console.log(`Button with title '${this.title}' clicked.`);
-               // Add more logic here for each button if necessary
-           });
-       });
-   });
-
-5. Static Files and Other Configurations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Ensure that static files (:abbr:`CSS (Cascading Style Sheets)`, :abbr:`JS (JavaScript)`) are correctly configured in your Django project settings.
-
-In your ``settings.py``, Create a static directory in your Django app and place your css and js folders inside it.
-
-.. code-block:: python
-
-    # settings.py
-    STATIC_URL = '/static/'
-    STATICFILES_DIRS = [BASE_DIR / 'static']
+   .. literalinclude:: /assets/files/setup/profile/title_button.html
+      :language: html
 
 .. raw:: html
 
    <hr>
 
-Usage of TitleButton
----------------------
+* Handle any JavaScript functionality needed for the buttons in the :abbr:`JS (JavaScript)` file (``myapp.js``)
 
-Please check back soon for more information on how to use the title buttons in the project.
+.. collapse:: Title button example javascript
+
+   .. literalinclude:: /assets/files/setup/profile/title_button.js
+      :language: javascript
 
 .. raw:: html
 

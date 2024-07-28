@@ -48,7 +48,7 @@ It displays the acronym as well as the corresponding profile type colour for eac
      - European Reference Genome Atlas
    * - Teal |teal-circle|
      - Standalone
-     - Stand-alone
+     - Genomics
 
 .. raw:: html
 

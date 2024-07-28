@@ -35,7 +35,7 @@ a manifest template. See :ref:`samples-component` component for more details abo
 
 .. note::
 
-    * The manifest templates for reads within Stand-alone profiles are available for download on the
+    * The manifest templates for reads within Genomics profiles are available for download on the
       **Reads web page** for those profiles. See :ref:`reads` section for more details.
 
     * Barcoding manifest templates are available for download on the Barcoding manifest web page. See

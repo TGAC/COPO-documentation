@@ -28,8 +28,7 @@ How to Submit Reads
 Accessing the Reads' Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Reads'** [#f1]_  web page can be accessed from the **Components** button or **Actions** button associated with
-a profile [#f2]_.
+The **Reads'** [#f1]_  web page can be accessed from the **Components** button associated with a profile [#f2]_.
 
 .. raw:: html
 
@@ -41,33 +40,14 @@ Use Components' Button to Navigate to Reads' Web Page
 Click the |profile-components-button| button associated with a profile. Then, click the  |reads-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_standalone_profile_components_reads.png
-  :alt: Stand-alone Reads' profile component
+.. figure:: /assets/images/profile/profile_genomics_profile_components_reads.png
+  :alt: Genomics Reads' profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_reads.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components_reads.png
   :class: with-shadow with-border
   :height: 600px
 
-  **Stand-alone Profile Components: Reads component button**
-
-.. raw:: html
-
-   <hr>
-
-Use Actions' Button to Navigate to Reads' Web Page
-"""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Reads** action
-from the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_standalone_profile_actions_reads.png
-  :alt: Stand-alone Reads' profile action
-  :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_reads.png
-  :class: with-shadow with-border
-
-  **Stand-alone Profile Actions: 'Submit Reads' action**
+  **Genomics Profile Components: Reads component button**
 
 .. raw:: html
 
@@ -85,9 +65,9 @@ Upload Reads
 
 .. important::
 
-   The **reads** checklist dropdown menu is only available for **Stand-alone** profiles.
+   The **reads** checklist dropdown menu is only available for **Genomics** profiles.
 
-   If you are submitting **reads** for a profile other than a Stand-alone profile, please proceed to upload the reads
+   If you are submitting **reads** for a profile other than a Genomics profile, please proceed to upload the reads
    from your local file system after you have clicked the |add-reads-manifest-button| button.
 
 .. note::
@@ -253,10 +233,6 @@ Click the desired reads records from the list of reads displayed on the **Reads'
    :class: no-scaled-link
 
 .. |reads-blank-manifest-download-button| image:: /assets/images/buttons/download_button_blank_manifest.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

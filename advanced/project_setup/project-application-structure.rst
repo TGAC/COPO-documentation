@@ -14,7 +14,7 @@ presentation.
 A Django project consists of one or more applications, each of which contains models, views, templates, and other
 components that define the functionality of the application.
 
-A typical structure of a Django project is as follows:
+A typical structure of a Django project looks like this:
 
 .. code-block:: bash
 
@@ -73,6 +73,11 @@ Project Directory (myproject/myproject/)
 
 Application Directory (myproject/myapp/)
 -----------------------------------------
+
+.. seealso::
+
+   Refer to the :ref:`profile-setup-component-creation` section for insights into creating Django applications for each
+   component used in the COPO project
 
 **__init__.py**: An empty file that tells Python that this directory should be considered a Python package.
 

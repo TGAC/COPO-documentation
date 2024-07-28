@@ -32,8 +32,8 @@ See :ref:`Project Application Structure <project-application-structure>` section
 
 .. _profile-structure:
 
-Profile Structure
------------------
+1. Defining the Profile Structure
+-----------------------------------
 
 The profile [#f1]_ setup is designed to be modular and extensible, with each subpart encapsulated in its own model.
 This modularity ensures that each component can be managed independently while still being part of a cohesive profile
@@ -45,7 +45,7 @@ complex configurations within a profile.
 By understanding the purpose and configuration of each subpart, administrators can efficiently manage complex profiles
 and their components, enhancing the overall functionality and usability of the Django application.
 
-Click the desired link below for guidance on how to configure and set up the subpart.
+Click the desired link below for guidance on configuring and setting up each subpart.
 
 .. toctree::
    :titlesonly:
@@ -61,8 +61,8 @@ Click the desired link below for guidance on how to configure and set up the sub
 
 .. _django-model-definition:
 
-Define Django Model
----------------------
+2. Defining Django Model
+--------------------------
 
 Define the  model in a ``models.py`` Python file: This file will contain the model definition that represents the
 structure of the  database table.
@@ -122,8 +122,8 @@ structure of the  database table.
 
 .. _profile-setup-register-django-model:
 
-Register Django Model with Django Admin site
---------------------------------------------
+3. Registering Django Model with Django Admin site
+-----------------------------------------------------
 
 This step makes the model available in the Django Admin interface after the model has been defined.
 
@@ -165,8 +165,8 @@ Django Admin interface.
 
 .. _profile-setup-migrating-django-models:
 
-Make Migrations and Migrate the Django Model
----------------------------------------------
+4. Make Migrations and Migrate the Django Model
+------------------------------------------------
 
 .. important::
 
@@ -193,8 +193,8 @@ To create and apply migrations, run the following commands in the terminal:
 
 .. _creating-setup-profile-python-command:
 
-Automating Profile Creation with manage.py
-------------------------------------------
+5. Automating Profile Creation with manage.py
+---------------------------------------------
 
 After defining and registering the models, you can automate the creation of profiles and their subparts using a
 management command in Django. This approach streamlines the setup process, ensuring consistency and reducing manual
@@ -203,12 +203,12 @@ effort.
 Management Command
 ~~~~~~~~~~~~~~~~~~
 
-Create a new management command by adding a file ``setup_profile.py`` in your Django app’s ``management/commands``
+Create a new management command by adding a file ``setup_profile_types.py`` in the Django app’s ``management/commands``
 directory.
 
 .. hint::
 
-   Click the |collapsible-item-arrow| button below to view the contents of the **setup_profile.py** Python management
+   Click the |collapsible-item-arrow| button below to view the contents of the **setup_profile_types.py** Python management
    command file.
 
    The actual implementation may vary based on your specific requirements.
@@ -218,9 +218,9 @@ directory.
 
 .. collapse:: Setup profile management command
 
-   .. literalinclude:: /assets/files/setup/profile/setup_profile.py
+   .. literalinclude:: /assets/files/setup/profile/setup_profile_types.py
       :language: python
-      :caption: Python **setup_profile.py** Python management command file contents
+      :caption: Python **setup_profile_types.py** Python management command file contents
 
 .. raw:: html
 
@@ -230,7 +230,7 @@ To run this command, use:
 
 .. code-block:: bash
 
-   python manage.py setup_profile
+   python manage.py setup_profile_types
 
 This command will automatically setup a profile with the predefined subparts, ensuring a quick and consistent setup.
 

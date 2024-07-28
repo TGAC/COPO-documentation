@@ -42,33 +42,14 @@ Use Components' Button to Navigate to Files' Web Page
 Click the |profile-components-button| button associated with a profile. Then, click the  |files-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_standalone_profile_components_files.png
-  :alt: Stand-alone Files' profile component
+.. figure:: /assets/images/profile/profile_genomics_profile_components_files.png
+  :alt: Genomics Files' profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_components_files.png
+  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components_files.png
   :class: with-shadow with-border
   :height: 600px
 
-  **Stand-alone Profile Components: Files component button**
-
-.. raw:: html
-
-   <hr>
-
-Use Actions' Button to Navigate to Files' Web Page
-"""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action, **Upload Files** action
-from the popup menu displayed as shown below:
-
-.. figure:: /assets/images/profile/profile_standalone_profile_actions_files.png
-  :alt: Stand-alone Files' profile action
-  :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_standalone_profile_actions_files.png
-  :class: with-shadow with-border
-
-  **Stand-alone Profile Actions: 'Upload Files' action**
+  **Genomics Profile Components: Files component button**
 
 .. raw:: html
 
@@ -355,10 +336,6 @@ The **ENA File Processing Status** column is highlighted with a red rectangle bo
    :class: no-scaled-link
 
 .. |add-files-via-terminal-button1| image:: /assets/images/buttons/add_files_via_terminal_button1.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

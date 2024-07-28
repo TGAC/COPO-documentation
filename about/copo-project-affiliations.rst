@@ -21,7 +21,7 @@ Primary Projects
    * Darwin Tree of Life Samples (DToL) [#f3]_
    * Darwin Tree of Life Environmental Samples (DToL_ENV)
    * European Reference Genome Atlas (ERGA) [#f4]_
-   * Stand-alone
+   * Genomics
 
 .. _copo-project-associated-projects:
 
@@ -31,7 +31,7 @@ Secondary Projects
 .. note::
 
    In addition to the secondary projects outlined below, all projects listed under **Primary Projects** except
-   Stand-alone, can be added as a subproject of a larger project.
+   Genomics, can be added as a subproject of a larger project.
 
 .. hlist::
    :columns: 2

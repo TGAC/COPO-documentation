@@ -1,0 +1,92 @@
+<!-- myapp/templates/myapp/component.html -->
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=10">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>My App</title>
+
+        <link rel="stylesheet" href="{% static 'myapp/css/myapp.css' %}">
+
+        <script src="{% static 'myapp/js/myapp.js' %}"></script>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <!-- DataTables CSS -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+        <!-- DataTables JS -->
+        <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+
+        <script>
+            const component_def = {
+              {% for component in component_def %}
+                {{ component.name|lower }}:  {
+                  component: '{{ component.name }}',
+                  title: '{{ component.title }}',
+                  {% if component.subtitle %}
+                  subtitle: '{{ component.subtitle }}',
+                  {% endif %}
+                  iconClass: '{{ component.widget_icon_class }}',
+                  semanticIcon: '{{ component.widget_icon }}',
+                  buttons: [ {% for button in component.title_buttons.all %} '{{ button.name }}', {% endfor %} ],
+                  sidebarPanels: ['copo-sidebar-info'],
+                  colorClass: '{{ component.widget_colour_class }}',
+                  color: '{{ component.widget_colour }}',
+                  tableID: '{{ component.table_id }}',
+                  recordActions: [ {% for button in component.recordaction_buttons.all %} '{{ button.name }}', {% endfor %} ],
+                  url: "{% if component.reverse_url %}{% url component.reverse_url profile_id='999' %}{% endif %}",
+                },
+              {% endfor %}
+            }
+
+        const title_button_def = {
+          {% autoescape off %}
+              {% for button in title_button_def %}
+                {{ button.name  }} : {
+                  template: `{{ button.template }}`,
+                  additional_attr: '{{ button.additional_attr }}',
+                  },
+              {% endfor  %}
+          {% endautoescape %}
+        }
+
+        const profile_type_def = {
+          {% for profile_type in profile_type_def %}
+            {{ profile_type.type|lower }}:  {
+              title: '{{ profile_type.type | upper }}',
+              widget_colour: '{{ profile_type.widget_colour }}',
+              components: [ {% for component in profile_type.components.all  %} '{{ component.name }}', {% endfor %} ]
+            },
+          {% endfor %}
+        }
+        function get_profile_components(profile_type) {
+            return profile_type_def[profile_type.toLowerCase()].components.map(component => component_def[component]);
+        }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-9 col-lg-9">
+                    <div hidden id="hidden_attrs">
+                       <!-- hidden attributes  -->
+                       <input type="hidden" id="nav_component_name" value="component_name"/>
+                    </div>
+                    {% block content %}
+                        <!-- component_table -->
+                        <div id="component_table_loader" class="col-sm-5 col-md-5 col-lg-5 col-xs-offset-5"
+                             data-copo-tour-id="component_name_table">
+                        </div> <!-- div used by the quick tour agent -->
+                        <div class="table-parent-div">
+                            <table id="component_name_table" class="ui celled table hover"
+                                   cellspacing="0" width="100%">
+                            </table>
+                        </div>
+                    {% endblock content %}
+                </div>
+            </div>
+         </div>
+    </body>
+</html>

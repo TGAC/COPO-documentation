@@ -1,56 +1,93 @@
-
 {
-	"version": "0.2.0",
-	"configurations": [
-   	 
-    	{
-        	"name": "Python: Django",
-        	"type": "python",
-        	"request": "launch",
-        	"program": "${workspaceFolder}/manage.py",    
-        	"env" : {
-            	"PYTHONPATH1" : "${workspaceFolder}/lib:${PYTHONPATH}"
-        	}, 	 
-        	"args": [
-            	"runserver",
-            	"0.0.0.0:8000"
-        	],
-        	"django": true,
-        	"justMyCode": false
-    	}, 	 
-    	{
-        	"name": "Python: Django makemigration",
-        	"type": "python",
-        	"request": "launch",
-        	"program": "${workspaceFolder}/manage.py",    
-        	"env" : {
-            	"PYTHONPATH" : "${workspaceFolder}/lib:${PYTHONPATH}"
-        	}, 	 
-        	"args": [
-            	"makemigration"
-        	],
-        	"django": true,
-        	"justMyCode": false
-    	},           	 
-    	{
-        	"name": "Python: Celery Workers",
-        	"type": "python",
-        	"request": "launch",
-        	"module": "celery",
-        	"console": "integratedTerminal",
-        	"env" : {
-            	"GEVENT_SUPPORT": "True"
-        	},
-        	"args": ["-A", "web", "worker", "-l", "debug", "-P", "gevent", "--concurrency" , "10", "-Q", "celery",  "-E"],
-        	"justMyCode": true
-    	},
-    	{
-        	"name": "Python: Celery Beat",
-        	"type": "python",
-        	"request": "launch",
-        	"module": "celery",
-        	"console": "integratedTerminal",
-        	"args": ["-A", "web", "beat", "-l", "debug"]
-     	}    
-	]
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Django",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",    
+            "env" : {
+                "PYTHONPATH1" : "${workspaceFolder}/lib:${PYTHONPATH}"
+            },      
+            "args": [
+                "runserver",
+                "0.0.0.0:8000"
+            ],
+            "django": true,
+            "justMyCode": false
+        }, 
+        {
+            "name": "Python: Django Shell",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",    
+            "env" : {
+                "PYTHONPATH1" : "${workspaceFolder}/lib:${PYTHONPATH}"
+            },      
+            "args": [
+                "shell_plus",
+                "--ptpython"
+            ],
+            "django": true,
+            "justMyCode": false
+        },     
+        {
+            "name": "Python: Django makemigration",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",    
+            "env" : {
+                "PYTHONPATH" : "${workspaceFolder}/lib:${PYTHONPATH}"
+            },      
+            "args": [
+                "makemigration"
+            ],
+            "django": true,
+            "justMyCode": false
+        },                
+        {
+            "name": "Python: Celery Workers",
+            "type": "python",
+            "env" : {
+                "GEVENT_SUPPORT": "true"
+            },
+            "request": "launch",
+            "module": "celery",
+            "console": "integratedTerminal",
+            "args": ["-A", "src", "worker", "-l", "debug", "-P", "gevent", "--concurrency" , "10", "-Q", "celery",  "-E", "--hostname=celery@%h"],
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Celery Workers file_transfers",
+            "type": "python",
+            "env" : {
+                "GEVENT_SUPPORT": "true"
+            },
+            "request": "launch",
+            "module": "celery",
+            "console": "integratedTerminal",
+            "args": ["-A", "src", "worker", "-l", "debug", "-P", "gevent", "--concurrency" , "10", "-Q", "file_transfers",  "-E", "--hostname=file_transfers@%h"],
+            "justMyCode": true
+        },        
+        {
+            "name": "Python: Celery Beat",
+            "type": "python",
+            "request": "launch",
+            "module": "celery",
+            "console": "integratedTerminal",
+            "args": ["-A", "src", "beat", "-l", "critical"]
+         },
+         {
+            "name": "Python: Django Shell",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/manage.py",      
+            "args": [
+                "shell_plus",
+                "--ipython"
+            ],
+            "django": true,
+            "justMyCode": false
+        }
+    ]
 }

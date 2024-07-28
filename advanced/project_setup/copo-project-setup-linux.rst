@@ -137,7 +137,8 @@ If using VSCode IDE, add a new configuration by following the steps below:
 
 Declare Environment Variables
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Set secrets in the environment variables in your **.bashrc** file. Activate  **.bashrc** file by running the
+
+Set secrets in the environment variables in the **.bashrc** file. Activate  **.bashrc** file by running the
 command: ``source .bashrc``
 
 If using PyCharm IDE, declare the environment variables in the following places:
@@ -206,7 +207,7 @@ Alternatively, you can create a virtual environment for the project with the com
 Set Up Mongo Database in COPO Project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. note::
-   Replace the username and password for MongoDB with your own username and password
+   Replace the username and password for MongoDB with your username and password
 
 Run the **4_mongo_setup.sh** `MongoDB set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/mongoDB_setup.sh>`__ to configure the MongoDB database on your machine
 
@@ -241,7 +242,7 @@ Set Up PostgreSQL Database in COPO Project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. note::
-   Replace the username and password of PostgreSQL with your own username and password
+   Replace the username and password of PostgreSQL with your username and password
 
 Run the **postgresqlDB_setup.sh** `PostgreSQL set up script <https://github.com/TGAC/COPO-production/blob/main/shared_tools/scripts/setup/postgresqlDB_setup.sh>`__ to configure the PostgreSQL database on your machine
 

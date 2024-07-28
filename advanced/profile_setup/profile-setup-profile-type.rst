@@ -8,9 +8,10 @@ characterised by various fields that determine its behaviour and appearance.
 
 .. seealso::
 
-   * `Component configuration <profile-setup-component>`_
-   * `RecordActionButton configuration <profile-setup-record-action-button>`_
-   * `TitleButton configuration <profile-setup-title-button>`_
+   * :ref:`Defining ProfileType Django model <django-model-definition>`
+   * `Component structure <profile-setup-component>`_
+   * `RecordActionButton structure <profile-setup-record-action-button>`_
+   * `TitleButton structure <profile-setup-title-button>`_
 
 .. raw:: html
 
@@ -43,7 +44,7 @@ The PostgreSQL table **ProfileType** consists of the following fields:
 
      **Example**:
 
-        * ``Stand-alone``: A profile that operates independently.
+        * ``Genomics``: A profile that operates independently.
 
         * ``Darwin Tree of Life (DTOL)``: A profile related to the :abbr:`DToL (Darwin Tree of Life)` project.
 
@@ -126,20 +127,28 @@ Visualisation of ProfileType in Project
 ----------------------------------------
 
 .. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_without_dropdown_menu.png
-   :alt: Profile types web page
+   :alt: Work Profiles web page where desired profile type can be chosen to be created from the dropdown menu
    :align: center
    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_without_dropdown_menu.png
    :class: with-shadow with-border
 
-   **Profile types web page**
+   **Work Profiles web page: Dropdown menu where desired profile type can be chosen to be created**
 
 .. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_with_dropdown_menu.png
-   :alt: Profile types web page with dropdown menu
+   :alt: Profile types shown as dropdown menu options on the Work Profiles web page
    :align: center
    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_with_dropdown_menu.png
    :class: with-shadow with-border
 
-   **Profile types web page with dropdown menu displayed**
+   **Work Profiles web page: Dropdown menu options of profile types that can be created**
+
+.. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_created_profiles.png
+   :alt: A grid of created profiles on the Work Profiles web page
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_created_profiles.png
+   :class: with-shadow with-border
+
+   **Work Profiles web page: A grid of created profiles**
 
 .. raw:: html
 

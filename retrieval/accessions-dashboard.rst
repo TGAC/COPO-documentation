@@ -11,7 +11,7 @@ on the `ENA browser <https://www.ebi.ac.uk/ena/browser/home>`__  [#f1]_ or
 
 The types of accessions that are created are:
 
-* Stand-alone submissions
+* Genomics submissions
    * Project accessions
    * Experiment accessions
    * Run accessions
@@ -36,13 +36,13 @@ The types of accessions that are created are:
 
        <br>
 
-.. figure:: /assets/images/dashboard/dashboard_accessions_standalone_projects.png
-      :alt: Stand-alone projects' accessions
+.. figure:: /assets/images/dashboard/dashboard_accessions_genomics_projects.png
+      :alt: Genomics projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_standalone_projects.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_genomics_projects.png
       :class: with-shadow with-border
 
-      **Accessions Dashboard: Stand-alone projects' accessions**
+      **Accessions Dashboard: Genomics projects' accessions**
 
 .. raw:: html
 
@@ -53,7 +53,7 @@ The types of accessions that are created are:
       are granted permission to be a sample manager.
 
 .. seealso::
-  * :ref:`Stand-alone profile components <standalone-profile-components>`
+  * :ref:`Genomics profile components <genomics-profile-components>`
   * :ref:`ToL profile components <tol-profile-components>`
   * :ref:`Accessions profile component <accessions-component>`
 

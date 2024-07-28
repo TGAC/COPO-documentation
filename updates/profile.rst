@@ -13,7 +13,7 @@ Updating Profiles
 
    :ref:`Deleting Profiles <profile_deletion>`
 
-To edit a profile,  click the |vertical-ellipsis-icon| icon that is associated with the desired profile. The option
+To edit a profile, click the |vertical-ellipsis-icon| icon that is associated with the desired profile. The option
 to edit or delete a profile record will be displayed once clicked.
 
 ..  figure:: /assets/images/profile/profile_options_edit_record.png

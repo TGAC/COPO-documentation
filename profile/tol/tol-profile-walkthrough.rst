@@ -47,22 +47,6 @@ Steps to Create a Tree of Life Profile
 
       **ToL Profile: Add new profile record icon**
 
-#. **Contact COPO via email** dialogue is displayed indicating that the user is not a member of any manifest group
-   and that the user must make a request to be added to a manifest group to make ToL manifest submissions
-   if the user would like to do so.
-
-   Click **Okay** to close the dialogue.
-
-    .. figure:: /assets/images/profile/profile_contact_copo_prompt_for_group_access.png
-      :alt: Contact COPO dialogue
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_contact_copo_prompt_for_group_access.png
-      :class: with-shadow with-border
-      :height: 400px
-
-      **ToL Profile: Contact COPO dialogue is displayed regarding getting access to make ToL manifest
-      submissions**
-
 .. _tol-profile-steps-details:
 
 Provide Profile Title & Description
@@ -71,7 +55,7 @@ Provide Profile Title & Description
 3. In the **Add Profile** form dialogue, provide details for the new profile then, click **Save**
 
    .. note::
-      The **Profile Type** dropdown menu by default will only display the **Stand-alone** option.
+      The **Profile Type** dropdown menu by default will only display the **Genomics** option.
 
       If your desired profile type is not displayed in the **Profile Type**  dropdown menu,
       :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group that you would
@@ -114,7 +98,7 @@ Choose Profile Type
 
       <br>
 
-   If you request to be added to any of the profile types displayed (excluding the default **Stand-alone** profile type),
+   If you request to be added to any of the profile types displayed (excluding the default **Genomics** profile type),
    only that profile type will be listed in the **Profile type** dropdown menu.
 
    .. raw:: html
@@ -238,7 +222,7 @@ Profile created
 
 .. seealso::
 
-   * See :ref:`Steps to create Stand-alone profile <standalone-profile-walkthrough>` if you would like to make other
+   * See :ref:`Steps to create Genomics profile <genomics-profile-walkthrough>` if you would like to make other
      submissions
 
 .. raw:: html
@@ -276,9 +260,6 @@ The following component types are currently defined:
 * To access a component within a profile, click the component button displayed within the popup after the
   |profile-components-button| button was clicked (see the screenshot above).
 
-* Profile actions can be accessed via the |profile-actions-button| button. The actions describe the process of each
-  component within a profile.
-
 .. raw:: html
 
    <hr>
@@ -301,10 +282,6 @@ The following component types are currently defined:
     Images declaration
 ..
 .. |add-profile-button| image:: /assets/images/buttons/add_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

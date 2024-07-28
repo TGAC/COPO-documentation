@@ -526,9 +526,6 @@ How can I create components for a profile?
    #. Navigate to the work profile web page
    #. Click the |add-profile-button| button
    #. Fill in then, save the form that is displayed
-   #. Click the |profile-actions-button| button associated with the created profile record to view
-      a dropdown list of tasks that can be performed for that profile
-   #. Complete the action/task
    #. Click the |profile-components-button| button associated with the profile record to view
       the component of the action that was performed
 
@@ -795,9 +792,9 @@ How can I submit virtual samples in COPO?
 
       <br>
 
-   Virtual samples are research objects that are submitted to COPO under a Stand-alone profile.
+   Virtual samples are research objects that are submitted to COPO under a Genomics profile.
 
-   See the :ref:`standalone-profile-virtual-sample-submissions` section for more information.
+   See the :ref:`genomics-profile-virtual-sample-submissions` section for more information.
 
 .. raw:: html
 
@@ -995,10 +992,6 @@ If I belong to more than one sample manager manifest group, how can I view or ac
    :class: no-scaled-link
 
 .. |navigate-to-top-button| image:: /assets/images/buttons/navigate_to_top_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

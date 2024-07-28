@@ -56,30 +56,6 @@ the popup menu displayed as shown below:
 
    <hr>
 
-Use Actions' Button to Navigate to Barcoding Manifest Web Page
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Click the |profile-actions-button| button associated with a profile. Then, click the action, **Submit Barcoding Manifest** action
-from the popup menu displayed as shown below:
-
-.. note::
-
-   The action will be available for all of the **Tree of Life** profile types.
-
-.. figure:: /assets/images/profile/profile_tol_profile_actions_asg_submit_barcoding_manifest.png
-  :alt: Tree of Life Barcoding Manifest profile action
-  :align: center
-  :height: 70ex
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_actions_asg_submit_barcoding_manifest.png
-  :class: with-shadow with-border
-
-  **Tree of Life Profile Actions: 'Submit Barcoding Manifest action**
-
-.. raw:: html
-
-   <hr>
-
-
 Upload Barcoding Manifest
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -261,10 +237,6 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
    :class: no-scaled-link
 
 .. |barcoding-manifests-upload-button| image:: /assets/images/buttons/barcoding_manifest_upload_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

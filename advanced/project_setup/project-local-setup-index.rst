@@ -613,8 +613,10 @@ Tips
 
    <hr>
 
-.. include:: copo-project-setup-without-docker.rst
+.. toctree::
+   :titlesonly:
 
+   copo-project-setup-without-docker
 
 ..
     Images declaration
@@ -623,5 +625,12 @@ Tips
 .. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
+
+.. Indices and tables
+.. ==================
+..
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
 
 

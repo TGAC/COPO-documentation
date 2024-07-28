@@ -11,7 +11,7 @@ How to Submit DTOL Manifests
   * **DTOL** [#f1]_  manifest submission can only be done via a :abbr:`ToL (Tree of Life)` [#f2]_ profile [#f3]_.
     Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
-  * In the **Add Profile** form, the **Profile type** dropdown menu will only display the **Stand-alone** option when
+  * In the **Add Profile** form, the **Profile type** dropdown menu will only display the **Genomics** option when
     creating a profile on COPO. :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` inorder to be added to a desired
     profile group and be granted access to choose your desired profile type group.
 
@@ -160,10 +160,6 @@ The new sample(s) will be displayed on the **Samples** web page after the confir
    :class: no-scaled-link
 
 .. |samples-component-button| image:: /assets/images/buttons/components_samples_button.png
-   :height: 4ex
-   :class: no-scaled-link
-
-.. |profile-actions-button| image:: /assets/images/buttons/profile_actions_button.png
    :height: 4ex
    :class: no-scaled-link
 

@@ -9,9 +9,10 @@ within the profile.
 
 .. seealso::
 
-   * `Component configuration <profile-setup-component>`_
-   * `ProfileType configuration <profile-setup-profile-type>`_
-   * `TitleButton configuration <profile-setup-title-button>`_
+   * :ref:`Defining RecordActionButton Django model <django-model-definition>`
+   * `Component structure <profile-setup-component>`_
+   * `ProfileType structure <profile-setup-profile-type>`_
+   * `TitleButton structure <profile-setup-title-button>`_
 
 .. raw:: html
 
@@ -151,6 +152,54 @@ The PostgreSQL table **RecordActionButton** consists of the following fields:
   * **releasestudy**: Release Study
 
        |section| :ref:`Section on Button Usage in the Project <releasing-profiles>`
+
+.. raw:: html
+
+   <hr>
+
+Referencing Created RecordActionButton in Project
+-------------------------------------------------
+
+.. hint::
+
+   Click the |collapsible-item-arrow| button below to view the contents
+
+* In the ``views.py``, define the views to render the template containing the buttons
+
+.. collapse:: RecordActionButton example views.py
+
+   .. raw:: html
+
+      <br>
+
+   .. literalinclude:: /assets/files/setup/profile/record_action_button_views.py
+      :language: python
+
+* In the template HTML file (``myapp.html``), reference each element from the RecordActionButton table.
+
+.. collapse:: RecordActionButton example template
+
+   .. raw:: html
+
+      <br>
+
+   .. literalinclude:: /assets/files/setup/profile/record_action_button.html
+      :language: html
+
+.. raw:: html
+
+   <hr>
+
+* Handle any JavaScript functionality needed for the buttons in the :abbr:`JS (JavaScript)` file (``myapp.js``)
+
+.. collapse:: RecordActionButton example javascript
+
+   .. raw:: html
+
+      <br>
+
+   .. literalinclude:: /assets/files/setup/profile/record_action_button.js
+      :language: javascript
 
 .. raw:: html
 
