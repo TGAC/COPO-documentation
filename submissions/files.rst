@@ -297,11 +297,14 @@ The **ENA File Processing Status** column is highlighted with a red rectangle bo
 
 .. hint::
 
-   * Rows with a status of **"File archived: PUBLIC"** or in a green colour indicate that the file(s) have been successfully
-     submitted to :abbr:`ENA (European Nucleotide Archive)`.
+   * Rows with a status of **File archived: PUBLIC** or **File archived : PRIVATE** or in a green colour indicate that
+     the file(s) have been successfully submitted to :abbr:`ENA (European Nucleotide Archive)`.
 
-   * Rows with a status of **"Invalid file integrity: PRIVATE"** or in a red colour indicate that the file(s) failed
+   * Rows with a status of **Invalid file integrity: PRIVATE** or in a red colour indicate that the file(s) failed
      to be submitted to :abbr:`ENA (European Nucleotide Archive)`.
+
+   * According to :abbr:`ENA (European Nucleotide Archive)`, accessions that follow the format, ``ERZxxxxxxx`` refer to
+     a private accession number that is not visible outside :abbr:`ENA (European Nucleotide Archive)`.
 
 .. raw:: html
 

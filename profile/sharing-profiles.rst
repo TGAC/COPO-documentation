@@ -54,7 +54,7 @@ Sharer
         :align: center
         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_pointer_to_add_group_button.png
         :class: with-shadow with-border
-        :height: 400px
+        :height: 300px
 
         **Groups: Groups web page**
 
@@ -108,7 +108,7 @@ Sharer
        :align: center
        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_profile_added_shared_group.png
        :class: with-shadow with-border
-       :height: 300px
+       :height: 200px
 
        **Groups: Profile appears in 'Added to Group' section after having been double-clicked in
        the 'Your Profiles' section**

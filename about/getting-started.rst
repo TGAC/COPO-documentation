@@ -27,9 +27,13 @@ All contributors must abide by the code of conduct described in the :ref:`code-o
 Visit the `COPO website <https://copo-project.org>`__  to make manifest submissions. An ORCID ID is required to
 access the application.
 
-The website requires cookies, fonts and the limited processing of your personal data in order to function well. By using
-the portal you are consenting to this. To find out more about how COPO uses cookies and your personal data, please see
-our :ref:`privacy-notice` and :ref:`terms-of-use`.
+Visit our `News web page <https://copo-project.org/news>`__ to stay updated with the latest developments in the COPO
+project.
+
+The COPO project website requires cookies, fonts and the limited processing of your personal data in order to function
+well. By using the portal you are consenting to this. To find out more about how COPO uses cookies and your personal
+data, please see our :ref:`privacy-notice` and :ref:`terms-of-use`.
+
 
 .. raw:: html
 

@@ -84,6 +84,15 @@ How can I view accessions after I have submitted samples, reads, or experiments 
 
       <br>
 
+  .. hint::
+
+     GenBank accession numbers follow the format ``GCA_XXXXXXXXX``. They are automatically assigned by
+     :abbr:`ENA (European Nucleotide Archive)` and can be viewed on the
+     `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__ website using the
+     link:  ``https://www.ncbi.nlm.nih.gov/datasets/genome/?bioproject=<project-id>`` where ``<project-id>`` is the
+     project :abbr:`ID (identifier)` (also known as study :abbr:`ID (identifier)` or profile :abbr:`ID (identifier)`)
+     associated with the profile used to submit the files in COPO.
+
    * Click the |accessions-dashboard-button| button.
 
    * The accessions dashboard will be displayed.
@@ -795,6 +804,24 @@ How can I submit virtual samples in COPO?
    Virtual samples are research objects that are submitted to COPO under a Genomics profile.
 
    See the :ref:`genomics-profile-virtual-sample-submissions` section for more information.
+
+.. raw:: html
+
+   <br>
+
+Why do I get a 'PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING' error when uploading or updating a manifest?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   If you encounter the error, ``The ID should be in the format of institute unique name:collection code:id or institute
+   unique name:id and separated by \"|\" and the ID should be registered already.``, when trying to upload or update
+   the field, **PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING**, in a manifest, please ensure that the format of the ID is
+   ``institution_unique_name:collection_code:voucher_id institution_unique_name:voucher_Id``.
 
 .. raw:: html
 

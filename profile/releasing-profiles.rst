@@ -36,7 +36,7 @@ To make a profile public, please follow the steps below:
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_release_study.png
       :class: with-shadow with-border
-      :height: 300px
+      :height: 200px
 
       **Profile option: Release Study**
 
