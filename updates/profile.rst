@@ -6,8 +6,19 @@ Updating Profiles
 
 .. warning::
 
-   Profile types cannot be changed or updated once they have been created.  If you need to change the profile type,
-   you will need to delete the profile and create a new one.
+   Profile types cannot be changed or updated once profiles have been created.
+
+   If you need to change the profile type, you will need to delete the profile and create a new one.
+
+   Profiles can be deleted if they have no associated research objects such as samples, reads, assemblies or files etc.
+   If you need to have a profile deleted that has associated research objects, please contact the
+   :email:`COPO team <ei.copo@earlham.ac.uk>`.
+
+.. note::
+
+   Once the associated type has been updated during the profile update process, samples that have not been accepted
+   and sent to :abbr:`ENA (European Nucleotide Archive)` associated with the profile will also have the associated
+   profile type updated.
 
 .. seealso::
 

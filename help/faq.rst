@@ -603,6 +603,31 @@ What are the names of the sequencing centres whose samples are brokered through 
 
 .. raw:: html
 
+  <br>
+
+What happens when a profile is updated in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   When a profile is successfully updated in COPO, the changes made to the profile will be reflected in the research
+   objects such as samples, reads, assemblies or files associated with the profile.
+
+   For example, if a profile is updated to include -
+
+   * a new associated profile type, the new associated profile type will be displayed in the sample records associated
+     with the profile.
+
+   * a new :abbr:`ENA (European Nucleotide Archive)` :ref:`locus tag <faq-assemblies-submission-locus-tag-assignment>`,
+     the new ENA locus tag will be associate displayed in the reads, sequencing annotations and/ assembles associated
+     with the profile.
+
+.. raw:: html
+
    <hr>
 
 Reads
@@ -978,6 +1003,62 @@ If I belong to more than one sample manager manifest group, how can I view or ac
 
   <br>
 
+.. _faq-sample-managers-sample-accept-reject-stage:
+
+How do I know if a sample is awaiting acceptance or rejection?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   * On the **Accept or Reject Samples** web page, samples that are awaiting acceptance will be displayed
+     in the **Pending** tab and samples that have been rejected will be displayed in the **Rejected** tab.
+
+   * Samples in the **Rejected** tab can be re-accepted by selecting the desired sample record(s) then, clicking the
+     |samples_accept_reject_button_accept| button. The samples will be displayed in the **Pending** tab.
+
+   * If samples require more than one sample manager to accept or reject them, the samples will be displayed in the
+     **Pending** tab until **all** sample managers have accepted them. Once all sample managers have accepted the
+        samples, the samples will be displayed in the **Accepted** tab.
+
+     As shown in the image below, sample records that are awaiting another acceptance will be highlighted **amber**
+     or **yellow** and the date when the records have been accepted will be displayed in the **approval date** column
+     in the samples data table.
+
+     .. figure:: /assets/images/samples/samples_accept_reject_pending_sample.png
+        :alt: Sample record awaiting acceptance
+        :align: center
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_accept_reject_pending_sample.png
+        :class: with-shadow with-border
+
+        **Sample record awaiting acceptance**
+
+.. raw:: html
+
+  <br>
+
+
+How can I get a better view of sample record information displayed on the Accept or Reject Samples web page?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Click the |show-profile-panel-button| button to toggle the profile panel visibility on the
+   **Accept or Reject Samples** web page to either hide the profile panel and view more sample records or show the
+   profile panel to view more profiles.
+
+
+.. raw:: html
+
+  <br>
+
 .. raw:: html
 
    <hr>
@@ -990,6 +1071,7 @@ If I belong to more than one sample manager manifest group, how can I view or ac
 ..
     Images declaration
 ..
+
 .. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
@@ -1027,6 +1109,14 @@ If I belong to more than one sample manager manifest group, how can I view or ac
    :class: no-scaled-link
 
 .. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |samples_accept_reject_button_accept| image:: /assets/images/buttons/samples_accept_reject_button_accept.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |show-profile-panel-button| image:: /assets/images/buttons/show_profile_panel_button.png
    :height: 4ex
    :class: no-scaled-link
 
