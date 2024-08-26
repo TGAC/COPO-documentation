@@ -28,8 +28,7 @@ How to Submit Assemblies
 Accessing the Assembly Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Assembly** [#f3]_  web page can be accessed from the **Components** button or **Actions** button associated
-with a profile [#f4]_.
+The **Assembly** [#f3]_  web page can be accessed from the **Components** button associated with a profile [#f4]_.
 
 .. raw:: html
 

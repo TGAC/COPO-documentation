@@ -36,7 +36,7 @@ The following are the types of samples that can be created:
 Accessing the Samples' Web Page
 --------------------------------
 
-The Samples' web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+The Samples' web page can be accessed from the **Components** button associated with a profile.
 
 .. raw:: html
 

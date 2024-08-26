@@ -32,7 +32,7 @@ How to Submit Barcoding Manifests
 Accessing the Barcoding Manifest Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Barcoding Manifest** web page can be accessed from the **Components** button or **Actions** button associated with a profile.
+The **Barcoding Manifest** web page can be accessed from the **Components** button associated with a profile.
 
 .. raw:: html
 

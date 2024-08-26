@@ -38,7 +38,7 @@ Secondary Projects
 
    * Biodiversity Genomics Europe (BGE)
    * European Reference Genome Atlas - Pilot (ERGA_PILOT)
-   * European Reference Genome Atlas - Satellites (ERGA_SATELLITES)
+   * European Reference Genome Atlas - Community (ERGA_COMMUNITY)
    * Population Genomics (POP_GENOMICS)
 
 .. raw:: html

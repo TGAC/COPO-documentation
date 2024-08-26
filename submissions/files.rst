@@ -29,8 +29,7 @@ How to Submit Files
 Accessing the Files' Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Files' web page can be accessed from the **Components** button or **Actions** button associated with a
-profile [#f1]_.
+The Files' web page can be accessed from the **Components** button associated with a profile [#f1]_.
 
 .. raw:: html
 

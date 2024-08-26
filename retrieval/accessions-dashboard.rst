@@ -24,25 +24,25 @@ The types of accessions that are created are:
    * SRA accessions
    * Submission accessions
 
-.. figure:: /assets/images/dashboard/dashboard_accessions_other_projects.png
-      :alt: Tree of Life projects' accessions
+.. figure:: /assets/images/dashboard/dashboard_accessions_other_accessions.png
+      :alt: Other accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_other_projects.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_other_accessions.png
       :class: with-shadow with-border
 
-      **Accessions Dashboard: Tree of Life projects' accessions**
+      **Accessions Dashboard: Other accessions**
 
 .. raw:: html
 
        <br>
 
-.. figure:: /assets/images/dashboard/dashboard_accessions_genomics_projects.png
+.. figure:: /assets/images/dashboard/dashboard_accessions_sample_accessions.png
       :alt: Genomics projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_genomics_projects.png
+      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_sample_accessions.png
       :class: with-shadow with-border
 
-      **Accessions Dashboard: Genomics projects' accessions**
+      **Accessions Dashboard: Sample accessions**
 
 .. raw:: html
 

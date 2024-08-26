@@ -1022,19 +1022,19 @@ How do I know if a sample is awaiting acceptance or rejection?
 
    * If samples require more than one sample manager to accept or reject them, the samples will be displayed in the
      **Pending** tab until **all** sample managers have accepted them. Once all sample managers have accepted the
-        samples, the samples will be displayed in the **Accepted** tab.
+     samples, the samples will be displayed in the **Accepted** tab.
 
      As shown in the image below, sample records that are awaiting another acceptance will be highlighted **amber**
      or **yellow** and the date when the records have been accepted will be displayed in the **approval date** column
      in the samples data table.
 
-     .. figure:: /assets/images/samples/samples_accept_reject_pending_sample.png
-        :alt: Sample record awaiting acceptance
+     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
+        :alt: Sample record awaiting another acceptance
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_accept_reject_pending_sample.png
+        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
         :class: with-shadow with-border
 
-        **Sample record awaiting acceptance**
+        **Sample record awaiting another acceptance**
 
 .. raw:: html
 

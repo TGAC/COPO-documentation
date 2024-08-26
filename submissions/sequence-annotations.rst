@@ -25,8 +25,8 @@ How to Submit Sequence Annotations
 Accessing the Sequence Annotations' Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Sequence Annotations'** [#f1]_ web page can be accessed from the **Components** button or **Actions** button
-associated with a profile [#f2]_.
+The **Sequence Annotations'** [#f1]_ web page can be accessed from the **Components** button associated with a
+profile [#f2]_.
 
 .. raw:: html
 
