@@ -124,6 +124,8 @@ Is there a way to analyse metadata submissions?
 
    <hr>
 
+.. _faq-files:
+
 Files
 --------------------
 
@@ -131,6 +133,24 @@ How do I know when data files that have been uploaded to COPO are public at Euro
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 See :ref:`files-ena-upload-status-after-copo-metadata-submission` section for more information.
+
+.. raw:: html
+
+   <br>
+
+Why can't I upload more data files in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   If you cannot upload new files to COPO on the **Files** web page, it is likely that you have reached the maximum
+   number of data files that can be uploaded.
+
+   Please delete some files to free up space for new files.
 
 .. raw:: html
 
@@ -182,7 +202,7 @@ When was the COPO  project launched?
 
 .. raw:: html
 
-   <hr>
+   <br>
 
 
 Who are the developers of the COPO project?

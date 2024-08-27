@@ -19,6 +19,7 @@ How to Submit Files
 
   * :ref:`How to Delete Files <files-deletion>`
   * :ref:`How to check if data files associated with a metadata submission have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
+  * :ref:`Files FAQ <faq-files>`
   * :ref:`How to Submit Reads <reads>`
   * :ref:`How to Submit Assemblies <assemblies>`
 
