@@ -268,7 +268,7 @@ Visualisation of Created Component
 .. figure:: /assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
    :alt: Viewing components associated with a profile on the 'Work Profiles' web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/component/visualisation_component_button_tol_profile_components.png
    :class: with-shadow with-border
    :height: 400px
 
@@ -294,7 +294,7 @@ displayed as indicated by the arrows in the image below:
 .. figure:: /assets/images/django_admin_interface/profile/component/visualisation_component_button_on_specific_web_page.png
    :alt: Profile types web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/component/vvisualisation_component_button_on_specific_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/component/vvisualisation_component_button_on_specific_web_page.png
    :class: with-shadow with-border
    :height: 300px
 

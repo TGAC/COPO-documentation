@@ -48,7 +48,7 @@ How to Submit Permits
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples_permits_required.png
       :alt: Upload Spreadsheet dialogue with uploaded samples
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples_permits_required.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples_permits_required.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
@@ -58,7 +58,7 @@ How to Submit Permits
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_permits_uploaded.png
       :alt: Upload Spreadsheet dialogue with no permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_no_permits_uploaded.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Spreadsheet' dialogue with no permits uploaded**
@@ -69,7 +69,7 @@ How to Submit Permits
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_permits_uploaded.png
       :alt: Upload Spreadsheet dialogue with permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_permits_uploaded.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Spreadsheet' dialogue with permits uploaded**
@@ -82,7 +82,7 @@ How to Submit Permits
    .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
      :alt: 'Submit Samples' confirmation dialogue
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
      :class: with-shadow with-border
 
      **ERGA manifest submission: 'Submit Samples' confirmation dialogue**
@@ -131,7 +131,7 @@ On Samples web page
    .. figure:: /assets/images/samples/samples_pointer_to_download_permits_button.png
       :alt: Samples web page with sample record(s) selected and a pointer to the 'Download permits' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_pointer_to_download_permits_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_pointer_to_download_permits_button.png
       :class: with-shadow with-border
 
       **Samples web page: Pointer to 'Download permits' button**
@@ -153,7 +153,7 @@ On Samples web page
    .. figure:: /assets/images/samples/samples_download_permits_dialogue_with_no_permits_exist_message.png
       :alt: No permits exists message in popup dialogue for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_download_permits_dialogue_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_download_permits_dialogue_with_no_permits_exist_message.png
       :class: with-shadow with-border
 
       **Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**

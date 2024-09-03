@@ -53,7 +53,7 @@ Submit ASG Manifest
     .. figure:: /assets/images/samples/asg/asg_pointer_to_add_manifest_button.png
       :alt: Pointer to 'Add Sample(s) from DTOL/ASG Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/asg/asg_pointer_to_add_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/asg/asg_pointer_to_add_manifest_button.png
       :class: with-shadow with-border
 
       **ASG manifest submission: Click 'Add Sample(s) from DTOL/ASG Spreadsheet' button**
@@ -68,7 +68,7 @@ Submit ASG Manifest
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :alt: Upload Spreadsheet dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
       :class: with-shadow with-border
 
       **ASG manifest submission: 'Upload Spreadsheet' dialogue**
@@ -95,7 +95,7 @@ Follow the steps indicated :ref:`here <images-submission>` for image submission.
     .. figure:: /assets/images/samples/asg/asg_samples_submitted.png
       :alt: Sample(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/asg/asg_samples_submitted.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/asg/asg_samples_submitted.png
       :class: with-shadow with-border
 
       **ASG manifest submission: Samples' web page displaying the uploaded sample(s)**

@@ -23,7 +23,7 @@ Genomics Accessions
 .. figure:: /assets/images/accessions/accessions_genomics_profile_without_accessions.png
       :alt: Accessions web page with no Genomics project accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/accessions/accessions_genomics_profile_without_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_without_accessions.png
       :class: with-shadow with-border
 
       **Accessions web page (when no experiment, runs, reads, assemblies nor  sequence annotations have been submitted)**
@@ -31,7 +31,7 @@ Genomics Accessions
 .. figure:: /assets/images/accessions/accessions_genomics_profile_with_accessions.png
       :alt: Accessions web page with Genomics project accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/accessions/accessions_genomics_profile_with_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_with_accessions.png
       :class: with-shadow with-border
 
       **Accessions web page (after an experiment, run, read, assembly or  sequence annotation is submitted)**
@@ -51,7 +51,7 @@ Tree of Life Accessions
 .. figure:: /assets/images/accessions/accessions_tol_profile_without_accessions.png
       :alt: Accessions web page with no Tree of Life project accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/accessions/accessions_tol_profile_without_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_tol_profile_without_accessions.png
       :class: with-shadow with-border
 
       **Accessions web page (when no samples have been approved)**
@@ -59,7 +59,7 @@ Tree of Life Accessions
 .. figure:: /assets/images/accessions/accessions_tol_profile_with_accessions.png
       :alt: Accessions web page with Tree of Life project accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/accessions/accessions_tol_profile_with_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_tol_profile_with_accessions.png
       :class: with-shadow with-border
 
       **Accessions web page (after a sample has been approved)**

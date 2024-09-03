@@ -810,4 +810,4 @@ This results in a list of all child projects/ subprojects brokered by COPO.
 ..
 .. |copo-api-live-server-button| image:: /assets/images/buttons/copo-api-live-server-button-option.png
    :height: 6ex
-   :target:  https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/buttons/copo-api-live-server-button-option.png
+   :target:  https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/buttons/copo-api-live-server-button-option.png

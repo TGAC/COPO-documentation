@@ -47,7 +47,7 @@ the popup menu displayed as shown below:
 .. figure:: /assets/images/profile/profile_tol_profile_components_barcoding_manifest.png
   :alt: Tree of Life Barcoding Manifest profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_components_barcoding_manifest.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components_barcoding_manifest.png
   :class: with-shadow with-border
 
   **Tree of Life Profile Components: Barcoding Manifest component button**
@@ -71,7 +71,7 @@ Upload Barcoding Manifest
     .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_with_checklist_dropdown_list.png
       :alt: Available checklist options
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_with_checklist_dropdown_list.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_with_checklist_dropdown_list.png
       :class: with-shadow with-border
 
       **Barcoding Manifests' web page: Checklist dropdown menu with checklist options displayed**
@@ -86,7 +86,7 @@ Upload Barcoding Manifest
     .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_pointer_to_add_barcoding_manifest_button.png
       :alt: Pointer to 'Add Tagged Sequence (s) from Tagged Sequence Spreadsheet' from Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_add_barcoding_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_add_barcoding_manifest_button.png
       :class: with-shadow with-border
 
       **Barcoding Manifest upload: Click 'Add Tagged Sequence (s) from Tagged Sequence Spreadsheet' from Spreadsheet' button**
@@ -101,7 +101,7 @@ Upload Barcoding Manifest
     .. figure:: /assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialogue.png
       :alt: Upload Barcoding Manifest dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialoguee.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialoguee.png
       :class: with-shadow with-border
 
       **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialogue**
@@ -116,7 +116,7 @@ Upload Barcoding Manifest
     .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialogue_with_uploaded_manifest_displayed.png
       :alt: Upload Barcoding Manifest dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialogue_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
 
       **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialogue with uploaded manifest**
@@ -135,7 +135,7 @@ Upload Barcoding Manifest
     .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_uploaded.png
       :alt: Barcoding manifest(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_uploaded.png
       :class: with-shadow with-border
 
       **Barcoding manifest upload: Barcoding Manifests' web page displaying the uploaded barcoding manifests(s)**
@@ -163,7 +163,7 @@ Click the desired barcoding manifests records from the list of barcoding manifes
 .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_pointer_to_submit_barcoding_manifest_button.png
   :alt: Submit Barcoding manifest button
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_submit_barcoding_manifest_button.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_submit_barcoding_manifest_button.png
   :class: with-shadow with-border
 
   **Barcoding manifest submission: Click the "Submit" button to submit the highlighted barcoding manifest from the profile**
@@ -171,7 +171,7 @@ Click the desired barcoding manifests records from the list of barcoding manifes
 .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_submitted.png
   :alt: Barcoding manifest has submitted successfully
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_submitted.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_submitted.png
   :class: with-shadow with-border
 
   **Barcoding manifest submission: The barcoding manifest has been submitted**
@@ -196,7 +196,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_pointer_to_delete_barcoding_manifest_button.png
   :alt: Delete barcoding manifest button
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_delete_barcoding_manifest_button.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_pointer_to_delete_barcoding_manifest_button.png
   :class: with-shadow with-border
 
   **Barcoding manifest deletion: Click the "Delete" button to remove the highlighted barcoding manifest from the profile**
@@ -204,7 +204,7 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
 .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_deleted.png
   :alt: Barcoding manifests deleted successfully
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/barcoding_manifests/barcoding_manifests_deleted.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_deleted.png
   :class: with-shadow with-border
 
   **Barcoding manifest deletion: Barcoding manifest record has been deleted**

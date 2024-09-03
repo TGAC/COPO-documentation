@@ -129,7 +129,7 @@ Visualisation of ProfileType in Project
 .. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_without_dropdown_menu.png
    :alt: Work Profiles web page where desired profile type can be chosen to be created from the dropdown menu
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_without_dropdown_menu.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_without_dropdown_menu.png
    :class: with-shadow with-border
 
    **Work Profiles web page: Dropdown menu where desired profile type can be chosen to be created**
@@ -137,7 +137,7 @@ Visualisation of ProfileType in Project
 .. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_with_dropdown_menu.png
    :alt: Profile types shown as dropdown menu options on the Work Profiles web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_with_dropdown_menu.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_with_dropdown_menu.png
    :class: with-shadow with-border
 
    **Work Profiles web page: Dropdown menu options of profile types that can be created**
@@ -145,7 +145,7 @@ Visualisation of ProfileType in Project
 .. figure:: /assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_created_profiles.png
    :alt: A grid of created profiles on the Work Profiles web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_created_profiles.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/profile_type/visual_display_profile_types_created_profiles.png
    :class: with-shadow with-border
 
    **Work Profiles web page: A grid of created profiles**

@@ -29,7 +29,7 @@ and administration.
 .. figure:: /assets/images/django_admin_interface/profile/django_admin_pointer_to_registered_models.png
    :alt: Registered Models on Django Admin Interface
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/django_admin_pointer_to_registered_models.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/django_admin_pointer_to_registered_models.png
    :class: with-shadow with-border
 
    **Django Admin Interface: Viewing Profile type, Components, Record action button and Title button registered models**
@@ -53,7 +53,7 @@ Viewing data
       .. figure:: /assets/images/django_admin_interface/profile/profile_type/profile_django_admin_ui_pointer_to_list_view_of_profile_types.png
          :alt: List view of Profile types on Django Admin Interface
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/profile_type/profile_django_admin_ui_pointer_to_list_view_of_profile_types.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/profile_type/profile_django_admin_ui_pointer_to_list_view_of_profile_types.png
          :class: with-shadow with-border
 
    .. raw:: html
@@ -69,7 +69,7 @@ Viewing data
       .. figure:: /assets/images/django_admin_interface/profile/component/profile_django_admin_ui_pointer_to_list_view_of_components.png
          :alt: List view of Components on Django Admin Interface
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/component/profile_django_admin_ui_pointer_to_list_view_of_components.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/component/profile_django_admin_ui_pointer_to_list_view_of_components.png
          :class: with-shadow with-border
 
    .. raw:: html
@@ -85,7 +85,7 @@ Viewing data
       .. figure:: /assets/images/django_admin_interface/profile/record_action_button/profile_django_admin_ui_pointer_to_list_view_of_record_action_buttons.png
          :alt: List view of Record action buttons on Django Admin Interface
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/record_action_button/profile_django_admin_ui_pointer_to_list_view_of_record_action_buttons.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/record_action_button/profile_django_admin_ui_pointer_to_list_view_of_record_action_buttons.png
          :class: with-shadow with-border
 
    .. raw:: html
@@ -101,7 +101,7 @@ Viewing data
       .. figure:: /assets/images/django_admin_interface/profile/title_button/profile_django_admin_ui_pointer_to_list_view_of_title_buttons.png
          :alt: List view of Title buttons on Django Admin Interface
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/title_button/profile_django_admin_ui_pointer_to_list_view_of_title_buttons.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/title_button/profile_django_admin_ui_pointer_to_list_view_of_title_buttons.png
          :class: with-shadow with-border
 
 .. raw:: html

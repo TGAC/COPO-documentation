@@ -116,7 +116,7 @@ The PostgreSQL table **TitleButton** consists of the following fields:
 
      |globe| `Associated web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__
 
-     |globe| `Django Admin UI <https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/title_button/title_button_accept_reject_samples_django_admin_ui.png>`__
+     |globe| `Django Admin UI <https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/title_button/title_button_accept_reject_samples_django_admin_ui.png>`__
 
    * **tol_inspect**: Button to inspect the :abbr:`ToL (Tree of Life)` samples. It is styled with a yellow colour and an
      icon of a clipboard list
@@ -225,7 +225,7 @@ Visualisation of TitleButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/title_button/visualisation_title_button_work_profiles_web_page.png
    :alt: Visual representation of 'new component' title button on 'Work Profiles' web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/title_button/visualisation_title_button_work_profiles_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/title_button/visualisation_title_button_work_profiles_web_page.png
    :class: with-shadow with-border
 
    **Work Profiles web page: Visual representation of 'new component' title button**
@@ -240,7 +240,7 @@ Visualisation of TitleButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/title_button/visualisation_title_button_samples_web_page.png
    :alt: Visual representation of 'quick tour', 'new samples spreadsheet', 'download blank manifest ', 'download SOP' and 'accept/reject' title buttons on Samples web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/title_button/visualisation_title_button_samples_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/title_button/visualisation_title_button_samples_web_page.png
    :class: with-shadow with-border
 
    **Samples web page: Visual representation of 'quick tour', 'new samples spreadsheet', 'download blank manifest', 'download SOP' and 'accept/reject' title buttons**

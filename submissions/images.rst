@@ -31,7 +31,7 @@ How to Submit Images
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue_with_no_images_uploaded.png
       :alt: Upload Spreadsheet dialogue with no image uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_erga_upload_spreadsheet_dialogue_with_no_images_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_erga_upload_spreadsheet_dialogue_with_no_images_uploaded.png
       :class: with-shadow with-border
 
       **Manifest submission: 'Upload Spreadsheet' dialogue with no images uploaded**
@@ -42,7 +42,7 @@ How to Submit Images
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue_with_images_uploaded.png
       :alt: Upload Spreadsheet dialogue with image(s) uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue_with_images_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue_with_images_uploaded.png
       :class: with-shadow with-border
 
       **Manifest submission: 'Upload Spreadsheet' dialogue with image(s) uploaded**
@@ -55,7 +55,7 @@ How to Submit Images
    .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
      :alt: 'Submit Samples' confirmation dialogue
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
      :class: with-shadow with-border
 
      **Manifest submission: 'Submit Samples' confirmation dialogue**
@@ -104,7 +104,7 @@ On Samples web page
    .. figure:: /assets/images/samples/samples_pointer_to_view_images_button.png
       :alt: Samples web page with sample record(s) selected and a pointer to the 'View images' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_pointer_to_view_images_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_pointer_to_view_images_button.png
       :class: with-shadow with-border
 
       **Samples web page: Pointer to 'View images' button**
@@ -123,7 +123,7 @@ On Samples web page
    .. figure:: /assets/images/samples/samples_view_images_dialogue_with_images_displayed.png
       :alt: View images popup dialogue with images displayed for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_view_images_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_view_images_button.png
       :class: with-shadow with-border
 
       **Samples web page: Popup dialogue displaying submitted image(s) for selected sample record(s)**
@@ -140,7 +140,7 @@ On Samples web page
    .. figure:: /assets/images/samples/samples_view_images_dialogue_with_no_images_exist_message.png
       :alt: No images exists message in popup dialogue for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_view_images_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_view_images_button.png
       :class: with-shadow with-border
 
       **Samples web page: Popup dialogue displaying message, 'No images exist for selected sample record(s)'**

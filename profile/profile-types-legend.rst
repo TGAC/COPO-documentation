@@ -17,7 +17,7 @@ It displays the acronym as well as the corresponding profile type colour for eac
     :alt: Profile Types Legend
     :align: center
     :height: 50ex
-    :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_types_legend.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_types_legend.png
     :class: with-shadow with-border
 
     **Profile Types Legend: Various profiles types that can be created in COPO and their corresponding label colours**

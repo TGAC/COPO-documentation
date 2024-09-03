@@ -213,7 +213,7 @@ Visualisation of RecordActionButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_assembly_web_page.png
    :alt:  Visualisation of the add, edit, delete and submit record action buttons on the Assembly web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_assembly_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_assembly_web_page.png
    :class: with-shadow with-border
 
    **Assembly web page: Visualisation of the add, edit, delete record and submit action buttons**
@@ -240,7 +240,7 @@ Visualisation of RecordActionButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_files_web_page.png
    :alt:  Visualisation of the 'download sample manifest' button, 'view images' button and 'download permits' buttons on the Samples web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_files_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_files_web_page.png
    :class: with-shadow with-border
 
    **Samples web page:  Visualisation of the download sample manifest action button, view images action button and download permits action button**
@@ -258,7 +258,7 @@ Visualisation of RecordActionButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_samples_web_page.png
    :alt:  Visualisation of the 'add file by browser' record action button and 'add file via terminal' record action button on the Samples web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_samples_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_samples_web_page.png
    :class: with-shadow with-border
 
    **Samples web page: Visualisation of the add file via browser record action button and add file via terminal record action button**
@@ -279,7 +279,7 @@ Visualisation of RecordActionButton in Project
 .. figure:: /assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_work_profiles_web_page.png
    :alt:  Visualisation of the release study record action button on the Work Profiles web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_work_profiles_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/django_admin_interface/profile/record_action_button/visualisation_record_action_button_work_profiles_web_page.png
    :class: with-shadow with-border
    :height: 300px
 

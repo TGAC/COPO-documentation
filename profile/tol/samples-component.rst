@@ -51,7 +51,7 @@ the popup menu displayed as shown below:
 .. figure:: /assets/images/profile/profile_tol_profile_components_samples.png
    :alt: Samples' profile component
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_components_samples.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components_samples.png
    :class: with-shadow with-border
    :height: 400px
 

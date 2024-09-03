@@ -34,7 +34,7 @@ To make a profile public, please follow the steps below:
    .. figure:: /assets/images/profile/profile_options_release_study.png
       :alt: Profile options with release study option
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_options_release_study.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_release_study.png
       :class: with-shadow with-border
       :height: 200px
 

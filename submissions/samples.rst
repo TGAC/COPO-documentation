@@ -20,7 +20,7 @@ Click the links below to learn more about each type of manifest submission:
 .. image:: /assets/files/presentations/copo_sample_submission_process_illustration.gif
    :alt: Samples submission and validation process in COPO
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/files/presentations/copo_sample_submission_process_illustration.gif
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/files/presentations/copo_sample_submission_process_illustration.gif
    :class: with-shadow with-border
    :scale: 60%
 
@@ -82,7 +82,7 @@ The following steps describe how to download a submitted sample manifest:
    .. figure:: /assets/images/samples/samples_pointer_to_download_sample_manifest_button.png
       :alt: Samples web page with one sample record selected and a pointer to the 'Download sample manifest' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples/samples_pointer_to_download_sample_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_pointer_to_download_sample_manifest_button.png
       :class: with-shadow with-border
 
       **Samples web page: Pointer to 'Download sample manifest' button**

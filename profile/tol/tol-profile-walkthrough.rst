@@ -64,7 +64,7 @@ Provide Profile Title & Description
    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol1.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -88,7 +88,7 @@ Choose Profile Type
    .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :alt: Choose profile type on add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol2.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -118,7 +118,7 @@ Choose Associated Profile Type(s) (if required)
         .. figure:: /assets/images/profile/profile_add_profile_form_associatedType1.png
           :alt: Choose associated profile type or subproject on add profile form
           :align: center
-          :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
+          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
           :class: with-shadow with-border
           :height: 500px
 
@@ -137,7 +137,7 @@ Choose Associated Profile Type(s) (if required)
         .. figure:: /assets/images/profile/profile_add_profile_form_associatedType2.png
           :alt: Choose associated profile type or subproject on add profile form
           :align: center
-          :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
+          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
           :class: with-shadow with-border
           :height: 500px
 
@@ -156,7 +156,7 @@ Choose Associated Profile Type(s) (if required)
        .. figure:: /assets/images/profile/profile_add_profile_form_associatedType3.png
           :alt: Choose associated profile type or subproject on add profile form
           :align: center
-          :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
+          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
           :class: with-shadow with-border
           :height: 500px
 
@@ -180,7 +180,7 @@ Choose Sequencing Centre (if required)
       .. figure:: /assets/images/profile/profile_add_profile_form_sequencingCentre.png
          :alt: Choose sequencing centre on add profile form
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_sequencingCentre.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_sequencingCentre.png
          :class: with-shadow with-border
          :height: 500px
 
@@ -198,7 +198,7 @@ Profile created
     .. figure:: /assets/images/profile/profile_tol_profile_created.png
       :alt: Tree of Life profile created
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_created.png
       :class: with-shadow with-border
 
       **ToL Profile: 'Work Profiles' web page displaying the created profile**
@@ -250,7 +250,7 @@ The following component types are currently defined:
    :alt: Tree of Life profile components
    :align: center
    :height: 35ex
-   :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_tol_profile_components.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components.png
    :class: with-shadow with-border
 
    **Tree of Life Profile Components**

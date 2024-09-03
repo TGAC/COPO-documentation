@@ -41,7 +41,7 @@ Sharer
    ..  figure:: /assets/images/groups/shared_profile_view_groups_dropdown_menu_option.png
         :alt: 'View Groups' dropdown menu option
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/shared_profile_view_groups_dropdown_menu_option.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/shared_profile_view_groups_dropdown_menu_option.png
         :class: with-shadow with-border
         :height: 300px
 
@@ -52,7 +52,7 @@ Sharer
    ..  figure:: /assets/images/groups/groups_pointer_to_add_group_button.png
         :alt: Groups web page with pointer to add a new group button
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_pointer_to_add_group_button.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_pointer_to_add_group_button.png
         :class: with-shadow with-border
         :height: 300px
 
@@ -63,7 +63,7 @@ Sharer
    ..  figure:: /assets/images/groups/groups_create_new_group_form.png
         :alt: Groups web page with pointer to add a new group button
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_create_new_group_form.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_create_new_group_form.png
         :class: with-shadow with-border
         :width: 500px
         :height: 300px
@@ -87,7 +87,7 @@ Sharer
    .. figure:: /assets/images/groups/groups_group_created.png
       :alt: Group was created successfully
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_group_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_group_created.png
       :class: with-shadow with-border
 
       **Groups: Group created successfully**
@@ -106,7 +106,7 @@ Sharer
    ..  figure:: /assets/images/groups/groups_profile_added_shared_group.png
        :alt: Groups web page with pointer to add a new group button
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_profile_added_shared_group.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_profile_added_shared_group.png
        :class: with-shadow with-border
        :height: 200px
 
@@ -123,7 +123,7 @@ Sharer
    ..  figure:: /assets/images/groups/groups_users_in_group_search_box.png
        :alt: 'Users in Group' search box
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_users_in_group_search_box.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_users_in_group_search_box.png
        :class: with-shadow with-border
        :height: 300px
 
@@ -162,7 +162,7 @@ Sharee
    ..  figure:: /assets/images/groups/groups_shared_profile_displayed.png
        :alt: Shared profile displayed on the 'Work Profiles' web page
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/groups/groups_shared_profile_displayed.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_shared_profile_displayed.png
        :class: with-shadow with-border
        :height: 300px
 

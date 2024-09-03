@@ -38,7 +38,7 @@ This section describes how to update **Reads** for a given checklist. The **Read
    .. figure:: /assets/images/reads/reads_update_pointer_to_add_reads_manifest_button.png
       :alt: Pointer to 'Add Reads' from Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_update_pointer_to_add_reads_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_pointer_to_add_reads_manifest_button.png
       :class: with-shadow with-border
 
       **Reads' update: Click 'Add Reads' from Spreadsheet' button to upload an amended reads manifest**
@@ -56,7 +56,7 @@ This section describes how to update **Reads** for a given checklist. The **Read
    .. figure:: /assets/images/reads/reads_update_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
       :alt: Upload Read Manifest dialogue
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_update_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
       :height: 600px
 
@@ -76,7 +76,7 @@ This section describes how to update **Reads** for a given checklist. The **Read
     .. figure:: /assets/images/reads/reads_updated.png
        :alt: Read(s) updated
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_updated.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_updated.png
        :class: with-shadow with-border
 
        **Reads' update: Reads' web page displaying the updated read(s)**

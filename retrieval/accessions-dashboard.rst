@@ -27,7 +27,7 @@ The types of accessions that are created are:
 .. figure:: /assets/images/dashboard/dashboard_accessions_other_accessions.png
       :alt: Other accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_other_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_accessions_other_accessions.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Other accessions**
@@ -39,7 +39,7 @@ The types of accessions that are created are:
 .. figure:: /assets/images/dashboard/dashboard_accessions_sample_accessions.png
       :alt: Genomics projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/dashboard/dashboard_accessions_sample_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_accessions_sample_accessions.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Sample accessions**

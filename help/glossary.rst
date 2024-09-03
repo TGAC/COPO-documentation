@@ -185,7 +185,7 @@ Glossary
      which are explicit formal specifications of terms and their relationship to other terms in a domain.
 
      .. image:: /assets/images/ontology-field.jpg
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/ontology-field.jpg
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/ontology-field.jpg
 
    Profile component
      Also known as *research object*. It forms part of a research project or study.

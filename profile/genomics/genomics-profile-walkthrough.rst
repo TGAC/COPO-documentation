@@ -37,7 +37,7 @@ Steps to Create a Genomics Profile
     .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_record_button_web_page.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
       **Genomics Profile: Add new profile record icon**
@@ -47,7 +47,7 @@ Steps to Create a Genomics Profile
     .. figure:: /assets/images/profile/profile_add_profile_form_web_page_genomics.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_profile_form_web_page_genomics.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_web_page_genomics.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -69,7 +69,7 @@ Steps to Create a Genomics Profile
     .. figure:: /assets/images/profile/profile_genomics_profile_created.png
       :alt: Genomics profile created
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_created.png
       :class: with-shadow with-border
 
       **Genomics Profile: Work profiles' web page displaying the created profile**
@@ -106,7 +106,7 @@ The following component types are currently defined:
    .. figure:: /assets/images/profile/profile_genomics_profile_components.png
       :alt: Genomics profile components
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_genomics_profile_components.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components.png
       :class: with-shadow with-border
       :height: 650px
 

@@ -56,7 +56,7 @@ How can I assign my own locus tag to assemblies?
   .. figure:: /assets/images/profile/profile_add_form_profile_form_locus_tag.png
      :alt: Adding locus tag to a profile
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_form_profile_form_locus_tag.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_form_profile_form_locus_tag.png
      :class: with-shadow with-border
      :height: 400px
 
@@ -186,13 +186,13 @@ When was the COPO  project launched?
              :height: 10ex
              :alt: COPO logo during the years 2014 - 2022
              :align: center
-             :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/logos/copo_logo_old.png
+             :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/logos/copo_logo_old.png
              :class: with-shadow with-border
         - .. figure:: /assets/logos/copo_logo_new.png
              :height: 12ex
              :alt: COPO logo during the years 2023 - PRESENT
              :align: center
-             :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/logos/copo_logo_new.png
+             :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/logos/copo_logo_new.png
              :class: with-shadow with-border
 
    .. seealso::
@@ -365,7 +365,7 @@ How can I create a profile on COPO?
      ..  figure:: /assets/images/profile/profile_add_form.png
          :alt: Profile types dropdown menu
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_add_form.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_form.png
          :class: with-shadow with-border
          :width: 400px
          :height: 400px
@@ -410,7 +410,7 @@ How can I add a subproject to a profile on COPO?
    ..  figure:: /assets/images/profile/profile_form_associated_types.png
        :alt: Associated profile types dropdown menu
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_form_associated_types.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_form_associated_types.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
@@ -515,7 +515,7 @@ How can I view more information about a profile that I have created in COPO?
    ..  figure:: /assets/images/profile/profile_view_more_button_with_popup_displayed.png
        :alt: Profile view more information popup dialog
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/profile/profile_view_more_button_with_popup_displayed.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_view_more_button_with_popup_displayed.png
        :class: with-shadow with-border
        :width: 400px
        :height: 400px
@@ -674,7 +674,7 @@ How do I fill in the Reads manifest to submit paired reads?
      .. figure:: /assets/images/reads/reads_manifest_paired.png
         :alt: Reads manifest for paired reads
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/reads/reads_manifest_paired.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_manifest_paired.png
         :class: with-shadow with-border
 
         **Reads' manifest for paired reads**
@@ -1056,7 +1056,7 @@ How do I know if a sample is awaiting acceptance or rejection?
      .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
         :alt: Sample record awaiting another acceptance
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/Documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
         :class: with-shadow with-border
 
         **Sample record awaiting another acceptance**
