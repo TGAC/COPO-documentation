@@ -704,10 +704,10 @@ What are the types of files that are required for read submissions in COPO?
 Samples
 --------------------
 
-.. _faq-samples-update-successful-validation-but-no-finish-button:
+.. _faq-samples-update-successful-validation-but-no-finish-or-confirm-button:
 
-Why is the 'Finish' button not visible in the 'Upload Spreadsheet' dialog even though the manifest has been successfully uploaded and validated?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Why is the 'Finish' button (or 'Confirm' button) not visible in the 'Upload Spreadsheet' dialog even though the manifest has been successfully uploaded and validated?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
 
@@ -718,8 +718,13 @@ Why is the 'Finish' button not visible in the 'Upload Spreadsheet' dialog even t
    This issue occurs because in the manifest uploaded, one or more of the permit required fields or columns is set
    to ``Y``. This means that permit files are required for the sample(s) within the manifest.
 
-   **Resolution**: Upload the permit files using the |upload-permits-button| button first then, the **Finish** button
-   will be displayed in the **Upload Spreadsheet** dialog (once there are no errors).
+   **Resolution**: Upload the permit files using the |upload-permits-button| button first then,
+
+   * The **Finish** button will be displayed in the **Upload Spreadsheet** dialog (once there are no errors) if
+     uploading the manifest for the first time.
+
+   * Alternatively, if the manifest is being updated, the **Confirm** button will be displayed in the
+     **Upload Spreadsheet** dialog (once there are no errors).
 
 .. raw:: html
 

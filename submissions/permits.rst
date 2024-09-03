@@ -21,7 +21,13 @@ How to Submit Permits
      If you would like to see the file extension, you can enable it by following these
      `guidelines <https://support.microsoft.com/en-gb/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01>`__.
 
-     Ultimately, the permit filename should be in the format: ``permit_name.pdf`` not ``permit_name.pdf.pdf``.
+     Ultimately, the permit filename should be in the format: ``permit_name.pdf`` **not** ``permit_name.pdf.pdf``.
+
+   * COPO automatically appends the permit filename with the date of the submission during the permit submission
+     process. This is to ensure that the permit file name is unique.
+
+     For example, if a permit with the file name ``permit_name.pdf`` is uploaded, COPO will append the date to the file
+     name as follows: ``permit_name_yyyymmdd.pdf`` where ``yyyymmdd`` is the date when the submission was made.
 
 .. warning::
     * If you have more than one permit ﬁle to upload, they **must** be uploaded at the
