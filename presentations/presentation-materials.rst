@@ -88,6 +88,29 @@ Poster presentations
 
    - :download:`Download poster presentation <../assets/files/presentations/copo_poster_building_testing_and_deployment.pdf>`
 
+   .. raw:: html
+
+         <hr>
+
+#. **COPO - Bridging the Gap from Data to Publication in Plant Science**
+
+   - **Authors**: Felix Shaw, Anthony Etuk, Alejandra Gonzalez-Beltran, Phillipe Rocca-Serra, Alfie Abdul-Rahman,
+     Paul Kersey, Ruth Bastow, Susanna Sansone, Robert Davey
+
+   - **Abstract**:
+      COPO streamlines the process of data deposition to public repositories by hiding much of the complexity of
+      metadata capture and data management from the end-user. The ISA infrastructure (www.isa-tools.org) is leveraged
+      to provide the interoperability between metadata formats required for seamless deposition to repositories and to
+      facilitate links to data analysis platforms.
+
+      Logical groupings of artefacts (e.g. PDFs, raw data, contextual
+      supplementary information) relating to a body of work are stored in COPO collections and represented by common
+      standards, which are publicly searchable. Bundles of multiple data objects themselves can then be deposited
+      directly into public repositories through COPO interfaces.
+
+
+
+   - :download:`Download poster presentation <https://figshare.com/ndownloader/files/2175949>`
 
 .. raw:: html
 

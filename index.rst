@@ -96,11 +96,12 @@ links to find instructions specific to your needs.
    help/glossary
 
 .. toctree::
-   :caption: Presentation Materials
-   :name: presentation materials
+   :caption: Research Outputs & Presentations
+   :name: research outputs and presentations
    :maxdepth: 2
 
    presentations/presentation-materials
+   contributions/publications
 
 
 
