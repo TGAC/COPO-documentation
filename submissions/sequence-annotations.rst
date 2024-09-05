@@ -43,7 +43,7 @@ the popup menu displayed as shown below:
   :align: center
   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components_sequence_annotations.png
   :class: with-shadow with-border
-  :height: 600px
+  :height: 300px
 
   **Genomics Profile Components: Sequence Annotations' component button**
 

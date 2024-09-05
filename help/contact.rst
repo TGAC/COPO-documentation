@@ -15,10 +15,10 @@ request. The COPO team will respond as soon as possible.
 
 
 ..  figure:: /assets/images/contact/copo-contact-icon.png
-    :scale: 20%
     :align: center
     :alt: COPO contact icon
     :class: with-shadow with-border
+    :height: 100px
 
 **Alternatively, click the envelope icon located in the top-right section of the top navigation bar to be
 redirected to the contact form on the COPO homepage (if you are already logged into COPO)**

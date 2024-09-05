@@ -109,7 +109,7 @@ Title & Description
 
 .. _tol-profile-steps-details-associated-profile-type:
 
-Select Associated Profile Type(s) (if applicable)
+Select Associated Profile Type (if applicable)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
       .. note::
@@ -118,7 +118,7 @@ Select Associated Profile Type(s) (if applicable)
          **European Reference Genome Atlas (ERGA)** profile type is selected.
 
          It is mandatory to choose an associated
-         profile type or subproject when creating an ERGA profile.
+         profile type or subproject when creating an :abbr:`ERGA (European Reference Genome Atlas)` profile.
 
       * More than one associated type also known as subproject or child project can be chosen.
 
@@ -145,11 +145,14 @@ Select Sequencing Centre (if applicable)
          The **Sequencing Centre** dropdown menu will only display if the
          **European Reference Genome Atlas (ERGA)** profile type is selected.
 
+         It is mandatory to choose a sequencing centre when creating an :abbr:`ERGA (European Reference Genome Atlas)`
+         profile.
+
          See the :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
          :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
       .. figure:: /assets/images/profile/profile_add_profile_form_sequencing_centre.png
-         :alt: Choose sequencing centre on add profile form
+         :alt: Choose sequencing centre on 'Add Profile' form
          :align: center
          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_sequencing_centre.png
          :class: with-shadow with-border
@@ -164,7 +167,7 @@ Select Sequencing Centre (if applicable)
 .. _tol-profile-steps-details-locus-tag:
 
 Input Locus Tag (if applicable)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
    .. figure:: /assets/images/profile/profile_add_profile_form_locus_tag.png
       :alt: Choose locus tag on add profile form

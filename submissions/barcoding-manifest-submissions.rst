@@ -49,6 +49,7 @@ the popup menu displayed as shown below:
   :align: center
   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components_barcoding_manifest.png
   :class: with-shadow with-border
+  :height: 300px
 
   **Tree of Life Profile Components: Barcoding Manifest component button**
 

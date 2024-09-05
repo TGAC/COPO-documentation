@@ -34,21 +34,24 @@ It displays the acronym as well as the corresponding profile type colour for eac
    * - Colour
      - Acronym
      - Backronym
-   * - Orange |orange-circle|
-     - DTOL-ENV **or** Shared
-     - Darwin Tree of Life Environmental **or** Shared
    * - Purple |purple-circle|
      - ASG
      - Aquatic Symbiosis Genomics
    * - Green |green-circle|
      - DTOL
      - Darwin Tree of Life
+   * - Orange |orange-circle|
+     - DTOLENV
+     - Darwin Tree of Life Environmental
    * - Pink |pink-circle|
      - ERGA
      - European Reference Genome Atlas
    * - Teal |teal-circle|
-     - Standalone
+     - GENOMICS
      - Genomics
+   * - Orange |orange-circle|
+     - SHARED
+     - Shared With Me
 
 .. raw:: html
 

@@ -37,6 +37,8 @@ Secondary Projects
    :columns: 2
 
    * Biodiversity Genomics Europe (BGE)
+   * BioBlitz
+   * Catalan Initiative for the Earth BioGenome Project (CBP)
    * European Reference Genome Atlas - Pilot (ERGA_PILOT)
    * European Reference Genome Atlas - Community (ERGA_COMMUNITY)
    * Population Genomics (POP_GENOMICS)
