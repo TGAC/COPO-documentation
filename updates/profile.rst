@@ -102,14 +102,7 @@ to edit or delete a profile record will be displayed once clicked.
 
     **COPO Profile: An error will occur if you try to remove a profile that that has associated samples or datafiles.**
 
-..  figure:: /assets/images/profile/profile_record_deleted.png
-    :alt: Profile deleted dialogue
-    :align: center
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_record_deleted.png
-    :class: with-shadow with-border
-
-    **COPO Profile: Profile record has been deleted.  Wait 3 seconds for the web page to be automatically reloaded.**
-
+The profile will automatically be removed and will no longer be displayed in the profile list once successfully deleted.
 
 ..
     Images declaration

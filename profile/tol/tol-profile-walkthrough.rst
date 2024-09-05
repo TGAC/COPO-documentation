@@ -35,44 +35,57 @@ A :abbr:`ToL (Tree of Life)` profile can be used to create one of the following 
 .. _tol-profile-steps:
 
 Steps to Create a Tree of Life Profile
----------------------------------------------
+---------------------------------------
 
-#. Click the |add-profile-button| **Add new record** icon to view the **Add Profile** form
+1. Choose Profile Type
+~~~~~~~~~~~~~~~~~~~~~~
 
-    .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
-      :alt: Add new profile record button
-      :align: center
-      :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profile/profile_add_record_button_web_page.png?raw=true
-      :class: with-shadow with-border
+.. important::
 
-      **ToL Profile: Add new profile record icon**
+   The profile type dropdown menu is displayed beside the **Work Profiles** page title. By default, it will only
+   display the **Genomics** profile option.
+
+   If your desired profile type is not displayed in the dropdown menu, please
+   :email:`contact the COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group that you would
+   like to be granted access to. Thereafter, the desired profile type option will be displayed in the dropdown menu.
+
+.. hint::
+
+   Please see the :ref:`Projects brokered through COPO <copo-project-affiliations>` section for an overview of the
+   projects i.e. profile types that are brokered through COPO.
+
+Choose the desired profile type from the dropdown menu
+
+Click the |add-profile-button| **Add new profile record** button to view the **Add Profile** form for the desired
+profile type
+
+.. figure:: /assets/images/profile/profile_add_record_button_web_page.png
+   :alt: Add new profile record button
+   :align: center
+   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profile/profile_add_record_button_web_page.png?raw=true
+   :class: with-shadow with-border
+
+   **ToL Profile: Add new profile record button**
 
 .. _tol-profile-steps-details:
 
-Provide Profile Title & Description
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. Provide Profile Details in the Add Profile Form
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-3. In the **Add Profile** form dialogue, provide details for the new profile then, click **Save**
+In the **Add Profile** form dialogue, provide details for the new profile.
 
-   .. note::
-      The **Profile Type** dropdown menu by default will only display the **Genomics** option.
+See the following sections for more information:
 
-      If your desired profile type is not displayed in the **Profile Type**  dropdown menu,
-      :email:`Contact the COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group that you would
-      like to be granted access to. Thereafter, the desired profile type option will be displayed in the dropdown menu.
+   * :ref:`Title & Description <tol-profile-steps-details-title-description>`
+   * :ref:`Choose Associated Profile Type(s) (if required) <tol-profile-steps-details-associated-profile-type>`
+   * :ref:`Choose Sequencing Centre (if required) <tol-profile-steps-details-sequencing-centre>`
+   * :ref:`Input Locus Tag <tol-profile-steps-details-locus-tag>`
+   * :ref:`Save Profile Details <tol-profile-steps-details-save-profile-form>`
 
-   .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol1.png
-      :alt: Add profile form
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol1.png
-      :class: with-shadow with-border
-      :height: 400px
+.. _tol-profile-steps-details-title-description:
 
-      **ToL Profile: Add profile form dialogue**
-
-   .. raw:: html
-
-      <br>
+Title & Description
+^^^^^^^^^^^^^^^^^^^
 
    .. hint::
 
@@ -81,93 +94,51 @@ Provide Profile Title & Description
       Meaningful field values are recommended in the form boxes because the information will appear
       in submissions of the research objects associated with the profile, in public remote repositories.
 
-
-Choose Profile Type
-~~~~~~~~~~~~~~~~~~~~
-
-   .. figure:: /assets/images/profile/profile_add_profile_form_profileType_tol2.png
-      :alt: Choose profile type on add profile form
+   .. figure:: /assets/images/profile/profile_add_profile_form_title_description.png
+      :alt: Provide profile title and description on add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_profileType_tol2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_title_description.png
       :class: with-shadow with-border
-      :height: 400px
+      :height: 300px
 
-      **ToL Profile form: Choose profile type**
-
-   .. raw:: html
-
-      <br>
-
-   If you request to be added to any of the profile types displayed (excluding the default **Genomics** profile type),
-   only that profile type will be listed in the **Profile type** dropdown menu.
+      **ToL Profile Form: Provide profile title and description**
 
    .. raw:: html
 
       <br>
 
-Choose Associated Profile Type(s) (if required)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _tol-profile-steps-details-associated-profile-type:
+
+Select Associated Profile Type(s) (if applicable)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
       .. note::
 
          The **Associated Profile Type** dropdown menu will only display if the
          **European Reference Genome Atlas (ERGA)** profile type is selected.
 
-    * More than one associated type also known as subproject or child project can be chosen.
+         It is mandatory to choose an associated
+         profile type or subproject when creating an ERGA profile.
 
-        .. figure:: /assets/images/profile/profile_add_profile_form_associatedType1.png
-          :alt: Choose associated profile type or subproject on add profile form
+      * More than one associated type also known as subproject or child project can be chosen.
+
+       .. figure:: /assets/images/profile/profile_add_profile_form_associated_type_for_erga_profile_type.png
+          :alt: Choose associated profile type or subproject on add profile form for ERGA profile type
           :align: center
-          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType1.png
+          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associated_type_for_erga_profile_type.png
           :class: with-shadow with-border
           :height: 500px
 
-          **ASG Profile Type: Choose associated profile type or a subproject** [#f4]_
+          **ERGA Profile Type Form: Choose associated profile type or a subproject** [#f5]_
 
-        .. raw:: html
+       .. raw:: html
 
-           <br>
+          <br>
 
-        .. centered:: **OR**
+.. _tol-profile-steps-details-sequencing-centre:
 
-        .. raw:: html
-
-           <br>
-
-        .. figure:: /assets/images/profile/profile_add_profile_form_associatedType2.png
-          :alt: Choose associated profile type or subproject on add profile form
-          :align: center
-          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType2.png
-          :class: with-shadow with-border
-          :height: 500px
-
-          **DTOL Profile Type: Choose associated profile type or a subproject** [#f5]_
-
-        .. raw:: html
-
-           <br>
-
-        .. centered:: **OR**
-
-        .. raw:: html
-
-           <br>
-
-       .. figure:: /assets/images/profile/profile_add_profile_form_associatedType3.png
-          :alt: Choose associated profile type or subproject on add profile form
-          :align: center
-          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associatedType3.png
-          :class: with-shadow with-border
-          :height: 500px
-
-          **ERGA Profile Type: Choose associated profile type or a subproject** [#f6]_
-
-          .. raw:: html
-
-             <br>
-
-Choose Sequencing Centre (if required)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Select Sequencing Centre (if applicable)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
       .. note::
 
@@ -177,10 +148,10 @@ Choose Sequencing Centre (if required)
          See the :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
          :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
-      .. figure:: /assets/images/profile/profile_add_profile_form_sequencingCentre.png
+      .. figure:: /assets/images/profile/profile_add_profile_form_sequencing_centre.png
          :alt: Choose sequencing centre on add profile form
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_sequencingCentre.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_sequencing_centre.png
          :class: with-shadow with-border
          :height: 500px
 
@@ -190,10 +161,44 @@ Choose Sequencing Centre (if required)
 
          <br>
 
-Profile created
-~~~~~~~~~~~~~~~~
+.. _tol-profile-steps-details-locus-tag:
 
-4. The new profile will be displayed in the **Profile** list
+Input Locus Tag (if applicable)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   .. figure:: /assets/images/profile/profile_add_profile_form_locus_tag.png
+      :alt: Choose locus tag on add profile form
+      :align: center
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_locus_tag.png
+      :class: with-shadow with-border
+      :height: 250px
+
+      **ToL Profile form: Input locus tag**
+
+   .. raw:: html
+
+      <br>
+
+   If applicable, input the :abbr:`ENA (European Nucleotide Archive)` [#f4]_ **Locus Tag** in the form box.
+   Please refer to the :ref:`Locus tag prefix creation <faq-assemblies-submission-locus-tag-assignment>`
+   :abbr:`FAQ (Frequently Asked Question)` for guidelines.
+
+   .. raw:: html
+
+      <br>
+
+.. _tol-profile-steps-details-save-profile-form:
+
+3. Save Profile Form
+~~~~~~~~~~~~~~~~~~~~~
+
+Click the **Save** button to save the profile details entered in the **Add Profile** form.
+
+
+4. Profile created
+~~~~~~~~~~~~~~~~~~~
+
+The new profile will be displayed in the **Profile** list
 
     .. figure:: /assets/images/profile/profile_tol_profile_created.png
       :alt: Tree of Life profile created
@@ -249,7 +254,7 @@ The following component types are currently defined:
 .. figure:: /assets/images/profile/profile_tol_profile_components.png
    :alt: Tree of Life profile components
    :align: center
-   :height: 35ex
+   :height: 200px
    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components.png
    :class: with-shadow with-border
 
@@ -274,9 +279,8 @@ The following component types are currently defined:
          barcodes (also known as targeted sequences in European Nucleotide Archive (ENA)) and sequence annotations.
 
          A Tree of Life (ToL) profile is considered as a *project* research object.
-.. [#f4] See term: :term:`ASG`.
-.. [#f5] See term: :term:`DToL`.
-.. [#f6] See term: :term:`ERGA`.
+.. [#f4] See term: :term:`ENA`.
+.. [#f5] See term: :term:`ERGA`.
 
 ..
     Images declaration
