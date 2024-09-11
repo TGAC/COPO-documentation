@@ -41,7 +41,7 @@ notifying you that sample(s) has been submitted after a user uploads a manifest.
 
 Similarly, you will receive an email when samples have been rejected.
 
-Click the |accept-reject-samples-navigation-button| button to accept or reject samples.
+Click the |accept-reject-samples-navigation-button| button to navigate to the web page to accept or reject samples.
 
 Alternatively, navigate to `Accept/Reject Samples' web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__.
 
