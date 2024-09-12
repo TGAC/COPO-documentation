@@ -8,6 +8,11 @@ Samples can be updated by reuploading/resubmitting the manifest that was used to
 **before** or **after** the samples have been accepted by a sample manager and submitted to
 :abbr:`ENA (European Nucleotide Archive)` [#f1]_.
 
+The sample update process follows the same steps as the initial upload process. The manifest will be validated, and the
+samples will be updated with the new values (once there are no errors). Please refer to the :ref:`samples-submission`
+section for guidelines on how to upload a manifest. See the :ref:`important note <samples-submission-important-note>`
+below for more information about the sample update process.
+
 Please note that not all field values of existing samples can be updated via the manifest resubmission update method.
 The fields that can be updated with that method are listed below. Those fields are known as *non-compliance fields*
 while the fields that are not listed or cannot be updated are known as *compliance fields* [#f2]_.
@@ -20,14 +25,12 @@ already submitted.
    To view a list of fields that can be updated for a particular project, collapse the list of fields by clicking the
    |collapsible-item-arrow| button below.
 
+.. _samples-submission-important-note:
+
 .. important::
 
    The amended manifest or updated spreadsheet file **must** be uploaded to the same profile that was initially used
    to upload the manifest (before any modifications were done).
-
-   The update process follows the same steps as the initial upload process. The manifest will be validated, and the
-   samples will be updated with the new values (once there are no errors). Please refer to the :ref:`samples-submission`
-   section for guidelines on how to upload a manifest.
 
    An error will occur if you perform one of the following actions:
 
