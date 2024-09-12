@@ -25,6 +25,10 @@ already submitted.
    The amended manifest or updated spreadsheet file **must** be uploaded to the same profile that was initially used
    to upload the manifest (before any modifications were done).
 
+   The update process follows the same steps as the initial upload process. The manifest will be validated, and the
+   samples will be updated with the new values (once there are no errors). Please refer to the :ref:`samples-submission`
+   section for guidelines on how to upload a manifest.
+
    An error will occur if you perform one of the following actions:
 
    * Upload the amended manifest to a different profile [#f3]_ (other than the one used to upload the manifest to
