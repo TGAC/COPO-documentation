@@ -751,6 +751,25 @@ How can I update values for samples that I have submitted in COPO?
 
 .. raw:: html
 
+  <br>
+
+How to check the status of samples that have been accepted or rejected as a sample submitter?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   **Option 1**: The **Status** column in the samples data table will display the status of the sample record on the
+   **Samples** web page.
+
+   **Option 2**: The **Error** column in the samples data table will display an error message if the sample record
+   has been rejected or if there are any errors associated with the sample record.
+
+.. raw:: html
+
    <br>
 
 Can I delete samples that have submitted?
@@ -1055,27 +1074,131 @@ How do I know if sample records are awaiting another review by another sample ma
 
       <br>
 
-   * On the **Accept or Reject Samples** web page, samples that are awaiting acceptance will be displayed
-     in the **Pending** tab and samples that have been rejected will be displayed in the **Rejected** tab.
-
-   * Samples in the **Rejected** tab can be re-accepted by selecting the desired sample record(s) then, clicking the
-     |samples_accept_reject_button_accept| button. The samples will then be displayed in the **Pending Samples** tab.
-
    * If samples require more than one sample manager to accept or reject them, the samples will be displayed in the
      **Pending Samples** tab until **all** sample managers have accepted them. Once all sample managers have accepted
      the samples, the samples will be displayed in the **Accepted Samples** tab.
 
-     As shown in the image below, sample records that are awaiting another acceptance will be highlighted **amber**
-     or **yellow** and the date when the records have been accepted will be displayed in the **approval date** column
+     As shown in the image below, sample records that are awaiting another acceptance will be highlighted
+     **yellow** and the date when the records have been accepted will be displayed in the **Approval Date** column
      in the samples data table.
 
-     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
+     Refer to the **Associated TOL (Tree of life) Project** column to view the associated project(s) that the sample
+     record belongs to. See the image below for an illustration.
+
+     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance1.png
         :alt: Sample record awaiting another acceptance
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance1.png
         :class: with-shadow with-border
 
-        **Sample record awaiting another acceptance**
+        **Sample record highlighted in yellow awaiting another acceptance**
+
+     .. raw:: html
+
+        <br>
+
+     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance2.png
+        :alt: Sample record awaiting another acceptance
+        :align: center
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_awaiting_another_acceptance2.png
+        :class: with-shadow with-border
+
+        **Approval date displayed in the 'Approval Date' column of the samples data table**
+
+     In the example above, the sample record is associated with :abbr:`BGE (Biodiversity Genomics Europe)`
+
+
+     .. raw:: html
+
+        <br>
+
+     .. hint::
+
+        * The **Approval Date** column displays the date when the sample record was accepted by the sample manager as well
+          as the associated profile type that the sample manager belongs to.
+
+        * The **Associated TOL (Tree of life) Project** column displays the associated project that the sample record
+          belongs to.
+
+     After the sample record has been accepted by all sample managers, the sample record will be displayed in the
+     **Accepted Samples** tab as shown in the image below.
+
+     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_after_all_accepted1.png
+        :alt: Sample record after all sample managers have accepted it
+        :align: center
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_after_all_accepted1.png
+        :class: with-shadow with-border
+
+        **Sample record after all sample managers have accepted it**
+
+     .. raw:: html
+
+        <br>
+
+     .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_after_all_accepted2.png
+        :alt: Updated approval date in the 'Approval Date' column of the samples data table
+        :align: center
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_after_all_accepted2.png
+        :class: with-shadow with-border
+
+        **Approval date updated in the 'Approval Date' column of the samples data table**
+
+     In the example above, the sample record is associated with :abbr:`BGE (Biodiversity Genomics Europe)`
+     and :abbr:`SANGER (Sanger Institute)` (associated) profile types. The sample managers assigned to both associated
+     profile types have accepted the sample record and the approval date has been updated in the **Approval Date**
+     column of the samples data table.
+
+.. raw:: html
+
+  <br>
+
+How to check the status of samples that have been accepted or rejected as a sample manager?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   **Option 1**: Accepted samples can be viewed in the **Accepted Samples** tab while rejected samples can be found in
+   the **Rejected Samples** tab on the **Accept or Reject Samples** web page.
+
+   **Option 2**: The **Status** column in the samples data table will display the status of the sample record.
+
+   **Option 3**: The **Error** column in the samples data table will display an error message if the sample record
+   has been rejected or if there are any errors associated with the sample record.
+
+   **Option 4**: The **Status** log will display a chronological list of the status of the sample record as shown in the
+   images below. It is located on the right of the **Accept or Reject Samples** web page below the top navigation bar.
+
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_status_log_collapsed.png
+      :alt: Sample record status log collapsed
+      :align: center
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_status_log_collapsed.png
+      :class: with-shadow with-border
+      :height: 200px
+
+      **Sample record status log collapsed**
+
+   .. raw:: html
+
+      <br>
+
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_status_log_expanded.png
+      :alt: Sample record status log expanded
+      :align: center
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_status_log_expanded.png
+      :class: with-shadow with-border
+      :height: 600px
+
+
+      **Sample record status log expanded on hover**
+
+   .. hint::
+
+      If you hover over the **Status** log, it will expand to display more information about the status of the sample
+      record.
 
 .. raw:: html
 
