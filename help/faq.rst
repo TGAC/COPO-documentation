@@ -920,6 +920,22 @@ How can I know if I have been assigned as a sample manager?
 
    <br>
 
+How can I search for a particular profile or sample on the Accept or reject web page?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   See :ref:`accept-reject-samples-query-profiles-and-samples` section for guidelines on querying profiles and sample
+   records on the **Accept or Reject Samples** web page.
+
+.. raw:: html
+
+   <br>
+
 How can I accept or reject samples that users have submitted?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1028,10 +1044,10 @@ If I belong to more than one sample manager manifest group, how can I view or ac
 
   <br>
 
-.. _faq-sample-managers-sample-accept-reject-stage:
+.. _faq-sample-managers-samples-awaiting-another-review:
 
-How do I know if a sample is awaiting acceptance or rejection?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How do I know if sample records are awaiting another review by another sample manager?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
 
@@ -1043,11 +1059,11 @@ How do I know if a sample is awaiting acceptance or rejection?
      in the **Pending** tab and samples that have been rejected will be displayed in the **Rejected** tab.
 
    * Samples in the **Rejected** tab can be re-accepted by selecting the desired sample record(s) then, clicking the
-     |samples_accept_reject_button_accept| button. The samples will be displayed in the **Pending** tab.
+     |samples_accept_reject_button_accept| button. The samples will then be displayed in the **Pending Samples** tab.
 
    * If samples require more than one sample manager to accept or reject them, the samples will be displayed in the
-     **Pending** tab until **all** sample managers have accepted them. Once all sample managers have accepted the
-     samples, the samples will be displayed in the **Accepted** tab.
+     **Pending Samples** tab until **all** sample managers have accepted them. Once all sample managers have accepted
+     the samples, the samples will be displayed in the **Accepted Samples** tab.
 
      As shown in the image below, sample records that are awaiting another acceptance will be highlighted **amber**
      or **yellow** and the date when the records have been accepted will be displayed in the **approval date** column
@@ -1064,7 +1080,6 @@ How do I know if a sample is awaiting acceptance or rejection?
 .. raw:: html
 
   <br>
-
 
 How can I get a better view of sample record information displayed on the Accept or Reject Samples web page?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

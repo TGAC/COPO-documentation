@@ -4,13 +4,13 @@
 Sample Managers
 ====================
 
-This section gives an overview of the COPO features that are delegated to Biodiversity Genomics Europe (BGE) checker or
-sample managers [#f1]_ who are responsible for accepting or rejecting samples produced by sample submitters [#f2]_.
+This section gives an overview of the COPO features that are delegated to sample managers [#f1]_ who are responsible
+for accepting or rejecting samples produced by sample submitters [#f2]_.
 
 .. note::
 
    * Make a request to the :email:`COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile manifest group
-     that you would like to be assigned to as a sample manager :abbr:`BGE (Biodiversity Genomics Europe)`.
+     that you would like to be assigned to as a sample manager and the associated profile type.
 
      The permission will be granted after the request has been approved.
 
@@ -18,7 +18,8 @@ sample managers [#f1]_ who are responsible for accepting or rejecting samples pr
 
    * :ref:`View images produced by sample submitters<images-submission-view-images-sample-managers>`
    * :ref:`Download permits produced by sample submitters <permits-submission-download-permits-sample-managers>`
-   * :ref:`Sample Managers' Frequently Asked Questions <faq-sample-managers>`
+   * :ref:`Sample managers' Frequently Asked Questions <faq-sample-managers>`
+   * :ref:`Profile types and associated profile types brokered through COPO <copo-project-affiliations>`
 
 .. raw:: html
 
@@ -49,20 +50,81 @@ Alternatively, navigate to `Accept/Reject Samples' web page <https://copo-projec
 
    <hr>
 
+.. _accept-reject-samples-query-profiles-and-samples:
+
+Guidelines for Searching Profiles and Samples on the Accept or Reject Web Page
+-------------------------------------------------------------------------------
+
+Navigate to the **Accept or Reject Samples** web page.
+
+See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
+guidance.
+
+Querying using Profiles search box
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the search box on the left of the **Accept or Reject Samples web page**, query the desired profile by inputting
+the profile title or a substring of it. Then, press the **ENTER** key on the keyboard to perform the search for the
+desired profile.
+
+.. hint::
+
+   The profile search box does more than just search for keywords within the profile title. It also looks for any
+   samples associated with the profile that contain the search query.
+
+   If a match is found in any of the samples, the relevant profile will be displayed in the results table.
+
+   Other potential search queries include the value of any of the following fields:
+
+      * name of sample co-ordinator
+      * ``RACK_OR_PLATE_ID``
+      * ``SPECIMEN_ID``
+      * ``TUBE_OR_WELL_ID``
+      * ``biosampleAccession``
+      * ``public_name``
+      * ``sraAccession``
+
+.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_profiles_table_search_box.png
+   :alt: Profiles table search box on 'Accept or Reject Samples' web page
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_profiles_table_search_box.png
+   :class: with-shadow with-border
+
+   **Accept or Reject Samples web page: Profiles table search box**
+
+.. raw:: html
+
+   <br>
+
+Querying using Samples search box
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the search box on the right of the **Accept or Reject Samples web page**, query sample metadata then, press the
+**ENTER** key on the keyboard to perform the search.
+
+If a match is found in any of the sample records, the relevant sample(s) will be displayed in the **Samples** table.
+
+.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_table_search_box.png
+   :alt: Samples table search box on 'Accept or Reject Samples' web page
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_table_search_box.png
+   :class: with-shadow with-border
+
+   **Accept or Reject Samples web page: Samples table search box**
+
+.. raw:: html
+
+   <hr>
+
 .. _accept-reject-samples-within-several-manifest-groups:
 
-Guidelines for Sample Managers Assigned to More than one Manifest Group
--------------------------------------------------------------------------
+Guidelines for Sample Managers Assigned to Multiple Manifest Groups
+---------------------------------------------------------------------
 
 .. note::
 
    The manifest dropdown menu will only be displayed on the **Accept or Reject samples** web page if you as a
    sample manager, belongs to more than one sample manager manifest group.
-
-.. hint::
-
-   If the **dtol** sample manager group dropdown menu option is selected, both Aquatic Symbiosis Genomics (ASG) [#f3]_
-   profiles and  Darwin Tree of Life (DToL) [#f4]_ profiles will be displayed in the **All profiles** tab (if any exists).
 
 
 If you have been granted permission to be a sample manager for more than one manifest group, you can accept or reject
@@ -72,7 +134,7 @@ samples for more than one manifest group by following the steps below:
    **Accept or Reject Samples** web page as shown below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
-      :alt: 'Accept or Reject Samples' manifest dropdown menu is shown is sample manager belongs to more than one manifest group
+      :alt: 'Accept or Reject Samples' manifest dropdown menu is shown if sample manager belongs to more than one manifest group
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
       :class: with-shadow with-border
@@ -120,6 +182,36 @@ samples for more than one manifest group by following the steps below:
 Accepting or Rejecting Samples
 --------------------------------
 
+Profiles are displayed according to the associated profile type group that you have been assigned to as a sample
+manager.
+
+You can check which associated profile type a sample is associated with, by clicking the desired profile on
+the left of the web page in the **Profiles** tab on the **Accept or Reject Samples** web page then, checking the
+**Associated TOL (Tree of Life) Project** column for any sample record in the **Samples** table displayed (if the
+profile has submitted samples) as shown below:
+
+.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project1.png
+   :alt: Associated TOL Project column in the 'Samples' table on the 'Accept or Reject Samples' web page for a single associated profile type
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project1.png
+   :class: with-shadow with-border
+   :height: 200px
+
+   **Sample records associated with a single associated Tree of Life (ToL) project type**
+
+.. raw:: html
+
+   <br>
+
+.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project2.png
+   :alt: Associated TOL Project column in the 'Samples' table on the 'Accept or Reject Samples' web page with multiple associated profile types
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project2.png
+   :class: with-shadow with-border
+   :height: 200px
+
+   **Sample records associated with multiple associated Tree of Life (ToL) project types**
+
 .. note::
 
    A **Samples** table record will only be displayed if the desired profile that is clicked/highlighted on the left of
@@ -130,136 +222,49 @@ Accepting or Rejecting Samples
    * See :ref:`Accept or Reject Samples for more than one manifest group <accept-reject-samples-within-several-manifest-groups>`
      section for guidance if you are assigned to more than one manifest group and would like to accept or reject samples.
 
+.. seealso::
+
+    * :ref:`List of associated profile types (i.e. secondary projects) brokered through COPO <copo-project-associated-projects>`
+
+.. raw:: html
+
+  <hr>
+
 .. _accepting-samples:
 
 Accepting samples
 ~~~~~~~~~~~~~~~~~
 
-The following sections describe how to accept samples depending on the type of manifest group that you have been
-assigned as a sample manager to:
+.. note::
 
-* :ref:`accepting-samples-asg-dtol`
-* :ref:`accepting-samples-erga-bge-checker`
-* :ref:`accepting-samples-erga`
+   If you have already accepted samples but the samples are still displayed in the **Pending Samples** tab, it is likely
+   that the samples are associated with another profile type group and is pending action by another sample manager.
 
-.. raw:: html
+   See :ref:`Samples awaiting another review <faq-sample-managers-samples-awaiting-another-review>`
+   :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
-  <br>
-
-.. _accepting-samples-asg-dtol:
-
-Accepting ASG or DTOL  samples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-#. Choose desired profile on the left of the **Accept or Reject Samples** web page
-
-   * From the **All Profiles** tab if desired profile is an
-     :abbr:`ASG (Aquatic Symbiosis Genomics)` [#f3]_ or :abbr:`DTOL (Darwin Tree of Life)` [#f4]_ profile
-
-   .. raw:: html
-
-      <br>
+#. Choose a desired profile on the left of the **Accept or Reject Samples** web page from the **Profiles** tab
 
 #. In the **Pending Samples** tab, select desired sample record(s) by clicking the checkbox(es) associated with the
-   sample record(s).
+   sample record(s) (if the selected profile has samples).
 
-   Then, click the |accept-samples-button| button as shown below.
-
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_asg_dtol.png
-      :alt: Accepting samples on the 'Accept or Reject Samples' web page for ASG or DTOL profiles
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_asg_dtol.png
-      :class: with-shadow with-border
-
-      **Accept or Reject Samples web page: Accepting samples within ASG or DTOL profiles**
-
-   .. raw:: html
-
-      <hr>
-
-.. _accepting-samples-erga-bge-checker:
-
-Accepting ERGA samples as a BGE checker
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-   .. note::
-
-      * In the **Samples** table, sample record(s) will only be displayed in the **Pending BGE Checker Samples** tab, if
-        you are assigned as a **Biodiversity Genomics Europe (BGE) checker** for the desired profile.
-
-      * All COPO :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profiles are displayed in the **All Profiles** tab but
-        submitted samples within them cannot be accepted or rejected.
-
-#. Choose desired profile on the left of the **Accept or Reject Samples** web page
-
-   * From the **Profiles for My Sequencing Centre** tab
+   Then, click the |accept-samples-button| button as shown in the examples below.
 
    .. raw:: html
 
       <br>
 
-#. In the **Pending BGE Checker Samples** tab, select desired sample record(s) by clicking the checkbox(es) associated with the
-   sample record(s).
-
-   Then, click the |accept-samples-button| button as shown below.
-
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga_bge_checker.png
-      :alt: Accepting samples on the 'Accept or Reject Samples' web page for ERGA profiles as a Biodiversity Genomics Europe (BGE) checker
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
+      :alt: Accepting samples on the 'Accept or Reject Samples' web page for DTOL profiles
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga_bge_checker.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Accepting samples within ERGA profiles as a Biodiversity Genomics Europe (BGE) checker**
-   .. raw:: html
-
-      <br>
-
-#. In the **Pending BGE Checker Samples** tab, select desired sample record(s) by clicking the checkbox(es) associated with the
-   sample record(s).
-
-   Then, click the |accept-samples-button| button as shown below.
-
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_from_pending_bge_checker_stage_at_pending_stage.png
-      :alt: Accepted samples on the 'Accept or Reject Samples' web page for ERGA profiles are displayed in in 'Pending Samples' tab
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_from_pending_bge_checker_stage_at_pending_stage.png
-      :class: with-shadow with-border
-
-      **Accept or Reject Samples web page: Samples accepted by Biodiversity Genomics Europe (BGE) checker are displayed in 'Pending Samples' tab**
-
-   .. raw:: html
-
-      <hr>
-
-.. _accepting-samples-erga:
-
-Accepting ERGA samples as a Sample Manager
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-   .. note::
-
-      * In the **Samples** table, sample record(s) will only be displayed in the **Pending Samples** tab for the
-        desired profile **after** they have been accepted by a Biodiversity Genomics Europe (BGE) checker.
-
-      * All COPO :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profiles are displayed in the **All Profiles**
-        tab but submitted samples within them cannot be accepted or rejected.
-
-   .. hint::
-
-      Rejected samples are displayed in the **Rejected Samples** tab.
-
-#. Choose desired profile on the left of the **Accept or Reject Samples** web page
-
-   * From the **Profiles for My Sequencing Centre** tab
+      **Accept or Reject Samples web page: Accepting samples within DTOL profiles**
 
    .. raw:: html
 
       <br>
-
-#. In the **Pending Samples** tab, select desired sample record(s) by clicking the checkbox(es) associated with the
-   sample record(s).
-
-   Then, click the |accept-samples-button| button as shown below.
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for ERGA profiles
@@ -269,14 +274,14 @@ Accepting ERGA samples as a Sample Manager
 
       **Accept or Reject Samples web page: Accepting samples within ERGA profiles**
 
-
    .. raw:: html
 
       <br>
 
-   A confirmation popup dialogue will be displayed as shown below.
+   A confirmation popup dialogue will be displayed as shown below after the |accept-samples-button| button is clicked.
 
-   Click the **Ok** button to accept the selected sample record(s) or click the **Cancel** button to cancel the action.
+   Click the **Okay** button to accept the selected sample record(s) or click the **Cancel** button to cancel the
+   action.
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
       :alt: Accept samples confirmation dialogue on the 'Accept or Reject Samples' web page
@@ -286,12 +291,13 @@ Accepting ERGA samples as a Sample Manager
 
       **Accept or Reject Samples web page: Accept samples confirmation dialogue**
 
+
    .. raw:: html
 
       <br>
 
-#. If the **Ok** button is clicked, the accepted samples will proceed to the processing stage and will be displayed
-   in the **Processing Samples** tab as shown below:
+#. If the **Okay** button is clicked, the accepted samples will proceed to the processing stage and will be displayed
+   in the **Processing Samples** tab as shown in the examples below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :alt: Accepted ASG or DTOL samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
@@ -299,9 +305,11 @@ Accepting ERGA samples as a Sample Manager
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Accepted ASG or DTOL samples at the processing stage**
+      **Accept or Reject Samples web page: Accepted DTOL samples at the processing stage**
 
-   .. centered:: **OR**
+   .. raw:: html
+
+      <br>
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
       :alt: Accepted samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
@@ -316,7 +324,7 @@ Accepting ERGA samples as a Sample Manager
       <br>
 
 #. After the samples have been processed, the samples will proceed to the accepted stage and will be displayed in the
-   **Accepted Samples** tab as shown below:
+   **Accepted Samples** tab as shown the examples below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :alt: Accepted samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
@@ -324,9 +332,11 @@ Accepting ERGA samples as a Sample Manager
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Accepted ASG or DTOL samples at the accepted stage**
+      **Accept or Reject Samples web page: Accepted DTOL samples at the accepted stage**
 
-   .. centered:: **OR**
+   .. raw:: html
+
+      <br>
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
       :alt: Accepted ERGA samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
@@ -345,25 +355,10 @@ Accepting ERGA samples as a Sample Manager
 Rejecting samples
 ~~~~~~~~~~~~~~~~~
 
-#. Choose desired profile on the left of the **Accept or Reject Samples** web page
-
-   * From the **Profiles for My Sequencing Centre** tab - if desired profile is an
-     :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profile
-
-   .. centered:: **OR**
-
-   * From the **All Profiles** tab if desired profile is not an :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_
-     profile
-
-   .. raw:: html
-
-      <br>
+#. Choose desired profile on the left of the **Accept or Reject Samples** web page from the **Profiles** tab
 
 #. In the **Pending Samples** tab, select desired sample record(s) by clicking the checkbox(es) associated with the
    sample record(s).
-
-   Similarly, if you are a Biodiversity Genomics Europe (BGE) checker, select desired sample record(s) from the
-   **Pending BGE Checker Samples** tab.
 
    Then, click the |reject-samples-button| button as shown below:
 
@@ -405,13 +400,9 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
    See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
    guidance.
 
-#. On the left of the **Accept or Reject Samples web page**, click the |link-icon| icon in the **Samples link** table
-   column of the table row for the profile that you would like upload a manifest for or update a submitted manifest
-   for as shown below:
-
-   If the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile or :abbr:`DTOL (Darwin Tree of Life)`
-   profile, navigate to the **Samples** web page by clicking the |link-icon| icon in the **Samples link** table
-   column of the table row for the desired profile in the **All Profiles** tab as shown below:
+#. On the left of the **Accept or Reject Samples** web page, click the |link-icon| icon in the **Samples Link** table
+   column of the **Profiles** table row for the profile that you would like upload a manifest for or update a submitted
+   manifest for as shown below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
@@ -425,13 +416,7 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
 
             <br>
 
-   Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the same action occurs.
-
    .. centered:: **OR**
-
-   If the desired profile is an :abbr:`ERGA (European Reference Genome Atlas)` profile, navigate to the **Samples**
-   web page by clicking the |link-icon| icon in the **Samples link** table column of the table row for the desired
-   profile in the **Profiles for My Sequencing Centre** tab as shown below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
@@ -459,8 +444,6 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
 
        <br>
 
-    Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the **Samples** web page
-    will be displayed.
 
     .. centered:: **OR**
 
@@ -516,7 +499,7 @@ steps below:
    Then, click the |download-permits-button2| button to download permit(s) submitted for the selected sample record(s).
 
 #. If any permit submission(s) exist for the selected sample record(s), the permits will be automatically downloaded for
-   the selected sample record(s) as shown below:
+   the selected sample record(s).
 
    .. hint::
 
@@ -557,7 +540,7 @@ steps below:
    See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
    guidance on how to access the **Accept or Reject Samples** web page.
 
-#. Select the sample record(s) that you would like to view the images for.
+#. Select the sample record(s) that you would like to view images for.
 
    Then, click the |view-images-button2| button to view image(s) submitted for the selected sample record(s).
 
@@ -617,9 +600,6 @@ Upload Manifest or Update Submitted Manifest on behalf of Manifest Submitters
   * The manifest dropdown menu will only be displayed on the **Accept or Reject samples** web page if you as a
     sample manager, belongs to more than one sample manager manifest group.
 
-  * If the **dtol** sample manager group dropdown menu option is selected, both Aquatic Symbiosis Genomics (ASG)
-    profiles and  Darwin Tree of Life (DToL) profiles will be displayed in the **All profiles** tab (if any exists).
-
   * The **Samples** table will only be displayed if the selected/highlighted profile has submitted samples.
 
 .. hint::
@@ -639,34 +619,14 @@ submitter [#f2]_:
    See :ref:`How to access Accept or Reject Samples web page <accessing-accept-reject-samples-web-page>` section for
    guidance.
 
-#. In the search box on the left of the **Accept or Reject Samples web page**, query the desired profile by inputting
-   the profile title or a substring of it. Then, press the **ENTER** key on the keyboard to perform the search for the
-   desired profile.
+#. Search for the profile that you would like to upload a manifest for or update a submitted manifest for.
 
-   .. hint::
+   See :ref:`accept-reject-samples-query-profiles-and-samples` section for guidance on how to query profiles and
+   samples on the **Accept or Reject Samples** web page.
 
-      The profile search box does more than just search for keywords within the profile title. It also looks for any
-      samples associated with the profile that contain the search query.
-
-      If a match is found in any of the samples, the relevant profile will be displayed in the results table.
-
-      Other potential search queries include the value of any of the following fields:
-
-         * name of sample co-ordinator
-         * ``RACK_OR_PLATE_ID``
-         * ``SPECIMEN_ID``
-         * ``TUBE_OR_WELL_ID``
-         * ``biosampleAccession``
-         * ``public_name``
-         * ``sraAccession``
-
-#. On the left of the **Accept or Reject Samples web page**, click the |link-icon| icon in the **Samples link** table
-   column of the table row for the profile that you would like upload a manifest for or update a submitted manifest
-   for as shown below:
-
-   If the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile or :abbr:`DTOL (Darwin Tree of Life)`
-   profile, navigate to the **Samples** web page by clicking the |link-icon| icon in the **Samples link** table
-   column of the table row for the desired profile in the **All Profiles** tab as shown below:
+#. On the left of the **Accept or Reject Samples web page**, click the |link-icon| icon in the **Samples Link** table
+   column of the **Profiles** table row for the profile that you would like upload a manifest for or update a submitted
+   manifest for as shown in the examples below:
 
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
@@ -680,14 +640,6 @@ submitter [#f2]_:
 
             <br>
 
-   Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the same action occurs.
-
-   .. centered:: **OR**
-
-   If the desired profile is an :abbr:`ERGA (European Reference Genome Atlas)` profile, navigate to the **Samples**
-   web page by clicking the |link-icon| icon in the **Samples link** table column of the table row for the desired
-   profile in the **Profiles for My Sequencing Centre** tab as shown below:
-
    .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
       :align: center
@@ -700,7 +652,7 @@ submitter [#f2]_:
 
       <br>
 
-#. The **Samples** web page will be displayed as shown below:
+#. The **Samples** web page will be displayed as shown in the examples below:
 
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
@@ -713,11 +665,6 @@ submitter [#f2]_:
     .. raw:: html
 
        <br>
-
-    Similarly, if the desired profile is an :abbr:`ASG (Aquatic Symbiosis Genomics)` profile, the **Samples** web page
-    will be displayed.
-
-    .. centered:: **OR**
 
     .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile

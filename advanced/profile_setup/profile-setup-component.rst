@@ -311,10 +311,10 @@ top-right corner of the web page.
 
 .. [#f1] Also known as profile component. See term: :term:`Profile component`.
 
-         Research objects refer to files, reads, assemblies, files samples,
+         Research objects refer to files, reads, assemblies, samples,
          barcodes (also known as targeted sequences in European Nucleotide Archive (ENA)) and sequence annotations.
 
-         A Tree of Life (ToL) profile is considered as a *project* research object.
+         Both Tree of Life (ToL) profile and Genomics profile are considered as *project* or *study* research objects.
 
 .. [#f2] See term: :term:`Tree of Life (ToL) <ToL>`.
 

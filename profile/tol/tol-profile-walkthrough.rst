@@ -10,9 +10,9 @@ samples, barcoding manifests, sequence annotations, reads, assemblies and files.
 A :abbr:`ToL (Tree of Life)` profile can be used to create one of the following biodiversity projects:
 
 * Aquatic Symbiosis Genomics (ASG)
-* European Reference Genome Atlas (ERGA)
-* Darwin Tree of Life Environmental (DTOL_ENV)
 * Darwin Tree of Life (DTOL)
+* Darwin Tree of Life Environmental (DTOL_ENV)
+* European Reference Genome Atlas (ERGA)
 
 .. raw:: html
 
@@ -40,6 +40,8 @@ Steps to Create a Tree of Life Profile
 1. Choose Profile Type
 ~~~~~~~~~~~~~~~~~~~~~~
 
+.. _tol-profile-steps-choose-profile-type-important-note:
+
 .. important::
 
    The profile type dropdown menu is displayed beside the **Work Profiles** page title. By default, it will only
@@ -47,17 +49,33 @@ Steps to Create a Tree of Life Profile
 
    If your desired profile type is not displayed in the dropdown menu, please
    :email:`contact the COPO team <ei.copo@earlham.ac.uk>` indicating the type of profile group that you would
-   like to be granted access to. Thereafter, the desired profile type option will be displayed in the dropdown menu.
+   like to be granted access to. Thereafter, the desired profile type option will be displayed in the dropdown menu
+   (along with the default **Genomics** profile type).
+
+   Please ensure that you select the correct profile type from the dropdown menu when creating a new profile record.
 
 .. hint::
 
    Please see the :ref:`Projects brokered through COPO <copo-project-affiliations>` section for an overview of the
    projects i.e. profile types that are brokered through COPO.
 
-Choose the desired profile type from the dropdown menu
+Choose the desired profile type from the dropdown menu.
 
-Click the |add-profile-button| **Add new profile record** button to view the **Add Profile** form for the desired
-profile type
+See the following screenshot for possible **Tree of Life (ToL)** profile type options.
+
+Please refer to the :ref:`important note <tol-profile-steps-choose-profile-type-important-note>` above if the desired
+profile type is not displayed in the dropdown menu.
+
+.. figure:: /assets/images/profile/profile_add_profile_with_profile_types_dropdown_menu_displayed.png
+   :alt: Profile types dropdown menu when adding a new profile record
+   :align: center
+   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profile/profile_add_profile_with_profile_types_dropdown_menu_displayed?raw=true
+   :class: with-shadow with-border
+
+   **ToL Profile: Dropdown menu showing all profile types; including the default option, ‘Genomics’**
+
+After you have chosen a profile type option, click the |add-profile-button| **Add new profile record** button to view
+the **Add Profile** form for the desired profile type
 
 .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
    :alt: Add new profile record button
@@ -77,8 +95,8 @@ In the **Add Profile** form dialogue, provide details for the new profile.
 See the following sections for more information:
 
    * :ref:`Title & Description <tol-profile-steps-details-title-description>`
-   * :ref:`Choose Associated Profile Type(s) (if required) <tol-profile-steps-details-associated-profile-type>`
-   * :ref:`Choose Sequencing Centre (if required) <tol-profile-steps-details-sequencing-centre>`
+   * :ref:`Choose Associated Profile Type (if applicable) <tol-profile-steps-details-associated-profile-type>`
+   * :ref:`Choose Sequencing Centre (if applicable) <tol-profile-steps-details-sequencing-centre>`
    * :ref:`Input Locus Tag <tol-profile-steps-details-locus-tag>`
    * :ref:`Save Profile Details <tol-profile-steps-details-save-profile-form>`
 
@@ -147,6 +165,9 @@ Select Sequencing Centre (if applicable)
 
          It is mandatory to choose a sequencing centre when creating an :abbr:`ERGA (European Reference Genome Atlas)`
          profile.
+
+        If **Sanger Institute** is selected as the sequencing centre, the **Associated Profile Type** field will
+        automatically be set to **Sanger Institute Approval Needed (SANGER)**.
 
          See the :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
          :abbr:`FAQ (Frequently Asked Question)` for additional information.
@@ -278,10 +299,10 @@ The following component types are currently defined:
 .. [#f2] Also known as COPO profile. See term: :term:`COPO profile`.
 .. [#f3] Also known as profile component. See term: :term:`Profile component`.
 
-         Research objects refer to files, reads, assemblies, files samples,
+         Research objects refer to files, reads, assemblies, samples,
          barcodes (also known as targeted sequences in European Nucleotide Archive (ENA)) and sequence annotations.
 
-         A Tree of Life (ToL) profile is considered as a *project* research object.
+         A Tree of Life (ToL) profile is considered as a *project* or *study* research object.
 .. [#f4] See term: :term:`ENA`.
 .. [#f5] See term: :term:`ERGA`.
 

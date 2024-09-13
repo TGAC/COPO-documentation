@@ -157,7 +157,7 @@ Please follow the steps below to submit virtual samples [#f4]_:
 
          Research objects refer to files, reads, assemblies, files and sequence annotations.
 
-         A Genomics profile is considered as a *project* research object.
+         A Genomics profile is considered as a *project* or *study* research object.
 .. [#f3] See term: :term:`ENA`.
 .. [#f4] See term: :term:`Virtual sample`.
 

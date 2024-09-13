@@ -99,7 +99,7 @@ On Samples web page
 
 #. Select the sample record(s) that you would like to view images for.
 
-   Then, click the |view-images-button1| button to view image(s) submitted for the selected sample record(s).
+   Then, click the |view-images-button1| button to view the image(s) submitted for the selected sample record(s).
 
    .. figure:: /assets/images/samples/samples_pointer_to_view_images_button.png
       :alt: Samples web page with sample record(s) selected and a pointer to the 'View images' button
