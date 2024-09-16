@@ -30,8 +30,8 @@ What are the types of files that are required for assembly submissions in COPO?
 
 .. _faq-assemblies-submission-locus-tag-assignment:
 
-How can I assign my own locus tag to assemblies?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+How can I assign a locus tag to assemblies?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
 
@@ -67,6 +67,31 @@ How can I assign my own locus tag to assemblies?
 
   See `ENA's documentation <https://ena-docs.readthedocs.io/en/latest/faq/locus_tags.html#what-are-locus-tags>`_
   for more details. The documentation outlines rules that the locus tag prefix should conform to.
+
+.. raw:: html
+
+  <br>
+
+How do I determine which SAMPLE accession to choose from the SAMPLE dropdown menu in the ‘Add Assembly’ form for my project?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+  .. hint::
+
+     When submitting assemblies, the sample accession, also known as **sraAccession**, follow the format,
+     ``ERSXXXXXXXX``.
+
+  * The **SAMPLE** dropdown menu in the **Add Assembly** form will display the sraAccession(s) that are associated
+    with samples that have been submitted in COPO.
+
+  * The sraAccession will be displayed in the **sraAccession** column in any data table that is associated with
+    the profile and samples. In terms of assembly submission, the sraAccession will be displayed in the data table on
+    the **Reads** web page (once reads have been submitted).
 
 .. raw:: html
 
@@ -699,6 +724,23 @@ What are the types of files that are required for read submissions in COPO?
 
 .. raw:: html
 
+   <br>
+
+
+Which reads checklist from the dropdown menu on the Reads web page is associated with samples?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   The reads checklist associated with samples in the dropdown menu on the **Reads** web page is marked with an
+   asterisk (*) and is selected by default when the page loads.
+
+.. raw:: html
+
    <hr>
 
 Samples
@@ -706,7 +748,7 @@ Samples
 
 .. _faq-samples-update-successful-validation-but-no-finish-or-confirm-button:
 
-Why is the 'Finish' button (or 'Confirm' button) not visible in the 'Upload Spreadsheet' dialog even though the manifest has been successfully uploaded and validated?
+Why is the ‘Finish’ or ‘Confirm’ button not visible in the ‘Upload Spreadsheet’ dialog after the manifest is successfully uploaded and validated?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
@@ -1217,14 +1259,37 @@ How can I get a better view of sample record information displayed on the Accept
    **Accept or Reject Samples** web page to either hide the profile panel and view more sample records or show the
    profile panel to view more profiles.
 
-
-.. raw:: html
-
-  <br>
-
 .. raw:: html
 
    <hr>
+
+Sequence Annotations
+--------------------
+
+How do I determine which SAMPLE accession to choose from the SAMPLE dropdown menu in the ‘Add Sequence Annotation’ form for my project?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+  .. hint::
+
+     When submitting sequence annotations (also known as tagged sequences), the sample accession, also known as
+     **sraAccession**, follow the format, ``ERSXXXXXXXX``.
+
+  * The **SAMPLE** dropdown menu in the **Add Sequence Annotation** form will display the sraAccession(s) that are
+    associated with samples that have been submitted in COPO.
+
+  * The sraAccession can be found in the **sraAccession** column in any data table that is associated with
+    the profile and samples. In terms of sequence annotation submission, the sraAccession will be displayed in the
+    data table on the **Reads** web page (once reads have been submitted).
+
+.. raw:: html
+
+   <br><hr>
 
 .. rubric:: Footnotes
 
