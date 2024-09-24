@@ -8,8 +8,7 @@ Collaborative OPen Omics (COPO) is a website portal where scientists describe th
 processed data, reads, samples, images etc.) using community-sanctioned metadata sets and vocabularies [#f1]_.
 
 As a metadata broker, COPO encourages data generators to adhere to
-:abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)` [#f2]_ principles when submitting research objects,
-using semantic terms to add meaning to them and specify relationships between them.
+:abbr:`FAIR (Findable, Accessible, Interoperable and Reusable)` [#f2]_ principles when submitting research objects.
 
 COPO uses public or institutional repositories like
 `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
