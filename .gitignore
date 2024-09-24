@@ -6,3 +6,6 @@ _templates
 .DS_Store
 .idea
 venv
+
+# User-specific files
+~$*
