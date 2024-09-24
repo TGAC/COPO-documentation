@@ -138,6 +138,8 @@ do so by :email:`contacting us <ei.copo@earlham.ac.uk>`
 
 **Published on: 28-10-2023**
 
+**Last updated: 24-09-2024**
+
 .. raw:: html
 
    <hr>

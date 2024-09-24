@@ -98,7 +98,7 @@ Terms of Use
 
    <br>
 
-**Last revised: 28-10-2023**
+**Last updated: 28-10-2023**
 
 .. raw:: html
 
