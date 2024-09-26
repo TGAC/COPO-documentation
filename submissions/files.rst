@@ -18,7 +18,7 @@ How to Submit Files
 .. seealso::
 
   * :ref:`How to Delete Files <files-deletion>`
-  * :ref:`How to check if data files associated with a metadata submission have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
+  * :ref:`How to check if data files for metadata submissions have been processed after upload to ENA <files-ena-file-processing-status>`
   * :ref:`Files FAQ <faq-files>`
   * :ref:`How to Submit Reads <reads>`
   * :ref:`How to Submit Assemblies <assemblies>`
@@ -265,31 +265,34 @@ Click the desired file from the list of files displayed on the Files' web page. 
 
    <hr>
 
-.. _files-ena-upload-status-after-copo-metadata-submission:
+.. _files-ena-file-processing-status:
 
-Checking ENA File Upload Status
---------------------------------
+Checking ENA File Processing Status
+------------------------------------
 
 .. note::
 
    A reads, annotations or assembly submission must be completed before the file(s) can be uploaded to
    ENA (European Nucleotide Archive).
 
-After having completed a reads, annotations or assembly submission and associated a file(s) to it during the
-submission process in COPO, the file(s) are submitted to ENA (European Nucleotide Archive).
+After completing a reads, annotations or assembly submission and associating file(s) with it in COPO during the
+submission process, the file(s) are submitted to ENA (European Nucleotide Archive).
 
-The status of the file(s) uploaded to the :abbr:`ENA (European Nucleotide Archive)` can be checked in the column,
-**ENA File Processing Status**, on the reads, annotations or assembly web page.
+The upload status from COPO to :abbr:`ENA (European Nucleotide Archive)` is displayed in the **ENA FILE UPLOAD STATUS**
+column. This status shows whether the file(s) have been successfully uploaded to
+:abbr:`ENA (European Nucleotide Archive)` after submission.
 
-The **ENA File Processing Status** column is highlighted with a red rectangle border in the image below:
+The file processing status of the file(s) uploaded to the :abbr:`ENA (European Nucleotide Archive)` can be checked in
+the column, **ENA FILE PROCESSING STATUS**, on the reads, sequence annotations or assembly web page. This status
+indicates that :abbr:`ENA (European Nucleotide Archive)` is verifying and validating the submitted file(s).
+
+The **ENA FILE PROCESSING STATUS** column is highlighted with a red rectangle border in the image below:
 
 .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
    :alt: ENA (European Nucleotide Archive) File Processing Status column on the reads, annotations or assembly web page
    :align: center
    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
    :class: with-shadow with-border
-
-   **ENA File Processing Status: The status of the file(s) uploaded to ENA (European Nucleotide Archive)**
 
 .. raw:: html
 

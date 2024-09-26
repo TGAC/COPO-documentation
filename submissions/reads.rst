@@ -18,7 +18,7 @@ How to Submit Reads
   * :ref:`How to Update Reads <reads-update>`
   * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
   * :ref:`How to Submit Files <files>`
-  * :ref:`How to check if data files associated with reads submissions have uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
+  * :ref:`How to check if data files for reads submissions have been processed after upload to ENA <files-ena-file-processing-status>`
   * :ref:`Types of Files for Read Submissions <faq-reads-submission-file-types>`
 
 .. raw:: html

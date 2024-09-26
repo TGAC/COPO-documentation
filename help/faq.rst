@@ -157,7 +157,7 @@ Files
 How do I know when data files that have been uploaded to COPO are public at European Nucleotide Archive (ENA)?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-See :ref:`files-ena-upload-status-after-copo-metadata-submission` section for more information.
+See :ref:`files-ena-file-processing-status` section for more information.
 
 .. raw:: html
 

@@ -15,7 +15,7 @@ Assembly Submission
   * :ref:`How to Delete Assemblies <assemblies-deletion>`
   * :ref:`How to Submit Files <files>`
   * :ref:`Types of Files for Assembly Submissions <faq-assemblies-submission-file-types>`
-  * :ref:`How to check if data files associated with assembly submissions have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
+  * :ref:`How to check if data files for assembly submissions have been processed after upload to ENA <files-ena-file-processing-status>`
   * :ref:`Creating a custom Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
 
 .. raw:: html

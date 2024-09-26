@@ -12,7 +12,7 @@ Sequence Annotations Submission
 
   * :ref:`How to Update Sequence Annotations <sequence-annotations-update>`
   * :ref:`How to Delete Sequence Annotations <sequence-annotations-deletion>`
-  * :ref:`How to check if data files associated with sequence annotation submissions have been uploaded to ENA <files-ena-upload-status-after-copo-metadata-submission>`
+  * :ref:`How to check if data files for sequence annotation submissions have been processed after upload to ENA <files-ena-file-processing-status>`
   * :ref:`How to Submit Reads <reads>`
 
 .. raw:: html
