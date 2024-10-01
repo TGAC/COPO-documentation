@@ -9,6 +9,10 @@ linked data.
 
 In COPO, the FAIR principles are applied as follows:
 
+.. seealso::
+
+    `COPO's FAIRsharing resource <https://doi.org/10.25504/FAIRsharing.91a79b>`__
+
 .. raw:: html
 
    <hr>
@@ -18,6 +22,7 @@ Findable
 
 Using DataTables' search engine
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 COPO uses :term:`DataTables` to display tabular data. The data are indexed in the DataTables' *smart* search engine
 and the search box is accessible within each table of data; it is located at the top right of the table. The search
 engine is updated automatically when metadata is added or updated.
@@ -33,8 +38,10 @@ DataTables.
 
 Using COPO API
 ~~~~~~~~~~~~~~~~~~~~
+
 Metadata can also be found via the :ref:`COPO API <copo-api>`.
 
+See :ref:`copo-api` section for more information.
 
 .. raw:: html
 
@@ -43,6 +50,7 @@ Metadata can also be found via the :ref:`COPO API <copo-api>`.
 
 Accessible
 ----------
+
 The required data can be retrieved freely with unrestricted access or via authentication and authorisation mechanisms,
 where necessary.
 
@@ -62,6 +70,7 @@ the COPO API.
 
 Reusable
 ----------
+
 Metadata are well-described with a plurality of accurate and relevant attributes. They are published to public
 repositories and can be accessed with the COPO API via a clear and accessible data usage.
 

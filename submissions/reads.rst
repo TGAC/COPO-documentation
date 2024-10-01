@@ -63,12 +63,14 @@ Upload Reads
    * For guidance on how to fill in the **Reads** manifest to submit *paired* reads, please see the
      :ref:`Reads manifest for paired reads <faq-reads-manifest-paired-reads>` :abbr:`FAQ (Frequently Asked Question)`.
 
-.. important::
+.. warning::
 
-   The **reads** checklist dropdown menu is only available for **Genomics** profiles.
+   If you are submitting a **Reads** manifest that includes the column, ``Sample``, please ensure that the sample alias
+   (i.e. sample name or accession number) is accurate. Once submitted, the value **cannot** be changed. Reads
+   uploaded to COPO will also be sent to :abbr:`ENA (European Nucleotide Archive)`.
 
-   If you are submitting **reads** for a profile other than a Genomics profile, please proceed to upload the reads
-   from your local file system after you have clicked the |add-reads-manifest-button| button.
+   This is important because the ``Sample`` column serves as the key for each row in the **Reads** manifest. Each
+   unique sample in the manifest corresponds to a different biosample.
 
 .. note::
 
@@ -77,8 +79,10 @@ Upload Reads
    profiles on COPO.
 
 
-#. On the **Reads'** web page, click the checklist dropdown to view a list of available checklists that support **Reads'**
-   submission as shown below:
+#. On the **Reads** web page, click the checklist dropdown to view a list of available checklists that support **Reads'**
+   submission as shown below.
+
+   Please note that the checklist options may vary depending on the type of profile you are submitting reads for.
 
     .. figure:: /assets/images/reads/reads_with_checklist_dropdown_list.png
       :alt: Available checklist options
@@ -87,6 +91,10 @@ Upload Reads
       :class: with-shadow with-border
 
       **Reads' web page: Checklist dropdown menu with checklist options displayed**
+
+    .. raw:: html
+
+       <br>
 
     An overview of each **Reads** checklist option is explained in the :ref:`Reads' checklist section <sample-manifest-checklists>`.
 
