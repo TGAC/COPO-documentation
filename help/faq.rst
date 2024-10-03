@@ -587,6 +587,8 @@ How can I create components for a profile?
 
    <br>
 
+.. _faq-profiles-releasing-profiles:
+
 How can I make profiles or projects public or visible in European Nucleotide Archive (ENA)?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -596,11 +598,44 @@ How can I make profiles or projects public or visible in European Nucleotide Arc
 
       <br>
 
+   .. hint::
+
+      Profiles (in COPO) are referred to as projects or studies (in :abbr:`ENA (European Nucleotide Archive)`).
+
    See :ref:`releasing-profiles` section for more information.
 
 .. raw:: html
 
+   <br>
+
+.. _faq-profiles-view-released-studies:
+
+How can I view released studies on European Nucleotide Archive (ENA)?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. hint::
+
+      Profiles (in COPO) are referred to as projects or studies (in :abbr:`ENA (European Nucleotide Archive)`).
+
+   If you know the project accession and/or profile title, you can find the corresponding project on the
+   `Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__. By clicking the hyperlink
+   associated with the project accession, you will be navigated to the associated study record on
+   :abbr:`ENA (European Nucleotide Archive)`.
+
+   .. seealso::
+
+        :ref:`Retrieving accessions <accessions-dashboard>` section for more information.
+
+.. raw:: html
+
    <hr>
+
 .. raw:: html
 
    <br>

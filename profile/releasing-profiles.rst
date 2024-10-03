@@ -16,9 +16,11 @@ Releasing Profiles (Studies)
    Thus, the **Release Study** profile option button, |release-profile-button|, should be clicked after reads have been
    submitted.
 
-By default, all profiles [#f1]_ created in COPO are private. This means that the profile is only visible to the user who
-created it on COPO and as such, it cannot be accessed on public repositories such as
-:abbr:`ENA (European Nucleotide Archive)` [#f2]_.
+.. seealso::
+
+   * :ref:`View Released Study on ENA <faq-profiles-view-released-studies>`
+
+   * :ref:`View Release Study Status <faq-profiles-view-more-information>`
 
 To make a profile public, please follow the steps below:
 
