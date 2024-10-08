@@ -204,7 +204,7 @@ Input Locus Tag (if applicable)
       <br>
 
    If applicable, input the :abbr:`ENA (European Nucleotide Archive)` [#f4]_ **Locus Tag** in the form box.
-   Please refer to the :ref:`Locus tag prefix creation <faq-assemblies-submission-locus-tag-assignment>`
+   Please refer to the :ref:`How can I assign a locus tag to assemblies <faq-assemblies-submission-locus-tag-assignment>`
    :abbr:`FAQ (Frequently Asked Question)` for guidelines.
 
    .. raw:: html

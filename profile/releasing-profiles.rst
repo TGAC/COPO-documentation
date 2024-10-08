@@ -22,6 +22,8 @@ Releasing Profiles (Studies)
 
    * :ref:`View Release Study Status <faq-profiles-view-more-information>`
 
+   * :ref:`How to Submit Reads <reads>`
+
 To make a profile public, please follow the steps below:
 
 #. Click the |vertical-ellipsis-icon| button associated with the desired profile. The option to release the profile
@@ -30,7 +32,7 @@ To make a profile public, please follow the steps below:
    Then, click the |release-profile-button| button to make the profile public as shown below depending on
    the profile type.
 
-   The profile i.e. project will be automatically be made public and can be viewed publicly in
+   The profile, i.e. the project, will automatically be made public and can be viewed publicly in
    :abbr:`ENA (European Nucleotide Archive)`.
 
    .. figure:: /assets/images/profile/profile_options_release_study.png
@@ -48,13 +50,6 @@ To make a profile public, please follow the steps below:
    See the :ref:`View more COPO profile information <faq-profiles-view-more-information>`
    :abbr:`FAQ (Frequently Asked Question)` for more details.
 
-.. raw:: html
-
-   <br>
-
-.. seealso::
-
-   * :ref:`How to Submit Reads <reads>`
 
 .. raw:: html
 

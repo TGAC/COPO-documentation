@@ -100,8 +100,10 @@ How do I determine which SAMPLE accession to choose from the SAMPLE dropdown men
 Dashboard
 --------------------
 
-How can I view accessions after I have submitted samples, reads, or experiments in COPO?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _faq-dashboard-accessions-dashboard:
+
+How can I view accessions after a metadata submission is made in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::  Click to view answer
 
@@ -118,11 +120,31 @@ How can I view accessions after I have submitted samples, reads, or experiments 
      project :abbr:`ID (identifier)` (also known as study :abbr:`ID (identifier)` or profile :abbr:`ID (identifier)`)
      associated with the profile used to submit the files in COPO.
 
-   * Click the |accessions-dashboard-button| button.
+  **Option 1**: View accessions in the data table
+     Scroll to any column that ends with ``accession`` as depicted in the image below to view the accessions.
 
-   * The accessions dashboard will be displayed.
+     .. note::
 
-   * Alternatively, navigate to the `Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__.
+        The table row is highlighted in red in the image below because the files associated with the
+        record are either still being processed or have encountered issues during processing.
+
+     .. figure:: /assets/images/reads/reads_table_showing_accessions.png
+        :alt: Accessions column in the data table
+        :align: center
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_table_showing_accessions.png
+        :class: with-shadow with-border
+        :height: 300px
+
+         **Accessions column in the data table**
+
+  **Option 2**: Accessions web page
+     * Click the |accessions-icon| button.
+
+     * The accessions web page will be displayed.
+
+  **Option 3**: Accessions dashboard
+     Navigate to the `Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__ to view
+     accessions
 
 .. raw:: html
 
@@ -1339,7 +1361,7 @@ How do I determine which SAMPLE accession to choose from the SAMPLE dropdown men
    :height: 4ex
    :class: no-scaled-link
 
-.. |accessions-dashboard-button| image:: /assets/images/buttons/dashboard_accessions_button.png
+.. |accessions-icon| image:: /assets/images/buttons/components_accessions_icon.png
    :height: 4ex
    :class: no-scaled-link
 

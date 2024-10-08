@@ -204,6 +204,11 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 
   **Reads submission: The Read has been submitted**
 
+.. hint::
+
+   To view accessions associated with the submitted reads, click the **Accessions** button located in the top-right
+   corner of the table.
+
 .. raw:: html
 
    <br>

@@ -44,6 +44,14 @@ Steps to Create a Genomics Profile
 
 #. Provide details for the new profile then, click **Save**
 
+   If applicable, input the :abbr:`ENA (European Nucleotide Archive)` [#f3]_ **Locus Tag** in the form box.
+   Please refer to the :ref:`How can I assign a locus tag to assemblies <faq-assemblies-submission-locus-tag-assignment>`
+   :abbr:`FAQ (Frequently Asked Question)` for guidelines.
+
+    .. raw:: html
+
+       <br>
+
     .. figure:: /assets/images/profile/profile_add_profile_form_web_page_genomics.png
       :alt: Add profile form
       :align: center
@@ -108,7 +116,7 @@ The following component types are currently defined:
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components.png
       :class: with-shadow with-border
-      :height: 650px
+      :height: 250px
 
       **Genomics Profile Components**
 
