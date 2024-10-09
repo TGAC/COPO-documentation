@@ -95,6 +95,50 @@ How do I determine which SAMPLE accession to choose from the SAMPLE dropdown men
 
 .. raw:: html
 
+  <br>
+
+.. _faq-assemblies-simultaneous-submission:
+
+Are assemblies and sequence annotations submitted at the same time in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   No, assemblies and sequence annotations are submitted separately in COPO.
+
+   It is possible that the notion of `simultaneous submission` arises from the use of the
+   :abbr:`EMBL (and sequence annotations submitted at the)` flat file format, which combines both annotated assemblies
+   and sequence annotations. This may lead to the impression of a simultaneous submission.
+
+   If you are submitting sequence annotations directly to the :abbr:`ENA (European Nucleotide Archive)`, EMBL files
+   must be used, as they include both assemblies and annotations together.
+
+   On the other hand, sequence annotations can be submitted separately to ENA if your data files are in formats such as
+   ``.gff`` or ``.fasta``.
+
+   .. note::
+
+     File submissions depend on how users prepare and generate their data. For instance, :abbr:`FASTA (Fast-All)` files
+     are still essential for storing and sharing sequence data but, they are not sufficient for representing detailed
+     genomic annotations.
+
+     For annotation tasks, formats like :abbr:`GFF (General feature format)`, :abbr:`GTF (Gene transfer format)`
+     and :abbr:`BED (Browser Extensible Data)` are more appropriate because they provide structured information
+     about genomic features, gene structures and functional elements. Thus, while FASTA is not outdated, it is often
+     used alongside more specialised formats for annotation purposes.
+
+   Please refer to the following sections in ENA's documentation for more information:
+
+    * `Analysis File Groups <https://ena-docs.readthedocs.io/en/latest/submit/analyses.html#analysis-file-groups>`__
+
+    * `Files Required for Genome Assembly Submissions <https://ena-docs.readthedocs.io/en/latest/submit/assembly.html#files-for-genome-assembly-submissions>`__
+
+.. raw:: html
+
    <hr>
 
 Dashboard
@@ -135,7 +179,7 @@ How can I view accessions after a metadata submission is made in COPO?
         :class: with-shadow with-border
         :height: 300px
 
-         **Accessions column in the data table**
+        **Accessions column in the data table**
 
   **Option 2**: Accessions web page
      * Click the |accessions-icon| button.
@@ -798,6 +842,44 @@ Which reads checklist from the dropdown menu on the Reads web page is associated
 
 .. raw:: html
 
+   <br>
+
+.. _faq-reads-update-errors:
+
+What factors can lead to errors during the reads update process in the COPO project?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. hint::
+
+      The words, ``manifest`` and ``checklist`` are used interchangeably. They both refer to a spreadsheet.
+
+   Errors occur due to several reasons. An error message will be displayed detailing the issue(s) encountered and
+   potential resolution(s). If you are uncertain how to proceed, please contact the
+   :email:`COPO team <ei.copo@earlham.ac.uk>`.
+
+   Updates to reads can be made by uploading the amended manifest to the same checklist and profile initially used
+   for the submission. Please note that this is possible if the values in the ``Sample``, ``File checksum``,
+   ``File name`` and ``Library layout`` columns remain unchanged in the manifest. If any of these values change, errors
+   will occur during the update process.
+
+   This is because the value in the ``Sample`` column serves as the key for each row in the **Reads**
+   manifest. Each unique sample in the manifest corresponds to a different biosample, which is linked to the values in
+   the ``File checksum``, ``File name`` and ``Library layout`` columns.
+
+   Other potential reasons for errors include but are not limited to:
+
+      * Uploading null or empty files and associating them with rows in the manifest
+
+      * Assigning files to samples that already have the same files attached will produce errors
+
+.. raw:: html
+
    <hr>
 
 Samples
@@ -1343,6 +1425,15 @@ How do I determine which SAMPLE accession to choose from the SAMPLE dropdown men
   * The sraAccession can be found in the **sraAccession** column in any data table that is associated with
     the profile and samples. In terms of sequence annotation submission, the sraAccession will be displayed in the
     data table on the **Reads** web page (once reads have been submitted).
+
+.. raw:: html
+
+  <br>
+
+Are sequence annotations and assemblies submitted at the same time in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+See answer :ref:`here <faq-assemblies-simultaneous-submission>`
 
 .. raw:: html
 

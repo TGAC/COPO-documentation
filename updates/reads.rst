@@ -11,8 +11,17 @@ This section describes how to update **Reads** for a given checklist. The **Read
 
   * Reads must be uploaded before they can be updated.
 
+  * Updates to reads can **only** be done if the values in the ``Sample``, ``File checksum``, ``File name`` and
+    ``Library layout`` remain the same in the manifest. If any of these values change, errors will occur during the
+    update process.
+
+    This is because the value in the ``Sample`` column serves as the key for each row in the **Reads**
+    manifest. Each unique sample in the manifest corresponds to a different biosample which is linked or tied to the
+    value in the ``File checksum``, ``File name`` and ``Library layout`` columns.
+
 .. seealso::
 
+  * :ref:`Resolving Errors during Reads Update <faq-reads-update-errors>`
   * :ref:`How to Submit Reads <reads>`
   * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
   * :ref:`How to Submit Files <files>`
