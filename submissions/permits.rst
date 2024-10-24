@@ -14,16 +14,16 @@ How to Submit Permits
    * Permits can only be submitted via a :abbr:`ToL (Tree of Life)` [#f2]_ profile [#f3]_. Please see:
      :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
-   * If you are using a Windows operating system (OS) to upload permits, the filename of the permits should exclude
+   * If you are using a Windows operating system (OS) to upload permits, the file name of the permits should exclude
      the extension  ``.pdf`` or ``.PDF``. This is because Windows OS by default, hides file extensions which results in
      it not being visible to you.
 
      If you would like to see the file extension, you can enable it by following these
      `guidelines <https://support.microsoft.com/en-gb/windows/common-file-name-extensions-in-windows-da4a4430-8e76-89c5-59f7-1cdbbc75cb01>`__.
 
-     Ultimately, the permit filename should be in the format: ``permit_name.pdf`` **not** ``permit_name.pdf.pdf``.
+     Ultimately, the permit file name should be in the format: ``permit_name.pdf`` **not** ``permit_name.pdf.pdf``.
 
-   * COPO automatically appends the permit filename with the date of the submission during the permit submission
+   * COPO automatically appends the permit file name with the date of the submission during the permit submission
      process. This is to ensure that the permit file name is unique.
 
      For example, if a permit with the file name ``permit_name.pdf`` is uploaded, COPO will append the date to the file

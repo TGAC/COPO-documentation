@@ -238,10 +238,77 @@ Why can't I upload more data files in COPO?
 
       <br>
 
+   .. note::
+
+      The total **maximum** file size that can be uploaded from your local (computer) system is around **2 GB**. If you
+      have a file larger than 2 GB or have multiple files whose combined total size exceeds 2 GB, please
+      :ref:`submit the file(s) via the terminal <files-submission-via-terminal>`.
+
    If you cannot upload new files to COPO on the **Files** web page, it is likely that you have reached the maximum
    number of data files that can be uploaded.
 
    Please delete some files to free up space for new files.
+
+.. raw:: html
+
+   <hr>
+
+.. _faq-images:
+
+Images
+--------
+
+How can I submit images in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::   Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Please see the :ref:`images-submission` section for guidance on how to submit images in COPO.
+
+.. raw:: html
+
+   <br
+
+.. _faq-images-submission-errors:
+
+What are the factors that can lead to errors during the image upload process in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+
+      * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialogue.
+
+      * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
+        for guidance.
+
+      * The file name of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
+        ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the file.
+
+   Errors occur due to several reasons. An error message will be displayed detailing the issue(s) encountered and
+   potential resolution(s). If you are uncertain how to proceed, please contact the
+   :email:`COPO team <ei.copo@earlham.ac.uk>`.
+
+   Other potential reasons and solutions for errors include but are not limited to:
+
+      * Uploading images where the total size of the images exceeds **2GB** (the maximum allowable file size) may
+        result in errors.
+
+        Common web browser error messages include ``Error 0: error`` though the specific message may vary by browser,
+        as the error is browser-generated.
+
+        **Workaround**: Upload smaller batches of images separately. You will need to first upload the manifest, any
+        applicable permits, and then upload the images in batches, as images cannot be uploaded directly and all at
+        once.
 
 .. raw:: html
 
@@ -373,14 +440,14 @@ How can I resolve 'Conflicting data...' error when uploading permits in COPO aft
 
    The error message ``Conflicting data`` is displayed when at least one of the following occurs:
 
-   * The permit filename provided in the manifest does not end with the extension ``.pdf`` or ``.PDF``
+   * The permit file name provided in the manifest does not end with the extension ``.pdf`` or ``.PDF``
 
-     **Resolution**: Rename the name of the permit file so that it ends with the extension, ``.pdf`` or ``.PDF`` then, reupload the
-     manifest
+     **Resolution**: Rename the name of the permit file so that it ends with the extension, ``.pdf`` or ``.PDF`` then,
+     reupload the manifest
 
-   * In the uploaded manifest, different permit filenames are associated with the same **SPECIMEN_ID**
+   * In the uploaded manifest, different permit file names are associated with the same **SPECIMEN_ID**
 
-     **Resolution**: Provide a unique permit filename for each **SPECIMEN_ID** or provide the same filename for
+     **Resolution**: Provide a unique permit file name for each **SPECIMEN_ID** or provide the same file name for
      permit files that are associated with the same **SPECIMEN_ID** in the manifest. Then, reupload the manifest.
 
 .. raw:: html
@@ -403,7 +470,7 @@ Why do I encounter the error 'No xx permit found for xx 'SPECIMEN_ID'...Filename
      **Resolution**: Please refer to :ref:`faq-permits-error-uploading-multiple-permits-separately`
      :abbr:`FAQ (Frequently Asked Question)` for more information.
 
-   * The permit filename uploaded from your local system actually ends with ``.pdf.pdf`` (or ``.PDF.PDF``) and not
+   * The permit file name uploaded from your local system actually ends with ``.pdf.pdf`` (or ``.PDF.PDF``) and not
      ``.pdf`` (or ``.PDF``)
 
      **Resolution**: Ensure that the name of the permit file ends with the ``.pdf`` or ``.PDF`` extension only.
@@ -846,8 +913,8 @@ Which reads checklist from the dropdown menu on the Reads web page is associated
 
 .. _faq-reads-update-errors:
 
-What factors can lead to errors during the reads update process in the COPO project?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What are the factors that lead to errors during the reads update process in the COPO project?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
 

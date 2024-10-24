@@ -14,12 +14,14 @@ How to Submit Images
    * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
      for guidance.
 
-   * The filename of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
-     ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the file.
+   * The file name of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
+     ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the
+     file.
 
 .. seealso::
 
   * :ref:`Viewing Submitted Images <images-submission-view-images>`
+  * :ref:`Images Submission FAQ <faq-images-submission>`
   * :ref:`Permits Submission <permits-submission>`
   * :ref:`How to Submit ASG Manifests <tol-asg-manifest-submissions>`
   * :ref:`How to Submit DToL Manifests <tol-dtol-manifest-submissions>`

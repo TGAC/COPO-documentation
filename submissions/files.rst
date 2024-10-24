@@ -169,7 +169,7 @@ Submit Files via the Terminal
       :class: with-shadow with-border
       :height: 400px
 
-      **Move Data dialogue: Input the filename(s) returned after having ran the** $ ``ls - F1`` **command in the
+      **Move Data dialogue: Input the file name(s) returned after having ran the** $ ``ls - F1`` **command in the
       terminal. Then, click the** ``Process`` **button.**
 
       .. raw:: html
