@@ -1035,6 +1035,8 @@ Can I delete samples that have submitted?
 
    <br>
 
+.. _faq-samples-download-sample-manifest:
+
 Can I retrieve samples or the manifest that have been submitted?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1045,6 +1047,39 @@ Can I retrieve samples or the manifest that have been submitted?
       <br>
 
    Yes, see the :ref:`downloading-submitted-sample-manifest` section for more information.
+
+.. raw:: html
+
+   <br>
+
+.. _faq-samples-download-sample-manifest-incorrect-sample-metadata:
+
+Why doesn’t the downloaded sample manifest contain the correct samples or metadata?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   When you click the |download-sample-manifest-button| button, the samples downloaded are associated with a specific
+   manifest ID, which can be found in the **Manifest Identifier** column of the data table.
+
+   If multiple manifests are uploaded to the same profile, each will have a different manifest ID, so ensure you click
+   the |download-sample-manifest-button| button for the record corresponding to the manifest ID you need.
+
+   .. raw:: html
+
+      <br>
+
+   **Guidance**: Check the **Manifest Identifier** column to ensure the manifest ID is the same for all the samples you
+   wish to download. If you identify records with different manifest IDs, click on each record with a different
+   manifest ID and then click the |download-sample-manifest-button| button to download the samples associated with that
+   specific ID.
+
+   In summary, if there are records with varying manifest IDs, you will need to click each record one by one then,
+   click the |download-sample-manifest-button| button for each to download the correct manifest.
 
 .. raw:: html
 
@@ -1529,6 +1564,10 @@ See answer :ref:`here <faq-assemblies-simultaneous-submission>`
 
 .. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
    :height: 2ex
+   :class: no-scaled-link
+
+.. |download-sample-manifest-button| image:: /assets/images/buttons/samples_download_manifest_button.png
+   :height: 4ex
    :class: no-scaled-link
 
 .. |download-permits-button1| image:: /assets/images/buttons/permits_download_button1.png

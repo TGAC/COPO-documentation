@@ -60,6 +60,9 @@ How to Download Submitted Sample Manifest
 
    * At least one sample record (in a manifest) must be submitted before a manifest can be downloaded.
 
+     See the :ref:`Download sample manifest FAQ <faq-samples-download-sample-manifest-incorrect-sample-metadata>`
+     section for more information.
+
    * The colour of the |add-manifest-button| button is based on the type of profile that you are making a submission to.
 
      See the :ref:`profile-types-legend` section regarding the colour code for the various types of project
@@ -74,6 +77,17 @@ The following steps describe how to download a submitted sample manifest:
 #. On the **Samples** web page, select **only one** sample record from the sample record table displayed.
 
    Then, click the |download-sample-manifest-button| button to download the manifest.
+
+   **Note**: The record that you click the |download-sample-manifest-button| on is associated with a particular
+   manifest ID so all samples associated with that manifest ID will be downloaded. The manifest ID value can be viewed
+   in the **Manifest Identifier** column in the data table.
+
+   See the :ref:`Download sample manifest FAQ <faq-samples-download-sample-manifest-incorrect-sample-metadata>` section
+   for more information.
+
+   .. raw:: html
+
+      <br>
 
    .. hint::
 
