@@ -10,7 +10,7 @@ http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
 ## Getting Started
 Clone the COPO **Documentation** GitHub repository: 
 
-$ `git clone https://github.com/collaborative-open-plant-omics/Documentation.git`
+$ `git clone https://github.com/TGAC/COPO-documentation.git`
 
 ## Create a Python virtual environment locally
 1. Navigate to the (cloned) project folder
