@@ -110,7 +110,7 @@ Glossary
      ENA is part of the `International Nucleotide Sequence Database Collaboration (INSDC) <https://www.insdc.org/>`__,
      which comprises the `DNA DataBank of Japan (DDBJ) <https://www.ddbj.nig.ac.jp/index-e.html>`__,
      the `European Molecular Biology Laboratory (EMBL) <https://www.embl.org/>`__,
-     and GenBank at the `National Center for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+     and GenBank at the `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
 
    :abbr:`ERGA (European Reference Genome Atlas)`
      A `project <https://www.erga-biodiversity.eu>`__ that revolves around a pan-European scientific response to
@@ -176,7 +176,7 @@ Glossary
    MongoDB
      A document-oriented database program that uses JSON-like documents with optional schemas.
 
-   :abbr:`NCBI (National Center for Biotechnology Information)`
+   :abbr:`NCBI (National Centre for Biotechnology Information)`
      `NCBI <https://www.ncbi.nlm.nih.gov>`__ is a :abbr:`US (United States)` government-funded public repository
      for biological data that provides free access to biomedical and genomic information.
 

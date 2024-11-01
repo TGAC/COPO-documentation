@@ -12,7 +12,7 @@ As a metadata broker, COPO encourages data generators to adhere to
 
 COPO uses public or institutional repositories like
 `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
-`National Center for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__ to share the
+`National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__ to share the
 research objects to the wider scientific community.
 
 COPO is developed by a team of Research Software Engineers at the `Earlham Institute <https://www.earlham.ac.uk/>`__.

@@ -139,6 +139,27 @@ Are assemblies and sequence annotations submitted at the same time in COPO?
 
 .. raw:: html
 
+  <br>
+
+Are accessions assigned in assembly submissions after studies are released?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   No, accessions are assigned after assembly submissions are done in COPO.
+
+   The study release only makes the submissions public and available for viewing on repositories such as the
+   `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
+   `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+
+   See the :ref:`accessions-dashboard` section for more information.
+
+.. raw:: html
+
    <hr>
 
 Dashboard
@@ -973,6 +994,27 @@ What are the factors that lead to errors during the reads update process in the 
 
 .. raw:: html
 
+  <br>
+
+Are accessions assigned in reads submissions after studies are released?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   No, accessions are assigned after reads submissions are done in COPO.
+
+   The study release only makes the submissions public and available for viewing on repositories such as the
+   `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
+   `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+
+   See the :ref:`accessions-dashboard` section for more information.
+
+.. raw:: html
+
    <hr>
 
 Samples
@@ -1200,6 +1242,27 @@ Why do I get a 'PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING' error when uploading or 
    unique name:id and separated by \"|\" and the ID should be registered already.``, when trying to upload or update
    the field, **PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING**, in a manifest, please ensure that the format of the ID is
    ``institution_unique_name:collection_code:voucher_id institution_unique_name:voucher_Id``.
+
+.. raw:: html
+
+  <br>
+
+Are accessions assigned in sample submissions after sample manifests are uploaded?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   No, accessions are assigned after sample submissions have been accepted by a sample manager.
+
+   The acceptance makes the submissions public and available for viewing on repositories such as the
+   `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
+   `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+
+   See the :ref:`accessions-dashboard` section for more information.
 
 .. raw:: html
 
@@ -1562,6 +1625,27 @@ Are sequence annotations and assemblies submitted at the same time in COPO?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 See answer :ref:`here <faq-assemblies-simultaneous-submission>`
+
+.. raw:: html
+
+  <br>
+
+Are accessions assigned in sequence annotation submissions after studies are released?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   No, accessions are assigned after sequence annotation submissions are done in COPO.
+
+   The study release only makes the submissions public and available for viewing on repositories such as the
+   `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`__ and
+   `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
+
+   See the :ref:`accessions-dashboard` section for more information.
 
 .. raw:: html
 
