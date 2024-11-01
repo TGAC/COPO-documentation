@@ -13,6 +13,10 @@ Releasing Profiles (Studies)
 
    The ability to make a profile public is **only** available after reads have been submitted.
 
+   By default, after reads have been submitted, the project is private and the release date is set to two years from
+   the submission date. However, the project can be made public at any time before the release date by following the
+   steps below.
+
    Thus, the **Release Study** profile option button, |release-profile-button|, should be clicked after reads have been
    submitted.
 

@@ -736,6 +736,32 @@ How can I make profiles or projects public or visible in European Nucleotide Arc
       Profiles (in COPO) are referred to as projects or studies (in :abbr:`ENA (European Nucleotide Archive)`).
 
    See :ref:`releasing-profiles` section for more information.
+.. raw:: html
+
+   <br>
+
+.. _faq-profiles-releasing-profiles-set-release-date:
+
+How can I set the release date for public profiles or projects after having submitted reads?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. hint::
+
+      Profiles (in COPO) are referred to as projects or studies (in :abbr:`ENA (European Nucleotide Archive)`).
+
+   It is not possible to set the release date for profiles or projects after reads have been submitted.
+
+   By default, once reads are submitted, the project is private and the release date is set to two years from
+   the submission date.
+
+   You can, however, make the project public at any time before the release date by following the steps below or refer
+   to the :ref:`releasing-profiles` section to make the profile public at any time after the submission.
 
 .. raw:: html
 
