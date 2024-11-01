@@ -12,11 +12,12 @@ Assembly Submission
 
 .. seealso::
 
-  * :ref:`How to Delete Assemblies <assemblies-deletion>`
-  * :ref:`How to Submit Files <files>`
-  * :ref:`Types of Files for Assembly Submissions <faq-assemblies-submission-file-types>`
-  * :ref:`How to check if data files for assembly submissions have been processed after upload to ENA <files-ena-file-processing-status>`
-  * :ref:`Creating a custom Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
+   * :ref:`How to Delete Assemblies <assemblies-deletion>`
+   * :ref:`How to Submit Files <files>`
+   * :ref:`Types of Files for Assembly Submissions <faq-assemblies-submission-file-types>`
+   * :ref:`How to check if data files for assembly submissions have been processed after upload to ENA <files-ena-file-processing-status>`
+   * :ref:`Creating a custom Locus Tag Prefix to Assemblies <faq-assemblies-submission-locus-tag-assignment>`
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 
@@ -97,10 +98,13 @@ Submit Assembly
 
       **Assembly submission: Assembly web page displaying the uploaded assemblies**
 
-    .. raw:: html
+.. raw:: html
 
-       <br><br>
+   <br>
 
+.. seealso::
+
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 

@@ -32,12 +32,13 @@ Click the links below to learn more about each type of manifest submission:
 
 .. seealso::
 
-    * :ref:`How to access Samples web page <accessing-samples-web-page>`
-    * :ref:`How to submit Assemblies <assemblies>`
-    * :ref:`Barcoding manifest submissions <barcoding-manifest-submissions>`
-    * :ref:`How to upload Files <files>`
-    * :ref:`How to submit Reads <reads>`
-    * :ref:`How to submit Sequence Annotations <sequence-annotations>`
+   * :ref:`How to access Samples web page <accessing-samples-web-page>`
+   * :ref:`How to submit Assemblies <assemblies>`
+   * :ref:`Barcoding manifest submissions <barcoding-manifest-submissions>`
+   * :ref:`How to upload Files <files>`
+   * :ref:`How to submit Reads <reads>`
+   * :ref:`How to submit Sequence Annotations <sequence-annotations>`
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 

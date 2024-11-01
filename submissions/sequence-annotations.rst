@@ -10,10 +10,11 @@ Sequence Annotations Submission
 
 .. seealso::
 
-  * :ref:`How to Update Sequence Annotations <sequence-annotations-update>`
-  * :ref:`How to Delete Sequence Annotations <sequence-annotations-deletion>`
-  * :ref:`How to check if data files for sequence annotation submissions have been processed after upload to ENA <files-ena-file-processing-status>`
-  * :ref:`How to Submit Reads <reads>`
+   * :ref:`How to Update Sequence Annotations <sequence-annotations-update>`
+   * :ref:`How to Delete Sequence Annotations <sequence-annotations-deletion>`
+   * :ref:`How to check if data files for sequence annotation submissions have been processed after upload to ENA <files-ena-file-processing-status>`
+   * :ref:`How to Submit Reads <reads>`
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 
@@ -129,9 +130,13 @@ Submit Sequence Annotations
 
     **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
 
-    .. raw:: html
+.. raw:: html
 
-       <br>
+   <br>
+
+.. seealso::
+
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 

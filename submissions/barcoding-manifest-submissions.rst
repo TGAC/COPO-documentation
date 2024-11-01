@@ -15,12 +15,12 @@ Barcoding Manifest Submission
 
 .. seealso::
 
-  * :ref:`How to Delete Barcoding Manifests <barcoding-manifests-deletion>`
-  * :ref:`How to Submit Aquatic Symbiosis Genomics (ASG) samples <tol-asg-manifest-submissions>`
-  * :ref:`How to Submit Darwin Tree of Life (DToL) samples <tol-dtol-manifest-submissions>`
-  * :ref:`How to Submit Darwin Tree of Life Environmental (DToL_ENV) samples <dtol-env-manifest-submissions>`
-  * :ref:`How to Submit European Reference Genome Atlas (ERGA) samples <tol-erga-manifest-submissions>`
-
+   * :ref:`How to Delete Barcoding Manifests <barcoding-manifests-deletion>`
+   * :ref:`How to Submit Aquatic Symbiosis Genomics (ASG) samples <tol-asg-manifest-submissions>`
+   * :ref:`How to Submit Darwin Tree of Life (DToL) samples <tol-dtol-manifest-submissions>`
+   * :ref:`How to Submit Darwin Tree of Life Environmental (DToL_ENV) samples <dtol-env-manifest-submissions>`
+   * :ref:`How to Submit European Reference Genome Atlas (ERGA) samples <tol-erga-manifest-submissions>`
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 
@@ -176,6 +176,14 @@ Click the desired barcoding manifests records from the list of barcoding manifes
   :class: with-shadow with-border
 
   **Barcoding manifest submission: The barcoding manifest has been submitted**
+
+.. raw:: html
+
+   <br>
+
+.. seealso::
+
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 

@@ -15,11 +15,12 @@ How to Submit Reads
 
 .. seealso::
 
-  * :ref:`How to Update Reads <reads-update>`
-  * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
-  * :ref:`How to Submit Files <files>`
-  * :ref:`How to check if data files for reads submissions have been processed after upload to ENA <files-ena-file-processing-status>`
-  * :ref:`Types of Files for Read Submissions <faq-reads-submission-file-types>`
+   * :ref:`How to Update Reads <reads-update>`
+   * :ref:`Explore Various Types of Reads Checklist <sample-manifest-checklists>`
+   * :ref:`How to Submit Files <files>`
+   * :ref:`How to check if data files for reads submissions have been processed after upload to ENA <files-ena-file-processing-status>`
+   * :ref:`Types of Files for Read Submissions <faq-reads-submission-file-types>`
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 
@@ -208,6 +209,10 @@ Click the desired reads records from the list of reads displayed on the **Reads'
 
    To view accessions associated with the submitted reads, click the **Accessions** button located in the top-right
    corner of the table.
+
+.. seealso::
+
+   * :ref:`accessions-dashboard`
 
 .. raw:: html
 
