@@ -1120,6 +1120,27 @@ Can I retrieve samples or the manifest that have been submitted?
 
    <br>
 
+.. _faq-samples-manifest-upload-limit:
+
+Is there a limit to the number of samples that can be included in a single manifest?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   Yes, there is a limit to the number of samples that can be included in a single manifest uploaded to COPO.
+
+   A threshold of 1,000 samples is recommended with larger sets split across multiple manifests under the same profile
+   or different profiles. This is because the validation process can be lengthy and resource-intensive, requiring
+   significant memory, which may cause the webpage to crash or lag if there are too many rows to process.
+
+.. raw:: html
+
+   <br>
+
 .. _faq-samples-download-sample-manifest-incorrect-sample-metadata:
 
 Why doesn’t the downloaded sample manifest contain the correct samples or metadata?
