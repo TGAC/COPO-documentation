@@ -72,34 +72,34 @@ Submit ERGA Manifest
 
       **ERGA manifest submission: 'Accept Code of Conduct' dialog**
 
-#. An **Upload Spreadsheet** dialog is then, displayed. Click the **Upload Sample Manifest** button to choose a file from
+#. An **Upload Sample Spreadsheet** dialog is then, displayed. Click the **Upload Sample Manifest** button to choose a file from
    your local system.
 
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog.png
-      :alt: Upload Spreadsheet dialog
+      :alt: Upload Sample Spreadsheet dialog
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialog.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialog**
+      **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog**
 
    .. raw:: html
 
       <br>
 
-#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialog as shown below. Click the
+#. The uploaded samples are shown in a table in the **Upload Sample Spreadsheet** dialog as shown below. Click the
    |finish-button| button to submit the samples.
 
    A :ref:`Submit Samples dialog <erga-samples-web-page-with-submitted-samples>` is then displayed before the samples
    can be submitted.
 
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples.png
-      :alt: Upload Spreadsheet dialog
+      :alt: Upload Sample Spreadsheet dialog
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialog with uploaded samples**
+      **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with uploaded samples**
 
 .. raw:: html
 

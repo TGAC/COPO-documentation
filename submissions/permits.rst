@@ -9,7 +9,7 @@ How to Submit Permits
 
 .. note::
 
-   * Permits can only be submitted after  :abbr:`ERGA (European Reference Genome Atlas)` [#f1]_ samples have been uploaded in the **Upload Spreadsheet** dialog.
+   * Permits can only be submitted after  :abbr:`ERGA (European Reference Genome Atlas)` [#f1]_ samples have been uploaded in the **Upload Sample Spreadsheet** dialog.
 
    * Permits can only be submitted via a :abbr:`ToL (Tree of Life)` [#f2]_ profile [#f3]_. Please see:
      :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
@@ -42,37 +42,37 @@ How to Submit Permits
    * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
    * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 
-#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialog as shown below. Click the
+#. The uploaded samples are shown in a table in the **Upload Sample Spreadsheet** dialog as shown below. Click the
    |upload-permits-button| button to browse your local (computer) system for ``.pdf`` permits for the samples.
 
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
-      :alt: Upload Spreadsheet dialog with uploaded samples
+      :alt: Upload Sample Spreadsheet dialog with uploaded samples
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialog with uploaded samples**
+      **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with uploaded samples**
 
-#. The permits table is empty under the **Sample Permits** tab in the **Upload Spreadsheet** dialog.
+#. The permits table is empty under the **Sample Permits** tab in the **Upload Sample Spreadsheet** dialog.
 
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
-      :alt: Upload Spreadsheet dialog with no permits uploaded
+      :alt: Upload Sample Spreadsheet dialog with no permits uploaded
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialog with no permits uploaded**
+      **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with no permits uploaded**
 
 #. The permits table is populated with the permits uploaded under the **Sample Permits** tab in the
-   **Upload Spreadsheet** dialog
+   **Upload Sample Spreadsheet** dialog
 
     .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
-      :alt: Upload Spreadsheet dialog with permits uploaded
+      :alt: Upload Sample Spreadsheet dialog with permits uploaded
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialog with permits uploaded**
+      **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with permits uploaded**
 
 #. Click the |finish-button| button to submit the permits and samples.
 

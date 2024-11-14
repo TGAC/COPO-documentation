@@ -9,14 +9,22 @@ How to Submit Images
 
 .. note::
 
-   * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialog.
+   * Images can only be submitted after samples have been uploaded in the **Upload Sample Spreadsheet** dialog. The max
+     total image size should be no more than 2GB.
 
-   * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
-     for guidance.
+   * Images can only be submitted via a ToL [#f1]_ profile. Please see:
+     :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
    * The file name of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
      ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the
      file.
+
+.. important::
+
+   The |upload-images-button| button will only be enabled after you upload a manifest in the
+   **Upload Sample Spreadsheet** dialog. This process must be completed in one go; you cannot close the dialog and
+   return later to upload images. The images rely on metadata from the sample manifest, so the |upload-images-button|
+   button becomes active immediately after the manifest is uploaded, allowing you to add images in the same session.
 
 .. seealso::
 
@@ -28,26 +36,26 @@ How to Submit Images
   * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 
-#. The images table is empty under the **Sample Images** tab in the **Upload Spreadsheet** dialog.
+#. The images table is empty under the **Sample Images** tab in the **Upload Sample Spreadsheet** dialog.
 
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog_with_no_images_uploaded.png
-      :alt: Upload Spreadsheet dialog with no image uploaded
+      :alt: Upload Sample Spreadsheet dialog with no image uploaded
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_erga_upload_spreadsheet_dialog_with_no_images_uploaded.png
       :class: with-shadow with-border
 
-      **Manifest submission: 'Upload Spreadsheet' dialog with no images uploaded**
+      **Manifest submission: 'Upload Sample Spreadsheet' dialog with no images uploaded**
 
 #. The images table is populated with the images uploaded under the **Sample Images** tab in the
-   **Upload Spreadsheet** dialog.
+   **Upload Sample Spreadsheet** dialog.
 
     .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog_with_images_uploaded.png
-      :alt: Upload Spreadsheet dialog with image(s) uploaded
+      :alt: Upload Sample Spreadsheet dialog with image(s) uploaded
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialog_with_images_uploaded.png
       :class: with-shadow with-border
 
-      **Manifest submission: 'Upload Spreadsheet' dialog with image(s) uploaded**
+      **Manifest submission: 'Upload Sample Spreadsheet' dialog with image(s) uploaded**
 
 #. Click the |finish-button| button to submit the images and samples.
 
@@ -189,6 +197,10 @@ information.
    :class: no-scaled-link
 
 .. |select-filtered-button| image:: /assets/images/buttons/select_filtered_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |upload-images-button| image:: /assets/images/buttons/images_upload_button.png
    :height: 4ex
    :class: no-scaled-link
 

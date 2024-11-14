@@ -307,13 +307,21 @@ What are the factors that can lead to errors during the image upload process in 
 
    .. note::
 
-      * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialog.
+      * Images can only be submitted after samples have been uploaded in the **Upload Sample Spreadsheet** dialog. The
+        max total image size should be no more than 2GB.
 
-      * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
-        for guidance.
+      * Images can only be submitted via a ToL [#f1]_ profile. Please see:
+        :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` for guidance.
 
       * The file name of sample images must be named as ``{Specimen_ID}-{n}.[jpg|png]`` where ``{n}`` is the image number,
         ``{Specimen_ID}`` is the specimen ID of the sample in the manifest and ``jpg`` or ``png`` is the extension of the file.
+
+   .. important::
+
+      The |upload-images-button| button will only be enabled after you upload a manifest in the
+      **Upload Sample Spreadsheet** dialog. This process must be completed in one go; you cannot close the dialog and
+      return later to upload images. The images rely on metadata from the sample manifest, so the |upload-images-button|
+      button becomes active immediately after the manifest is uploaded, allowing you to add images in the same session.
 
    Errors occur due to several reasons. An error message will be displayed detailing the issue(s) encountered and
    potential resolution(s). If you are uncertain how to proceed, please contact the
@@ -1022,7 +1030,7 @@ Samples
 
 .. _faq-samples-update-successful-validation-but-no-finish-or-confirm-button:
 
-Why is the ‘Finish’ or ‘Confirm’ button not visible in the ‘Upload Spreadsheet’ dialog after the manifest is successfully uploaded and validated?
+Why is the ‘Finish’ or ‘Confirm’ button not visible in the ‘Upload Sample Spreadsheet’ dialog after the manifest is successfully uploaded and validated?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
@@ -1036,11 +1044,11 @@ Why is the ‘Finish’ or ‘Confirm’ button not visible in the ‘Upload Spr
 
    **Resolution**: Upload the permit files using the |upload-permits-button| button first then,
 
-   * The **Finish** button will be displayed in the **Upload Spreadsheet** dialog (once there are no errors) if
+   * The **Finish** button will be displayed in the **Upload Sample Spreadsheet** dialog (once there are no errors) if
      uploading the manifest for the first time.
 
    * Alternatively, if the manifest is being updated, the **Confirm** button will be displayed in the
-     **Upload Spreadsheet** dialog (once there are no errors).
+     **Upload Sample Spreadsheet** dialog (once there are no errors).
 
 .. raw:: html
 
@@ -1742,6 +1750,10 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :class: no-scaled-link
 
 .. |tol-inspect-by-gal-button| image:: /assets/images/buttons/tol_inspect_by_gal_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |upload-images-button| image:: /assets/images/buttons/images_upload_button.png
    :height: 4ex
    :class: no-scaled-link
 
