@@ -16,7 +16,7 @@ for accepting or rejecting samples produced by sample submitters [#f2]_.
 
 .. seealso::
 
-   * :ref:`View images produced by sample submitters<images-submission-view-images-sample-managers>`
+   * :ref:`View images produced by sample submitters <images-submission-view-images-sample-managers>`
    * :ref:`Download permits produced by sample submitters <permits-submission-download-permits-sample-managers>`
    * :ref:`Sample managers' Frequently Asked Questions <faq-sample-managers>`
    * :ref:`Profile types and associated profile types brokered through COPO <copo-project-affiliations>`

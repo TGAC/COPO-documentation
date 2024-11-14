@@ -163,7 +163,7 @@ On Accept or Reject Samples web page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you have been assigned as a **sample manager**, see
-`View submitted images section for sample managers <images-submission-view-images-sample-managers>` for more
+:ref:`View submitted images section for sample managers <images-submission-view-images-sample-managers>` for more
 information.
 
 .. raw:: html
