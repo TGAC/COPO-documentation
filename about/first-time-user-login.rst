@@ -14,9 +14,9 @@ comprises all the **work profiles** associated with a user.
 The email address supplied will be associated with the user's COPO account and will be used in COPO for
 tasks such as depositing data to remote repositories involving the user.
 
-.. figure:: /assets/images/profile/profile_new_user_add_email_address_dialogue.png
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_new_user_add_email_address_dialogue.png
-   :alt: Add email address dialogue
+.. figure:: /assets/images/profile/profile_new_user_add_email_address_dialog.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_new_user_add_email_address_dialog.png
+   :alt: Add email address dialog
    :align: center
    :class: with-shadow with-border
 

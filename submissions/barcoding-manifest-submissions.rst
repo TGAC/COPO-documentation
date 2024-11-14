@@ -96,31 +96,31 @@ Upload Barcoding Manifest
 
       <br>
 
-#. An **Upload Barcoding Manifest** dialogue is displayed. Click the |barcoding-manifests-upload-button| button to choose a file from
+#. An **Upload Barcoding Manifest** dialog is displayed. Click the |barcoding-manifests-upload-button| button to choose a file from
    your local system.
 
-    .. figure:: /assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialogue.png
-      :alt: Upload Barcoding Manifest dialogue
+    .. figure:: /assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialog.png
+      :alt: Upload Barcoding Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialoguee.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifest_upload_barcoding_manifest_dialoge.png
       :class: with-shadow with-border
 
-      **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialogue**
+      **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialog**
 
    .. raw:: html
 
       <br>
 
-#. The uploaded manifest is shown in a table in the **Upload Barcoding Manifest** dialogue as shown below. Click the
+#. The uploaded manifest is shown in a table in the **Upload Barcoding Manifest** dialog as shown below. Click the
    |barcoding-manifests-finish-button| button to submit the barcoding manifest.
 
-    .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialogue_with_uploaded_manifest_displayed.png
-      :alt: Upload Barcoding Manifest dialogue
+    .. figure:: /assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialog_with_uploaded_manifest_displayed.png
+      :alt: Upload Barcoding Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/barcoding_manifests/barcoding_manifests_upload_barcoding_manifest_dialog_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
 
-      **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialogue with uploaded manifest**
+      **Barcoding Manifest upload: 'Upload Barcoding Manifest' dialog with uploaded manifest**
 
    .. raw:: html
 

@@ -307,7 +307,7 @@ What are the factors that can lead to errors during the image upload process in 
 
    .. note::
 
-      * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialogue.
+      * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialog.
 
       * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
         for guidance.
@@ -1442,8 +1442,8 @@ If I belong to more than one sample manager manifest group, how can I view or ac
 
    * Click the |accept-reject-samples-navigation-button| button to accept or reject samples.
 
-     .. figure:: /assets/images/profile/profile_new_user_add_email_address_dialogue.png
-        :alt: Add email address dialogue
+     .. figure:: /assets/images/profile/profile_new_user_add_email_address_dialog.png
+        :alt: Add email address dialog
         :align: center
         :class: with-shadow with-border
 

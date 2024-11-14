@@ -56,20 +56,20 @@ This section describes how to update **Reads** for a given checklist. The **Read
 
       <br>
 
-#. An **Upload Read Manifest** dialogue is displayed. Click the |reads-upload-button| button to choose an updated file
+#. An **Upload Read Manifest** dialog is displayed. Click the |reads-upload-button| button to choose an updated file
    from your local system.
 
-   The uploaded manifest is shown in a table in the **Upload Read Manifest** dialogue as shown below. Click the
+   The uploaded manifest is shown in a table in the **Upload Read Manifest** dialog as shown below. Click the
    |reads-finish-button| button to complete the update process of the reads manifest.
 
-   .. figure:: /assets/images/reads/reads_update_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
-      :alt: Upload Read Manifest dialogue
+   .. figure:: /assets/images/reads/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
+      :alt: Upload Read Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
       :height: 600px
 
-      **Reads' update: 'Upload Read Manifest' dialogue with updated manifest**
+      **Reads' update: 'Upload Read Manifest' dialog with updated manifest**
 
    .. raw:: html
 

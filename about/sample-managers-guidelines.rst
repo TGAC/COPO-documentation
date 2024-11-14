@@ -278,18 +278,18 @@ Accepting samples
 
       <br>
 
-   A confirmation popup dialogue will be displayed as shown below after the |accept-samples-button| button is clicked.
+   A confirmation popup dialog will be displayed as shown below after the |accept-samples-button| button is clicked.
 
    Click the **Okay** button to accept the selected sample record(s) or click the **Cancel** button to cancel the
    action.
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
-      :alt: Accept samples confirmation dialogue on the 'Accept or Reject Samples' web page
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
+      :alt: Accept samples confirmation dialog on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Accept samples confirmation dialogue**
+      **Accept or Reject Samples web page: Accept samples confirmation dialog**
 
 
    .. raw:: html
@@ -506,15 +506,15 @@ steps below:
       Permits are downloaded as a ``.zip`` file
 
    If no permits were submitted for the selected sample record(s), a message is displayed in the popup
-   dialogue indicating such as shown below:
+   dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
-      :alt: No permits exists message in popup dialogue for selected sample record(s)
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
+      :alt: No permits exists message in popup dialog for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialogue_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Popup dialogue displaying message, 'No permits exist for selected sample record(s)'**
+      **Accept or Reject Samples web page: Popup dialog displaying message, 'No permits exist for selected sample record(s)'**
 
 
 .. raw:: html
@@ -556,20 +556,20 @@ steps below:
 
       <br>
 
-#. If any image submission(s) exist for the selected sample record(s), a popup dialogue will be displayed with the
+#. If any image submission(s) exist for the selected sample record(s), a popup dialog will be displayed with the
    image(s) submitted for the selected sample record(s) as shown below:
 
    .. hint::
 
       Click the image to view a larger version.
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_images_displayed.png
-      :alt: View images popup dialogue with images displayed for selected sample record(s)
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_images_displayed.png
+      :alt: View images popup dialog with images displayed for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_images_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_images_displayed.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Popup dialogue displaying submitted image(s) for selected sample record(s)**
+      **Accept or Reject Samples web page: Popup dialog displaying submitted image(s) for selected sample record(s)**
 
    .. raw:: html
 
@@ -578,15 +578,15 @@ steps below:
    .. centered:: **OR**
 
    If no images were submitted for the selected sample record(s), a message is displayed in the popup
-   dialogue indicating such as shown below:
+   dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
-      :alt: No images exists message in popup dialogue for selected sample record(s)
+   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
+      :alt: No images exists message in popup dialog for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialogue_with_no_images_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
       :class: with-shadow with-border
 
-      **Accept or Reject Samples web page: Popup dialogue displaying message, 'No images exist for selected sample record(s)'**
+      **Accept or Reject Samples web page: Popup dialog displaying message, 'No images exist for selected sample record(s)'**
 
 .. raw:: html
 

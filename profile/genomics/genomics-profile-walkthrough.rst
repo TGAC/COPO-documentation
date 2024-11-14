@@ -59,7 +59,7 @@ Steps to Create a Genomics Profile
       :class: with-shadow with-border
       :height: 400px
 
-      **Genomics Profile: Add profile form dialogue**
+      **Genomics Profile: Add profile form dialog**
 
     .. raw:: html
 

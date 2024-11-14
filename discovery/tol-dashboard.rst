@@ -48,17 +48,17 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol_world_map_with_popup_dialogue.png
+.. figure:: /assets/images/dashboard/dashboard_tol_world_map_with_popup_dialog.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_tol_world_map_with_popup_dialogue.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_tol_world_map_with_popup_dialog.png
   :class: with-shadow with-border
 
-  **ToL Dashboard: Popup dialogue with more information about one of the GALs**
+  **ToL Dashboard: Popup dialog with more information about one of the GALs**
 
   To view more details about a GAL or Partner, click one of the map locations on the world map.
 
-  A popup dialogue will be displayed information about the GAL or Partner such as name, state, country, and number
+  A popup dialog will be displayed information about the GAL or Partner such as name, state, country, and number
   of samples produced.
 
 .. raw:: html

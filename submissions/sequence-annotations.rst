@@ -71,33 +71,33 @@ Submit Sequence Annotations
 
       <br>
 
-#. An **Add Sequence Annotation** dialogue is displayed. Provide the details then, click the **Submit Annotation**
+#. An **Add Sequence Annotation** dialog is displayed. Provide the details then, click the **Submit Annotation**
    button.
 
    Select a sample accession from the **SAMPLE** dropdown field menu. The dropdown menu will display the reads that
    were previously uploaded.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
-       :alt: Add Sequence Annotation dialogue with no sample accession chosen from SAMPLE dropdown menu
+    .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog1.png
+       :alt: Add Sequence Annotation dialog with no sample accession chosen from SAMPLE dropdown menu
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue1.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog1.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' submission: 'Submit Annotation' dialogue with no sample accession chosen from SAMPLE dropdown menu**
+       **Sequence Annotations' submission: 'Submit Annotation' dialog with no sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue2.png
-      :alt: Add Sequence Annotation dialogue with sample accession chosen from SAMPLE dropdown menu
+   .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog2.png
+      :alt: Add Sequence Annotation dialog with sample accession chosen from SAMPLE dropdown menu
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialogue2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog2.png
       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: 'Submit Annotation' dialogue with sample accession chosen from SAMPLE dropdown menu**
+      **Sequence Annotations' submission: 'Submit Annotation' dialog with sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 

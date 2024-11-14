@@ -86,18 +86,18 @@ to edit or delete a profile record will be displayed once clicked.
 
     **COPO Profile: Click the** ``Delete`` **button**
 
-..  figure:: /assets/images/profile/profile_options_delete_confirmation_dialogue.png
-    :alt: Profile deletion confirmation dialogue
+..  figure:: /assets/images/profile/profile_options_delete_confirmation_dialog.png
+    :alt: Profile deletion confirmation dialog
     :align: center
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_delete_confirmation_dialogue.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_delete_confirmation_dialog.png
     :class: with-shadow with-border
 
     **COPO Profile: A confirmation dialog will appear.  Click the** ``Confirm`` **button to confirm the deletion.**
 
-..  figure:: /assets/images/profile/profile_options_delete_error_dialogue.png
-    :alt: Profile deletion error dialogue
+..  figure:: /assets/images/profile/profile_options_delete_error_dialog.png
+    :alt: Profile deletion error dialog
     :align: center
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_delete_error_dialogue.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_delete_error_dialog.png
     :class: with-shadow with-border
 
     **COPO Profile: An error will occur if you try to remove a profile that that has associated samples or datafiles.**

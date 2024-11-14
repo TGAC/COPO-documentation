@@ -90,7 +90,7 @@ the **Add Profile** form for the desired profile type
 2. Provide Profile Details in the Add Profile Form
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the **Add Profile** form dialogue, provide details for the new profile.
+In the **Add Profile** form dialog, provide details for the new profile.
 
 See the following sections for more information:
 

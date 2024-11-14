@@ -123,32 +123,32 @@ Upload Reads
 
       <br>
 
-#. An **Upload Read Manifest** dialogue is displayed. Click the |reads-upload-button| button to choose a file from
+#. An **Upload Read Manifest** dialog is displayed. Click the |reads-upload-button| button to choose a file from
    your local system.
 
-    .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue.png
-      :alt: Upload Read Manifest dialogue
+    .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialog.png
+      :alt: Upload Read Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_upload_reads_manifest_dialog.png
       :class: with-shadow with-border
 
-      **Reads' upload: 'Upload Read Manifest' dialogue**
+      **Reads' upload: 'Upload Read Manifest' dialog**
 
    .. raw:: html
 
       <br>
 
-#. The uploaded manifest is shown in a table in the **Upload Read Manifest** dialogue as shown below. Click the
+#. The uploaded manifest is shown in a table in the **Upload Read Manifest** dialog as shown below. Click the
    |reads-finish-button| button to submit the reads manifest.
 
-    .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
-      :alt: Upload Read Manifest dialogue
+    .. figure:: /assets/images/reads/reads_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
+      :alt: Upload Read Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_upload_reads_manifest_dialogue_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
       :height: 600px
 
-      **Reads' upload: 'Upload Read Manifest' dialogue with uploaded manifest**
+      **Reads' upload: 'Upload Read Manifest' dialog with uploaded manifest**
 
    .. raw:: html
 

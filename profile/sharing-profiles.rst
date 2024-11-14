@@ -68,7 +68,7 @@ Sharer
         :width: 500px
         :height: 300px
 
-        **Groups: Add new group form dialogue**
+        **Groups: Add new group form dialog**
 
    .. raw:: html
 

@@ -62,44 +62,44 @@ Submit ERGA Manifest
 
       <br>
 
-#. An **Accept Code of Conduct** popup dialogue is displayed. If you decide to accept it, click the **Okay** button.
+#. An **Accept Code of Conduct** popup dialog is displayed. If you decide to accept it, click the **Okay** button.
 
-    .. figure:: /assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
-      :alt: 'Accept Code of Conduct' dialogue
+    .. figure:: /assets/images/samples/erga/samples_accept_code_of_conduct_dialog.png
+      :alt: 'Accept Code of Conduct' dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_accept_code_of_conduct_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_accept_code_of_conduct_dialog.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Accept Code of Conduct' dialogue**
+      **ERGA manifest submission: 'Accept Code of Conduct' dialog**
 
-#. An **Upload Spreadsheet** dialogue is then, displayed. Click the **Upload Sample Manifest** button to choose a file from
+#. An **Upload Spreadsheet** dialog is then, displayed. Click the **Upload Sample Manifest** button to choose a file from
    your local system.
 
-    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
-      :alt: Upload Spreadsheet dialogue
+    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog.png
+      :alt: Upload Spreadsheet dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialog.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue**
+      **ERGA manifest submission: 'Upload Spreadsheet' dialog**
 
    .. raw:: html
 
       <br>
 
-#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialogue as shown below. Click the
+#. The uploaded samples are shown in a table in the **Upload Spreadsheet** dialog as shown below. Click the
    |finish-button| button to submit the samples.
 
-   A :ref:`Submit Samples dialogue <erga-samples-web-page-with-submitted-samples>` is then displayed before the samples
+   A :ref:`Submit Samples dialog <erga-samples-web-page-with-submitted-samples>` is then displayed before the samples
    can be submitted.
 
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
-      :alt: Upload Spreadsheet dialogue
+    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples.png
+      :alt: Upload Spreadsheet dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialogue_with_uploaded_samples.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples.png
       :class: with-shadow with-border
 
-      **ERGA manifest submission: 'Upload Spreadsheet' dialogue with uploaded samples**
+      **ERGA manifest submission: 'Upload Spreadsheet' dialog with uploaded samples**
 
 .. raw:: html
 
@@ -125,16 +125,16 @@ Follow the steps indicated :ref:`here <permits-submission>` for permit submissio
 
 .. _erga-samples-web-page-with-submitted-samples:
 
-A **Submit Samples** confirmation dialogue is displayed. If you decide to confirm the samples submission, click
+A **Submit Samples** confirmation dialog is displayed. If you decide to confirm the samples submission, click
 the **Confirm** button.
 
-   .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
-     :alt: 'Submit Samples' confirmation dialogue
+   .. figure:: /assets/images/samples/samples_submit_samples_dialog.png
+     :alt: 'Submit Samples' confirmation dialog
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialog.png
      :class: with-shadow with-border
 
-     **ERGA manifest submission: 'Submit Samples' confirmation dialogue**
+     **ERGA manifest submission: 'Submit Samples' confirmation dialog**
 
 The new sample(s) will be displayed on the **Samples** web page after the confirmation.
 

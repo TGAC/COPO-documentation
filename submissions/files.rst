@@ -81,15 +81,15 @@ Submit Files from your Local (Computer) System
 
       <br>
 
-#. An **Upload File** dialogue is displayed. Click the **Upload** button to choose a file from your local system.
+#. An **Upload File** dialog is displayed. Click the **Upload** button to choose a file from your local system.
 
-    .. figure:: /assets/images/files/files_upload_file_dialogue.png
-      :alt: Upload File dialogue
+    .. figure:: /assets/images/files/files_upload_file_dialog.png
+      :alt: Upload File dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_upload_file_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_upload_file_dialog.png
       :class: with-shadow with-border
 
-      **Files submission: Upload File dialogue**
+      **Files submission: Upload File dialog**
 
    .. raw:: html
 
@@ -138,22 +138,22 @@ Submit Files via the Terminal
 
       <br>
 
-#. A **Move Data** dialogue is displayed. Follow the instructions displayed then, click the **Process** button to submit
+#. A **Move Data** dialog is displayed. Follow the instructions displayed then, click the **Process** button to submit
    the file(s) to the profile.
 
-    .. figure:: /assets/images/files/files_move_data_dialogue.png
-      :alt: Move Data dialogue
+    .. figure:: /assets/images/files/files_move_data_dialog.png
+      :alt: Move Data dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Files submission: Move Data dialogue**
+      **Files submission: Move Data dialog**
 
-   .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input1.png
+   .. figure:: /assets/images/files/files_move_data_dialog_terminal_input1.png
       :alt: Terminal with command inputted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialogue_terminal_input1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_terminal_input1.png
       :class: with-shadow with-border
 
       **Input** $ ``ls - F1`` **command in the terminal**
@@ -162,14 +162,14 @@ Submit Files via the Terminal
 
          <br>
 
-   .. figure:: /assets/images/files/files_move_data_dialogue_with_details1.png
-      :alt: Move Data dialogue with details inputted
+   .. figure:: /assets/images/files/files_move_data_dialog_with_details1.png
+      :alt: Move Data dialog with details inputted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialogue_with_details1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_with_details1.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Move Data dialogue: Input the file name(s) returned after having ran the** $ ``ls - F1`` **command in the
+      **Move Data dialog: Input the file name(s) returned after having ran the** $ ``ls - F1`` **command in the
       terminal. Then, click the** ``Process`` **button.**
 
       .. raw:: html
@@ -178,14 +178,14 @@ Submit Files via the Terminal
 
    .. _files-submission-via-terminal-download-commands:
 
-   .. figure:: /assets/images/files/files_move_data_dialogue_with_details2.png
-      :alt: Move Data dialogue with result (a command) after having clicked the "Process" button
+   .. figure:: /assets/images/files/files_move_data_dialog_with_details2.png
+      :alt: Move Data dialog with result (a command) after having clicked the "Process" button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialogue_with_details2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_with_details2.png
       :class: with-shadow with-border
       :height: 400px
 
-      **Move Data dialogue: Command outputted after having clicked command in the** ``Process`` **button. Download the
+      **Move Data dialog: Command outputted after having clicked command in the** ``Process`` **button. Download the
       command displayed.**
 
       The downloaded file will have *unknown* or *download* as the file name depending on the browser you are using.
@@ -194,10 +194,10 @@ Submit Files via the Terminal
 
       <br>
 
-   .. figure:: /assets/images/files/files_move_data_dialogue_terminal_input2.png
+   .. figure:: /assets/images/files/files_move_data_dialog_terminal_input2.png
       :alt: Terminal with command pasted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialogue_terminal_input2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_terminal_input2.png
       :class: with-shadow with-border
 
       **Paste the copied command in the terminal**

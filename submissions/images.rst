@@ -9,7 +9,7 @@ How to Submit Images
 
 .. note::
 
-   * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialogue.
+   * Images can only be submitted after samples have been uploaded in the **Upload Spreadsheet** dialog.
 
    * Images can only be submitted via a ToL [#f1]_ profile. Please see: :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>`
      for guidance.
@@ -21,46 +21,46 @@ How to Submit Images
 .. seealso::
 
   * :ref:`Viewing Submitted Images <images-submission-view-images>`
-  * :ref:`Images Submission FAQ <faq-images-submission>`
+  * :ref:`Images Submission FAQ <faq-images>`
   * :ref:`Permits Submission <permits-submission>`
   * :ref:`How to Submit ASG Manifests <tol-asg-manifest-submissions>`
   * :ref:`How to Submit DToL Manifests <tol-dtol-manifest-submissions>`
   * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
   * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 
-#. The images table is empty under the **Sample Images** tab in the **Upload Spreadsheet** dialogue.
+#. The images table is empty under the **Sample Images** tab in the **Upload Spreadsheet** dialog.
 
-    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue_with_no_images_uploaded.png
-      :alt: Upload Spreadsheet dialogue with no image uploaded
+    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog_with_no_images_uploaded.png
+      :alt: Upload Spreadsheet dialog with no image uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_erga_upload_spreadsheet_dialogue_with_no_images_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_erga_upload_spreadsheet_dialog_with_no_images_uploaded.png
       :class: with-shadow with-border
 
-      **Manifest submission: 'Upload Spreadsheet' dialogue with no images uploaded**
+      **Manifest submission: 'Upload Spreadsheet' dialog with no images uploaded**
 
 #. The images table is populated with the images uploaded under the **Sample Images** tab in the
-   **Upload Spreadsheet** dialogue.
+   **Upload Spreadsheet** dialog.
 
-    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue_with_images_uploaded.png
-      :alt: Upload Spreadsheet dialogue with image(s) uploaded
+    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog_with_images_uploaded.png
+      :alt: Upload Spreadsheet dialog with image(s) uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue_with_images_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialog_with_images_uploaded.png
       :class: with-shadow with-border
 
-      **Manifest submission: 'Upload Spreadsheet' dialogue with image(s) uploaded**
+      **Manifest submission: 'Upload Spreadsheet' dialog with image(s) uploaded**
 
 #. Click the |finish-button| button to submit the images and samples.
 
-   A **Submit Samples** confirmation dialogue is displayed. If you decide to confirm the samples submission, click
+   A **Submit Samples** confirmation dialog is displayed. If you decide to confirm the samples submission, click
    the **Confirm** button.
 
-   .. figure:: /assets/images/samples/samples_submit_samples_dialogue.png
-     :alt: 'Submit Samples' confirmation dialogue
+   .. figure:: /assets/images/samples/samples_submit_samples_dialog.png
+     :alt: 'Submit Samples' confirmation dialog
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialogue.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialog.png
      :class: with-shadow with-border
 
-     **Manifest submission: 'Submit Samples' confirmation dialogue**
+     **Manifest submission: 'Submit Samples' confirmation dialog**
 
 .. raw:: html
 
@@ -115,20 +115,20 @@ On Samples web page
 
       <br>
 
-#. If any image submission(s) exist for the selected sample record(s), a popup dialogue will be displayed with the
+#. If any image submission(s) exist for the selected sample record(s), a popup dialog will be displayed with the
    image(s) submitted for the selected sample record(s) as shown below:
 
    .. hint::
 
       Click the image to view a larger version.
 
-   .. figure:: /assets/images/samples/samples_view_images_dialogue_with_images_displayed.png
-      :alt: View images popup dialogue with images displayed for selected sample record(s)
+   .. figure:: /assets/images/samples/samples_view_images_dialog_with_images_displayed.png
+      :alt: View images popup dialog with images displayed for selected sample record(s)
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_view_images_button.png
       :class: with-shadow with-border
 
-      **Samples web page: Popup dialogue displaying submitted image(s) for selected sample record(s)**
+      **Samples web page: Popup dialog displaying submitted image(s) for selected sample record(s)**
 
    .. raw:: html
 
@@ -137,15 +137,15 @@ On Samples web page
    .. centered:: **OR**
 
    If no images were submitted for the selected sample record(s), a message is displayed in the popup
-   dialogue indicating such as shown below:
+   dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples/samples_view_images_dialogue_with_no_images_exist_message.png
-      :alt: No images exists message in popup dialogue for selected sample record(s)
+   .. figure:: /assets/images/samples/samples_view_images_dialog_with_no_images_exist_message.png
+      :alt: No images exists message in popup dialog for selected sample record(s)
       :align: center
       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_view_images_button.png
       :class: with-shadow with-border
 
-      **Samples web page: Popup dialogue displaying message, 'No images exist for selected sample record(s)'**
+      **Samples web page: Popup dialog displaying message, 'No images exist for selected sample record(s)'**
 
 .. raw:: html
 

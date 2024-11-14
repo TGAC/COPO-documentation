@@ -62,16 +62,16 @@ Submit ASG Manifest
 
       <br>
 
-#. An **Upload Spreadsheet** dialogue is displayed. Click the **Upload Sample Manifest** button to choose a file from
+#. An **Upload Spreadsheet** dialog is displayed. Click the **Upload Sample Manifest** button to choose a file from
    your local system.
 
-    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialogue.png
-      :alt: Upload Spreadsheet dialogue
+    .. figure:: /assets/images/samples/samples_upload_spreadsheet_dialog.png
+      :alt: Upload Spreadsheet dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_upload_spreadsheet_dialog.png
       :class: with-shadow with-border
 
-      **ASG manifest submission: 'Upload Spreadsheet' dialogue**
+      **ASG manifest submission: 'Upload Spreadsheet' dialog**
 
    .. raw:: html
 

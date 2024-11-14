@@ -73,16 +73,16 @@ Submit Assembly
 
       <br>
 
-#. An **Add Assembly** dialogue is displayed. Provide the details then, click the **Submit Assembly** button.
+#. An **Add Assembly** dialog is displayed. Provide the details then, click the **Submit Assembly** button.
 
-    .. figure:: /assets/images/assemblies/assemblies_add_assembly_dialogue.png
-      :alt: 'Add Assembly' dialogue
+    .. figure:: /assets/images/assemblies/assemblies_add_assembly_dialog.png
+      :alt: 'Add Assembly' dialog
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_add_assembly_dialogue.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_add_assembly_dialog.png
       :class: with-shadow with-border
 
-      **Assembly submission: 'Add Assembly' dialogue**
+      **Assembly submission: 'Add Assembly' dialog**
 
    .. raw:: html
 

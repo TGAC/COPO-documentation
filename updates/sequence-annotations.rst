@@ -37,17 +37,17 @@ section for more information.
 
       <br>
 
-#. An **Add Sequence Annotation** dialogue is displayed. Provide the updated details then, click the
+#. An **Add Sequence Annotation** dialog is displayed. Provide the updated details then, click the
    **Submit Annotation** button.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_add_sequence_annotation_dialogue.png
-       :alt: Add Sequence Annotation dialogue with updated information
+    .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_add_sequence_annotation_dialog.png
+       :alt: Add Sequence Annotation dialog with updated information
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations_update_add_sequence_annotation_dialogue.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations_update_add_sequence_annotation_dialog.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' update: 'Submit Annotation' dialogue with updated information**
+       **Sequence Annotations' update: 'Submit Annotation' dialog with updated information**
 
    .. raw:: html
 
