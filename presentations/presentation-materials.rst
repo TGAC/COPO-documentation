@@ -69,6 +69,37 @@ Seminar presentations
 Poster presentations
 ----------------------
 
+#. **Collaborative OPen Omics (COPO) - Facilitating Metadata Interoperability with Standards, Formats and APIs**
+
+   - **Authors**: COPO team - Aaliyah Providence, Debby Ku and Felix Shaw
+
+   - **Abstract**:
+      The Collaborative OPen Omics (COPO) platform is a data and metadata broker for researchers seeking to describe
+      and share a wide range of research objects - including genomic reads, assemblies, sequence annotations, samples
+      and images—using standardised metadata. By enabling users to submit metadata through well-defined spreadsheets
+      and web forms, COPO facilitates the publication of this data to public repositories such as the European
+      Nucleotide Archive (ENA) and the National Centre for Biotechnology Information (NCBI). COPO’s integration of
+      community-derived schemas and vocabularies ensures that data is Findable, Accessible, Interoperable, and Reusable
+      (FAIR).
+
+      COPO can validate and convert submitted metadata into various standards, making it accessible through its
+      Application Programming Interface (API). This process allows for seamless mapping of metadata from one standard,
+      such as Tree of Life (ToL), to other recognised standards like Darwin Core (DwC) and Minimum Information about
+      any (x) Sequence (MIxS). Researchers can retrieve this metadata in structured formats such as Research Object
+      Crate (RO-Crate), JavaScript Object Notation (JSON) or Comma-Separated Values (CSV), enhancing data
+      discoverability and reuse.
+
+      Our poster illustrates how COPO supports interoperability across different systems by brokering and sharing
+      metadata, while also ensuring the exclusion of sensitive data such as ORCiD identifiers and email addresses.
+      By empowering researchers to securely submit and manage their data in compliance with recognised standards,
+      COPO fosters open science and advances research in the life sciences.
+
+   - :download:`Download poster presentation <../assets/files/presentations/copo_poster_enhancing_metadata_interoperability_with_standards_formats_and_apis.pdf>`
+
+   .. raw:: html
+
+         <hr>
+
 #. **Collaborative OPen Omics (COPO) - Building, Testing and Deployment**
 
    - **Authors**: COPO team - Aaliyah Providence, Debby Ku and Felix Shaw
