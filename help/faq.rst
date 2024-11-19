@@ -1466,7 +1466,7 @@ If I belong to more than one sample manager manifest group, how can I view or ac
 
 .. _faq-sample-managers-samples-awaiting-another-review:
 
-How do I know if sample records are awaiting another review by another sample manager?
+How can I tell if sample records are still awaiting review by another sample manager?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::   Click to view answer
@@ -1480,8 +1480,8 @@ How do I know if sample records are awaiting another review by another sample ma
      the samples, the samples will be displayed in the **Accepted Samples** tab.
 
      As shown in the image below, sample records that are awaiting another acceptance will be highlighted
-     **yellow** and the date when the records have been accepted will be displayed in the **Approval Date** column
-     in the samples data table.
+     **yellow** or **amber** and the date when the records have been accepted will be displayed in the
+     **Approval Date** column in the samples data table.
 
      Refer to the **Associated TOL (Tree of life) Project** column to view the associated project(s) that the sample
      record belongs to. See the image below for an illustration.
@@ -1509,7 +1509,7 @@ How do I know if sample records are awaiting another review by another sample ma
      In the example above, the sample record is associated with both :abbr:`BGE (Biodiversity Genomics Europe)` and
      SANGER (Sanger Institute) (associated) project types. A :abbr:`BGE (Biodiversity Genomics Europe)` sample manager
      has accepted the sample record, which is reflected in the **Approval Date** column in the data table. The record
-     is highlighted in amber to indicate that it is still awaiting acceptance from another sample manager.
+     is highlighted in yellow to indicate that it is still awaiting acceptance from another sample manager.
 
      .. raw:: html
 
