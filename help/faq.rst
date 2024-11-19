@@ -1506,8 +1506,10 @@ How do I know if sample records are awaiting another review by another sample ma
 
         **Approval date displayed in the 'Approval Date' column of the samples data table**
 
-     In the example above, the sample record is associated with :abbr:`BGE (Biodiversity Genomics Europe)`
-
+     In the example above, the sample record is associated with both :abbr:`BGE (Biodiversity Genomics Europe)` and
+     SANGER (Sanger Institute) (associated) project types. A :abbr:`BGE (Biodiversity Genomics Europe)` sample manager
+     has accepted the sample record, which is reflected in the **Approval Date** column in the data table. The record
+     is highlighted in amber to indicate that it is still awaiting acceptance from another sample manager.
 
      .. raw:: html
 
@@ -1515,8 +1517,8 @@ How do I know if sample records are awaiting another review by another sample ma
 
      .. hint::
 
-        * The **Approval Date** column displays the date when the sample record was accepted by the sample manager as well
-          as the associated profile type that the sample manager belongs to.
+        * The **Approval Date** column displays the date when the sample record was accepted by the sample manager as
+          well as the associated project that the sample manager belongs to.
 
         * The **Associated TOL (Tree of life) Project** column displays the associated project that the sample record
           belongs to.
@@ -1544,10 +1546,10 @@ How do I know if sample records are awaiting another review by another sample ma
 
         **Approval date updated in the 'Approval Date' column of the samples data table**
 
-     In the example above, the sample record is associated with :abbr:`BGE (Biodiversity Genomics Europe)`
-     and :abbr:`SANGER (Sanger Institute)` (associated) profile types. The sample managers assigned to both associated
-     profile types have accepted the sample record and the approval date has been updated in the **Approval Date**
-     column of the samples data table.
+     In the example above, the sample record is associated with two projects:
+     :abbr:`BGE (Biodiversity Genomics Europe)` and SANGER (Sanger Institute), as shown in the
+     **Associated TOL (Tree of Life) Project** column. The sample managers assigned to both associated project types have
+     approved the sample record and the **Approval Date** column has been updated in the samples data table.
 
 .. raw:: html
 
