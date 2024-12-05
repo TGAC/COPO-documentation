@@ -339,13 +339,13 @@ Fetch Sample Record Status in a Manifest
 
 .. code-block:: bash
 
-   https://copo-project.org/api/manifest/{manifest_id}/sample_statuses
+   https://copo-project.org/api/manifest/{manifest_id}/sample_status
 
 .. centered:: **OR**
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}/sample_statuses" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}/sample_status" -H  "accept: application/json"
 
 This results in minimal sample status information for each sample contained in the given ``{manifest_id}``.
 
@@ -448,22 +448,18 @@ Fetch Sample Records by Associated Project Type
    * In sample records, the associated project type is referred to as **associated_tol_project** whereas in profile
      records, it is referred to as **associated_type**.
 
-   * To query by multiple associated project types, provide them as a ``%2C`` separated in the API URL. ``%2C``
-     is the URL encoding for the comma (,) character.
-
-     For example, to query the endpoint for the associated project types :abbr:`BGE (Biodiversity Genomics Europe)`
-     and :abbr:`ERGA_PILOT (European Reference Genome Atlas - Pilot)`, add ``BGE%2CERGA_PILOT``
-     like this: ``sample/associated_tol_project/BGE%2CERGA_PILOT`` to the end of the API URL.
+     For example, to query the endpoint for the associated project type, :abbr:`BGE (Biodiversity Genomics Europe)`,
+     the url is: ``sample/associated_tol_project/BGE``.
 
 .. code-block:: bash
 
-   https://copo-project.org/api/sample/associated_tol_project/{values}
+   https://copo-project.org/api/sample/associated_tol_project/{value}
 
 .. centered:: OR
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/sample/associated_tol_project/{values}" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/sample/associated_tol_project/{value}" -H  "accept: application/json"
 
 This results in a list of all sample records of a given associated project type(s) in COPO.
 
@@ -520,16 +516,16 @@ Fetch Updatable Fields by Project
 """"""""""""""""""""""""""""""""""""""""
 .. code-block:: bash
 
-   https://copo-project.org/api/sample/updatable_fields/{project}
+   https://copo-project.org/api/sample/updatable_fields?project=<project>
 
 .. centered:: OR
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/sample/updatable_fields/{project}" -H  "accept: */*"
+   $ curl -X GET "https://copo-project.org/api/sample/updatable_fields" -H  "accept: */*"
 
 This results in list of fields that can be updated when a manifest is reuploaded/resubmitted in COPO based on the
-given ``{project}``.
+given project. Replace ``<project>`` with the name of the project.
 
 Fetch Sample Records by COPO ID
 """"""""""""""""""""""""""""""""""""""""
@@ -712,6 +708,24 @@ Fetch Profile Records
 
 This results in a list of all profiles for the authenticated user.
 
+Fetch Profile Titles & Associated Tube or Well IDs
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. code-block:: bash
+
+   https://copo-project.org/api/profile/tube_or_well_ids
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
+
+
+Replace ``<profile_type>`` with the name of the profile type. This results in a list of profile titles and associated
+tube or well IDs for the given profile type. Optionally, provide a date range filter based on the first and last sample
+manifest upload dates and associated_profile_type to filter the results.
+
 .. raw:: html
 
    <hr>
@@ -742,13 +756,13 @@ Fetch Number of Sample Records by Sample Type and Date
 
 .. code-block:: bash
 
-   https://copo-project.org/api/stats/number_of_samples
+   https://copo-project.org/api/stats/number_of_samples/{sample_type}
 
 .. centered:: **OR**
 
 .. code::
 
-   $ curl -X GET "https://copo-project.org/api/stats/number_of_samples" -H  "accept: application/json"
+   $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/{sample_type}" -H  "accept: application/json"
 
 This results in the total number of registered sample records in COPO by a given sample type and date.
 
@@ -785,6 +799,34 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
 
 This results in a list of all child projects/ subprojects brokered by COPO.
 
+.. _mapping-api-endpoints:
+
+Mapping' Endpoints
+~~~~~~~~~~~~~~~~~~~~~~
+
+Fetch Mapped fields for the latest manifest version
+""""""""""""""""""""""""""""""""""""""""""""""""""""
+.. note::
+
+   In COPO, the mapping endpoint is used to map Tree of Life (ToL) fields from the latest manifest version to fields
+   in the following standards:
+
+    * Darwin Core (DwC)
+    * European Nucleotide Archive (ENA)
+    * Minimum Information about any (x) Sequence (MIxS)
+
+.. code-block:: bash
+
+   https://copo-project.org/api/mapping
+
+.. centered:: **OR**
+
+.. code::
+
+   $ curl -X GET "https://copo-project.org/api/mapping" -H  "accept: application/json"
+
+This results in a list of mapped fields for the latest manifest version according to the standard. If no standard is
+provided, the the Tree of Life (ToL) standard is used.
 
 .. raw:: html
 
