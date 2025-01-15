@@ -175,6 +175,7 @@ information.
    <hr>
 
 .. rubric:: Footnotes
+
 .. [#f1] See term: :term:`Tree of Life (ToL) <ToL>`.
 
 ..

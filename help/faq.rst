@@ -1349,7 +1349,7 @@ What are the steps for submitting metadata in COPO and ensuring it appears in pu
 
          <br>
 
-   #. Click the **Components** button attached to the created profile
+   #. Click the |profile-components-button| button attached to the created profile.
 
       * See the :ref:`accessing-samples-web-page` section for additional information.
 
@@ -1357,7 +1357,7 @@ What are the steps for submitting metadata in COPO and ensuring it appears in pu
 
          <br>
 
-   #. Upload the completed manifest
+   #. Upload the completed manifest.
 
       Visit the :ref:`samples-submission` section for guidance on submitting samples.
 
@@ -1366,11 +1366,18 @@ What are the steps for submitting metadata in COPO and ensuring it appears in pu
          Choose the desired type of submission listed in that section to be directed to the page for submitting
          the manifest of that type.
 
-   #. COPO will validate the uploaded manifest then, display any errors and/or warnings and provide messages to
-      help resolve them.
+   #. COPO validates the uploaded manifest.
 
-      If you encounter errors that you are unable resolve, we are happy to assist. Contact the :email:`COPO team
-      <ei.copo@earlham.ac.uk>` detailing the issue(s) encountered.
+      * If there are errors and/or warnings during the validation process, our system will provide messages to
+        help resolve them.
+
+        If you encounter errors that you are unable resolve, we are happy to assist. Contact the :email:`COPO team
+        <ei.copo@earlham.ac.uk>` detailing the issue(s) encountered.
+
+        If you encounter warnings, they are just informational and will not prevent the upload process from proceeding,
+        as long as there are  no errors. Once there are no errors related to the field and you are satisfied with the
+        value, the upload process will continue when you click the |finish-button| button if it is the first time
+        you are uploading the manifest or the |confirm-button| button if you are updating the manifest.
 
       .. raw:: html
 
@@ -1837,6 +1844,10 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :height: 2ex
    :class: no-scaled-link
 
+.. |confirm-button| image:: /assets/images/buttons/confirm_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |download-sample-manifest-button| image:: /assets/images/buttons/samples_download_manifest_button.png
    :height: 4ex
    :class: no-scaled-link
@@ -1850,6 +1861,10 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :class: no-scaled-link
 
 .. |export-manifest-to-csv-format-button| image:: /assets/images/buttons/samples_export_to_csv_format_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |finish-button| image:: /assets/images/buttons/finish_button1.png
    :height: 4ex
    :class: no-scaled-link
 
