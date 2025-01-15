@@ -141,6 +141,7 @@ Are assemblies and sequence annotations submitted at the same time in COPO?
 
   <br>
 
+
 Are accessions assigned in assembly submissions after studies are released?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -160,7 +161,7 @@ Are accessions assigned in assembly submissions after studies are released?
 
 .. raw:: html
 
-   <hr>
+  <br>
 
 Dashboard
 --------------------
@@ -1276,6 +1277,8 @@ Why do I get a 'PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING' error when uploading or 
 
   <br>
 
+.. _faq-samples-submission-accessions-assignment:
+
 Are accessions assigned in sample submissions after sample manifests are uploaded?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1292,6 +1295,133 @@ Are accessions assigned in sample submissions after sample manifests are uploade
    `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__.
 
    See the :ref:`accessions-dashboard` section for more information.
+
+.. raw:: html
+
+   <hr>
+
+.. _faq-samples-submission-public-availability:
+
+What are the steps for submitting metadata in COPO and ensuring it appears in public repositories?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+
+      Click the |collapsible-item-arrow| button below to view its content.
+
+      .. collapse:: Prerequisites
+
+         .. raw:: html
+
+            <br>
+
+         * Request to be added to a manifest group associated with your desired project by sending an email to the COPO
+           team at :email:`ei.copo@earlham.ac.uk <ei.copo@earlham.ac.uk>`
+
+           .. hint::
+
+              Visit the :ref:`copo-project-affiliations` section to see a list of COPO-brokered projects.
+
+         * Complete a manifest which is a spreadsheet containing metadata for the desired project.
+
+           If you do not have a blank manifest for the project, you can refer to the :ref:`manifest-templates` section
+           for guidance on downloading one to record the metadata.
+
+   #. Log into the COPO website then, you’ll be navigated to the **Work Profiles** web page
+
+      * Refer to the :ref:`getting-started-accessing-copo-website` section for guidance.
+
+      .. raw:: html
+
+         <br>
+
+   #. Create a profile.
+
+      * For more information, check the :ref:`Steps to Create a Tree of Life Profile <tol-profile-walkthrough>` section.
+
+      .. raw:: html
+
+         <br>
+
+   #. Click the **Components** button attached to the created profile
+
+      * See the :ref:`accessing-samples-web-page` section for additional information.
+
+      .. raw:: html
+
+         <br>
+
+   #. Upload the completed manifest
+
+      Visit the :ref:`samples-submission` section for guidance on submitting samples.
+
+      .. note::
+
+         Choose the desired type of submission listed in that section to be directed to the page for submitting
+         the manifest of that type.
+
+   #. COPO will validate the uploaded manifest then, display any errors and/or warnings and provide messages to
+      help resolve them.
+
+      If you encounter errors that you are unable resolve, we are happy to assist. Contact the :email:`COPO team
+      <ei.copo@earlham.ac.uk>` detailing the issue(s) encountered.
+
+      .. raw:: html
+
+         <br>
+
+   #. If applicable, upload :ref:`permits <permits-submission>` and/or :ref:`images <images-submission>` after
+      uploading the sample manifest in the same attempt. Use the appropriate button in the
+      **Upload Sample Spreadsheet** dialog to complete this step.
+
+      .. important::
+
+         This process must be completed in one go; you cannot close the dialog and return later to upload the permits
+         and/or images. The permits and/or images rely on metadata from the sample manifest, and as such they must be
+         added in the same session.
+
+      .. note::
+
+         The **Upload Sample Spreadsheet** title of the dialog will change depending on the type of submission that
+         you are making e.g. **Upload ERGA Sample Spreadsheet**.
+
+   #. Sample managers will be notified of the submission and will review it to accept or reject the samples.
+
+      .. raw:: html
+
+         <br>
+
+   #. The metadata of accepted samples is deposited to :abbr:`ENA (European Nucleotide Archive)`, where accession
+      numbers are assigned and reflected in COPO. These samples can then be queried in public repositories like
+      `European Nucleotide Archive (ENA) <https://www.ebi.ac.uk/ena/browser/home>`_ and
+      `National Centre for Biotechnology Information (NCBI) <https://www.ncbi.nlm.nih.gov>`__ using the assigned
+      accession numbers.
+
+      The accession numbers are displayed in the columns – **Biosample Accession**, **SRA Accession**, and **Submission
+      Accession** – in the data table on the **Samples** web page in COPO. While each accession uniquely identifies a
+      sample record, the biosample accession is primarily used as the identifier.
+
+      Additionally, each cell/value in the aforementioned accession columns contains a hyperlink to the metadata on
+      :abbr:`ENA (European Nucleotide Archive)`, allowing you to directly access the data there.
+
+      For more details on retrieving accession numbers, please refer to the
+      :ref:`Retrieving Accessions <accessions-dashboard>` section.
+
+   .. seealso::
+
+      * :ref:`Are accessions assigned in sample submissions after sample manifests are uploaded? <faq-samples-submission-accessions-assignment>` :abbr:`FAQ (Frequently Asked Question)`
+
+      * If you intend to submit other types of metadata in COPO such as :ref:`assemblies <assemblies>`,
+        :ref:`sequence annotations <sequence-annotations>`, :ref:`barcoding manifests <barcoding-manifest-submissions>`
+        and :ref:`reads <reads>` submissions and would like to make the submitted metadata available in public
+        repositories, please refer to the :ref:`Releasing Profiles (Studies) <releasing-profiles>` section for more
+        information.
 
 .. raw:: html
 

@@ -105,4 +105,5 @@ Featured:
    <br>
 
 .. seealso::
-  Visit `FAIR website <https://www.go-fair.org/fair-principles>`__ for more information about FAIR principles.
+
+   Visit `FAIR website <https://www.go-fair.org/fair-principles>`__ for more information about FAIR principles.

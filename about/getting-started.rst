@@ -46,6 +46,8 @@ data, please see our :ref:`privacy-notice` and :ref:`terms-of-use`.
 
    <hr>
 
+.. _getting-started-accessing-copo-website:
+
 Accessing COPO Website
 ------------------------
 
