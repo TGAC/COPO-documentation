@@ -1355,7 +1355,7 @@ Are accessions assigned in sample submissions after sample manifests are uploade
 
 .. _faq-samples-submission-public-availability:
 
-What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories?
+What are the steps for submitting sample metadata in COPO and ensure it appears in public repositories?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::  Click to view answer
@@ -1486,7 +1486,7 @@ What are the steps for submitting sample metadata in COPO and ensuring it appear
 
    .. seealso::
 
-      :ref:`How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>` :abbr:`FAQ (Frequently Asked Question)`
+      :ref:`How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensure it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>` :abbr:`FAQ (Frequently Asked Question)`
 
 .. raw:: html
 
@@ -1494,7 +1494,7 @@ What are the steps for submitting sample metadata in COPO and ensuring it appear
 
 .. _faq-samples-submission-and-genomic-metadata-association:
 
-How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensuring it appears in public repositories?
+How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensure it appears in public repositories?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::  Click to view answer
@@ -1513,7 +1513,7 @@ How can genomic metadata be associated with submitted or existing sample metadat
 
             <br>
 
-         Please refer to the :ref:`What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>`
+         Please refer to the :ref:`What are the steps for submitting sample metadata in COPO and ensure it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>`
          :abbr:`FAQ (Frequently Asked Question)` for guidance on submitting sample metadata in COPO. The genomic
          metadata submission process depends on the sample metadata submission process.
 
@@ -1539,7 +1539,7 @@ How can genomic metadata be associated with submitted or existing sample metadat
 
    .. seealso::
 
-      * :ref:`What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-public-availability>` :abbr:`FAQ (Frequently Asked Question)`
+      * :ref:`What are the steps for submitting sample metadata in COPO and ensure it appears in public repositories? <faq-samples-submission-public-availability>` :abbr:`FAQ (Frequently Asked Question)`
       * :ref:`Releasing Profiles (Studies) <releasing-profiles>` i.e. making genomic metadata public after submission in COPO in public repositories
       * :ref:`faq-genomic-metadata-submission-types` :abbr:`FAQ (Frequently Asked Question)` for guidance on the types
         of genomic metadata
