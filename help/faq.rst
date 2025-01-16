@@ -7,6 +7,8 @@ Frequently Asked Questions
 
    To view the entire answer to a question, collapse the answer by clicking the |collapsible-item-arrow| button below.
 
+.. _faq-assemblies:
+
 Assemblies
 --------------------
 
@@ -899,6 +901,8 @@ What happens when a profile is updated in COPO?
 
    <hr>
 
+.. _faq-reads:
+
 Reads
 --------------------
 
@@ -1259,6 +1263,55 @@ How can I submit virtual samples in COPO?
 
    <br>
 
+.. _faq-genomic-metadata-submission-types:
+
+What are the types of genomic metadata submissions that can be made in COPO?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse:: Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+
+      Data files related to your desired genomic metadata submission type must be uploaded via the Files web page before
+      submission.
+
+      See the :ref:`files` section for more information.
+
+   The following are types of genomic metadata submissions that can be made in COPO. Please click the desired link to
+   view more information about each submission type.
+
+   * :ref:`Reads <reads>`
+   * :ref:`Assemblies <assemblies>`
+   * :ref:`Sequence annotations <sequence-annotations>`
+
+   Genomic metadata submissions can be made via the following methods:
+
+   * Under a :ref:`Genomics profile <genomics-profile-walkthrough>` -  this method is applicable if the genomic
+     data to be submitted is not associated with any particular project brokered by COPO.
+
+   * Under a :ref:`Tree of Life (ToL) profile <tol-profile-walkthrough>` - this approach is applicable if the genomic
+     data to be submitted is associated with a project brokered by COPO and there are existing or submitted sample
+     metadata.
+
+   .. seealso::
+
+      * :ref:`Projects brokered through COPO <copo-project-affiliations>`
+      * :ref:`Samples submission <samples-submission>`
+      * :ref:`images-submission`
+      * :ref:`permits-submission`
+      * :ref:`barcoding-manifest-submissions`
+      * :ref:`faq-reads` :abbr:`FAQ (Frequently Asked Question)`
+      * :ref:`faq-assemblies` :abbr:`FAQ (Frequently Asked Question)`
+      * :ref:`faq-sequence-annotations` :abbr:`FAQ (Frequently Asked Question)`
+
+.. raw:: html
+
+   <br>
+
 Why do I get a 'PROXY_TISSUE_VOUCHER_ID_FOR_BIOBANKING' error when uploading or updating a manifest?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -1298,12 +1351,12 @@ Are accessions assigned in sample submissions after sample manifests are uploade
 
 .. raw:: html
 
-   <hr>
+   <br>
 
 .. _faq-samples-submission-public-availability:
 
-What are the steps for submitting metadata in COPO and ensuring it appears in public repositories?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse::  Click to view answer
 
@@ -1349,7 +1402,8 @@ What are the steps for submitting metadata in COPO and ensuring it appears in pu
 
          <br>
 
-   #. Click the |profile-components-button| button attached to the created profile.
+   #. Click the |profile-components-button| button attached to the created profile then, the
+      |samples-component-button| in the popup dialog to navigate to the **Samples** web page.
 
       * See the :ref:`accessing-samples-web-page` section for additional information.
 
@@ -1429,6 +1483,66 @@ What are the steps for submitting metadata in COPO and ensuring it appears in pu
         and :ref:`reads <reads>` submissions and would like to make the submitted metadata available in public
         repositories, please refer to the :ref:`Releasing Profiles (Studies) <releasing-profiles>` section for more
         information.
+
+   .. seealso::
+
+      :ref:`How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>` :abbr:`FAQ (Frequently Asked Question)`
+
+.. raw:: html
+
+  <br>
+
+.. _faq-samples-submission-and-genomic-metadata-association:
+
+How can genomic metadata be associated with submitted or existing sample metadata in COPO and ensuring it appears in public repositories?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. collapse::  Click to view answer
+
+   .. raw:: html
+
+      <br>
+
+   .. note::
+
+      Click the |collapsible-item-arrow| button below to view its content.
+
+      .. collapse:: Prerequisites
+
+         .. raw:: html
+
+            <br>
+
+         Please refer to the :ref:`What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-and-genomic-metadata-association>`
+         :abbr:`FAQ (Frequently Asked Question)` for guidance on submitting sample metadata in COPO. The genomic
+         metadata submission process depends on the sample metadata submission process.
+
+   In COPO, genomic metadata can be associated with submitted or existing sample metadata through the steps below:
+
+   #. Upload the data files associated with the type of genomic metadata to be submitted on the Files web page.
+
+      * See the :ref:`files` section for guidance.
+
+      .. raw:: html
+
+          <br>
+
+   #. Upload the genomic metadata to the same profile used for the sample manifest submission on the **Work Profiles**
+      web page.
+
+      Each genomic metadata submission type requires wither a form or manifest (spreadsheet). Some fields may be
+      linked to previously submitted sample metadata.
+
+      Click the |profile-components-button| button associated with the profile then, click the appropriate option -
+      |assembly-component-button| button, |reads-component-button| button or |sequence-annotations-component-button| in
+      the popup dialog to navigate to the relevant web page.
+
+   .. seealso::
+
+      * :ref:`What are the steps for submitting sample metadata in COPO and ensuring it appears in public repositories? <faq-samples-submission-public-availability>` :abbr:`FAQ (Frequently Asked Question)`
+      * :ref:`Releasing Profiles (Studies) <releasing-profiles>` i.e. making genomic metadata public after submission in COPO in public repositories
+      * :ref:`faq-genomic-metadata-submission-types` :abbr:`FAQ (Frequently Asked Question)` for guidance on the types
+        of genomic metadata
 
 .. raw:: html
 
@@ -1761,6 +1875,8 @@ How can I get a better view of sample record information displayed on the Accept
 
    <hr>
 
+.. _faq-sequence-annotations:
+
 Sequence Annotations
 --------------------
 
@@ -1840,6 +1956,10 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :height: 4ex
    :class: no-scaled-link
 
+.. |assembly-component-button| image:: /assets/images/buttons/components_assembly_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
@@ -1880,7 +2000,19 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :height: 4ex
    :class: no-scaled-link
 
+.. |reads-component-button| image:: /assets/images/buttons/components_reads_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
 .. |samples_accept_reject_button_accept| image:: /assets/images/buttons/samples_accept_reject_button_accept.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |samples-component-button| image:: /assets/images/buttons/components_samples_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |sequence-annotations-component-button| image:: /assets/images/buttons/components_sequence_annotations_button.png
    :height: 4ex
    :class: no-scaled-link
 
