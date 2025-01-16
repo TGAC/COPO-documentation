@@ -1534,8 +1534,8 @@ How can genomic metadata be associated with submitted or existing sample metadat
       linked to previously submitted sample metadata.
 
       Click the |profile-components-button| button associated with the profile then, click the appropriate option -
-      |assembly-component-button| button, |reads-component-button| button or |sequence-annotations-component-button| in
-      the popup dialog to navigate to the relevant web page.
+      |assembly-component-button| button, |barcoding-manifest-component-button| button, |reads-component-button| button
+      or |sequence-annotations-component-button| in the popup dialog to navigate to the relevant web page.
 
    .. seealso::
 
@@ -1957,6 +1957,10 @@ Are accessions assigned in sequence annotation submissions after studies are rel
    :class: no-scaled-link
 
 .. |assembly-component-button| image:: /assets/images/buttons/components_assembly_button.png
+   :height: 4ex
+   :class: no-scaled-link
+
+.. |barcoding-manifest-component-button| image:: /assets/images/buttons/components_barcoding_manifest_button.png
    :height: 4ex
    :class: no-scaled-link
 
