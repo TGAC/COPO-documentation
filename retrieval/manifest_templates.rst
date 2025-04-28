@@ -27,7 +27,7 @@ a manifest template. See :ref:`samples-component` component for more details abo
 
 :download:`DToL manifest template <../assets/files/manifests/DTOL_MANIFEST_TEMPLATE_v2.5.xlsx>` [#f2]_
 
-:download:`ERGA manifest template <../assets/files/manifests/ERGA_MANIFEST_TEMPLATE_v2.5.xlsx>` [#f3]_
+:download:`ERGA manifest template <../assets/files/manifests/ERGA_MANIFEST_TEMPLATE_v2.5.1.xlsx>` [#f3]_
 
 :download:`Barcoding manifest template (within Tree of Life profiles) <../assets/files/manifests/BARCODING_MANIFEST_TEMPLATE.xlsx>`
 
@@ -110,7 +110,7 @@ This will be made available soon.
 :abbr:`ERGA (European Reference Genome Atlas)` SOP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:download:`ERGA SOP <../assets/files/sops/ERGA_MANIFEST_SOP_v2.5.pdf>`
+:download:`ERGA SOP <../assets/files/sops/ERGA_MANIFEST_SOP_v2.5.1.pdf>`
 
 .. rst-class:: fa fa-github
 
