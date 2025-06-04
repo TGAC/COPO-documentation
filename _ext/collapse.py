@@ -23,13 +23,22 @@ def visit_collapse_html(self, node):
     self.body.append(self.starttag(node, 'details'))
     self.body.append(f"<summary>{node['summary']}</summary>")
 
+def visit_collapse_latex(self, node):
+    # Skip
+    pass
+
 def depart_collapse_html(self, node):
     self.body.append('</details>')
+
+def depart_collapse_latex(self, node):
+    # Skip
+    pass
 
 def setup(app: Sphinx):
     app.add_node(
         CollapseNode,
         html=(visit_collapse_html, depart_collapse_html),
-        html5=(visit_collapse_html, depart_collapse_html)
+        html5=(visit_collapse_html, depart_collapse_html),
+        latex=(visit_collapse_latex, depart_collapse_latex)
     )
     app.add_directive('collapse', CollapseDirective)
