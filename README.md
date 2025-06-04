@@ -54,6 +54,13 @@ pip3 install -r requirements.txt
 
 To learn more, see: [Creating a virtual environment (PyCharm)](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
 
+#### 2.1 Check for broken dependencies (optional)
+
+```bash
+pip3 check
+```
+> **Note**: This command checks for broken dependencies in the installed packages. If there are any issues, you may 
+> need to resolve them before proceeding.
 ---
 
 ## PyCharm Configuration (Optional)
