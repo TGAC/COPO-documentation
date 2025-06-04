@@ -29,7 +29,7 @@ How to Submit Assemblies
 Accessing the Assembly Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Assembly** [#f3]_  web page can be accessed from the **Components** button associated with a profile [#f4]_.
+The **Assembly** [#f1]_  web page can be accessed from the **Components** button associated with a profile [#f2]_.
 
 .. raw:: html
 
@@ -144,10 +144,8 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
 
 .. rubric:: Footnotes
 
-.. [#f1] See term: :term:`Locus tag`.
-.. [#f2] See term: :term:`ENA`.
-.. [#f3] See: :term:`Assembly`.
-.. [#f4] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
+.. [#f1] See: :term:`Assembly`.
+.. [#f2] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
 
 .. raw:: html
 

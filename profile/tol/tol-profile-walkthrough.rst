@@ -203,7 +203,7 @@ Input Locus Tag (if applicable)
 
       <br>
 
-   If applicable, input the :abbr:`ENA (European Nucleotide Archive)` [#f4]_ **Locus Tag** in the form box.
+   If applicable, input the :abbr:`ENA (European Nucleotide Archive)` [#f4]_ **Locus Tag** [#f6]_ in the form box.
    Please refer to the :ref:`How can I assign a locus tag to assemblies <faq-assemblies-submission-locus-tag-assignment>`
    :abbr:`FAQ (Frequently Asked Question)` for guidelines.
 
@@ -305,6 +305,7 @@ The following component types are currently defined:
          A Tree of Life (ToL) profile is considered as a *project* or *study* research object.
 .. [#f4] See term: :term:`ENA`.
 .. [#f5] See term: :term:`ERGA`.
+.. [#f6] See term: :term:`Locus tag`.
 
 ..
     Images declaration

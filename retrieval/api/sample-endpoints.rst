@@ -128,7 +128,7 @@ Fetch Sample Records by Associated Project Type
          Filters are applied by appending them as query parameters in the API URL. See the **Usage** and **Example**
          sections for details.
 
-      * **values** (required): The subproject or secondary project to filter the results. [#f2]_
+      * **values** (required): The subproject or secondary project to filter the results. [#f4]_
       * **standard** (optional): The :ref:`standard <mapping-api-standards>` to query the endpoint. Options include:
         **tol** (default), **dwc**, **ena** and **mixs**
       * **return_type** (optional): Output format for the results. Options include **json** (default) and **csv**

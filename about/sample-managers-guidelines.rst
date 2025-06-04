@@ -480,7 +480,7 @@ steps below:
    * Permits can only be downloaded for submitted samples that are **pending** action by a sample manager or have been
      **accepted** by a sample manager.
 
-   * Permits exist for :abbr:`ERGA (European Reference Genome Atlas)` [#f5]_ profiles only.
+   * Permits exist for :abbr:`ERGA (European Reference Genome Atlas)` [#f3]_ profiles only.
 
 .. hint::
 
@@ -733,9 +733,7 @@ submitter [#f2]_:
 .. [#f1] See term: :term:`Sample manager`
 .. [#f2] See term: :term:`Sample submitter`. Sample submitter may also be referred to as a
          manifest provider or manifest submitter.
-.. [#f3] See term: :term:`ASG`.
-.. [#f4] See term: :term:`DToL`. *DToL* may sometimes be referred to as *DTOL*.
-.. [#f5] See term: :term:`ERGA`.
+.. [#f3] See term: :term:`ERGA`.
 
 
 ..
