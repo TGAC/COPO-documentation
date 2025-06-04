@@ -20,7 +20,11 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
 
+# Add the _ext directory to the path
+sys.path.insert(0, os.path.abspath('_ext'))
 
 # -- General configuration ------------------------------------------------
 
@@ -35,7 +39,8 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_toolbox.collapse',
+    # 'sphinx_toolbox.collapse',
+    'collapse', # Custom collapse directive
     'sphinx_toolbox.wikipedia',
     'sphinxcontrib.email',
     'sphinxcontrib.spelling',
@@ -101,8 +106,8 @@ html_logo = "copo_logo.png"
 html_theme = 'sphinx_rtd_theme'
 
 html_theme_options = {
-    'logo_only': True,
-    # 'display_version': True
+   'logo_only': True,
+   # 'display_version': True
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
