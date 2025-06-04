@@ -331,6 +331,9 @@ Fetch Sample Updates by Update Type
    See the :ref:`samples-update` section for more information as well as the
    :ref:`Fetch updatable fields by project <sample-api-endpoint-updatable-fields>` API method.
 
+.. raw:: html
+
+   <br>
 
 Fetch Sample Updates by Field and Field Value
 """"""""""""""""""""""""""""""""""""""""""""""
