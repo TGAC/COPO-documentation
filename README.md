@@ -1,180 +1,295 @@
-#  Collaborative OPen Omics (COPO) 
-COPO documentation was created using the Sphinx reStructuredText (reST) markup language. It is hosted on 
-[readthedocs.io](https://copo-docs.readthedocs.io).
+<a name="top"></a>
+# COPO Documentation
 
-For more information about Sphinx visit:
-http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html
+The Collaborative OPen Omics (COPO) documentation is created using the Sphinx reStructuredText (reST) markup language and is hosted on
+[ReadThedocs.io](https://copo-docs.readthedocs.io). It provides a comprehensive overview of the platform, including visual guides, usage instructions, answers to frequently asked questions, and guidance on how to make necessary metadata submissions.
+
+The documentation is available at http://copo-docs.rtfd.io or http://copo-docs.readthedocs.io.
+
+You can access the COPO website at https://copo-project.org and its GitHub repository at https://github.com/TGAC/COPO-production.
+
+For more information about Sphinx, see the [Don’t Be Afraid to Commit guide](http://dont-be-afraid-to-commit.readthedocs.io/en/latest/documentation.html).
+
+---
+
+## Table of Contents 📚
+
+- [Getting Started 🚀](#getting-started)
+  1. [Clone the GitHub Repository](#1-clone-the-github-repository)
+  1. [Set Up a Python Virtual Environment](#2-set-up-a-python-virtual-environment)
+- [PyCharm Configuration (Optional) ⚙️](#pycharm-configuration-optional)
+- [Updating Packages 🔄](#updating-packages)
+- [Building the Documentation Locally 🧪](#building-the-documentation-locally)
+  - [Public Documentation](#public-documentation)
+  - [Internal Documentation](#internal-documentation)
+- [Common Issues and Fixes 🐞](#common-issues-and-fixes)
+  - [Issue 1: \_static folder missing](#issue-1-_static-folder-missing)
+  - [Issue 2: make not found](#issue-2-make-not-found)
+  - [Issue 3: Port already in use](#issue-3-port-already-in-use)
+  - [Issue 4: Enchant C library missing](#issue-4-enchant-c-library-missing)
+  - [Issue 5: lxml incompatible on Mac (ARM64)](#issue-5-lxml-incompatible-on-mac-arm64)
+  - [Issue 6: sphinxcontrib.spelling architecture issue](#issue-6-sphinxcontribspelling-architecture-issue)
+  - [Issue 7: Environment not reflecting updates](#issue-7-environment-not-reflecting-updates)
+- [Publishing to ReadTheDocs 📦](#publishing-to-readthedocs)
 
 ---
 
 ## Getting Started
-Clone the COPO **Documentation** GitHub repository: 
 
-$ `git clone https://github.com/TGAC/COPO-documentation.git`
+### 1. Clone the GitHub repository
 
-## Create a Python virtual environment locally
-1. Navigate to the (cloned) project folder
+```bash
+git clone https://github.com/TGAC/COPO-documentation.git
+cd COPO-documentation
+```
 
-2. Create a Python virtual environment for the documentation with Python 3.x
-    $ `sudo apt install python3.10-venv`
-    $ `python3 -m venv venv`
+### 2. Set Up a Python Virtual Environment
 
-3. Activate the virtual environment
+```bash
+sudo apt install python3.10-venv
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
 
-    $ `source venv/bin/activate`
-
-4. Execute the following command within the virtual environment:
-
-   $ `pip3 install -r requirements.txt`
-
-5. Write, commit then, push code to the repository
-
-Visit [Configure a virtual environment](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html) to 
-learn more about Python virtual environments (if using PyCharm as an IDE).
-
-## Create a Sphinx configuration (if using PyCharm as an IDE)
-
-1. Navigate to Add New Configuration > Python docs
-2. Select **Sphinx task**
-3. Input following configuration options:
-   * Command: `html`
-   * Input: `<path to the documentation root directory>`
-   * Output:  `<path to the `_build/html` directory>`
-   * Python interpreter: `<path to the Python virtual environment>`
-   * Working directory:  `<path to the documentation root directory>`
-
-Visit [Run/debug configurations](https://www.jetbrains.com/help/pycharm/run-debug-configuration.html) to learn how to 
-create a configuration in PyCharm.
-
-## Upgrade all packages in requirements.txt
-
-1. Install pip-upgrader: $ `pip3 install pip-upgrader`
-2. Navigate to the project directory: $ `cd Documentation`
-3. Upgrade the packages: $ `pip-upgrade`
+To learn more, see: [Creating a virtual environment (PyCharm)](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html)
 
 ---
 
-## Launch COPO Documentation locally
-### Public COPO Documentation
-To render locally, in the project documentation directory (there should be a _build folder):
+## PyCharm Configuration (Optional)
 
- Run the command to build the project: $ `make html`
-                                       $ ``sphinx-build -b html . _build/``
- Run the command to do a full build of the project: $ `make clean html`
+To use PyCharm’s Sphinx task runner:
 
- To view the web browser, locate and manually open the `index.html` file located at - `_build/html/index.html`
+1. Go to **Add New Configuration** > **Python docs**
+1. Select **Sphinx task**
+1. Fill in the configuration:
+   - Command: `html`
+   - Input: `<path to the documentation root directory>`
+   - Output: `<path to _build/html>`
+   - Python interpreter: `<path to the Python virtual environment>`
+   - Working directory: `<path to the documentation root>`
 
- **e.g.** The web browser (local) full path will be  `http://localhost:63342/documentation/_build/html/index.html` 
- where `63342` is the port number.
-	
-**OR** 
-
-To render locally with automatic rebuild when changes are made and open the homepage of the generated 
-documentation in the default browser:
-
-$ `sphinx-autobuild --open-browser ./ _build/html` or $ `make htmllive`
-
-Server will start at http://127.0.0.1:8000 
-
-**OR** 
-
-To render locally with automatic rebuild when changes are made and open the homepage of the generated 
-documentation in the default browser on a specific port:
-
-$ `sphinx-autobuild --port=8002 --open-browser ./ _build/html`
-
-Server will start at http://127.0.0.1:8002
-
-**OR**
-
-To render locally with a spell checker enabled:
-$ `sphinx-build -b spelling html/_source _build`
-
-### Internal COPO Documentation
-
-Repeat the steps above but, instead of running the command to build the project, run the command to build the project
-with the `htmlinternal` flag: 
-
-$ `make htmlinternal`
-$ ``sphinx-build -b html . _buildinternal/``
-
-Full build command: $ `make clean htmlinternal`
-View browser:  `_buildinternal/html/index.html` or via `http://localhost:63342/documentation/_buildinternal/html/index.html`
-Automatic rebuild: $ `sphinx-autobuild --port=8002 --open-browser ./ _buildinternal/html` or $ `make htmlinternallive`
+More information: [Run/debug configurations in PyCharm](https://www.jetbrains.com/help/pycharm/run-debug-configuration.html)
 
 ---
 
-## Potential issues
-**Issue #1** (when running the Sphinx project for the first time):
+## Updating Packages
 
-`"WARNING: html_static_path entry '../_static' does not exist"` 
+To update the packages in the `requirements.txt` file, use `pip-upgrader` which allows packages to be updated interactively.
 
-**OR**
-
-`WARNING: html_static_path entry '_static' does not exist`
-
-**Solution #1**: Create a `_static` folder in the project root directory 
-                 Command to do so: $ `mkdir _static`
-______________________________________________________________________
-
-**Issue #2**: `bash: make: command not found`
-**Solution #2**: $ `sudo apt install make`
-
-______________________________________________________________________
-
-**Issue #3**: `OSError: [Errno 98] Address already in use`
-**Solution #3**: $ `sudo lsof -i TCP:8002 | grep LISTEN | awk '{print $2}' | xargs kill -9`
-
-NB. `8002` is the port number. The solution above will kill the process running on that port.
-______________________________________________________________________
-
-**Issue #4 (Mac)**: `NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'`
-**Solution #4.1 (Linux)**: Install Enchant C library
-                       $ `sudo apt-get install enchant-2`
-**Solution #4.2 (Mac)**: Install Enchant C library
-                       $ `brew update`
-                       $ `brew install enchant`
-
-**NB**: Install [Homebrew](https://brew.sh/) before running the commands above
-
-______________________________________________________________________
-
-**Issue #5 (Mac)**: `Extension error: Could not import extension sphinxcontrib.email (exception: dlopen(~/site-packages/lxml/etree.cpython-39-darwin.so, 0x0002):'`
-                    `(mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64'))`
-**Solution #5 (Mac)**: Force reinstall **lxml** package so that it is assigned to the correct OS architecture
-                       $ `pip3 install lxml==5.2.2  --compile --force-reinstall`
-
-**NB**: Find the version of the currently installed **lxml** package: $ `pip3 show lxml`
-        The version is displayed by the **Version**
-______________________________________________________________________
-
-**Issue #6 (Mac)**: `Could not import extension sphinxcontrib.spelling (exception: The 'enchant' C library was not found and maybe needs to be installed`
-**Solution #6 (Mac)**: Downgrade `sphinxcontrib.spelling` by forcing reinstall of `sphinxcontrib.spelling` package 
-                       so that it is assigned to the correct OS architecture
-                       $ `pip3 install sphinxcontrib.spelling==7.7.0  --compile --force-reinstall`
-
-**NB**: Find the version of the currently installed `sphinxcontrib.spelling` package: $ `pip3 show sphinxcontrib.spelling`
-        The version is displayed by the **Version**
-
-______________________________________________________________________
-
-**Issue #7**: `Requirements are not installing` or `old pacage versions are still being recognised despite being upgraded`
-**Solution #7**: Delete the `venv` directory file (if it exists) from the project directory then, recreate the virtual 
-                 environment and install the requirements
-                 $ `rm -rf venv`
-                 $ `python3 -m venv venv`
-                 $ `source venv/bin/activate`
-                 $ `pip3 install -r requirements.txt`
+```bash
+pip3 install pip-upgrader
+cd COPO-documentation
+pip-upgrade
+```
 
 ---
 
-## Importing your Documentation into ReadTheDocs
-* [Read how to import a Read the Docs project into Read the Docs](https://docs.readthedocs.io/en/stable/intro/import-guide.html)
+## Building the Documentation Locally
 
-* [Read how to integrate a .readthedocs.yaml configuration file into a Read the Docs project](https://docs.readthedocs.io/en/stable/config-file/v2.html#)
+### Public Documentation
 
+**Build the documentation**
 
+```bash
+make html
+# or
+sphinx-build -b html . _build/
+```
 
+**Clean build**
 
+```bash
+make clean html
+```
 
+**View the docs locally by opening `_build/html/index.html` in a browser, or use the following commands**
 
+```bash
+sphinx-autobuild --open-browser ./ _build/html
+# or
+make htmllive
+# or with a port
+sphinx-autobuild --port=8002 --open-browser ./ _build/html
+```
+
+> **Note**:
+> - If the `index.html` is launched then the web browser (local) full path will be `http://  localhost:63342/documentation/_build/html/index.html` where `63342` is the port number.
+> - Server will start at http://127.0.0.1:8000 with port `8000` by default unless specified otherwise.
+
+**Enable spell checking**
+
+```bash
+sphinx-build -b spelling html/_source _build
+```
+
+> **Note**: This renders the project locally with spell checker enabled
+
+### Internal Documentation
+
+**To build internal docs**
+
+```bash
+make htmlinternal
+# or
+sphinx-build -b html . _buildinternal/
+```
+
+**Clean and build**
+
+```bash
+make clean htmlinternal
+```
+
+**Auto-build and serve**
+
+```bash
+sphinx-autobuild --port=8002 --open-browser ./ _buildinternal/html
+```
+
+**View browser**
+
+- To view the web browser, locate and manually open the `index.html` file
+  located at `_buildinternal/html/index.html`
+
+- To view the web browser (local) full path will be:
+  `http://localhost:63342/documentation/_buildinternal/html/index.html`
+
+---
+
+## Common Issues and Fixes
+
+### Issue #1: \_static folder missing
+
+    WARNING: html_static_path entry '_static' does not exist
+
+**Fix**:
+
+```bash
+mkdir _static
+```
+
+**Note**: This creates the `_static` folder in the documentation root directory, which is required for static files used by Sphinx.
+
+---
+
+### Issue #2: make not found
+
+    bash: make: command not found
+
+**Fix**:
+
+```bash
+sudo apt install make
+```
+
+> **Note**: This installs the `make` utility, which is required to build the documentation.
+
+---
+
+### Issue #3: Port already in use
+
+    OSError: [Errno 98] Address already in use
+
+**Fix**:
+
+```bash
+sudo lsof -i TCP:8002 | grep LISTEN | awk '{print $2}' | xargs kill -9
+```
+
+> **Note**: `8002` is the port number. The solution above will kill the process running on that port.
+
+---
+
+### Issue #4: Enchant C library missing
+
+    NotOpenSSLWarning: urllib3 v2.0 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'
+
+**Fix**:
+
+#### Linux
+
+```bash
+sudo apt-get install enchant-2
+```
+
+#### Mac
+
+```bash
+brew update
+brew install enchant
+```
+
+> **Note**: Install [Homebrew](https://brew.sh/) before running the Mac commands. 
+> The fixes describe how to install Enchant C library
+
+---
+
+### Issue #5: lxml incompatible on Mac (ARM64)
+
+    Extension error: Could not import extension sphinxcontrib.email (exception: dlopen(~/site-packages/lxml/etree.cpython-39-darwin.so, 0x0002): (mach-o file, but is an incompatible architecture (have 'x86_64', need 'arm64e' or 'arm64')))
+
+**Fix**:
+
+#### Linux
+
+```bash
+pip3 install lxml==5.2.2  --compile --force-reinstall
+```
+
+#### Mac
+
+```bash
+brew update
+brew install enchant
+```
+
+> **Note**: Force reinstall **lxml** package so that it is assigned to the correct OS architecture. 
+> To find the version of the currently installed **lxml** package, run `pip3 show lxml` 
+  in the terminal. The version is displayed by the **Version**.
+
+---
+
+### Issue #6: sphinxcontrib.spelling architecture issue
+
+    Could not import extension sphinxcontrib.spelling (exception: The 'enchant' C library was not found and maybe needs to be installed)
+
+**Fix**:
+
+```bash
+pip3 install sphinxcontrib.spelling==7.7.0  --compile --force-reinstall
+```
+
+> **Note**:
+> - This fix downgrades the `sphinxcontrib.spelling` package by forcing reinstall of `sphinxcontrib.spelling` package
+>   so that it is assigned to the correct OS architecture.
+> - To find the version of the currently installed `sphinxcontrib.spelling` package, run - `pip3 show sphinxcontrib.spelling`.
+>   The version is displayed by the **Version**.
+
+---
+
+### Issue #7: Environment not reflecting updates
+
+    Requirements are not installing or old package versions are still being recognised despite being upgraded
+
+**Fix**:
+
+```bash
+rm -rf venv
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
+
+> **Note**: This deletes the `venv` directory file (if it exists) from the project directory then, recreates the `venv` virtual environment and install the requirements.
+
+---
+
+## Publishing to ReadTheDocs
+
+- [How to import a project](https://docs.readthedocs.io/en/stable/intro/import-guide.html)
+
+- [Using .readthedocs.yaml](https://docs.readthedocs.io/en/stable/config-file/v2.html#)
+
+<br> <br> 
+<p align="right"><a href="#top">Back to top&nbsp;&nbsp;⬆️</a></p>

@@ -31,7 +31,7 @@ Seminar presentations
       How users can leverage COPO to submit reads, assemblies and sequencing annotation data to European Nucleotide
       Archive (ENA) and get the data published
 
-   - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_14052024_Leveraging_COPO_to_submit_READ_ Assembly_Sequencing_Annotation_data_to_ENA_and_get_data_published.pptx>`
+   - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_14052024_Leveraging_COPO_to_submit_READ_Assembly_Sequencing_Annotation_data_to_ENA_and_get_data_published.pptx>`
 
    .. raw:: html
 

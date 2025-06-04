@@ -74,7 +74,7 @@ Follow the prompts to create a username, email, and password.
 
     python manage.py runserver
 
-**Access the Admin Interface**: Open your web browser and navigate to http://127.0.0.1:8000/admin/. You will be
+**Access the Admin Interface**: Open your web browser and navigate to http://copo-project.org/admin/. You will be
 presented with the Django admin login page.
 
 .. raw:: html

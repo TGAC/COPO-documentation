@@ -3,7 +3,7 @@
 Frequently Asked Questions
 ==============================
 
-.. hint::
+.. tip::
 
    To view the entire answer to a question, collapse the answer by clicking the |collapsible-item-arrow| button below.
 
@@ -15,7 +15,7 @@ Assemblies
 .. _faq-assemblies-submission-file-types:
 
 What are the types of files that are required for assembly submissions in COPO?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. collapse:: Click to view answer
 

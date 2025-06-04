@@ -8,8 +8,8 @@ This Privacy Notice explains how the **Collaborative OPen Omics (COPO)** website
 stores and uses personal information in operating the website, in accordance with the General Data Protection
 Regulation (GDPR).
 
-For the purpose of the Data Protection Act 2018 (the Act), the data controller is EI, based at Norwich
-Research Park, Colney, Norwich, NR4 7UZ.
+For the purpose of the Data Protection Act 2018 (the Act), the data controller is Earlham Institute (EI), based at
+Norwich Research Park, Colney, Norwich, NR4 7UZ.
 
 Please view our :ref:`terms-of-use` regarding the rules and requirements for the use of the service.
 
@@ -17,7 +17,7 @@ Please view our :ref:`terms-of-use` regarding the rules and requirements for the
 Lawful basis for processing your data
 --------------------------------------
 
-Under UK data protection law, we must have a 'lawful basis' for collecting and using your personal information. There
+Under UK data protection law, we must have a "lawful basis" for collecting and using your personal information. There
 is a list of possible lawful bases in the UK GDPR. You can find out more about lawful bases on the
 `Information Commissioner's Office website <https://ico.org.uk/for-organisations/advice-for-small-organisations/key-data-protection-terms-you-need-to-know/#lawfulbasis>`__.
 

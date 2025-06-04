@@ -404,7 +404,7 @@ Replace ``<postgres-username>`` and ``<postgres-password>`` with the username an
    python3 manage.py createsuperuser
 
 Enter the required details to create the Django admin/superuser. The Django admin/superuser can log into the COPO
-project application from the local `Django admin website <http://127.0.0.1:8000/admin>`__.
+project application from the `Django local admin website <http://127.0.0.1:8000/admin>`__.
 
 .. code-block:: bash
    :caption: Exit the **local_copo_web** Docker container
@@ -516,7 +516,7 @@ Within the VSCode IDE browser, add a new configuration by following the steps be
    <br>
 
 The COPO project application can be accessed locally on `on port 80000 <http://127.0.0.1:8000>`__
-or `on port 81000 <http://127.0.0.1:8000>`__.
+or `on port 81000 <http://127.0.0.1:8100>`__.
 
 
 .. note::
