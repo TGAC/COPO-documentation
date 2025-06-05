@@ -39,6 +39,7 @@ def setup(app: Sphinx):
         CollapseNode,
         html=(visit_collapse_html, depart_collapse_html),
         html5=(visit_collapse_html, depart_collapse_html),
+        epub=(visit_collapse_html, depart_collapse_html),
         latex=(visit_collapse_latex, depart_collapse_latex)
     )
     app.add_directive('collapse', CollapseDirective)
