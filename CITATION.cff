@@ -1,14 +1,43 @@
 # CITATION.cff
 cff-version: 1.2.0
 title: "Collaborative OPen Omics (COPO) Project Documentation"
-message: "If you use this documentation, please cite it."
+abstract: |
+ Collaborative OPen Omics (COPO) is a metadata brokering platform that helps scientists describe and share
+ research objects like reads, samples and images) using community-approved vocabularies. It supports Findable,
+ Accessible, Interoperable, Reusable (FAIR) data principles and integrates with public repositories.
+
+ This open-source documentation offers clear guidance on installing, configuring, and using COPO for managing and
+ submitting omics data. It includes examples, best practices and is open to community contributions.
+
+ COPO is developed at the Earlham Institute in the United Kingdom to improve metadata standards and streamline metadata
+ sharing in the life sciences.
+message: "If you use this documentation in any part of your research or publication process, please cite it
+  appropriately."
+keywords:
+  - COPO
+  - documentation
+  - life science
+  - FAIR
+  - metadata submission
+  - omics
+  - brokering platform
+  - software
+  - research
+  - collaboration
+  - open-source
 authors:
-  - name: "Collaborative OPen Omics (COPO)"
+  - given-names: Collaborative OPen Omics
+    alias: COPO
     orcid: "https://orcid.org/0009-0006-6259-5697"
+    email: "ei.copo@earlham.ac.uk"
     affiliation: Earlham Institute
+    website: "https://copo-project.org"
+    city: Norwich
+    country: GB
+    region: East of England
 date-released: 2025-06-05
 version: "1.0.0"
-url: https://copo-docs.readthedocs.io
-repository: https://github.com/TGAC/COPO-documentation
-license: Apache-2.0
-type: manual
+url: "https://copo-docs.readthedocs.io"
+repository-code: "https://github.com/TGAC/COPO-documentation"
+license: "Apache-2.0"
+type: software
