@@ -4,7 +4,7 @@ title: "Collaborative OPen Omics (COPO) Project Documentation"
 message: "If you use this documentation, please cite it."
 authors:
   - name: "Collaborative OPen Omics (COPO)"
-    orcid: "0009-0006-6259-5697"
+    orcid: "https://orcid.org/0009-0006-6259-5697"
     affiliation: Earlham Institute
 date-released: 2025-06-05
 version: "1.0.0"
