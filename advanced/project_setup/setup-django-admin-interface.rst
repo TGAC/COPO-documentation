@@ -1,8 +1,8 @@
 .. _setup-django-admin-interface:
 
-==============================================================
-Navigating to, Accessing and Using the Django Admin Interface
-==============================================================
+===================
+Using Django Admin
+===================
 
 The Django Admin interface is a powerful tool for managing a web application’s data and models through a
 user-friendly web-based interface.

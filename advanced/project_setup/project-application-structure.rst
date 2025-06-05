@@ -1,8 +1,8 @@
 .. _project-application-structure:
 
-====================================
-COPO Project Application Structure
-====================================
+======================
+Application Structure
+======================
 
 Before setting up the project, it is essential to understand the structure of a Django project and application. This
 knowledge will help you navigate the project and locate the necessary files for setting up the project.

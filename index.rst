@@ -14,7 +14,7 @@ links to find instructions specific to your needs.
    :caption: Getting Started
    :name: getting-started-section
 
-   about/getting-started
+   about/overview
    about/copo-project-affiliations
    about/first-time-user-login
    about/sample-managers-guidelines
@@ -25,8 +25,8 @@ links to find instructions specific to your needs.
 
    profile/genomics/genomics-profile-walkthrough
    profile/tol/tol-profile-walkthrough
-   profile/sharing-profiles
    profile/releasing-profiles
+   profile/sharing-profiles
    profile/sorting-profiles
    profile/profile-types-legend
 
@@ -51,21 +51,21 @@ links to find instructions specific to your needs.
 
    updates/profile
    updates/samples
-   updates/sequence-annotations
    updates/reads
-   updates/useful-tools
+   updates/sequence-annotations
+   updates/adding-children-projects
 
 .. toctree::
    :caption: COPO Data Discovery & Retrieval
    :name: copo-data-discovery-retrieval
 
-   retrieval/manifest_templates
-   retrieval/copo-api
    discovery/manifest-wizard
-   discovery/tol-dashboard
-   retrieval/accessions-dashboard
-   discovery/copo-statistics
+   retrieval/manifest_templates
    discovery/manifest-checklist
+   retrieval/copo-api
+   retrieval/accessions-dashboard
+   discovery/tol-dashboard
+   discovery/copo-statistics
 
 .. toctree::
    :caption: Advanced
@@ -81,11 +81,12 @@ links to find instructions specific to your needs.
    :caption: Policies
    :name: policies
 
+   policies/citation
    policies/fair-data-principles
    policies/licence
-   policies/code-of-conduct
-   policies/privacy-notice
    policies/terms-of-use
+   policies/privacy-notice
+   policies/code-of-conduct
 
 .. toctree::
    :caption: Help

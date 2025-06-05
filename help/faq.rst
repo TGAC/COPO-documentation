@@ -1388,7 +1388,7 @@ What are the steps for submitting sample metadata in COPO and ensure it appears 
 
    #. Log into the COPO website then, you’ll be navigated to the **Work Profiles** web page
 
-      * Refer to the :ref:`getting-started-accessing-copo-website` section for guidance.
+      * Refer to the :ref:`overview-accessing-copo-website` section for guidance.
 
       .. raw:: html
 

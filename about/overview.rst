@@ -1,8 +1,8 @@
-.. _getting-started:
+.. _overview:
 
-=================
-Getting Started
-=================
+=========
+Overview
+=========
 
 Collaborative OPen Omics (COPO) is a website portal where scientists describe their research objects (raw or
 processed data, reads, samples, images etc.) using community-sanctioned metadata sets and vocabularies [#f1]_.
@@ -46,7 +46,7 @@ data, please see our :ref:`privacy-notice` and :ref:`terms-of-use`.
 
    <hr>
 
-.. _getting-started-accessing-copo-website:
+.. _overview-accessing-copo-website:
 
 Accessing COPO Website
 ------------------------

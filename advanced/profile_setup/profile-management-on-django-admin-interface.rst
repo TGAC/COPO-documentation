@@ -1,8 +1,8 @@
 .. _profile-management-on-django-admin-interface:
 
-============================================
-Managing Profiles on Django Admin Interface
-============================================
+=====================================
+Managing Profiles with Django Admin
+=====================================
 
   .. hint::
 
@@ -14,7 +14,7 @@ The Django Admin interface provides a robust and user-friendly way to manage the
 See the :ref:`profile-setup-index` section for more information on setting up profiles before proceeding with this
 section.
 
-By navigating to http://copo-project.org/admin/ and logging in with your superuser credentials, you can easily view,
+By navigating to http://copo-project.org/admin and logging in with your superuser credentials, you can easily view,
 add, edit and delete the models that you have created with the management commands in the section,
 :ref:`creating-setup-profile-python-command`.
 

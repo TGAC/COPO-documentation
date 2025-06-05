@@ -1,8 +1,8 @@
 .. _project-local-setup-index:
 
-==========================
-COPO Project Local Setup
-==========================
+=================
+COPO Local Setup
+=================
 
 .. _copo-project-setup-with-docker:
 

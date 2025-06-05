@@ -1,8 +1,8 @@
 .. _profile-setup-index:
 
-=============================================================
-Profile Configuration and Setup using Python and Django
-=============================================================
+================================
+Profile Setup via Python/Django
+================================
 
 Django Admin is a powerful and flexible interface for managing and configuring data models within a Django application.
 In this section, we will explore how to set up and configure a profile consisting of several subparts: **ProfileType**,

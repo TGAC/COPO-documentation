@@ -1,4 +1,4 @@
-.. _useful-tools:
+.. _adding_children_projects:
 
 ============================================
 Adding Children Projects to Parent Projects
@@ -6,6 +6,7 @@ Adding Children Projects to Parent Projects
 
 In COPO
 ------------
+
 See :ref:`Choose associated profile type(s) <tol-profile-steps-details>` section when creating a profile for more
 details.
 
@@ -15,10 +16,20 @@ details.
 
 In Public Repositories
 ------------------------
-Please contact the :email:`COPO team <ei.copo@earlham.ac.uk>` if you would like child projects (subprojects) to be
-added to parent (main) projects in public repositories like ENA [#f1]_ or NCBI [#f2]_.
 
-Please provide the parent project accession and the child project accession(s) when making the email request.
+Please contact the :email:`COPO team <ei.copo@earlham.ac.uk>` if you would like to link child projects (subprojects)
+to parent projects (also referred to as main, umbrella, or primary projects) in public repositories such as ENA [#f1]_
+or NCBI [#f2]_.
+
+Please include both the parent project accession and the accession(s) of the child project(s) when making your request.
+
+.. note::
+
+   * Only projects that are publicly available (i.e., have public accessions) can be linked to parent projects in
+     public repositories.
+
+   * Once linked, child projects may take a few days to appear under the parent project in the public repository
+     interfaces.
 
 .. only:: Internal
 
@@ -30,6 +41,7 @@ Please provide the parent project accession and the child project accession(s) w
     --------------------------------------------------------------------------------
 
     .. note::
+
        * Ensure that you authenticate with your Webin account before you can query the ENA Webin REST V2 service.
 
        * ``<parent-project-accession>`` is the project accession of the main project or parent project
