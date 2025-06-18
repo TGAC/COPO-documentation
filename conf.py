@@ -36,11 +36,12 @@ sys.path.insert(0, os.path.abspath('_ext'))
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'collapse', # Custom collapse directive...this replaces sphinx_toolbox.collapse
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     # 'sphinx_toolbox.collapse',
-    'collapse', # Custom collapse directive
+    'sphinx_copybutton',
     'sphinx_toolbox.wikipedia',
     'sphinxcontrib.email',
     'sphinxcontrib.spelling',
@@ -90,6 +91,11 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
+# -- Options for HTML copybutton ------------------------------------------
+# Strips $ from the beginning of the line when copying code blocks
+copybutton_prompt_text = r"\$ "
+copybutton_prompt_is_regexp = True
 
 # -- Options for HTML output ----------------------------------------------
 
