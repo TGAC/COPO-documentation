@@ -1,0 +1,28 @@
+.hidden { display: none }
+
+/* Reset background and text color for code blocks */
+/* This was changed to to white and black due to 'sphinx_copybutton' extension, */
+/* but now changed to lime-green and black text.*/
+div.highlight pre {
+  background-color: #eeffcc !important; /* lime-green */
+  color: #000000 !important;            /* black text */
+}
+
+/* Apply CSS to inline code blocks */
+code {
+  background-color: #fff !important;
+  color: #e74c3c !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.text-indent {
+  text-indent: 1em;
+}
+
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+  white-space: normal;
+}
