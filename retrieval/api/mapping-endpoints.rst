@@ -62,42 +62,37 @@ Fetch Mapped fields for the latest manifest version
     Please include at least the ``project`` parameter value in the API URL to retrieve the mapped fields for the latest
     manifest version. Replace ``<project>`` with the desired project name.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/mapping?project=<project>
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/mapping?project=<project>
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/mapping?project=<project>" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/mapping?project=<project>" -H  "accept: application/json"
 
    **Example**
 
-    .. hint::
-
-       To view the additional filters available for this endpoint, click the |mapping-collapsible-item-arrow|
-       *Show API query parameters* button above.
-
     To retrieve the ``dwc`` mapped fields for the ``dtol`` project in the default return format, use the following URL:
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/mapping?project=dtol&standard=dwc
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/mapping?project=dtol&standard=dwc
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/mapping?project=dtol&standard=dwc" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/mapping?project=dtol&standard=dwc" -H  "accept: application/json"
 
 .. raw:: html
 

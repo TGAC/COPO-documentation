@@ -53,30 +53,32 @@ Obtain an API key for authentication
     Please include at least the ``username`` and ``password`` parameter values in the API URL to obtain an API key for
     authentication. Replace ``<username>`` and ``<password>`` with the desired values.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/apiKey
+          .. code-block:: bash
 
-    .. centered:: **OR**
+            https://copo-project.org/api/apiKey
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=<username>&password=<password>"
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=<username>&password=<password>"
 
 
    **Example**
 
     To create an API key for the user with username ``janedoe`` and password ``password123``, use the following URL:
 
-    *Via the Terminal using curl (for command-line users)*
+    .. tab-set::
 
-    .. code::
+       .. tab-item:: Command Line (curl)
 
-       $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=janedoe&password=password123"
+          .. code-block:: bash
+
+             $ curl -X POST "https://copo-project.org/api/apiKey" -H  "accept: application/json" -H  "Content-Type: application/x-www-form-urlencoded" -d "username=janedoe&password=password123"
 
 .. raw:: html
 

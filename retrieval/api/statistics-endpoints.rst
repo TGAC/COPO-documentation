@@ -25,22 +25,21 @@ Retrieve Total Number of COPO Users
 
    **Usage**
 
-   This endpoint returns the total number of registered users in COPO.
+    This endpoint returns the total number of registered users in COPO
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-   .. code-block:: bash
+       .. tab-item:: Web Browser
 
-      https://copo-project.org/api/stats/number_of_users
+          .. code-block:: bash
 
-   .. centered:: **OR**
+             https://copo-project.org/api/stats/number_of_users
 
+       .. tab-item:: Command Line (curl)
 
-   *Via the Terminal using curl (for command-line users)*
+          .. code-block:: bash
 
-   .. code::
-
-      $ curl -X GET "https://copo-project.org/api/stats/number_of_users" -H  "accept: application/json"
+              $ curl -X GET "https://copo-project.org/api/stats/number_of_users" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -80,36 +79,38 @@ Retrieve Number of Sample Records by Type and Date
 
     * If no sample type, no start date and no end date are provided, COPO will return the total number of samples.
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-   .. code-block:: bash
+       .. tab-item:: Web Browser
 
-      https://copo-project.org/api/stats/number_of_samples/{sample_type}
+          .. code-block:: bash
 
-   .. centered:: **OR**
+             https://copo-project.org/api/stats/number_of_samples/{sample_type}
 
-   *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-   .. code::
+          .. code-block:: bash
 
-      $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/{sample_type}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/{sample_type}" -H  "accept: application/json"
 
    **Example**
 
     To retrieve the total number of ``asg`` sample records between 1st January, 2025 and 1st May, 2025, use the
     following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-        https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00
+          .. code-block:: bash
 
-    *Via the Terminal using curl (for command-line users)*
+             https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00
 
-    .. code::
+       .. tab-item:: Command Line (curl)
 
-        $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00" -H  "accept: application/json"
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/stats/number_of_samples/asg?d_from=2025-01-01T00:00:00+00:00&d_to=2025-05-01T00:00:00+00:00" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -128,26 +129,26 @@ Fetch Tree of Life (ToL) Projects Submitted via COPO
 
     This endpoint returns a list of main/primary projects brokered by COPO.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/stats/tol_projects
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/stats/tol_projects
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/tol_projects" -H  "accept: application/json"
 
 .. raw:: html
 
    <br>
 
 Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 .. collapse:: Show endpoint details
 
@@ -159,19 +160,19 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
 
     This endpoint returns a list of child projects/subprojects brokered by COPO.
 
-    Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/stats/associated_tol_projects
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/stats/associated_tol_projects
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/stats/associated_tol_projects" -H  "accept: application/json"
 
 .. raw:: html
 

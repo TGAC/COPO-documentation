@@ -1,4 +1,6 @@
-.hidden { display: none }
+.hidden {
+  display: none;
+}
 
 /* Reset background and text color for code blocks */
 /* This was changed to to white and black due to 'sphinx_copybutton' extension, */
@@ -7,6 +9,18 @@ div.highlight pre {
   background-color: #eeffcc !important; /* lime-green */
   color: #000000 !important;            /* black text */
 }
+
+/*Change text within double quotes colour from orange to black*/
+/* Literal.String.Double*/
+/*.highlight .s2 {
+   color: #000000 !important;
+/*}*/
+
+/* Always show copy button for code blocks */
+div.highlight .copybtn {
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
 
 /* Apply CSS to inline code blocks */
 code {
@@ -25,4 +39,12 @@ code {
 .wy-table-responsive table td,
 .wy-table-responsive table th {
   white-space: normal;
+}
+
+.logo-subtitle {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
 }

@@ -42,6 +42,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     # 'sphinx_toolbox.collapse',
     'sphinx_copybutton',
+    'sphinx_design',
     'sphinx_toolbox.wikipedia',
     'sphinxcontrib.email',
     'sphinxcontrib.spelling',
@@ -126,10 +127,11 @@ html_static_path = ['_static']
 html_css_files = [
     'css/custom.css',
 ]
+html_js_files = ['js/custom.js']
 
-# Change "View page source" which is displayed on each web page to "Edit on GitHub"
+# Change "Edit on GitHub" to "View page source" which is displayed on each web page
 html_context = {
-    'display_github': True,
+    'display_github': False,
     'github_user': 'TGAC',
     'github_repo': 'COPO-documentation',
     'github_version': 'main',

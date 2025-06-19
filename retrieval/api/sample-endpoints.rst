@@ -70,39 +70,38 @@ Fetch Sample Records by Project
     * After having retrieved the ``copo_id`` values, you can use them to retrieve full sample information using the
       :ref:`sample-api-endpoint-sample-by-copo-id` endpoint.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/{project}
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/{project}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/{project}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/{project}" -H  "accept: application/json"
 
    **Example**
 
     To retrieve a list of ``copo_id`` values for sample records in the ``ASG``, ``DTOL`` and ``ERGA`` projects in JSON
     format, use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/asg%2Cdtol%2Cerga
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/asg%2Cdtol%2Cerga
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-
-       $ curl -X GET "https://copo-project.org/api/sample/asg%2Cdtol%2Cerga" -H  "accept: application/json"
+              $ curl -X GET "https://copo-project.org/api/sample/asg%2Cdtol%2Cerga" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -139,27 +138,25 @@ Fetch Sample Records by Associated Project Type
 
    **Usage**
 
-    * Please include at least the ``values`` parameter value in the API URL to retrieve sample records by associated
-      project type.
+    * Please include at least the ``values`` parameter value in the API URL to retrieve sample records  given
+      associated project type(s) in COPO.
 
     * To apply filters, append them to the API URL as follows:
       ``sample/associated_tol_project?values=<values>&standard=<standard>&return_type=<return_type>``.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/associated_tol_project
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/associated_tol_project
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/associated_tol_project" -H  "accept: application/json"
-
-    This endpoint results in a list of all sample records of a given associated project type(s) in COPO.
+             $ curl -X GET "https://copo-project.org/api/sample/associated_tol_project" -H  "accept: application/json"
 
    **Example**
 
@@ -169,11 +166,19 @@ Fetch Sample Records by Associated Project Type
      The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or working
      in a terminal environment.
 
-     *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-     .. code-block:: bash
+       .. tab-item:: Web Browser
 
-        https://copo-project.org/api/?profile_type=ASG&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv
+          .. code-block:: bash
+
+             https://copo-project.org/api/?profile_type=ASG&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv
+
+       .. tab-item:: Command Line (curl)
+
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/?profile_type=ASG&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -209,19 +214,19 @@ Fetch Sample Project Fields by Manifest Version
 
    **Usage**
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/current_version
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/manifest/current_version
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
 
    **Example**
 
@@ -231,19 +236,19 @@ Fetch Sample Project Fields by Manifest Version
     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
     working in a terminal environment.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/current_version?manifest_type=ASG&return_type=csv
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/manifest/current_version?manifest_type=ASG&return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/current_version?manifest_type=ASG&return_type=csv" -H  "accept: */*"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version?manifest_type=ASG&return_type=csv" -H  "accept: */*"
 
 .. raw:: html
 
@@ -284,25 +289,38 @@ Fetch Sample Records between Dates
     Please include at least the ``from`` and ``to`` parameter values in the API URL to retrieve sample records. Replace
     ``{from}`` and ``{to}`` with the desired start and end dates respectively.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/{from}/{to}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/sample/{from}/{to}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/{from}/{to}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/{from}/{to}" -H  "accept: application/json"
 
-    **Example**
+   **Example**
 
-     To retrieve samples between 1st January, 2025 and 1st May, 2025 in the default JSON format, use the following URL.
+    To retrieve sample records submitted between 1st January, 2025 and 1st May, 2025 in the default JSON format, use
+    the following URL.
 
+    .. tab-set::
 
+       .. tab-item:: Web Browser
+
+          .. code-block:: bash
+
+             https://copo-project.org/api/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0
+
+       .. tab-item:: Command Line (curl)
+
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -352,17 +370,19 @@ Fetch Updatable Fields by Project
       ``<project>``, ``<standard>`` and ``<return_type>`` with the desired values. See the example section below for
       full usage with optional filters.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/updatable_fields?project=<project>
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/updatable_fields?project=<project>
 
-    .. code::
+       .. tab-item:: Command Line (curl)
 
-       $ curl -X GET "https://copo-project.org/api/sample/updatable_fields?project=<project>" -H  "accept: */*"
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/sample/updatable_fields?project=<project>" -H  "accept: */*"
 
    **Example**
 
@@ -372,19 +392,19 @@ Fetch Updatable Fields by Project
     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
     working in a terminal environment.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/updatable_fields?project=DTOL&standard=dwc&return_type=csv
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/updatable_fields?project=DTOL&standard=dwc&return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/updatable_fields?project=DTOL&standard=dwc&return_type=csv" -H  "accept: */*"
+              $ curl -X GET "https://copo-project.org/api/sample/updatable_fields?project=DTOL&standard=dwc&return_type=csv" -H  "accept: */*"
 
 .. raw:: html
 
@@ -428,19 +448,19 @@ Fetch Sample Records by COPO ID
     Please include the ``{copo_ids}`` parameter in the API URL to retrieve full sample information for the specified
     ``copo_id`` [#f5]_ values. Replace ``{copo_ids}`` with one or more sample IDs, separated by commas.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/copo_id/{copo_ids}
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/copo_id/{copo_ids}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/copo_id/{copo_ids}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/copo_id/{copo_ids}" -H  "accept: application/json"
 
    **Example**
 
@@ -449,19 +469,19 @@ Fetch Sample Records by COPO ID
     ``67e14bbf5b9e8a38259f95ef``, ``67e14bbf5b9e8a38259f95f0`` and ``67e14bbf5b9e8a38259f95f1`` in the default JSON
     format, use the URL below.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/copo_id/67e14bbf5b9e8a38259f95eb%2C67e14bbf5b9e8a38259f95ec%2C67e14bbf5b9e8a38259f95ed%2C67e14bbf5b9e8a38259f95ee%2C67e14bbf5b9e8a38259f95ef%2C67e14bbf5b9e8a38259f95f0%2C67e14bbf5b9e8a38259f95f1
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/copo_id/67e14bbf5b9e8a38259f95eb%2C67e14bbf5b9e8a38259f95ec%2C67e14bbf5b9e8a38259f95ed%2C67e14bbf5b9e8a38259f95ee%2C67e14bbf5b9e8a38259f95ef%2C67e14bbf5b9e8a38259f95f0%2C67e14bbf5b9e8a38259f95f1
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/copo_id/67e14bbf5b9e8a38259f95eb%2C67e14bbf5b9e8a38259f95ec%2C67e14bbf5b9e8a38259f95ed%2C67e14bbf5b9e8a38259f95ee%2C67e14bbf5b9e8a38259f95ef%2C67e14bbf5b9e8a38259f95f0%2C67e14bbf5b9e8a38259f95f1" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/copo_id/67e14bbf5b9e8a38259f95eb%2C67e14bbf5b9e8a38259f95ec%2C67e14bbf5b9e8a38259f95ed%2C67e14bbf5b9e8a38259f95ee%2C67e14bbf5b9e8a38259f95ef%2C67e14bbf5b9e8a38259f95f0%2C67e14bbf5b9e8a38259f95f1" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -510,22 +530,21 @@ Fetch Sample Records by Biosample Accession
       ``{biosampleAccessions}``, ``<standard>`` and ``<return_type>`` with the desired values. See the example
       section below for full usage with optional filters.
 
-
-    *Via a Web Browser (simply paste the URL in the address bar)*
-
-    .. code-block:: bash
-
-       https://copo-project.org/api/sample/biosampleAccessions/{biosampleAccessions}
-
-    .. centered:: OR
-
-    *Via the Terminal using curl (for command-line users)*
-
-    .. code::
-
-       $ curl -X GET "https://copo-project.org/api/sample/biosampleAccessions/{biosampleAccessions}" -H  "accept: application/json"
-
     This results in full sample information for the sample record returned from the given ``{biosampleAccessions}``.
+
+    .. tab-set::
+
+       .. tab-item:: Web Browser
+
+          .. code-block:: bash
+
+            https://copo-project.org/api/sample/biosampleAccessions/{biosampleAccessions}
+
+       .. tab-item:: Command Line (curl)
+
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/sample/biosampleAccessions/{biosampleAccessions}" -H  "accept: application/json"
 
    **Example**
 
@@ -533,19 +552,19 @@ Fetch Sample Records by Biosample Accession
     ``SAMEA112168601`` and ``SAMEA112168603`` in the **mixs** standard and return the results in JSON format, use the
     following.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/biosampleAccessions/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603?standard=mixs&return_type=json
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/biosampleAccessions/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603?standard=mixs&return_type=json
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/biosampleAccessions/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603?standard=mixs&return_type=json" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/biosampleAccessions/SAMEA12816320%2CSAMEA115502883%2CSAMEA112168601%2CSAMEA112168603?standard=mixs&return_type=json" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -600,42 +619,42 @@ Fetch Sample Records by Field and Values
       ``{values}``, ``<standard>`` and ``<return_type>`` with the desired values. See the example section below for
       full usage with optional filters.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/sample_field/{field}/{values}
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/sample_field/{field}/{values}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/sample_field/{field}/{values}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/sample_field/{field}/{values}" -H  "accept: application/json"
 
    **Example**
 
-    To retrieve sample records with the field ``SCIENTICFIC_NAME`` and values ``Marifugia cavatica``,
+    To retrieve sample records with the field ``SCIENTIFIC_NAME`` and values ``Marifugia cavatica``,
     ``Graellsia isabellae`` and ``Valencia hispanica`` in the **tol** standard and return the results in CSV format,
     use the following.
 
     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
     working in a terminal environment.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/sample_field/SCIENTIFIC_NAME/Marifugia%20cavatica%2CGraellsia%20isabellae%2CValencia%20hispanica?return_type=csv
+          .. code-block:: bash
 
-    .. centered:: OR
+            https://copo-project.org/api/sample/sample_field/SCIENTIFIC_NAME/Marifugia%20cavatica%2CGraellsia%20isabellae%2CValencia%20hispanica?return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/sample_field/SCIENTIFIC_NAME/Marifugia%20cavatica%2CGraellsia%20isabellae%2CValencia%20hispanica?return_type=csv" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/sample_field/SCIENTIFIC_NAME/Marifugia%20cavatica%2CGraellsia%20isabellae%2CValencia%20hispanica?return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -675,38 +694,38 @@ Fetch Sample Records by Sequencing Centre
     Please include at least the ``sequencing_centre`` parameter value in the API URL to retrieve full sample information
     for that sequencing centre. Replace ``<sequencing-centre>`` with the desired sequencing centre name.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
 
    **Example**
 
     To retrieve sample records with the sequencing centre ``EARLHAM INSTITUTE`` in the default JSON format, use the
     following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept: application/json"
+            $ curl -X GET "https://copo-project.org/api/sample/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -753,20 +772,19 @@ Fetch Sample Records by Taxon ID
       ``<standard>`` and ``<return_type>`` with the desired values. See the example section below for full usage with
       multiple taxon IDs and optional filters.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/taxon_id/{taxon_ids}
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/taxon_id/{taxon_ids}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/taxon_id/{taxon_ids}" -H  "accept: application/json"
-
+            $ curl -X GET "https://copo-project.org/api/sample/taxon_id/{taxon_ids}" -H  "accept: application/json"
 
    **Example**
 
@@ -776,19 +794,19 @@ Fetch Sample Records by Taxon ID
     Please note that JSON is the default output format and does not need to be specified in the API URL. However, if
     you would like to explicitly state it, add ``&return_type=json`` to the end of the API URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/taxon_id/6344%2C199168%2C2614811?standard=mixs
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/taxon_id/6344%2C199168%2C2614811?standard=mixs
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/sample/taxon_id/6344%2C199168%2C2614811?standard=mixs" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/sample/taxon_id/6344%2C199168%2C2614811?standard=mixs" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -836,42 +854,42 @@ Fetch Sample Records that have Image Submissions
       ``<project>``, ``<from>``, ``<to>`` and ``<return_type>`` with the project name, start date, end date and return
       type respectively. See the example below.
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-   .. code-block:: bash
+       .. tab-item:: Web Browser
 
-      https://copo-project.org/api/sample/with_submitted_bioimages?project=<project>
+          .. code-block:: bash
 
-   .. centered:: OR
+            https://copo-project.org/api/sample/with_submitted_bioimages?project=<project>
 
-   *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-   .. code::
+          .. code-block:: bash
 
-      $ curl -X GET "https://copo-project.org/api/sample/with_submitted_bioimages?project=<project>" -H  "accept: application/json"
+            $ curl -X GET "https://copo-project.org/api/sample/with_submitted_bioimages?project=<project>" -H  "accept: application/json"
 
    **Example**
 
-   Additional filters like ``from``, ``to`` and ``return_type`` are optional. Replace each parameter with the desired
-   values. To retrieve sample records with image submissions for the project ``ERGA`` between
-   1st January, 2025 and 1st May, 2025 and return the results in CSV format, use the following.
+    Additional filters like ``from``, ``to`` and ``return_type`` are optional. Replace each parameter with the desired
+    values. To retrieve sample records with image submissions for the project ``ERGA`` between
+    1st January, 2025 and 1st May, 2025 and return the results in CSV format, use the following.
 
-   The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or working
-   in a terminal environment.
+    The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or working
+    in a terminal environment.
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-   .. code-block:: bash
+       .. tab-item:: Web Browser
 
-      https://copo-project.org/api/sample/with_submitted_bioimages?project=erga&from=2025-01-01T00:00:00+00:0&to=2025-05-01T00:00:00+00:0&return_type=csv
+          .. code-block:: bash
 
-   .. centered:: OR
+             https://copo-project.org/api/sample/with_submitted_bioimages?project=erga&from=2025-01-01T00:00:00+00:0&to=2025-05-01T00:00:00+00:0&return_type=csv
 
-   *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-   .. code::
+          .. code-block:: bash
 
-      $ curl -X GET "https://copo-project.org/api/sample/with_submitted_bioimages?project=erga&from=2025-01-01T00:00:00+00:0&to=2025-05-01T00:00:00+00:0&return_type=csv" -H  "accept: application/json"
+              $ curl -X GET "https://copo-project.org/api/sample/with_submitted_bioimages?project=erga&from=2025-01-01T00:00:00+00:0&to=2025-05-01T00:00:00+00:0&return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 

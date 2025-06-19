@@ -63,43 +63,38 @@ Fetch Sample Updates
 
     This endpoint results in a list of sample updates that occurred in COPO.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/audit/samples
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/audit/samples
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/audit/samples" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/samples" -H  "accept: application/json"
 
    **Example**
-
-    .. hint::
-
-       To view the additional filters available for this endpoint, click the |audit-collapsible-item-arrow| *Show API query
-       parameters* button above.
 
     To retrieve sample updates for the sample with the COPO ID ``67d461e318e6e19d10b37901`` in the project
     ``DTOL`` by the  updatable field `SCIENTIFIC_NAME` and return the results in JSON format, use the following:
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/audit/samples?copo_id=67d461e318e6e19d10b37901&project=DTOL&updatable_field=SCIENTIFIC_NAME&return_type=json
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/audit/samples?copo_id=67d461e318e6e19d10b37901&project=DTOL&updatable_field=SCIENTIFIC_NAME&return_type=json
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/audit/samples?copo_id=67d461e318e6e19d10b37901&project=DTOL&updatable_field=SCIENTIFIC_NAME&return_type=json" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/samples?copo_id=67d461e318e6e19d10b37901&project=DTOL&updatable_field=SCIENTIFIC_NAME&return_type=json" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -138,43 +133,38 @@ Fetch Sample Updates Between Dates
     Please include at least the ``from`` and ``to`` parameters in the API URL to retrieve sample updates that occurred
     between a given date period. Replace ``{from}`` and ``{to}`` with the start date and end date respectively.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/audit/sample/{from}/{to}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/audit/sample/{from}/{to}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/audit/sample/{from}/{to}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/sample/{from}/{to}" -H  "accept: application/json"
 
    **Example**
-
-    .. hint::
-
-       To view the additional filters available for this endpoint, click the |audit-collapsible-item-arrow| *Show API query
-       parameters* button above.
 
     To retrieve sample updates between 1st January, 2025 and 1st May, 2025 and return the results in CSV format, use the
     following:
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/audit/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0?return_type=csv
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/audit/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0?return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/audit/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0?return_type=csv" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/sample/2025-01-01T00:00:00+00:0/2025-05-01T00:00:00+00:0?return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -217,28 +207,21 @@ Fetch Sample Updates by Manifest ID
     Please include at least the ``manifest_id`` value to retrieve a list of sample updates by manifest
     :abbr:`IDs (Identifications)` [#f2]_. Replace ``{manifest_id}`` in the URL below with the desired manifest ID(s).
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/audit/sample/manifest_id/{manifest_id}" -H  "accept: application/json"
 
    **Example**
-
-    .. hint::
-
-       * To view the additional filters available for this endpoint, click the |audit-collapsible-item-arrow| *Show API query
-         parameters* button above.
-
-       * A comma (,) is  represented as ``%2C`` URL-encoded value in the API :abbr:`URL (Uniform Resource Locator)`.
 
     To retrieve sample records with the manifest IDs - ``f8e5c23d-f735-439f-bfaf-a6886e31741e`` and
     ``046632f0-0869-4a3b-b3c3-cd22158b4b12`` in the **ena** standard and return the results in **csv** format, use the
@@ -247,20 +230,19 @@ Fetch Sample Updates by Manifest ID
     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
     working in a terminal environment.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/sample/manifest_id/f8e5c23d-f735-439f-bfaf-a6886e31741e%2C046632f0-0869-4a3b-b3c3-cd22158b4b12?standard=ena&return_type=csv
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/sample/manifest_id/f8e5c23d-f735-439f-bfaf-a6886e31741e%2C046632f0-0869-4a3b-b3c3-cd22158b4b12?standard=ena&return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-        $ curl -X GET "https://copo-project.org/api/sample/manifest_id/f8e5c23d-f735-439f-bfaf-a6886e31741e%2C046632f0-0869-4a3b-b3c3-cd22158b4b12?standard=ena&return_type=csv" -H  "accept: application/json"
-
+             $ curl -X GET "https://copo-project.org/api/sample/manifest_id/f8e5c23d-f735-439f-bfaf-a6886e31741e%2C046632f0-0869-4a3b-b3c3-cd22158b4b12?standard=ena&return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -281,16 +263,16 @@ Fetch Sample Updates by Update Type
 
          <br>
 
-      * **taxon_ids** (required): The taxon ID(s) of the sample records to be retrieved. Multiple taxon IDs can be
-        provided as a comma (,) separated list in this endpoint. Commas (,) are represented as ``%2C`` URL-encoded
-        values in the API :abbr:`URL (Uniform Resource Locator)`.
-      * **standard** (optional): The :ref:`standard <mapping-api-standards>` to query the endpoint. Options include:
-        **tol** (default), **dwc**, **ena** and **mixs**
+      * **project** (optional): The name of the project [#f1]_
+      * **update_type** (required): The type of update to filter by. Options include:
+
+            * **system**: Updates performed by COPO
+            * **user**: Updates performed by a user reuploading a manifest with amended sample metadata
       * **return_type** (optional): Output format for the results. Options include **json** (default) and **csv**
 
-        To apply filters, append them to the API URL as follows ``sample/taxon_id/{taxon_ids}?standard=<standard>&return_type=<return_type>``.
+        To apply filters, append them to the API URL as follows ``/audit/sample/update_type/{update_type}?project=<project>&return_type=<return_type>``.
 
-        Replace ``{taxon_ids}``, ``<standard>`` and ``<return_type>`` with the desired values. See the example below.
+        Replace ``{update_type}``, ``<project>`` and ``<return_type>`` with the desired values. See the example below.
 
    .. raw:: html
 
@@ -298,38 +280,41 @@ Fetch Sample Updates by Update Type
 
    **Usage**
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    Please include at least the ``update_type`` value to retrieve a list of sample updates by update type. Replace
+    ``{update_type}`` in the URL below with the desired value.
 
-   .. code-block:: bash
+    .. tab-set::
 
-      https://copo-project.org/api/audit/sample/update_type/{update_type}
+       .. tab-item:: Web Browser
 
-   .. centered:: **OR**
+          .. code-block:: bash
 
-   *Via the Terminal using curl (for command-line users)*
+             https://copo-project.org/api/audit/sample/update_type/{update_type}
 
-   .. code::
+       .. tab-item:: Command Line (curl)
 
-      $ curl -X GET "https://copo-project.org/api/audit/sample/update_type/{update_type}" -H  "accept: application/json"
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/audit/sample/update_type/{update_type}" -H  "accept: application/json"
 
    **Example**
 
-   .. hint::
+    To retrieve sample updates performed by the ``user`` for the ``ASG``, ``DTOL`` and ``ERGA`` projects and return
+    the results in JSON format, use the following:
 
-      * To view the additional filters available for this endpoint, click the |audit-collapsible-item-arrow| *Show API query
-        parameters* button above.
+    .. tab-set::
 
-   This endpoint results in a list of sample updates based who performed the update. The ``update_type`` can be **system**
-   or **user**.
+        .. tab-item:: Web Browser
 
-   A **system** update occurs when the update was performed by COPO while a **user** update occurs when a user reuploads
-   a manifest with amended sample metadata.
+            .. code-block:: bash
 
-   Please note that not all sample information that has been uploaded already can be updated when the manifest is
-   reuploaded. Only fields that are updatable are updated when a manifest is reuploaded.
+               https://copo-project.org/api/audit/sample/update_type/user?project=ASG&project=DTOL&project=ERGA
 
-   See the :ref:`samples-update` section for more information as well as the
-   :ref:`Fetch updatable fields by project <sample-api-endpoint-updatable-fields>` API method.
+        .. tab-item:: Command Line (curl)
+
+            .. code-block:: bash
+
+               $ curl -X GET "https://copo-project.org/api/audit/sample/update_type/user?project=ASG&project=DTOL&project=ERGA" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -350,16 +335,20 @@ Fetch Sample Updates by Field and Field Value
 
          <br>
 
-      * **taxon_ids** (required): The taxon ID(s) of the sample records to be retrieved. Multiple taxon IDs can be
-        provided as a comma (,) separated list in this endpoint. Commas (,) are represented as ``%2C`` URL-encoded
-        values in the API :abbr:`URL (Uniform Resource Locator)`.
-      * **standard** (optional): The :ref:`standard <mapping-api-standards>` to query the endpoint. Options include:
-        **tol** (default), **dwc**, **ena** and **mixs**
+      * **field** (required): The sample field to filter updates by. Options include:
+
+        * RACK_OR_PLATE_ID
+        * SPECIMEN_ID
+        * TUBE_OR_WELL_ID
+        * biosampleAccession
+        * public_name
+        * sraAccession
+      * **field_value** (required): The value of the sample field to filter updates by.
       * **return_type** (optional): Output format for the results. Options include **json** (default) and **csv**
 
-        To apply filters, append them to the API URL as follows ``sample/taxon_id/{taxon_ids}?standard=<standard>&return_type=<return_type>``.
+        To apply filters, append them to the API URL as follows ``/audit/sample/{field}/{field_value}?return_type=<return_type>``.
 
-        Replace ``{taxon_ids}``, ``<standard>`` and ``<return_type>`` with the desired values. See the example below.
+        Replace ``{field}``, ``{field_value}`` and ``<return_type>`` with the desired values. See the example below.
 
    .. raw:: html
 
@@ -367,35 +356,41 @@ Fetch Sample Updates by Field and Field Value
 
    **Usage**
 
-   *Via a Web Browser (simply paste the URL in the address bar)*
+    Please include at least the ``field`` and ``field_value`` values to retrieve a list of sample updates by field and
+    field value. Replace ``{field}`` and ``{field_value}`` in the URL below with the desired field and field value.
 
-   .. code-block:: bash
+    .. tab-set::
 
-      https://copo-project.org/api/audit/sample/{field}/{field_value}
+       .. tab-item:: Web Browser
 
-   .. centered:: **OR**
+          .. code-block:: bash
 
-   *Via the Terminal using curl (for command-line users)*
+             https://copo-project.org/api/audit/sample/{field}/{field_value}
 
-   .. code::
+       .. tab-item:: Command Line (curl)
 
-      $ curl -X GET "https://copo-project.org/api/audit/sample/{field}/{field_value}" -H  "accept: application/json"
+          .. code-block:: bash
+
+             $ curl -X GET "https://copo-project.org/api/audit/sample/{field}/{field_value}" -H  "accept: application/json"
 
     **Example**
 
-   .. hint::
+     To retrieve sample updates for the sample with the field, ``SPECIMEN_ID``, value ``ERGA_JB_4431_00001``
+     and return the results in JSON format, use the following:
 
-      * To view the additional filters available for this endpoint, click the |audit-collapsible-item-arrow| *Show API query
-        parameters* button above.
+     .. tab-set::
 
-   This endpoint results in a list of sample updates based on a sample field value and one of the following sample fields:
+        .. tab-item:: Web Browser
 
-   * RACK_OR_PLATE_ID
-   * SPECIMEN_ID
-   * TUBE_OR_WELL_ID
-   * biosampleAccession
-   * public_name
-   * sraAccession
+           .. code-block:: bash
+
+              https://copo-project.org/api/audit/sample/SPECIMEN_ID/ERGA_JB_4431_00001
+
+        .. tab-item:: Command Line (curl)
+
+           .. code-block:: bash
+
+              $ curl -X GET "https://copo-project.org/api/audit/sample/SPECIMEN_ID/ERGA_JB_4431_00001" -H  "accept: application/json"
 
 .. raw:: html
 

@@ -53,19 +53,19 @@ Fetch Manifests
       :ref:`manifest-api-endpoint-sample-record-by-manifest-id` endpoint or updates using the
       :ref:`audit-api-endpoint-sample-update-by-manifest-id` endpoint.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -105,38 +105,38 @@ Fetch Manifests Filtered by Sequencing Centre
     Please include at least the ``sequencing_centre`` parameter value in the API URL to retrieve a list of manifest
     IDs records by that sequencing centre. Replace ``<sequencing-centre>`` with the desired sequencing centre name.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=<sequencing-centre>" -H  "accept: application/json"
 
    **Example**
 
     To retrieve manifest IDs associated with the sequencing centre ``EARLHAM INSTITUTE`` in the default JSON format,
     use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE
+          .. code-block:: bash
 
-    .. centered:: OR
+             https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/sequencing_centre?sequencing_centre=EARLHAM%20INSTITUTE" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -172,37 +172,37 @@ Fetch Current Manifest Versions
 
    **Usage**
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/current_version
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/current_version
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version" -H  "accept: application/json"
 
    **Example**
 
     To retrieve the current manifest version of the ``DTOL`` project in the default JSON format, use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/current_version?manifest_type=DTOL
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/current_version?manifest_type=DTOL
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/current_version?manifest_type=DTOL" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/current_version?manifest_type=DTOL" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -245,38 +245,38 @@ Fetch Sample in Manifest by Manifest ID
     Please include at least the ``manifest_id`` parameter value in the API URL to retrieve sample records for that
     manifest. Replace ``{manifest_id}`` with the desired manifest ID.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/{manifest_id}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/{manifest_id}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}" -H  "accept: application/json"
 
    **Example**
 
     To retrieve sample records for the manifest ID ``f8e5c23d-f735-439f-bfaf-a6886e31741e`` in the ``rocrate``
     format, use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate
+          .. code-block:: bash
 
-    .. centered:: **OR**
+              https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate" -H  "accept: application/json"
+            $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e?return_type=rocrate" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -316,38 +316,38 @@ Fetch Manifests between Dates
     manifest :abbr:`IDs (Identifications)`  [#f1]_ in a given date period. Replace ``{from}`` and ``{to}`` with the
     desired start and end dates respectively.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/{from}/{to}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/{from}/{to}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/{from}/{to}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/{from}/{to}" -H  "accept: application/json"
 
     **Example**
 
     To retrieve manifest IDs recorded between 1st January, 2025 and 1st May, 2025 in the default JSON format,
     use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -388,39 +388,38 @@ Fetch Manifests between Dates for a Project
     of manifest :abbr:`IDs (Identifications)`  [#f1]_  in a given date period for that project. Replace ``{project}``,
     ``{from}`` and ``{to}`` with the desired start and end dates respectively.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/{project}/{from}/{to}
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/{project}/{from}/{to}
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/{project}/{from}/{to}" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/{project}/{from}/{to}" -H  "accept: application/json"
 
     **Example**
 
     To retrieve manifest IDs for the ``ERGA`` project recorded between 1st January, 2025 and 1st May, 2025
     in the default JSON format, use the following URL.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/erga/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/erga/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/erga/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept: application/json"
-
+             $ curl -X GET "https://copo-project.org/api/manifest/erga/2025-01-01T00:00:00+00:00/2025-05-01T00:00:00+00:00" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -458,19 +457,19 @@ Fetch Sample Status in a Manifest
     Please include at least the ``manifest_id`` parameter value in the API URL to retrieve minimal sample status
     information for each sample for that manifest ID. Replace ``{manifest_id}`` with the desired manifest ID.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/{manifest_id}/sample_status
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/{manifest_id}/sample_status
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}/sample_status" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/{manifest_id}/sample_status" -H  "accept: application/json"
 
    **Example**
 
@@ -480,19 +479,19 @@ Fetch Sample Status in a Manifest
     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
     working in a terminal environment.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e/sample_status?return_type=csv
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e/sample_status?return_type=csv
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e/sample_status?return_type=csv" -H  "accept: application/json"
+             $ curl -X GET "https://copo-project.org/api/manifest/f8e5c23d-f735-439f-bfaf-a6886e31741e/sample_status?return_type=csv" -H  "accept: application/json"
 
 .. raw:: html
 
@@ -533,19 +532,19 @@ Validate Manifest by Profile ID
     * After having retrieved the validation report ID, you can use it to retrieve the validation report using the
       :ref:`manifest-api-endpoint-validation-report-by-id` endpoint.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/validate
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/validate
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X POST "https://copo-project.org/api/manifest/validate" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
+             $ curl -X POST "https://copo-project.org/api/manifest/validate" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
 
 .. raw:: html
 
@@ -584,19 +583,19 @@ Validate Manifest by Report ID
     Please include the ``validation_report_id`` parameter value in the API URL to retrieve the manifest validation
     report associated with that ID.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/validate/report
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/validate/report
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X POST "https://copo-project.org/api/manifest/validate/report" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
+             $ curl -X POST "https://copo-project.org/api/manifest/validate/report" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
 
 .. raw:: html
 
@@ -615,19 +614,19 @@ Validate Manifest
 
     This endpoint all manifest validations performed by the authenticated user.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/manifest/validations
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/manifest/validations
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-      $ curl -X POST "https://copo-project.org/api/manifest/validations/" -H  "accept: */*" -d ""
+             $ curl -X POST "https://copo-project.org/api/manifest/validations/" -H  "accept: */*" -d ""
 
 .. raw:: html
 

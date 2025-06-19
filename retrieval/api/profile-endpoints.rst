@@ -55,7 +55,7 @@ Create Profile Record
 
    .. raw:: html
 
-         <br>
+      <br>
 
    **Usage**
 
@@ -63,35 +63,32 @@ Create Profile Record
     create a profile record for the authenticated user. Replace ``<title>``, ``<description>`` and ``<profile_type>``
     with the desired values.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    .. tab-set::
 
-    .. code-block:: bash
+       .. tab-item:: Web Browser
 
-       https://copo-project.org/api/profile/make_profile
+          .. code-block:: bash
 
-    .. centered:: **OR**
+             https://copo-project.org/api/profile/make_profile
 
-    *Via the Terminal using curl (for command-line users)*
+       .. tab-item:: Command Line (curl)
 
-    .. code::
+          .. code-block:: bash
 
-       $ curl -X POST "https://copo-project.org/api/profile/make_profile" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
+             $ curl -X POST "https://copo-project.org/api/profile/make_profile" -H  "accept: */*" -d "title=<title>&description=<description>&profile_type=<profile_type>"
 
-    **Example**
-
-     .. hint::
-
-        To view the additional filters available for this endpoint, click the |profile-collapsible-item-arrow|
-        *Show API query parameters* button above.
+   **Example**
     
      To create a profile record with the title ``Sample profile``, description ``A profile to record sample objects.``
      and profile type ``Genomics``, use the following URL:
 
-     *Via the Terminal using curl (for command-line users)*
+    .. tab-set::
 
-     .. code::
+       .. tab-item:: Command Line (curl)
 
-        $ curl -X POST "https://copo-project.org/api/profile/make_profile" -H  "accept: */*" -H  "Content-Type: application/x-www-form-urlencoded" -d "title=Sample%20profile&description=A%20profile%20to%20record%20sample%20objects.&profile_type=Genomics"
+          .. code-block:: bash
+
+             $ curl -X POST "https://copo-project.org/api/profile/make_profile" -H  "accept: */*" -H  "Content-Type: application/x-www-form-urlencoded" -d "title=Sample%20profile&description=A%20profile%20to%20record%20sample%20objects.&profile_type=Genomics"
 
 .. raw:: html
 
@@ -106,28 +103,28 @@ Fetch Profile Records
 
       <br>
 
-   This endpoint retrieves all profile records associated with the authenticated user.
-
    **Usage**
 
-      .. note::
+    .. note::
 
-         Authentication is required in order to use this API method. Create an API key from the
-         :ref:`/apiKey API endpoint <endpoints-api-key>` before using this method.
+       Authentication is required in order to use this API method. Create an API key from the
+       :ref:`/apiKey API endpoint <endpoints-api-key>` before using this method.
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+    This endpoint retrieves all profile records associated with the authenticated user.
 
-    .. code-block:: bash
+    .. tab-set::
 
-       https://copo-project.org/api/profile/get_for_user
+       .. tab-item:: Web Browser
 
-    .. centered:: **OR**
+          .. code-block:: bash
 
-    *Via the Terminal using curl (for command-line users)*
+             https://copo-project.org/api/profile/get_for_user
 
-    .. code::
+       .. tab-item:: Command Line (curl)
 
-       $ curl -X POST "https://copo-project.org/api/profile/get_for_user" -H  "accept: */*" -d ""
+          .. code-block:: bash
+
+             $ curl -X POST "https://copo-project.org/api/profile/get_for_user" -H  "accept: */*" -d ""
 
 .. raw:: html
 
@@ -154,52 +151,56 @@ Fetch Profile Titles & Associated Tube or Well IDs
       * **d_to** (optional): End date for filtering (format: YYYY-MM-DDTHH:MM:SS+00:00)
       * **return_type** (optional): Output format for the results. Options include **json** (default) and **csv**
 
+      To apply filters, append them to the API URL as follows:
+      ``profile/tube_or_well_ids?profile_type=<profile_type>&associated_profile_type=<associated_profile_type>&d_from=<d_from>&d_to=<d_to>&return_type=<return_type>``
+
+      Replace ``<profile_type>``, ``<associated_profile_type>``, ``<d_from>``, ``<d_to>`` and ``<return_type>`` with
+      the desired values. See the example below.
+
    .. raw:: html
 
-         <br>
+      <br>
 
    **Usage**
 
-    To apply filters, append them to the API URL as follows:
-    ``sample/taxon_id/{taxon_ids}?standard=<standard>&return_type=<return_type>``. Replace ``{taxon_ids}``,
-    ``<standard>`` and ``<return_type>`` with the desired values. See the example below.
+    Please include at least the ``profile_type`` parameter value in the API URL to retrieve a list of profile titles
+    and associated tube or well IDs for the specified profile type. Replace ``<profile_type>`` with the desired value.
 
+    .. tab-set::
 
-    *Via a Web Browser (simply paste the URL in the address bar)*
+       .. tab-item:: Web Browser
 
-    .. code-block:: bash
+          .. code-block:: bash
 
-       https://copo-project.org/api/profile/tube_or_well_ids
+             https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>
 
-    .. centered:: **OR**
+       .. tab-item:: Command Line (curl)
 
-    *Via the Terminal using curl (for command-line users)*
+          .. code-block:: bash
 
-    .. code::
+             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
 
-       $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
+   **Example**
 
+    To retrieve the profile titles and associated tube or well IDs for the ``ERGA`` profile type and ``ERGA_COMMUNITY``
+    associated profile type between 1st January, 2025 and 1st May, 2025 in CSV format, use the following URL.
 
-    Replace ``<profile_type>`` with the name of the profile type. This endpoint results in a list of profile titles and associated
-    tube or well IDs for the given profile type. Optionally, provide a date range filter based on the first and last
-    sample manifest upload dates and ``associated_profile_type`` to filter the results.
+    The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
+    working in a terminal environment.
 
-    **Example**
+    .. tab-set::
 
-     .. hint::
+       .. tab-item:: Web Browser
 
-        * To view the additional filters available for this endpoint, click the |profile-collapsible-item-arrow| *Show API query
-          parameters* button above.
+          .. code-block:: bash
 
-     To retrieve the profile titles and associated tube or well IDs for the ``ERGA`` profile type and ``ERGA_COMMUNITY``
-     associated profile type between 1st January, 2025 and 1st May, 2025 in CSV format, use the following URL.
+             https://copo-project.org/api/?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv
 
-     The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or working
-     in a terminal environment.
+       .. tab-item:: Command Line (curl)
 
-     .. code-block:: bash
+          .. code-block:: bash
 
-        https://copo-project.org/api/?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv
+             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv" -H  "accept: */*" -d ""
 
 .. raw:: html
 
