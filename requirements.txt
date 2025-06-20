@@ -22,7 +22,7 @@ sphinx-copybutton==0.5.2
 sphinx-prompt==1.9.0
 sphinx-rtd-theme==3.0.2
 sphinx-toolbox==4.0.0
-sphinx_design==0.6.1
+sphinx-design==0.6.1
 sphinxcontrib-email===0.3.6
 sphinxcontrib-spelling==8.0.1
 sphinxcontrib-websupport==2.0.0
