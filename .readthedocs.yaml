@@ -19,7 +19,7 @@ sphinx:
 # Build the docs in additional formats such as PDF and ePub
 formats:
   - pdf
-  - epub
+#  - epub # disables epub
 
 # Declare the Python requirements required
 # to build the documentation
