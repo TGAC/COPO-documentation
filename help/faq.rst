@@ -1228,7 +1228,7 @@ What are the formats that I can download samples in?
 
    The following are the formats that samples can be downloaded in:
 
-   *  Microsoft Excel Spreadsheet format (``.xlsx``)
+   *  Spreadsheet format (``.xlsx``)
 
       See the :ref:`Downloading manifest in spreadsheet format <downloading-submitted-sample-manifest>` section
       for more information.
