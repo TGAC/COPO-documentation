@@ -28,6 +28,19 @@ code {
   color: #e74c3c !important;
 }
 
+/*Download links CSS*/
+a.reference.download code {
+  color: #2980b9 !important;;
+  background: transparent !important;;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.reference.download code:hover {
+    color: #3091d1 !important;
+    text-decoration: underline;
+}
+
 .underline {
     text-decoration: underline;
 }
@@ -39,6 +52,11 @@ code {
 .wy-table-responsive table td,
 .wy-table-responsive table th {
   white-space: normal;
+}
+
+/* Centre text in the first row (header) of list-tables */
+.wy-table-responsive > table > thead > tr > th {
+  text-align: center;
 }
 
 .logo-subtitle {

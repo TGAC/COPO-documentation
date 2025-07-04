@@ -17,9 +17,14 @@ to be uploaded to ENA.
 An overview of each manifest checklist is given below. It was adapted from ENA `sample checklists <https://www.ebi.ac.uk/ena/browser/checklists>`__
 and `annotation checklists <https://ena-docs.readthedocs.io/en/latest/submit/sequence/annotation-checklists.html>`__.
 
+.. seealso::
+
+   View the `Manifests web page <https://copo-project.org/manifests/index>`__, which provides a list of all available
+   manifest templates supported by the system.
+
 .. raw:: html
 
-  <br>
+  <hr>
 
 .. _barcoding-manifest-checklists:
 
@@ -56,6 +61,22 @@ Barcoding Manifest Checklists
 
 Sample Manifest Checklists
 ----------------------------------
+
+.. collapse:: Darwin Core (DwC) sample checklist
+
+   .. raw:: html
+
+      <br>
+
+   Minimum information required for Darwin Core (DwC) samples
+
+.. collapse:: Functional Annotation of Animal Genomes (FAANG) sample checklist
+
+   .. raw:: html
+
+      <br>
+
+   Minimum information required for Functional Annotation of Animal Genomes (FAANG) samples<
 
 .. collapse:: ERC000011 - ENA default sample checklist
 

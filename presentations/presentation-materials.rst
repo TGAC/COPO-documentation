@@ -19,6 +19,40 @@ This section entails presentations and other materials that have been used to in
 Seminar presentations
 ----------------------
 
+#. **New COPO Tools for Brokering Single-cell & Spatial Omics Metadata**
+
+   - Presented at the Earlham Institute internal seminar
+
+   - **Date**: Tuesday 1st July, 2025
+
+   - **Presenters**: Debby Ku & Aaliyah Providence, Research Software Engineers of the COPO team
+
+   - **Abstract**:
+      The Collaborative OPen Omics (**COPO**) platform now includes dedicated support for submitting metadata from
+      Single-cell and Spatial Transcriptomics experiments. Whether you're working with Single-cell Ribonucleic Acid
+      Sequencing  (**scRNA-Seq**), Spatial Transcriptomics Fluorescence In Situ Hybridisation (**ST-FISH**) or Spatial
+      Transcriptomics Sequencing (**ST-Seq**), COPO streamlines the process of structuring, validating, and submitting
+      your metadata using established standards such as Darwin Core (**DwC**), Minimum Information about any (x)
+      Sequence (**MIxS**) and Functional Annotation of Animal Genomes (**FAANG**).
+
+      This new configuration, tailored for single-cell workflows, also serves as a flexible tool that can be adapted
+      to meet a wide range of metadata requirements across diverse omics domains. COPO does not enforce a fixed
+      metadata model - instead, it supports user-defined metadata structures, making it easy to extend or modify
+      worksheets, add fields and build manifests that suit your specific data submission types.
+
+      With integration to public repositories like the European Nucleotide Archive (ENA) and Zenodo, COPO helps ensure
+      that your data is Findable, Accessible, Interoperable and Reusable (FAIR) with the scientific community.
+
+      Join this seminar to see how COPO can save you time, reduce submission errors and support your single-cell
+      metadata submissions - while remaining fully adaptable for any other metadata needs you may have.
+
+
+   - :download:`Download seminar presentation <../assets/files/presentations/EI_Seminar_01072025_New_COPO_Tools_for_Brokering_Single_cell_and _Spatial_Omics_Metadata.pptx>`
+
+   .. raw:: html
+
+         <hr>
+
 #. **Leveraging COPO to submit READ/Assembly/Sequencing Annotation data to ENA and get data published**
 
    - Presented at the Earlham Institute internal seminar
