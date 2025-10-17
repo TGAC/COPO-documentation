@@ -88,6 +88,6 @@ Obtain an API key for authentication
     Images declaration
 ..
 
-.. |api-key-collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |api-key-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link

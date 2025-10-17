@@ -34,16 +34,16 @@ links to find instructions specific to your needs.
    :caption: COPO Data Submission
    :name: copo-submission
 
-   submissions/tol-general-submission-guide
-   submissions/single-cell-submissions
+   submissions/tol/tol-general-submission-guide
    submissions/files
    submissions/assemblies
-   submissions/barcoding-manifest-submissions
-   submissions/images
+   submissions/tol/barcoding-manifest-submissions
+   submissions/images/index
    submissions/permits
    submissions/reads
    submissions/samples
    submissions/sequence-annotations
+   submissions/genomics/single-cell-submissions
 
 .. toctree::
    :caption: COPO Data Updates

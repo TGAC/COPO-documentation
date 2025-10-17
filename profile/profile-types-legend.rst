@@ -13,11 +13,11 @@ It displays the acronym as well as the corresponding profile type colour for eac
    Hover over the |info-icon| icon located beside the profile type acronym in the **Profile Types Legend**, the
    backronym for the profile type will be displayed.
 
-..  figure:: /assets/images/profile/profile_types_legend.png
+..  figure:: /assets/images/profiles/ui/profile_types_legend.png
     :alt: Profile Types Legend
     :align: center
     :height: 50ex
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_types_legend.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_types_legend.png
     :class: with-shadow with-border
 
     **Profile Types Legend: Various profiles types that can be created in COPO and their corresponding label colours**
@@ -66,26 +66,26 @@ It displays the acronym as well as the corresponding profile type colour for eac
     Images declaration
 ..
 
-.. |info-icon| image:: /assets/images/buttons/info_icon.png
+.. |info-icon| image:: /assets/images/icons/info_icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |green-circle| image:: /assets/images/buttons/profile_types_legend_green_circle.png
+.. |green-circle| image:: /assets/images/icons/profile_types_legend_green_circle.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |orange-circle| image:: /assets/images/buttons/profile_types_legend_orange_circle.png
+.. |orange-circle| image:: /assets/images/icons/profile_types_legend_orange_circle.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |pink-circle| image:: /assets/images/buttons/profile_types_legend_pink_circle.png
+.. |pink-circle| image:: /assets/images/icons/profile_types_legend_pink_circle.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |purple-circle| image:: /assets/images/buttons/profile_types_legend_purple_circle.png
+.. |purple-circle| image:: /assets/images/icons/profile_types_legend_purple_circle.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |teal-circle| image:: /assets/images/buttons/profile_types_legend_teal_circle.png
+.. |teal-circle| image:: /assets/images/icons/profile_types_legend_teal_circle.png
    :height: 4ex
    :class: no-scaled-link

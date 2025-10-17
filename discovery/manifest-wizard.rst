@@ -11,10 +11,10 @@ The manifest wizard can be accessed via the **Prefilled template** download drop
 `Manifests web page <https://copo-project.org/manifests/index>`__.
 
 
-.. figure:: /assets/images/manifests/manifests_web_page.png
+.. figure:: /assets/images/manifests/ui/manifests_web_page.png
    :alt: Manifests web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifests_web_page.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifests_web_page.png
    :class: with-shadow with-border
 
    **Manifests web page: Tabular information for various manifest types and their current versions**
@@ -23,10 +23,10 @@ The manifest wizard can be accessed via the **Prefilled template** download drop
 
    <br>
 
-.. figure:: /assets/images/manifests/manifests_web_page_with_download_template_dropdown_menu_shown.png
+.. figure:: /assets/images/manifests/ui/manifests_web_page_with_download_template_dropdown_menu_shown.png
    :alt: Manifest wizard web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifests_web_page_with_download_template_dropdown_menu_shown.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifests_web_page_with_download_template_dropdown_menu_shown.png
    :class: with-shadow with-border
 
    **Manifests web page: Manifest download template options -** ``Blank template`` **and** ``Prefilled template``
@@ -48,10 +48,10 @@ Prefill Manifests
 #. Navigate to the `Manifests web page <https://copo-project.org/manifests/index>`__. Then, click the
    **Prefilled template** option from the dropdown menu.
 
-   .. figure:: /assets/images/manifests/manifests_prefilled_template_dropdown_menu_option_on_hover.png
+   .. figure:: /assets/images/manifests/ui/manifests_prefilled_template_dropdown_menu_option_on_hover.png
       :alt: 'Prefilled template' dropdown menu option on Manifests web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifests_prefilled_template_dropdown_menu_option_on_hover.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifests_prefilled_template_dropdown_menu_option_on_hover.png
       :class: with-shadow with-border
 
       **Manifests web page: Click 'Prefilled template' dropdown menu option**
@@ -63,10 +63,10 @@ Prefill Manifests
 #. In the **Tree of Life Manifest Wizard** displayed, enter the number samples that you would like to describe then,
    input a common value for a field by selecting the field name from the dropdown list.
 
-   .. figure:: /assets/images/manifests/manifest_wizard.png
+   .. figure:: /assets/images/manifests/ui/manifest_wizard.png
       :alt: 'Tree of Life (ToL) Manifest' wizard
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifest_wizard.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifest_wizard.png
       :class: with-shadow with-border
 
       **Manifests web page: Tree of Life Manifest wizard**
@@ -83,10 +83,10 @@ Prefill Manifests
       Once you have inputted a value for a common field, that value will be prefilled according to the number of samples
       that you have inputted.
 
-   .. figure:: /assets/images/manifests/manifest_wizard_common_field_dropdown_menu.png
+   .. figure:: /assets/images/manifests/ui/manifest_wizard_common_field_dropdown_menu.png
       :alt: Common field dropdown menu in Tree of Life Manifest wizard
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifest_wizard_common_field_dropdown_menu.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifest_wizard_common_field_dropdown_menu.png
       :class: with-shadow with-border
       :height: 600px
 
@@ -96,10 +96,10 @@ Prefill Manifests
 
       <br>
 
-   .. figure:: /assets/images/manifests/manifest_wizard_inputted_common_field_values.png
+   .. figure:: /assets/images/manifests/ui/manifest_wizard_inputted_common_field_values.png
       :alt: Inputted common field values in Tree of Life Manifest wizard
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifest_wizard_inputted_common_field_values.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifest_wizard_inputted_common_field_values.png
       :class: with-shadow with-border
       :height: 600px
 
@@ -113,10 +113,10 @@ Prefill Manifests
 
 #. Click the |finish-button| button to download the prefilled manifest file.
 
-   .. figure:: /assets/images/manifests/manifest_wizard_download_manifest.png
+   .. figure:: /assets/images/manifests/ui/manifest_wizard_download_manifest.png
       :alt: 'Tree of Life Manifest' wizard 'Download' prefilled manifest step
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifest_wizard_download_manifest.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifest_wizard_download_manifest.png
       :class: with-shadow with-border
 
       **Tree of Life Manifest wizard: Download prefilled manifest by clicking the 'Finish' button**
@@ -127,10 +127,10 @@ Prefill Manifests
 
 #. Preview of downloaded manifest with prefilled metadata
 
-   .. figure:: /assets/images/manifests/manifest_wizard_downloaded_prefilled_manifest.png
+   .. figure:: /assets/images/manifests/ui/manifest_wizard_downloaded_prefilled_manifest.png
       :alt: Prefilled manifest
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/manifest_wizard_downloaded_prefilled_manifest.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/manifests/ui/manifest_wizard_downloaded_prefilled_manifest.png
       :class: with-shadow with-border
       :height: 300px
 

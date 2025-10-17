@@ -66,9 +66,9 @@ Navigate to `COPO live website <https://copo-project.org/copo>`__ to access the 
      the final repository.
 
 
-..  figure:: /assets/images/copo-homepage1.png
+..  figure:: /assets/images/ui/copo-homepage1.png
     :alt: COPO homepage
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/copo-homepage1.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/ui/copo-homepage1.png
     :class: with-shadow with-border
 
 **COPO homepage: Click** ``Submit Data`` **button to proceed to the ORCID sign-in form (as shown below)**
@@ -79,8 +79,8 @@ Alternatively, click ``Try Demo`` button to access the demo mode.
 
    <br>
 
-..  figure:: /assets/images/copo-homepage2.png
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/copo-homepage2.png
+..  figure:: /assets/images/ui/copo-homepage2.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/ui/copo-homepage2.png
     :alt: COPO homepage
     :class: with-shadow with-border
 
@@ -90,8 +90,8 @@ Alternatively, click ``Try Demo`` button to access the demo mode.
 
    <br>
 
-..  figure:: /assets/images/orcid_sign_in_form_web_page.png
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/orcid_sign_in_form_web_page.png
+..  figure:: /assets/images/ui/orcid_sign_in_form_web_page.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/ui/orcid_sign_in_form_web_page.png
     :alt: ORCID sign-in form
     :class: with-shadow with-border
 

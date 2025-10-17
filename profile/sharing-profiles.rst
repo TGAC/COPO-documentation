@@ -38,10 +38,10 @@ Sharer
 #. Click the **View Groups** option from the settings dropdown menu as shown below to navigate to the
    **Groups** web page
 
-   ..  figure:: /assets/images/groups/shared_profile_view_groups_dropdown_menu_option.png
+   ..  figure:: /assets/images/groups/ui/shared_profile_view_groups_dropdown_menu_option.png
         :alt: 'View Groups' dropdown menu option
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/shared_profile_view_groups_dropdown_menu_option.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/shared_profile_view_groups_dropdown_menu_option.png
         :class: with-shadow with-border
         :height: 300px
 
@@ -49,10 +49,10 @@ Sharer
 
 #. Click the |add-group-button| button to create a new group
 
-   ..  figure:: /assets/images/groups/groups_pointer_to_add_group_button.png
+   ..  figure:: /assets/images/groups/ui/groups_pointer_to_add_group_button.png
         :alt: Groups web page with pointer to add a new group button
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_pointer_to_add_group_button.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_pointer_to_add_group_button.png
         :class: with-shadow with-border
         :height: 300px
 
@@ -60,10 +60,10 @@ Sharer
 
 #. Provide details for the new group as shown below then, click **Submit**
 
-   ..  figure:: /assets/images/groups/groups_create_new_group_form.png
+   ..  figure:: /assets/images/groups/ui/groups_create_new_group_form.png
         :alt: Groups web page with pointer to add a new group button
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_create_new_group_form.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_create_new_group_form.png
         :class: with-shadow with-border
         :width: 500px
         :height: 300px
@@ -84,10 +84,10 @@ Sharer
 
       <br>
 
-   .. figure:: /assets/images/groups/groups_group_created.png
+   .. figure:: /assets/images/groups/ui/groups_group_created.png
       :alt: Group was created successfully
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_group_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_group_created.png
       :class: with-shadow with-border
 
       **Groups: Group created successfully**
@@ -103,10 +103,10 @@ Sharer
    The profile is then, transferred to the **Added to Group** section after the profile title was
    double-clicked as shown below.
 
-   ..  figure:: /assets/images/groups/groups_profile_added_shared_group.png
+   ..  figure:: /assets/images/groups/ui/groups_profile_added_shared_group.png
        :alt: Groups web page with pointer to add a new group button
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_profile_added_shared_group.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_profile_added_shared_group.png
        :class: with-shadow with-border
        :height: 200px
 
@@ -120,10 +120,10 @@ Sharer
 #. Search for the user who you would like to share the profile with in the **Users in Group** section
    located at the right of the web page. Then, click the name of the user to add the user to the group.
 
-   ..  figure:: /assets/images/groups/groups_users_in_group_search_box.png
+   ..  figure:: /assets/images/groups/ui/groups_users_in_group_search_box.png
        :alt: 'Users in Group' search box
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_users_in_group_search_box.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_users_in_group_search_box.png
        :class: with-shadow with-border
        :height: 300px
 
@@ -159,10 +159,10 @@ Sharee
 
         See :ref:`profile-types-legend` section for more information about profile types' colour labels.
 
-   ..  figure:: /assets/images/groups/groups_shared_profile_displayed.png
+   ..  figure:: /assets/images/groups/ui/groups_shared_profile_displayed.png
        :alt: Shared profile displayed on the 'Work Profiles' web page
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/groups_shared_profile_displayed.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/groups/ui/groups_shared_profile_displayed.png
        :class: with-shadow with-border
        :height: 300px
 

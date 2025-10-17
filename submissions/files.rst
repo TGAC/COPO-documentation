@@ -1,11 +1,8 @@
 .. _files:
 
 =====================
-Files Submission
+File Submission
 =====================
-
-How to Submit Files
-------------------------------
 
 .. hint::
 
@@ -17,35 +14,35 @@ How to Submit Files
 
 .. seealso::
 
-  * :ref:`How to Delete Files <files-deletion>`
+  * :ref:`How to delete files <files-deletion>`
   * :ref:`How to check if data files for metadata submissions have been processed after upload to ENA <files-ena-file-processing-status>`
   * :ref:`Files FAQ <faq-files>`
-  * :ref:`How to Submit Reads <reads>`
-  * :ref:`How to Submit Assemblies <assemblies>`
+  * :ref:`How to submit reads <reads>`
+  * :ref:`How to submit assemblies <assemblies>`
 
 .. raw:: html
 
    <hr>
 
-Accessing the Files' Web Page
+Accessing the Files Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Files' web page can be accessed from the **Components** button associated with a profile [#f1]_.
+The Files web page can be accessed from the **Components** button associated with a profile [#f1]_.
 
 .. raw:: html
 
    <hr>
 
-Use Components' Button to Navigate to Files' Web Page
+Use Components Button to Navigate to Files Web Page
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |files-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_genomics_profile_components_files.png
-  :alt: Genomics Files' profile component
+.. figure:: /assets/images/files/ui/files_button_pointer_genomics.png
+  :alt: Genomics Files profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components_files.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_button_pointer_genomics.png
   :class: with-shadow with-border
   :height: 300px
 
@@ -69,10 +66,10 @@ Submit Files from your Local (Computer) System
 #. Click the |add-files-via-computer-button| button on the Files web page to add a new file by browsing your
    local file system
 
-    .. figure:: /assets/images/files/files_pointer_to_add_files_via_computer_button.png
+    .. figure:: /assets/images/files/ui/files_pointer_to_add_files_via_computer_button.png
       :alt: 'Add new file by browsing local file system' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_pointer_to_add_files_via_computer_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_pointer_to_add_files_via_computer_button.png
       :class: with-shadow with-border
 
       **Files web page: 'Add new file by browsing local file system' button**
@@ -83,10 +80,10 @@ Submit Files from your Local (Computer) System
 
 #. An **Upload File** dialog is displayed. Click the **Upload** button to choose a file from your local system.
 
-    .. figure:: /assets/images/files/files_upload_file_dialog.png
+    .. figure:: /assets/images/files/modals/files_upload_file_dialog.png
       :alt: Upload File dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_upload_file_dialog.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_upload_file_dialog.png
       :class: with-shadow with-border
 
       **Files submission: Upload File dialog**
@@ -97,13 +94,13 @@ Submit Files from your Local (Computer) System
 
 #. The new file(s) will be displayed on the **Files** web page after a successful submission.
 
-    .. figure:: /assets/images/files/files_uploaded1.png
+    .. figure:: /assets/images/files/ui/files_uploaded1.png
       :alt: File(s) submitted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_uploaded1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_uploaded1.png
       :class: with-shadow with-border
 
-      **Files submission: Files' web page displaying the uploaded file(s)**
+      **Files submission: Files web page displaying the uploaded file(s)**
 
     .. raw:: html
 
@@ -126,10 +123,10 @@ Submit Files via the Terminal
 #. Click the |add-files-via-terminal-button| button on the Files web page to add a new file from a cluster via the
    terminal.
 
-    .. figure:: /assets/images/files/files_pointer_to_add_files_via_terminal_button.png
+    .. figure:: /assets/images/files/ui/files_pointer_to_add_files_via_terminal_button.png
       :alt: 'Add new file via terminal' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_pointer_to_add_files_via_terminal_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_pointer_to_add_files_via_terminal_button.png
       :class: with-shadow with-border
 
       **Files web page: 'Add new file via terminal' button**
@@ -141,19 +138,19 @@ Submit Files via the Terminal
 #. A **Move Data** dialog is displayed. Follow the instructions displayed then, click the **Process** button to submit
    the file(s) to the profile.
 
-    .. figure:: /assets/images/files/files_move_data_dialog.png
+    .. figure:: /assets/images/files/modals/files_move_data_dialog.png
       :alt: Move Data dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog.png
       :class: with-shadow with-border
       :height: 400px
 
       **Files submission: Move Data dialog**
 
-   .. figure:: /assets/images/files/files_move_data_dialog_terminal_input1.png
+   .. figure:: /assets/images/files/modals/files_move_data_dialog_terminal_input1.png
       :alt: Terminal with command inputted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_terminal_input1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_terminal_input1.png
       :class: with-shadow with-border
 
       **Input** $ ``ls - F1`` **command in the terminal**
@@ -162,10 +159,10 @@ Submit Files via the Terminal
 
          <br>
 
-   .. figure:: /assets/images/files/files_move_data_dialog_with_details1.png
+   .. figure:: /assets/images/files/modals/files_move_data_dialog_with_details1.png
       :alt: Move Data dialog with details inputted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_with_details1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_with_details1.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -178,10 +175,10 @@ Submit Files via the Terminal
 
    .. _files-submission-via-terminal-download-commands:
 
-   .. figure:: /assets/images/files/files_move_data_dialog_with_details2.png
+   .. figure:: /assets/images/files/modals/files_move_data_dialog_with_details2.png
       :alt: Move Data dialog with result (a command) after having clicked the "Process" button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_with_details2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_with_details2.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -194,10 +191,10 @@ Submit Files via the Terminal
 
       <br>
 
-   .. figure:: /assets/images/files/files_move_data_dialog_terminal_input2.png
+   .. figure:: /assets/images/files/modals/files_move_data_dialog_terminal_input2.png
       :alt: Terminal with command pasted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_move_data_dialog_terminal_input2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/modals/files_move_data_dialog_terminal_input2.png
       :class: with-shadow with-border
 
       **Paste the copied command in the terminal**
@@ -216,13 +213,13 @@ Submit Files via the Terminal
 #. The new file(s) will be displayed on the **Files** web page after a successful file submission via the terminal i.e.
    after the command has been executed successfully in the terminal.
 
-    .. figure:: /assets/images/files/files_uploaded2.png
+    .. figure:: /assets/images/files/ui/files_uploaded2.png
        :alt: Files submitted
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_uploaded2.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_uploaded2.png
        :class: with-shadow with-border
 
-       **Files submission: Files' web page displaying the uploaded file(s)**
+       **Files submission: Files web page displaying the uploaded file(s)**
 
     .. raw:: html
 
@@ -245,18 +242,18 @@ How to Delete Files
 Click the desired file from the list of files displayed on the Files' web page. Then, click the **Delete** button
 (located in the top-right corner of the table) as shown below:
 
-.. figure:: /assets/images/files/files_pointer_to_delete_file_button.png
+.. figure:: /assets/images/files/ui/files_pointer_to_delete_file_button.png
   :alt: Delete files button
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_pointer_to_delete_file_button.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_pointer_to_delete_file_button.png
   :class: with-shadow with-border
 
   **File deletion: Click the "Delete" button to remove the highlighted file from the profile**
 
-.. figure:: /assets/images/files/files_deleted.png
+.. figure:: /assets/images/files/ui/files_deleted.png
   :alt: Files deleted successfully
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/files_deleted.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/files/ui/files_deleted.png
   :class: with-shadow with-border
 
   **File deletion: File has been deleted**
@@ -288,10 +285,10 @@ indicates that :abbr:`ENA (European Nucleotide Archive)` is verifying and valida
 
 The **ENA FILE PROCESSING STATUS** column is highlighted with a red rectangle border in the image below:
 
-.. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_ena_file_processing_status_column.png
    :alt: ENA (European Nucleotide Archive) File Processing Status column on the reads, annotations or assembly web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_ena_file_processing_status_column.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_ena_file_processing_status_column.png
    :class: with-shadow with-border
 
 .. raw:: html
@@ -325,26 +322,26 @@ The **ENA FILE PROCESSING STATUS** column is highlighted with a red rectangle bo
     Images declaration
 ..
 
-.. |files-component-button| image:: /assets/images/buttons/components_files_button.png
+.. |files-component-button| image:: /assets/images/files/buttons/components_files_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-computer-button| image:: /assets/images/buttons/add_files_via_computer_button.png
+.. |add-files-via-computer-button| image:: /assets/images/files/buttons/add_files_via_computer_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-terminal-button| image:: /assets/images/buttons/add_files_via_terminal_button.png
+.. |add-files-via-terminal-button| image:: /assets/images/files/buttons/add_files_via_terminal_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-computer-button1| image:: /assets/images/buttons/add_files_via_computer_button1.png
+.. |add-files-via-computer-button1| image:: /assets/images/files/buttons/add_files_via_computer_button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |add-files-via-terminal-button1| image:: /assets/images/buttons/add_files_via_terminal_button1.png
+.. |add-files-via-terminal-button1| image:: /assets/images/files/buttons/add_files_via_terminal_button1.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link

@@ -66,10 +66,10 @@ See the following screenshot for possible **Tree of Life (ToL)** profile type op
 Please refer to the :ref:`important note <tol-profile-steps-choose-profile-type-important-note>` above if the desired
 profile type is not displayed in the dropdown menu.
 
-.. figure:: /assets/images/profile/profile_add_profile_with_profile_types_dropdown_menu_displayed.png
+.. figure:: /assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed.png
    :alt: Profile types dropdown menu when adding a new profile record
    :align: center
-   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profile/profile_add_profile_with_profile_types_dropdown_menu_displayed?raw=true
+   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profiles/ui/profile_add_profile_with_profile_types_dropdown_menu_displayed?raw=true
    :class: with-shadow with-border
 
    **ToL Profile: Dropdown menu showing all profile types; including the default option, ‘Genomics’**
@@ -77,10 +77,10 @@ profile type is not displayed in the dropdown menu.
 After you have chosen a profile type option, click the |add-profile-button| **Add new profile record** button to view
 the **Add Profile** form for the desired profile type
 
-.. figure:: /assets/images/profile/profile_add_record_button_web_page.png
+.. figure:: /assets/images/profiles/ui/profile_add_record_button_web_page.png
    :alt: Add new profile record button
    :align: center
-   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profile/profile_add_record_button_web_page.png?raw=true
+   :target: https://github.com/TGAC/COPO-documentation/blob/main/assets/images/profiles/ui/profile_add_record_button_web_page.png?raw=true
    :class: with-shadow with-border
 
    **ToL Profile: Add new profile record button**
@@ -112,10 +112,10 @@ Title & Description
       Meaningful field values are recommended in the form boxes because the information will appear
       in submissions of the research objects associated with the profile, in public remote repositories.
 
-   .. figure:: /assets/images/profile/profile_add_profile_form_title_description.png
+   .. figure:: /assets/images/profiles/ui/profile_add_profile_form_title_description.png
       :alt: Provide profile title and description on add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_title_description.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_title_description.png
       :class: with-shadow with-border
       :height: 300px
 
@@ -132,18 +132,19 @@ Select Associated Profile Type (if applicable)
 
       .. note::
 
-         The **Associated Profile Type** dropdown menu will only display if the
+         The **Associated Profile Type** [#f7]_ dropdown menu will only display if the
          **European Reference Genome Atlas (ERGA)** profile type is selected.
 
-         It is mandatory to choose an associated
-         profile type or subproject when creating an :abbr:`ERGA (European Reference Genome Atlas)` profile.
+         It is mandatory to choose an associated profile type when creating an
+         :abbr:`ERGA (European Reference Genome Atlas)` profile. Associated profile types are also known as subprojects
+         or child projects.
 
-      * More than one associated type also known as subproject or child project can be chosen.
+      * More than one associated type can be selected.
 
-       .. figure:: /assets/images/profile/profile_add_profile_form_associated_type_for_erga_profile_type.png
+       .. figure:: /assets/images/profiles/ui/profile_add_profile_form_associated_type_for_erga_profile_type.png
           :alt: Choose associated profile type or subproject on add profile form for ERGA profile type
           :align: center
-          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_associated_type_for_erga_profile_type.png
+          :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_associated_type_for_erga_profile_type.png
           :class: with-shadow with-border
           :height: 500px
 
@@ -172,10 +173,10 @@ Select Sequencing Centre (if applicable)
          See the :ref:`Sequencing Centres that utilise COPO <faq-profiles-sequencing-centres-list>`
          :abbr:`FAQ (Frequently Asked Question)` for additional information.
 
-      .. figure:: /assets/images/profile/profile_add_profile_form_sequencing_centre.png
+      .. figure:: /assets/images/profiles/ui/profile_add_profile_form_sequencing_centre.png
          :alt: Choose sequencing centre on 'Add Profile' form
          :align: center
-         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_sequencing_centre.png
+         :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_sequencing_centre.png
          :class: with-shadow with-border
          :height: 500px
 
@@ -190,10 +191,10 @@ Select Sequencing Centre (if applicable)
 Input Locus Tag (if applicable)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-   .. figure:: /assets/images/profile/profile_add_profile_form_locus_tag.png
+   .. figure:: /assets/images/profiles/ui/profile_add_profile_form_locus_tag.png
       :alt: Choose locus tag on add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_locus_tag.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_locus_tag.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -224,10 +225,10 @@ Click the **Save** button to save the profile details entered in the **Add Profi
 
 The new profile will be displayed in the **Profile** list
 
-    .. figure:: /assets/images/profile/profile_tol_profile_created.png
+    .. figure:: /assets/images/profiles/ui/profile_tol_profile_created.png
       :alt: Tree of Life profile created
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_tol_profile_created.png
       :class: with-shadow with-border
 
       **ToL Profile: 'Work Profiles' web page displaying the created profile**
@@ -272,14 +273,14 @@ The following component types are currently defined:
 #. :doc:`Barcoding manifests <barcoding-manifest-component>`
 #. :ref:`Files <files>`
 #. :ref:`Reads <reads>`
-#. :doc:`Samples <samples-component>`
+#. :ref:`Samples <samples-component-tol>`
 #. :ref:`Sequence Annotations <sequence-annotations>`
 
-.. figure:: /assets/images/profile/profile_tol_profile_components.png
+.. figure:: /assets/images/profiles/buttons/profile_component_buttons_tol.png
    :alt: Tree of Life profile components
    :align: center
    :height: 200px
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_tol_profile_components.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/buttons/profile_component_buttons_tol.png
    :class: with-shadow with-border
 
    **Tree of Life Profile Components**
@@ -306,6 +307,12 @@ The following component types are currently defined:
 .. [#f4] See term: :term:`ENA`.
 .. [#f5] See term: :term:`ERGA`.
 .. [#f6] See term: :term:`Locus tag`.
+.. [#f7] See :ref:`copo-project-associated-projects` for available subprojects.
+
+   The associated project type refers to the subproject a sample is part of (e.g. a sample may be in the
+   :abbr:`ERGA (European Reference Genome Atlas)` project but associated with the
+   :abbr:`BGE (Biodiversity Genomics Europe)` subproject). In sample records, this is recorded as
+   **associated_tol_project**; in profile records, as **associated_type**.
 
 ..
     Images declaration
@@ -314,6 +321,6 @@ The following component types are currently defined:
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link

@@ -1,7 +1,7 @@
 .. _permits-submission:
 
 =====================
-Permits Submission
+Permit Submission
 =====================
 
 How to Submit Permits
@@ -38,27 +38,27 @@ How to Submit Permits
 .. seealso::
 
    * :ref:`Downloading Submitted Permits <permits-submission-download-permits>`
-   * :ref:`Images Submission <images-submission>`
+   * :ref:`Image Submission <image-submission>`
    * :ref:`How to Submit ERGA Manifests <tol-erga-manifest-submissions>`
    * :ref:`How to Submit Barcoding Manifests <barcoding-manifest-submissions>`
 
 #. The uploaded samples are shown in a table in the **Upload Sample Spreadsheet** dialog as shown below. Click the
    |upload-permits-button| button to browse your local (computer) system for ``.pdf`` permits for the samples.
 
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
+    .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
       :alt: Upload Sample Spreadsheet dialog with uploaded samples
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_uploaded_samples_permits_required.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with uploaded samples**
 
 #. The permits table is empty under the **Sample Permits** tab in the **Upload Sample Spreadsheet** dialog.
 
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
+    .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
       :alt: Upload Sample Spreadsheet dialog with no permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_no_permits_uploaded.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with no permits uploaded**
@@ -66,10 +66,10 @@ How to Submit Permits
 #. The permits table is populated with the permits uploaded under the **Sample Permits** tab in the
    **Upload Sample Spreadsheet** dialog
 
-    .. figure:: /assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
+    .. figure:: /assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
       :alt: Upload Sample Spreadsheet dialog with permits uploaded
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/erga/modals/samples_erga_upload_spreadsheet_dialog_with_permits_uploaded.png
       :class: with-shadow with-border
 
       **ERGA manifest submission: 'Upload Sample Spreadsheet' dialog with permits uploaded**
@@ -79,10 +79,10 @@ How to Submit Permits
    A **Submit Samples** confirmation dialog is displayed. If you decide to confirm the samples submission, click
    the **Confirm** button.
 
-   .. figure:: /assets/images/samples/samples_submit_samples_dialog.png
+   .. figure:: /assets/images/samples/modals/samples_submit_samples_dialog.png
      :alt: 'Submit Samples' confirmation dialog
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_submit_samples_dialog.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/modals/samples_submit_samples_dialog.png
      :class: with-shadow with-border
 
      **ERGA manifest submission: 'Submit Samples' confirmation dialog**
@@ -122,16 +122,17 @@ On Samples web page
 
 #. Navigate to the **Samples** web page.
 
-   See :ref:`How to access Samples web page <accessing-samples-web-page>` section for guidance.
+   See :ref:`How to access Samples web page for a Tree of Life (ToL) profile <accessing-samples-web-page-tol>` section
+   for guidance.
 
 #. Select the sample record(s) that you would like to download permits for.
 
    Then, click the |download-permits-button1| button to download permit(s) submitted for the selected sample record(s).
 
-   .. figure:: /assets/images/samples/samples_pointer_to_download_permits_button.png
+   .. figure:: /assets/images/samples/ui/samples_pointer_to_download_permits_button.png
       :alt: Samples web page with sample record(s) selected and a pointer to the 'Download permits' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_pointer_to_download_permits_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_download_permits_button.png
       :class: with-shadow with-border
 
       **Samples web page: Pointer to 'Download permits' button**
@@ -150,10 +151,10 @@ On Samples web page
    If no permits were submitted for the selected sample record(s), a message is displayed in the popup
    dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples/samples_download_permits_dialog_with_no_permits_exist_message.png
-      :alt: No permits exists message in popup dialog for selected sample record(s)
+   .. figure:: /assets/images/samples/modals/samples_download_permits_dialog_with_no_permits_exist_message.png
+      :alt: No permits exist message in popup dialog for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_download_permits_dialog_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/modals/samples_download_permits_dialog_with_no_permits_exist_message.png
       :class: with-shadow with-border
 
       **Samples web page: Popup dialog displaying message, 'No permits exist for selected sample record(s)'**
@@ -186,7 +187,7 @@ information.
 ..
     Images declaration
 ..
-.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
 

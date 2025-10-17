@@ -41,12 +41,12 @@ Use Components' Button to Navigate to Assembly Web Page
 Click the |profile-components-button| button associated with a profile. Then, click the  |assembly-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_genomics_profile_components_assembly.png
-  :alt: Genomics Assembly profile component
-  :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components_assembly.png
-  :class: with-shadow with-border
-  :height: 300px
+.. figure:: /assets/images/assemblies/ui/assembly_button_pointer_genomics.png
+   :alt: Genomics Assembly profile component
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/ui/assembly_button_pointer_genomics.png
+   :class: with-shadow with-border
+   :height: 300px
 
   **Genomics Profile Components: Assembly component button**
 
@@ -61,10 +61,10 @@ Submit Assembly
 
 #. Click |add-assemblies-record-button| button to add an **assembly** as shown below:
 
-    .. figure:: /assets/images/assemblies/assemblies_pointer_to_add_record_button.png
+    .. figure:: /assets/images/assemblies/ui/assemblies_pointer_to_add_record_button.png
       :alt: Pointer to 'Add record' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_pointer_to_add_record_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/ui/assemblies_pointer_to_add_record_button.png
       :class: with-shadow with-border
 
       **Assembly submission: Click 'Add record' button**
@@ -75,11 +75,11 @@ Submit Assembly
 
 #. An **Add Assembly** dialog is displayed. Provide the details then, click the **Submit Assembly** button.
 
-    .. figure:: /assets/images/assemblies/assemblies_add_assembly_dialog.png
+    .. figure:: /assets/images/assemblies/modals/assemblies_add_assembly_dialog.png
       :alt: 'Add Assembly' dialog
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_add_assembly_dialog.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/modals/assemblies_add_assembly_dialog.png
       :class: with-shadow with-border
 
       **Assembly submission: 'Add Assembly' dialog**
@@ -90,10 +90,10 @@ Submit Assembly
 
 #. The new assembly will be displayed on the **Assembly** web page after a successful submission.
 
-    .. figure:: /assets/images/assemblies/assemblies_uploaded.png
+    .. figure:: /assets/images/assemblies/ui/assemblies_uploaded.png
       :alt: Assemblies submitted
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_uploaded.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/ui/assemblies_uploaded.png
       :class: with-shadow with-border
 
       **Assembly submission: Assembly web page displaying the uploaded assemblies**
@@ -118,18 +118,18 @@ How to Delete Assemblies
 Click the desired assembly from the list of assemblies displayed on the **Assembly** web page. Then, click the **Delete** button
 (located in the top-right corner of the table) as shown below:
 
-.. figure:: /assets/images/assemblies/assemblies_pointer_to_delete_assembly_button.png
+.. figure:: /assets/images/assemblies/ui/assemblies_pointer_to_delete_assembly_button.png
   :alt: Delete assemblies button
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_pointer_to_delete_assembly_button.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/ui/assemblies_pointer_to_delete_assembly_button.png
   :class: with-shadow with-border
 
   **Assembly deletion: Click the "Delete" button to remove the highlighted assembly from the profile**
 
-.. figure:: /assets/images/assemblies/assemblies_deleted.png
+.. figure:: /assets/images/assemblies/ui/assemblies_deleted.png
   :alt: Assemblies deleted successfully
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/assemblies_deleted.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/assemblies/ui/assemblies_deleted.png
   :class: with-shadow with-border
 
   **Assembly deletion: Assembly record has been deleted**
@@ -158,10 +158,10 @@ Click the desired assembly from the list of assemblies displayed on the **Assemb
    :height: 4ex
    :class: no-scaled-link
 
-.. |assembly-component-button| image:: /assets/images/buttons/components_assembly_button.png
+.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components_assembly_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link

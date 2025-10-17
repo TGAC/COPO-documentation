@@ -25,13 +25,13 @@ section for more information.
 
    Then, click the **Edit** button to update or edit the annotation as shown below:
 
-   .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
+   .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_update_pointer_to_edit_annotations_button.png
       :alt: Pointer to 'Edit' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_update_pointer_to_edit_annotations_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_update_pointer_to_edit_annotations_button.png
       :class: with-shadow with-border
 
-      **Sequence Annotations' update: Click 'Edit' button after having clicked the desired sequence annotation**
+      **Sequence Annotations update: Click 'Edit' button after having clicked the desired sequence annotation**
 
    .. raw:: html
 
@@ -40,14 +40,14 @@ section for more information.
 #. An **Add Sequence Annotation** dialog is displayed. Provide the updated details then, click the
    **Submit Annotation** button.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_update_add_sequence_annotation_dialog.png
+    .. figure:: /assets/images/sequence_annotations/modals/sequence_annotations_update_add_sequence_annotation_dialog.png
        :alt: Add Sequence Annotation dialog with updated information
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations_update_add_sequence_annotation_dialog.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/modals/sequence_annotations_update_add_sequence_annotation_dialog.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' update: 'Submit Annotation' dialog with updated information**
+       **Sequence Annotations update: 'Submit Annotation' dialog with updated information**
 
    .. raw:: html
 
@@ -61,25 +61,25 @@ section for more information.
        Sequence annotation records that are highlighted **yellow** indicate that the records are pending submission. The
        records will be highlighted **green** after a successful automatic submission.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_updated1.png
+    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_updated1.png
        :alt: Updated Sequence Annotation(s) pending submission
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_updated1.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_updated1.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' update: Sequence Annotations' web page displaying the (pending) updated sequence annotation(s)**
+       **Sequence Annotations update: Sequence Annotations web page displaying the (pending) updated sequence annotation(s)**
 
     .. raw:: html
 
        <br>
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_updated2.png
+    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_updated2.png
        :alt: Updated Sequence Annotation(s) after submission
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_updated2.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_updated2.png
        :class: with-shadow with-border
 
-    **Sequence Annotations' update: Sequence Annotations' web page displaying the updated sequence annotation(s) after it has been submitted**
+    **Sequence Annotations update: Sequence Annotations web page displaying the updated sequence annotation(s) after it has been submitted**
 
     .. raw:: html
 

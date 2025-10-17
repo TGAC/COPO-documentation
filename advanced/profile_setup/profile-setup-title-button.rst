@@ -272,11 +272,11 @@ Visualisation of TitleButton in Project
     Images declaration
 ..
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-asg-manifest-button| image:: /assets/images/buttons/add_asg_manifest_button.png
+.. |add-asg-manifest-button| image:: /assets/images/samples/asg/buttons/add_asg_manifest_button.png
    :height: 3ex
    :class: no-scaled-link
 
@@ -284,7 +284,7 @@ Visualisation of TitleButton in Project
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-erga-manifest-button| image:: /assets/images/buttons/add_erga_manifest_button.png
+.. |add-erga-manifest-button| image:: /assets/images/samples/erga/buttons/add_erga_manifest_button.png
    :height: 3ex
    :class: no-scaled-link
 
@@ -292,7 +292,7 @@ Visualisation of TitleButton in Project
    :height: 3ex
    :class: no-scaled-link
 
-.. |add-reads-manifest-button| image:: /assets/images/buttons/add_reads_manifest_button.png
+.. |add-reads-manifest-button| image:: /assets/images/buttons/add_manifest_button_for_genomics_profile.png
    :height: 3ex
    :class: no-scaled-link
 
@@ -300,7 +300,7 @@ Visualisation of TitleButton in Project
    :height: 3ex
    :class: no-scaled-link
 
-.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
 

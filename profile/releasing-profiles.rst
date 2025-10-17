@@ -39,10 +39,10 @@ To make a profile public, please follow the steps below:
    The profile, i.e. the project, will automatically be made public and can be viewed publicly in
    :abbr:`ENA (European Nucleotide Archive)`.
 
-   .. figure:: /assets/images/profile/profile_options_release_study.png
+   .. figure:: /assets/images/profiles/ui/profile_options_release_study.png
       :alt: Profile options with release study option
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_options_release_study.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_options_release_study.png
       :class: with-shadow with-border
       :height: 200px
 
@@ -68,14 +68,14 @@ To make a profile public, please follow the steps below:
     Images declaration
 ..
 
-.. |profile-view-more-button| image:: /assets/images/buttons/profile_view_more_button.png
+.. |profile-view-more-button| image:: /assets/images/profiles/buttons/profile_view_more_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |release-profile-button| image:: /assets/images/buttons/release_study_button.png
+.. |release-profile-button| image:: /assets/images/profiles/buttons/release_study_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |vertical-ellipsis-icon| image:: /assets/images/buttons/profile_vertical_ellipsis_icon.png
+.. |vertical-ellipsis-icon| image:: /assets/images/profiles/icons/profile_vertical_ellipsis_icon.png
    :height: 4ex
    :class: no-scaled-link

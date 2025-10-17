@@ -186,6 +186,6 @@ Fetch Associated Tree of Life (ToL) Projects Brokered by COPO
     Images declaration
 ..
 
-.. |statistics-collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |statistics-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link

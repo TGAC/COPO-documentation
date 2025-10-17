@@ -143,7 +143,7 @@ The PostgreSQL table **RecordActionButton** consists of the following fields:
 
   * **view_images_multiple**: View Images
 
-       |section| :ref:`Section on Button Usage in the Project <images-submission-view-images>`
+       |section| :ref:`Section on Button Usage in the Project <image-submission-view-images>`
 
   * **download_permits_multiple**: Download Permits
 
@@ -296,48 +296,48 @@ Visualisation of RecordActionButton in Project
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |add-icon| image:: /assets/images/buttons/add_icon.png
+.. |add-icon| image:: /assets/images/icons/add_icon.png
    :height: 2.5ex
    :class: no-scaled-link
 
-.. |computer-icon| image:: /assets/images/buttons/computer_icon.png
+.. |computer-icon| image:: /assets/images/icons/computer_icon.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |download-icon1| image:: /assets/images/buttons/download_icon1.png
+.. |download-icon1| image:: /assets/images/icons/download_icon1.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |download-icon2| image:: /assets/images/buttons/download_icon2.png
+.. |download-icon2| image:: /assets/images/icons/download_icon2.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |edit-icon| image:: /assets/images/buttons/edit_icon.png
+.. |edit-icon| image:: /assets/images/icons/edit_icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |eye-icon| image:: /assets/images/buttons/eye_icon.png
+.. |eye-icon| image:: /assets/images/icons/eye_icon.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |delete-icon| image:: /assets/images/buttons/delete_icon.png
+.. |delete-icon| image:: /assets/images/icons/delete_icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |globe-icon| image:: /assets/images/buttons/globe_icon.png
+.. |globe-icon| image:: /assets/images/icons/globe_icon.png
    :height: 3ex
    :width: 2.6ex
    :class: no-scaled-link
 
-.. |info-icon| image:: /assets/images/buttons/info_icon2.png
+.. |info-icon| image:: /assets/images/icons/info_icon2.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |terminal-icon| image:: /assets/images/buttons/terminal_icon.png
+.. |terminal-icon| image:: /assets/images/icons/terminal_icon.png
    :height: 2ex
    :class: no-scaled-link
 

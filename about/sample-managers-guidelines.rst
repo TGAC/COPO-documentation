@@ -16,7 +16,7 @@ for accepting or rejecting samples produced by sample submitters [#f2]_.
 
 .. seealso::
 
-   * :ref:`View images produced by sample submitters <images-submission-view-images-sample-managers>`
+   * :ref:`View images produced by sample submitters <image-submission-view-images-sample-managers>`
    * :ref:`Download permits produced by sample submitters <permits-submission-download-permits-sample-managers>`
    * :ref:`Sample managers' Frequently Asked Questions <faq-sample-managers>`
    * :ref:`Profile types and associated profile types brokered through COPO <copo-project-affiliations>`
@@ -44,7 +44,7 @@ Similarly, you will receive an email when samples have been rejected.
 
 Click the |accept-reject-samples-navigation-button| button to navigate to the web page to accept or reject samples.
 
-Alternatively, navigate to `Accept/Reject Samples' web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__.
+Alternatively, navigate to `Accept/Reject Samples web page <https://copo-project.org/copo/dtol_submission/accept_reject_sample>`__.
 
 .. raw:: html
 
@@ -84,10 +84,10 @@ desired profile.
       * ``public_name``
       * ``sraAccession``
 
-.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_profiles_table_search_box.png
+.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_profiles_table_search_box.png
    :alt: Profiles table search box on 'Accept or Reject Samples' web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_profiles_table_search_box.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_profiles_table_search_box.png
    :class: with-shadow with-border
 
    **Accept or Reject Samples web page: Profiles table search box**
@@ -104,10 +104,10 @@ In the search box on the right of the **Accept or Reject Samples web page**, que
 
 If a match is found in any of the sample records, the relevant sample(s) will be displayed in the **Samples** table.
 
-.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_table_search_box.png
+.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_table_search_box.png
    :alt: Samples table search box on 'Accept or Reject Samples' web page
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_table_search_box.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_table_search_box.png
    :class: with-shadow with-border
 
    **Accept or Reject Samples web page: Samples table search box**
@@ -133,10 +133,10 @@ samples for more than one manifest group by following the steps below:
 #. Click the dropdown menu displayed beside the **Choose to Accept or Reject** web page title on the left side of the
    **Accept or Reject Samples** web page as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu is shown if sample manager belongs to more than one manifest group
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu1.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Manifest dropdown menu beside 'Choose to Accept or Reject' web page title**
@@ -149,10 +149,10 @@ samples for more than one manifest group by following the steps below:
 
    Choose the desired manifest group from the dropdown menu as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
       :alt: 'Accept or Reject Samples' manifest dropdown menu options are shown after the dropdown menu is clicked
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_manifest_dropdown_menu2.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Manifest dropdown menu with options displayed**
@@ -190,10 +190,10 @@ the left of the web page in the **Profiles** tab on the **Accept or Reject Sampl
 **Associated TOL (Tree of Life) Project** column for any sample record in the **Samples** table displayed (if the
 profile has submitted samples) as shown below:
 
-.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project1.png
+.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project1.png
    :alt: Associated TOL Project column in the 'Samples' table on the 'Accept or Reject Samples' web page for a single associated profile type
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project1.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project1.png
    :class: with-shadow with-border
    :height: 200px
 
@@ -203,10 +203,10 @@ profile has submitted samples) as shown below:
 
    <br>
 
-.. figure:: /assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project2.png
+.. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project2.png
    :alt: Associated TOL Project column in the 'Samples' table on the 'Accept or Reject Samples' web page with multiple associated profile types
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_associated_tol_project2.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_associated_tol_project2.png
    :class: with-shadow with-border
    :height: 200px
 
@@ -254,10 +254,10 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for DTOL profiles
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepting samples within DTOL profiles**
@@ -266,10 +266,10 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_erga.png
       :alt: Accepting samples on the 'Accept or Reject Samples' web page for ERGA profiles
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_accept_samples_button_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_accept_samples_button_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepting samples within ERGA profiles**
@@ -283,10 +283,10 @@ Accepting samples
    Click the **Okay** button to accept the selected sample record(s) or click the **Cancel** button to cancel the
    action.
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
+   .. figure:: /assets/images/samples/accept_reject_samples/modals/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
       :alt: Accept samples confirmation dialog on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/modals/samples_accept_reject_accept_samples_confirmation_popup_dialog.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accept samples confirmation dialog**
@@ -299,10 +299,10 @@ Accepting samples
 #. If the **Okay** button is clicked, the accepted samples will proceed to the processing stage and will be displayed
    in the **Processing Samples** tab as shown in the examples below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :alt: Accepted ASG or DTOL samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_asg_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted DTOL samples at the processing stage**
@@ -311,10 +311,10 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
       :alt: Accepted samples at the 'Processing Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_processing_stage_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ERGA samples at the processing stage**
@@ -326,10 +326,10 @@ Accepting samples
 #. After the samples have been processed, the samples will proceed to the accepted stage and will be displayed in the
    **Accepted Samples** tab as shown the examples below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :alt: Accepted samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_asg_dtol.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted DTOL samples at the accepted stage**
@@ -338,10 +338,10 @@ Accepting samples
 
       <br>
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
       :alt: Accepted ERGA samples at the 'Accepted Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_accepted_samples_at_accepted_stage_erga.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Accepted ERGA samples at the accepted stage**
@@ -362,10 +362,10 @@ Rejecting samples
 
    Then, click the |reject-samples-button| button as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_reject_samples_button.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_reject_samples_button.png
       :alt: Rejecting samples on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_reject_samples_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_reject_samples_button.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Rejecting samples**
@@ -376,10 +376,10 @@ Rejecting samples
 
 #. The samples will proceed to the rejected stage and will be displayed in the **Rejected Samples** tab as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_rejected_samples_at_rejected_stage.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_rejected_samples_at_rejected_stage.png
       :alt: Rejected samples at the 'Rejected Samples' stage on the 'Accept or Reject Samples' web page
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_rejected_samples_at_rejected_stage.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_rejected_samples_at_rejected_stage.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Rejected samples at the rejected stage**
@@ -404,10 +404,10 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
    column of the **Profiles** table row for the profile that you would like upload a manifest for or update a submitted
    manifest for as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with a DTOL profile**
@@ -418,10 +418,10 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
 
    .. centered:: **OR**
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with an ERGA profile**
@@ -432,10 +432,10 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
 
 #. The **Samples** web page will be displayed as shown below:
 
-    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
         :class: with-shadow with-border
 
         **Samples web page for a DTOL profile**
@@ -447,10 +447,10 @@ As a **sample manager**, you can download submitted (filled) manifests by follow
 
     .. centered:: **OR**
 
-    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
         :class: with-shadow with-border
 
         **Samples web page for an ERGA profile**
@@ -508,10 +508,10 @@ steps below:
    If no permits were submitted for the selected sample record(s), a message is displayed in the popup
    dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
-      :alt: No permits exists message in popup dialog for selected sample record(s)
+   .. figure:: /assets/images/samples/accept_reject_samples/modals/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
+      :alt: No permits exist message in popup dialog for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/modals/samples_accept_reject_download_permits_dialog_with_no_permits_exist_message.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialog displaying message, 'No permits exist for selected sample record(s)'**
@@ -521,7 +521,7 @@ steps below:
 
    <hr>
 
-.. _images-submission-view-images-sample-managers:
+.. _image-submission-view-images-sample-managers:
 
 View Submitted Images
 ----------------------
@@ -544,10 +544,10 @@ steps below:
 
    Then, click the |view-images-button2| button to view image(s) submitted for the selected sample record(s).
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_view_images_button.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_view_images_button.png
      :alt: 'Accept or Reject Samples' web page
      :align: center
-     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_view_images_button.png
+     :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_view_images_button.png
      :class: with-shadow with-border
 
      **Accept or Reject Samples web page: Pointer to 'View images' button**
@@ -563,10 +563,10 @@ steps below:
 
       Click the image to view a larger version.
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_images_displayed.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_images_displayed.png
       :alt: View images popup dialog with images displayed for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_images_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_images_displayed.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialog displaying submitted image(s) for selected sample record(s)**
@@ -580,10 +580,10 @@ steps below:
    If no images were submitted for the selected sample record(s), a message is displayed in the popup
    dialog indicating such as shown below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
       :alt: No images exists message in popup dialog for selected sample record(s)
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_view_images_dialog_with_no_images_exist_message.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Popup dialog displaying message, 'No images exist for selected sample record(s)'**
@@ -628,10 +628,10 @@ submitter [#f2]_:
    column of the **Profiles** table row for the profile that you would like upload a manifest for or update a submitted
    manifest for as shown in the examples below:
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired DTOL profile
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_dtol_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with a DTOL profile**
@@ -640,10 +640,10 @@ submitter [#f2]_:
 
             <br>
 
-   .. figure:: /assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+   .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :alt: Pointer to 'Samples' web page link on the 'Accept or Reject Samples' web page for the desired ERGA profile
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_accept_reject_pointer_to_samples_link_icon_for_erga_profile.png
       :class: with-shadow with-border
 
       **Accept or Reject Samples web page: Navigate to 'Samples' web page by clicking the link associated with an ERGA profile**
@@ -654,10 +654,10 @@ submitter [#f2]_:
 
 #. The **Samples** web page will be displayed as shown in the examples below:
 
-    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for a DTOL profile
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_dtol.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_dtol.png
         :class: with-shadow with-border
 
         **Samples web page for a DTOL profile**
@@ -666,10 +666,10 @@ submitter [#f2]_:
 
        <br>
 
-    .. figure:: /assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+    .. figure:: /assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
         :alt: Pointer to 'Samples' web page on the 'Accept or Reject Samples' web page for an ERGA profile
         :align: center
-        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples_accept_reject/samples_web_page_after_clicked_link_icon_erga.png
+        :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/accept_reject_samples/ui/samples_web_page_after_clicked_link_icon_erga.png
         :class: with-shadow with-border
 
         **Samples web page for an ERGA profile**
@@ -740,11 +740,11 @@ submitter [#f2]_:
     Images declaration
 ..
 
-.. |accept-samples-button| image:: /assets/images/buttons/samples_accept_reject_button_accept.png
+.. |accept-samples-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_button_accept.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -752,11 +752,11 @@ submitter [#f2]_:
    :height: 4ex
    :class: no-scaled-link
 
-.. |reject-samples-button| image:: /assets/images/buttons/samples_accept_reject_button_reject.png
+.. |reject-samples-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_button_reject.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |link-icon| image:: /assets/images/buttons/samples_accept_reject_samples_link_icon.png
+.. |link-icon| image:: /assets/images/samples/accept_reject_samples/icons/samples_accept_reject_samples_link_icon.png
    :height: 3ex
    :class: no-scaled-link
 

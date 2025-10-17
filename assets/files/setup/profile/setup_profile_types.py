@@ -27,7 +27,7 @@ Component
   8 | read                 | Reads                | dna          | orange        | fa fa-dna          | read_table          | copo_read_submission:copo_reads                    | #component_subtitle
   7 | sample               | Samples              | filter       | olive         | fa fa-filter       | sample_table        | copo_sample:copo_samples                           | 
   2 | accessions           | Accessions           | sitemap      | pink          | fa fa-sitemap      | accessions_table    | copo_accession:copo_accessions                     | 
-  1 | profile              | Work Profiles        |              |               |                    | copo_profiles_table |                                                    | #component_subtitle
+  1 | profiles              | Work Profiles        |              |               |                    | copo_profiles_table |                                                    | #component_subtitle
 
 """
 """
@@ -63,7 +63,7 @@ TitleButton
   4 | new_reads_spreadsheet_template     | <button style="display: inline" title="Add Read(s) from Read Spreadsheet"             class="big circular ui icon button new-reads-spreadsheet-template copo-tooltip">         <i class="icon table sign"></i>     </button>                            | 
   3 | new_samples_spreadsheet_template   | <button   title="Add Sample(s) from Spreadsheet"             class="big circular ui icon button new-samples-spreadsheet-template copo-tooltip">         <i class="icon table sign"></i>     </button>                                                   | 
   2 | quick_tour_template                | <button title="Quick tour"             class="big circular ui icon orange button takeatour quick-tour-template copo-tooltip">         <i class="icon lightbulb"></i>     </button>                                                                      | 
-  1 | new_component_template             | <button title="Add new profile record"             class="big circular ui icon primary button new-component-template copo-tooltip">         <i class="icon add sign"></i>     </button>                                                                 | 
+  1 | new_component_template             | <button title="Add new profiles record"             class="big circular ui icon primary button new-component-template copo-tooltip">         <i class="icon add sign"></i>     </button>                                                                 | 
   9 | download_sop                       | <a title="Download Standard Operating Procedure (SOP)"         class="big circular ui icon yellow button download-sop copo-tooltip" target="_blank">         <i class="icon download sign"></i>     </a>                                                | href:#sop_url
   8 | download_blank_manifest_template   | <a  title="Download Blank Manifest Template"             class="big circular ui icon brown button download-blank-manifest-template copo-tooltip" target="_blank">         <i class="icon download sign"></i>     </a>                                   | href:#blank_manifest_url
 """
@@ -72,7 +72,7 @@ TitleButton
 # The class must be named Command, and subclass BaseCommand
 class Command(BaseCommand):
     # Show this when the user types help
-    help = "Add profile type definition to the database "
+    help = "Add profiles type definition to the database "
 
     def __init__(self):
         super().__init__()
@@ -204,7 +204,7 @@ class Command(BaseCommand):
                                                                 template="<button title=\"Quick tour\"             class=\"big circular ui icon orange button takeatour quick-tour-template copo-tooltip\">         <i class=\"icon lightbulb\"></i>     </button>",
                                                                 additional_attr="")
         new_component_template = TitleButton().create_title_button(name="new_component_template",
-                                                                   template="<button title=\"Add new profile record\"             class=\"big circular ui icon primary button new-component-template copo-tooltip\">         <i class=\"icon add sign\"></i>     </button>",
+                                                                   template="<button title=\"Add new profiles record\"             class=\"big circular ui icon primary button new-component-template copo-tooltip\">         <i class=\"icon add sign\"></i>     </button>",
                                                                    additional_attr="")
         download_sop = TitleButton().create_title_button(name="download_sop",
                                                          template="<a title=\"Download Standard Operating Procedure (SOP)\"         class=\"big circular ui icon yellow button download-sop copo-tooltip\" target=\"_blank\">         <i class=\"icon download sign\"></i>     </a>",
@@ -254,7 +254,7 @@ class Command(BaseCommand):
                                                   widget_colour="pink", widget_icon_class="fa fa-sitemap",
                                                   table_id="accessions_table",
                                                   reverse_url="copo_accession:copo_accessions", subtitle="")
-        profile = Component().create_component(name="profile", title="Work Profiles", widget_icon="", widget_colour="",
+        profile = Component().create_component(name="profiles", title="Work Profiles", widget_icon="", widget_colour="",
                                                widget_icon_class="", table_id="copo_profiles_table", reverse_url="",
                                                subtitle="#component_subtitle")
 

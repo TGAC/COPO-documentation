@@ -19,9 +19,9 @@ The following are the types of Tree of Life (ToL) [#f1]_ profiles that can be cr
 After you have created a desired profile, please proceed to :ref:`submit a barcoding manifest <barcoding-manifest-submissions>`.
 
 .. seealso::
-    * See :ref:`Accessions component <accessions-component>`
 
-    * See :ref:`Samples' component <samples-component>`
+    * See :ref:`Accessions component <accessions-component>`
+    * See :ref:`Samples component <samples-component-tol>`
 
 .. raw:: html
 

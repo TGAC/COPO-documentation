@@ -22,18 +22,29 @@ Glossary
      referred to as *targeted sequences*.
 
    :abbr:`BGE (Biodiversity Genomics Europe)`
-     A `project <https://biodiversitygenomics.eu/>`__ that undertakes a comprehensive application of genomic
-     science to biodiversity research  will drive fundamental advances in conservation science and policy.
+     The `Biodiversity Genomics Europe (BGE) project <https://biodiversitygenomics.eu/>`__ undertakes a comprehensive
+     application of genomic science to biodiversity research  will drive fundamental advances in conservation science
+     and policy.
 
    Biocuration
      The extraction of unstructured biological data from manifests into a structured, computable form.
 
+   Checklist
+     A list of fields to be filled in. It is used interchangely with the term :term:`Manifest`.
+
    Compliance field
-        A compliance field in COPO is a mandatory field that cannot be updated after a manifest has been uploaded or
-        submitted before or after the samples have been accepted or rejected by a sample manager.
+     A compliance field in COPO is a mandatory field that cannot be updated after a manifest has been uploaded or
+     submitted before or after the samples have been accepted or rejected by a sample manager.
+
+   Component
+     A component forms part of a research project or study. It makes up a profile created in COPO and can be a sample,
+     read, assembly, data file, sequence annotation, single-cell or image.
+
+     Templates for creating or describing research objects can be found :ref:`here <manifest-templates>`.
 
    :abbr:`COPO (Collaborative OPen Omics)`
-     `COPO <https://copo-project.org>`__ is a web-based tool for creating and managing metadata for research objects.
+     `Collaborative OPen Omics (COPO) <https://copo-project.org>`__ is a web-based tool for creating and managing
+     metadata for research objects.
 
    COPO profile
      Also known as work profile. A collection of 'research objects' or components that contain data
@@ -129,8 +140,24 @@ Glossary
      an elephant.
 
    Genomics
-     The study of all or a substantial portion of the genes of an organism as a dynamic system, over time, to
-     determine how those genes interact and influence biological pathways, networks, and physiology.
+     The study of all or a substantial portion of the genes of an organism as a dynamic system over time, to
+     determine how those genes interact and influence biological pathways, networks and physiology.
+
+   Genomics profile
+     In COPO, a Genomics (work) profile refers to a collection of research objects or components containing data from a
+     life science research project or study that involves genome sequencing and analysis. Its data is not associated
+     with a particular project brokered through COPO.
+
+     Please see :ref:`genomics-profile-walkthrough` for additional information.
+
+   Genomics profile component
+     A component or research object that orignates from the sequencing and analysis of an organism's genes and
+     comprises a Genomics (work) profile in COPO. It is linked to Genomics profile because it is not associated
+     with any of the projects that COPO supports.
+
+     Examples include samples, reads, assemblies, sequence annotations, single-cell and images.
+
+     See :ref:`genomics-profile-components` for more information.
 
    :abbr:`HTTP (Hypertext Transfer Protocol)`
      A :wikipedia:`protocol <HTTP>` that allows communication between different systems. Similar to
@@ -150,13 +177,11 @@ Glossary
      A series of proprietary graphical operating systems developed and marketed by Apple Inc. since 2001.
 
    Manifest
-     A :abbr:`csv (comma-separated values)` file or Microsoft (MS) Excel spreadsheet that contains metadata
-     regarding a research object.
+     A :abbr:`csv (comma-separated values)` file or spreadsheet that contains metadata
+     regarding a research object such as samples, reads, sequence annotations, single-cell, images and barcoding to be
+     uploaded to COPO and submitted to public repositories.
 
-     The manifest is used by scientists to upload metadata into COPO.
-
-   Manifest checklist
-      A list of fields that are required to be filled in for a sample to be considered valid.
+     It is used interchangely with the term :term:`Checklist`.
 
    Manifest :abbr:`ID (Identification)`
      A unique identifier assigned to each manifest record in COPO.
@@ -250,9 +275,32 @@ Glossary
 
      It can be associated with one or more files, reads and assemblies.
 
+   Single-cell
+     Single-cell component is one of the research objects that make up a Genomics profile in
+     :abbr:`COPO (Collaborative OPen Omics)`. Single-cell experiments use omics approaches such as genomics,
+     transcriptomics, proteomics and metabolomics to isolate, analyse and profile individual cells in order to
+     understand cellular heterogeneity, gene expression and metabolic activities.
+
+     See the :ref:`Single-cell submissions <single-cell-submissions>` section for a visual walkthrough of uploading
+     and submiting single-cell data.
+
+   :abbr:`Single-cell RNA Seq (Single-cell Ribonucleic Acid Sequencing)`
+     Single-cell Ribonucleic Acid Sequencing (scRNA-Seq) enables researchers to analyse gene expression at the
+     resolution of individual cells. This technique helps uncover cellular heterogeneity, identify novel cell types
+     and understand complex biological processes.
+
    Singular stage
      In datafile description, a **singular stage** is a stage of the description wizard in which all the files in the
      description bundle are constrained (by the system) to share the same metadata.
+
+   :abbr:`ST-FISH (Spatial Transcriptomics Fluorescence In Situ Hybridisation)`
+     Spatial Transcriptomics Fluorescence In Situ Hybridisation (ST-FISH) leverages fluorescence in situ
+     hybridisation techniques to visualise and quantify gene expression at a subcellular resolution. This approach
+     provides high spatial accuracy while retaining cellular morphology.
+
+   :abbr:`ST-Seq (Spatial Transcriptomics Sequencing)`
+     Spatial Transcriptomics Sequencing (ST-Seq) provides spatially resolved gene expression data using
+     sequencing-based methods. It helps researchers map transcriptomic information to tissue architecture.
 
    Specimen
      Also known as biospecimen. It is a piece or portion of tissue, urine or other biologically derived material

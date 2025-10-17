@@ -24,10 +24,10 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol1.png
+.. figure:: /assets/images/dashboard/ui/dashboard_tol1.png
   :alt: Tree of Life dashboard 1.1
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_tol1.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol1.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Overview of COPO statistics and ToL inspection**
@@ -36,10 +36,10 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol2.png
+.. figure:: /assets/images/dashboard/ui/dashboard_tol2.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_tol2.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol2.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Geographical location of all GALs and Partners and an overview of manifest submissions**
@@ -48,10 +48,10 @@ The Tree of Life (ToL) dashboard can be explored on the
 
    <br>
 
-.. figure:: /assets/images/dashboard/dashboard_tol_world_map_with_popup_dialog.png
+.. figure:: /assets/images/dashboard/ui/dashboard_tol_world_map_with_popup_dialog.png
   :alt: Tree of Life dashboard 1.2
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_tol_world_map_with_popup_dialog.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_tol_world_map_with_popup_dialog.png
   :class: with-shadow with-border
 
   **ToL Dashboard: Popup dialog with more information about one of the GALs**
@@ -73,10 +73,10 @@ Tree of Life Inspection
 A `ToL inspection <https://copo-project.org/copo/tol_dashboard/tol_inspect>`__  analyses the sample metadata of COPO profile records
 and facilitates search faceting and data discovery of the results.
 
-.. figure:: /assets/images/tol_inspection/tol_inspection_web_page.png
+.. figure:: /assets/images/tol_inspection/ui/tol_inspection_web_page.png
   :alt: Tree of Life Inspection web page
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/tol_inspection/tol_inspection_web_page.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/tol_inspection/ui/tol_inspection_web_page.png
   :class: with-shadow with-border
 
   **Tree of Life (ToL) Inspection web page**
@@ -89,10 +89,10 @@ Tree of Life Inspection by Genome Acquisition Lab
 A `ToL inspection by GAL <https://copo-project.org/copo/tol_dashboard/tol_inspect/gal>`__  analyses the sample metadata of COPO
 profile records by GALs [#f2]_  based on their taxonomy.
 
-.. figure:: /assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
+.. figure:: /assets/images/tol_inspection/ui/tol_inspection_by_gal_web_page.png
   :alt: Tree of Life Inspection by Genome Acquisition Lab web page
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/tol_inspection/tol_inspection_by_gal_web_page.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/tol_inspection/ui/tol_inspection_by_gal_web_page.png
   :class: with-shadow with-border
 
   **Tree of Life (ToL) Inspection by Genome Acquisition Lab (GAL) web page**

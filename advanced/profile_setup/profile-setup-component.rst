@@ -322,39 +322,39 @@ top-right corner of the web page.
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |accessions-component-button| image:: /assets/images/buttons/components_accessions_button.png
+.. |accessions-component-button| image:: /assets/images/accessions/buttons/components_accessions_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |assembly-component-button| image:: /assets/images/buttons/components_assembly_button.png
+.. |assembly-component-button| image:: /assets/images/assemblies/buttons/components_assembly_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |barcoding-manifest-component-button| image:: /assets/images/buttons/components_barcoding_manifest_button.png
+.. |barcoding-manifest-component-button| image:: /assets/images/barcoding/buttons/components_barcoding_manifest_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |files-component-button| image:: /assets/images/buttons/components_files_button.png
+.. |files-component-button| image:: /assets/images/files/buttons/components_files_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |reads-component-button| image:: /assets/images/buttons/components_reads_button.png
+.. |reads-component-button| image:: /assets/images/reads/buttons/components_reads_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |reads-icon| image:: /assets/images/buttons/reads-icon.png
+.. |reads-icon| image:: /assets/images/reads/icons/reads-icon.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |samples-component-button| image:: /assets/images/buttons/components_samples_button.png
+.. |samples-component-button| image:: /assets/images/samples/buttons/components_samples_button.png
    :height: 3ex
    :class: no-scaled-link
 
-.. |sequence-annotations-component-button| image:: /assets/images/buttons/components_sequence_annotations_button.png
+.. |sequence-annotations-component-button| image:: /assets/images/sequence_annotations/buttons/components_sequence_annotations_button.png
    :height: 3ex
    :class: no-scaled-link
 

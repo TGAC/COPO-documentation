@@ -107,6 +107,6 @@ Fetch Mapped fields for the latest manifest version
     Images declaration
 ..
 
-.. |mapping-collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |mapping-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link

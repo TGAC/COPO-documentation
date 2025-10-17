@@ -21,10 +21,10 @@ been submitted.
 Genomics Accessions
 --------------------------------
 
-.. figure:: /assets/images/accessions/accessions_genomics_profile_without_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions_genomics_profile_without_accessions.png
    :alt: Accessions web page with no Genomics project accessions
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_without_accessions.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_without_accessions.png
    :class: with-shadow with-border
 
    **Accessions web page (when no experiment, runs, reads, assemblies nor  sequence annotations have been submitted)**
@@ -33,10 +33,10 @@ Genomics Accessions
 
        <br>
 
-.. figure:: /assets/images/accessions/accessions_genomics_profile_with_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions_genomics_profile_with_accessions.png
    :alt: Accessions web page with Genomics project accessions
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_with_accessions.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_with_accessions.png
    :class: with-shadow with-border
 
    **Accessions web page (after an experiment, run, read, assembly or  sequence annotation is submitted)**
@@ -45,10 +45,10 @@ Genomics Accessions
 
        <br>
 
-.. figure:: /assets/images/accessions/accessions_genomics_profile_in_table_after_submission.png
+.. figure:: /assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
    :alt: Accessions in data table after submission
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_in_table_after_submission.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
    :class: with-shadow with-border
 
    **Reads webpage displaying accessions in the data table after submission**
@@ -65,10 +65,10 @@ Tree of Life Accessions
    Tree of Life accessions refer to ASG [#f2]_ accessions, DToL [#f3]_ accessions or ERGA [#f4]_ accessions after
    their respective samples have been accepted.
 
-.. figure:: /assets/images/accessions/accessions_tol_profile_without_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions_tol_profile_without_accessions.png
    :alt: Accessions web page with no Tree of Life project accessions
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_tol_profile_without_accessions.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_without_accessions.png
    :class: with-shadow with-border
 
    **Accessions web page (when no samples have been accepted)**
@@ -77,10 +77,10 @@ Tree of Life Accessions
 
        <br>
 
-.. figure:: /assets/images/accessions/accessions_tol_profile_with_accessions.png
+.. figure:: /assets/images/accessions/ui/accessions_tol_profile_with_accessions.png
    :alt: Accessions web page with Tree of Life project accessions
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_tol_profile_with_accessions.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_with_accessions.png
    :class: with-shadow with-border
 
    **Accessions web page (after a sample has been accepted)**

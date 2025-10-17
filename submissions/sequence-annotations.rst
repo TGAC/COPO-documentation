@@ -1,8 +1,8 @@
 .. _sequence-annotations:
 
-===================================
-Sequence Annotations Submission
-===================================
+===============================
+Sequence Annotation Submission
+===============================
 
 .. note::
 
@@ -23,30 +23,30 @@ Sequence Annotations Submission
 How to Submit Sequence Annotations
 ------------------------------------
 
-Accessing the Sequence Annotations' Web Page
+Accessing the Sequence Annotations Web Page
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The **Sequence Annotations'** [#f1]_ web page can be accessed from the **Components** button associated with a
+The **Sequence Annotations** [#f1]_ web page can be accessed from the **Components** button associated with a
 profile [#f2]_.
 
 .. raw:: html
 
    <hr>
 
-Use Components' Button to Navigate to Sequence Annotations' Web Page
+Use Components Button to Navigate to Sequence Annotations Web Page
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Click the |profile-components-button| button associated with a profile. Then, click the  |sequence-annotations-component-button| from
 the popup menu displayed as shown below:
 
-.. figure:: /assets/images/profile/profile_genomics_profile_components_sequence_annotations.png
-  :alt: Genomics Sequence Annotations' profile component
+.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_button_pointer_genomics.png
+  :alt: Genomics Sequence Annotations profile component
   :align: center
-  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components_sequence_annotations.png
+  :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_button_pointer_genomics.png
   :class: with-shadow with-border
   :height: 300px
 
-  **Genomics Profile Components: Sequence Annotations' component button**
+  **Genomics Profile Components: Sequence Annotations component button**
 
 .. raw:: html
 
@@ -57,15 +57,15 @@ the popup menu displayed as shown below:
 Submit Sequence Annotations
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Click |add-sequence-annotations-button| button to add **Sequence Annotations'** as shown below:
+#. Click |add-sequence-annotations-button| button to add **Sequence Annotations** as shown below:
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
+    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_add_annotations_button.png
        :alt: Pointer to 'Add Record' button
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_add_annotations_button.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_add_annotations_button.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' submission: Click 'Add Record' button**
+       **Sequence Annotations submission: Click 'Add Record' button**
 
    .. raw:: html
 
@@ -77,27 +77,27 @@ Submit Sequence Annotations
    Select a sample accession from the **SAMPLE** dropdown field menu. The dropdown menu will display the reads that
    were previously uploaded.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog1.png
+    .. figure:: /assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog1.png
        :alt: Add Sequence Annotation dialog with no sample accession chosen from SAMPLE dropdown menu
        :align: center
        :height: 70ex
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog1.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog1.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' submission: 'Submit Annotation' dialog with no sample accession chosen from SAMPLE dropdown menu**
+       **Sequence Annotations submission: 'Submit Annotation' dialog with no sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 
       <br>
 
-   .. figure:: /assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog2.png
+   .. figure:: /assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog2.png
       :alt: Add Sequence Annotation dialog with sample accession chosen from SAMPLE dropdown menu
       :align: center
       :height: 70ex
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_add_sequence_annotation_dialog2.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/modals/sequence_annotations_add_sequence_annotation_dialog2.png
       :class: with-shadow with-border
 
-      **Sequence Annotations' submission: 'Submit Annotation' dialog with sample accession chosen from SAMPLE dropdown menu**
+      **Sequence Annotations submission: 'Submit Annotation' dialog with sample accession chosen from SAMPLE dropdown menu**
 
    .. raw:: html
 
@@ -110,22 +110,22 @@ Submit Sequence Annotations
        Sequence annotation records that are highlighted **yellow** indicate that the records are pending submission. The
        records will be highlighted **green** after a successful automatic submission.
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded1.png
+    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_uploaded1.png
        :alt: Sequence Annotation(s) pending submission
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded1.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_uploaded1.png
        :class: with-shadow with-border
 
-       **Sequence Annotations' submission: Sequence Annotations' web page displaying the (pending) uploaded sequence annotation(s)**
+       **Sequence Annotations submission: Sequence Annotations web page displaying the (pending) uploaded sequence annotation(s)**
 
     .. raw:: html
 
        <br>
 
-    .. figure:: /assets/images/sequence_annotations/sequence_annotations_uploaded2.png
+    .. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_uploaded2.png
        :alt: Sequence Annotation(s) submitted
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_uploaded2.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_uploaded2.png
        :class: with-shadow with-border
 
     **Sequence Annotations' submission: Sequence Annotations' web page displaying the submitted sequence annotation(s)**
@@ -154,18 +154,18 @@ How to Delete Sequence Annotations
 Click the desired sequence annotation from the list of sequence annotations displayed on the **Sequence Annotations**
 web page. Then, click the **Delete** button (located in the top-right corner of the table) as shown below:
 
-.. figure:: /assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
+.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :alt: Delete sequence annotations button
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_pointer_to_delete_sequence_annotation_button.png
    :class: with-shadow with-border
 
    **Sequence annotation deletion: Click the "Delete" button to remove the highlighted sequence annotation from the profile**
 
-.. figure:: /assets/images/sequence_annotations/sequence_annotations_deleted.png
+.. figure:: /assets/images/sequence_annotations/ui/sequence_annotations_deleted.png
    :alt: Sequence annotations deleted successfully
    :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/sequence_annotations_deleted.png
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/sequence_annotations/ui/sequence_annotations_deleted.png
    :class: with-shadow with-border
 
    **Sequence annotation deletion: Sequence annotation record has been deleted**
@@ -193,10 +193,10 @@ web page. Then, click the **Delete** button (located in the top-right corner of 
    :height: 4ex
    :class: no-scaled-link
 
-.. |sequence-annotations-component-button| image:: /assets/images/buttons/components_sequence_annotations_button.png
+.. |sequence-annotations-component-button| image:: /assets/images/sequence_annotations/buttons/components_sequence_annotations_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link

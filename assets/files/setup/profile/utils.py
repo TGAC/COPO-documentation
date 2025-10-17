@@ -473,7 +473,7 @@ def get_resolver(data, elem):
     func_map["copo-comment"] = resolve_copo_comment_data
     func_map["copo-multi-select"] = resolve_copo_multi_select_data
     func_map["copo-multi-select2"] = resolve_copo_multi_select_data
-    func_map["copo-general-ontoselect"] = resolve_copo_multi_select_data
+    func_map["copo-ui-ontoselect"] = resolve_copo_multi_select_data
     func_map["copo-single-select"] = resolve_copo_multi_select_data
     func_map["copo-multi-search"] = resolve_copo_multi_search_data
     func_map["copo-lookup"] = resolve_copo_lookup_data

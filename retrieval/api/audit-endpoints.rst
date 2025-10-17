@@ -408,6 +408,6 @@ Fetch Sample Updates by Field and Field Value
     Images declaration
 ..
 
-.. |audit-collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |audit-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link

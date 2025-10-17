@@ -636,7 +636,7 @@ local machine:
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
 

@@ -4,27 +4,18 @@
 Samples Submission
 ==============================
 
-The following are the types of sample manifests that can be submitted.
+The **Samples** web page facilitates the submission of sample metadata through a manifest [#f1]_.
 
-Click the links below to learn more about each type of manifest submission:
+Various types of sample manifests can be submitted depending on the project profile in use. Each manifest type has
+its own specific requirements and fields.
 
-* :doc:`Aquatic Symbiosis Genomics (ASG) manifests<tol-asg-manifest-submissions>`
-* :doc:`Darwin Tree of Life (DToL) manifests <tol-dtol-manifest-submissions>`
-* :doc:`Darwin Tree of Life Environmental (DToL_ENV) manifests <dtol-env-manifest-submissions>`
-* :doc:`European Reference Genome Atlas (ERGA) manifests <tol-erga-manifest-submissions>`
+The following sections provide detailed guidance on the submission of each manifest type:
 
-.. raw:: html
+.. toctree::
+   :titlesonly:
 
-   <br>
-
-.. image:: /assets/files/presentations/copo_sample_submission_process_illustration.gif
-   :alt: Samples submission and validation process in COPO
-   :align: center
-   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/files/presentations/copo_sample_submission_process_illustration.gif
-   :class: with-shadow with-border
-   :scale: 60%
-
-.. centered:: **Samples submission and validation process in COPO**
+   tol/tol-samples-submission
+   genomics/genomics-samples-submission
 
 .. raw:: html
 
@@ -32,9 +23,9 @@ Click the links below to learn more about each type of manifest submission:
 
 .. seealso::
 
-   * :ref:`How to access Samples web page <accessing-samples-web-page>`
+   * :ref:`Accessing the Samples web page for Tree of Life profiles <accessing-samples-web-page-tol>`
+   * :ref:`Accessing the Samples web page for Genomics profiles <accessing-samples-web-page-genomics>`
    * :ref:`How to submit Assemblies <assemblies>`
-   * :ref:`Barcoding manifest submissions <barcoding-manifest-submissions>`
    * :ref:`How to upload Files <files>`
    * :ref:`How to submit Reads <reads>`
    * :ref:`How to submit Sequence Annotations <sequence-annotations>`
@@ -73,7 +64,10 @@ The following steps describe how to download a submitted sample manifest:
 
 #. Navigate to the **Samples** web page.
 
-   See :ref:`How to access Samples web page <accessing-samples-web-page>` section for guidance.
+   To do this, please refer to the relevant section below, depending on the type of profile that you are working on.
+
+   * :ref:`Accessing the Samples web page for Tree of Life profiles <accessing-samples-web-page-tol>`
+   * :ref:`Accessing the Samples web page for Genomics profiles <accessing-samples-web-page-genomics>`
 
 #. On the **Samples** web page, select **only one** sample record from the sample record table displayed.
 
@@ -94,10 +88,10 @@ The following steps describe how to download a submitted sample manifest:
 
       The manifest will be automatically downloaded as a ``.xlsx`` file
 
-   .. figure:: /assets/images/samples/samples_pointer_to_download_sample_manifest_button.png
+   .. figure:: /assets/images/samples/ui/samples_pointer_to_download_sample_manifest_button.png
       :alt: Samples web page with one sample record selected and a pointer to the 'Download sample manifest' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/samples_pointer_to_download_sample_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/samples/ui/samples_pointer_to_download_sample_manifest_button.png
       :class: with-shadow with-border
 
       **Samples web page: Pointer to 'Download sample manifest' button**
@@ -105,6 +99,15 @@ The following steps describe how to download a submitted sample manifest:
    .. raw:: html
 
       <br>
+
+.. raw:: html
+
+   <hr>
+
+.. rubric:: Footnotes
+
+.. [#f1] A manifest is a spreadsheet that contains information about the samples you want to submit. The manifest can
+   include various fields such as sample identifiers, descriptions, collection locations, and other relevant metadata.
 
 ..
     Images declaration
@@ -114,6 +117,6 @@ The following steps describe how to download a submitted sample manifest:
    :height: 4ex
    :class: no-scaled-link
 
-.. |download-sample-manifest-button| image:: /assets/images/buttons/samples_download_manifest_button.png
+.. |download-sample-manifest-button| image:: /assets/images/samples/buttons/samples_download_manifest_button.png
    :height: 4ex
    :class: no-scaled-link

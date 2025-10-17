@@ -30,7 +30,7 @@ This section describes how to update **Reads** for a given checklist. The **Read
 
    <hr>
 
-#. On the **Reads'** web page, click the checklist dropdown then, choose a desired checklist from the list of
+#. On the **Reads** web page, click the checklist dropdown then, choose a desired checklist from the list of
    available checklists that you would like to update a **Reads** for.
 
    Then, click the |add-reads-manifest-button| button as shown below to update a Reads for the chosen checklist as
@@ -44,13 +44,13 @@ This section describes how to update **Reads** for a given checklist. The **Read
       See the :ref:`profile-types-legend` section regarding the colour code for the various types of project
       profiles on COPO.
 
-   .. figure:: /assets/images/reads/reads_update_pointer_to_add_reads_manifest_button.png
+   .. figure:: /assets/images/reads/ui/reads_update_pointer_to_add_reads_manifest_button.png
       :alt: Pointer to 'Add Reads' from Spreadsheet' button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_pointer_to_add_reads_manifest_button.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/ui/reads_update_pointer_to_add_reads_manifest_button.png
       :class: with-shadow with-border
 
-      **Reads' update: Click 'Add Reads' from Spreadsheet' button to upload an amended reads manifest**
+      **Reads update: Click 'Add Reads' from Spreadsheet' button to upload an amended reads manifest**
 
    .. raw:: html
 
@@ -62,14 +62,14 @@ This section describes how to update **Reads** for a given checklist. The **Read
    The uploaded manifest is shown in a table in the **Upload Read Manifest** dialog as shown below. Click the
    |reads-finish-button| button to complete the update process of the reads manifest.
 
-   .. figure:: /assets/images/reads/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
+   .. figure:: /assets/images/reads/modals/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
       :alt: Upload Read Manifest dialog
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/modals/reads_update_upload_reads_manifest_dialog_with_uploaded_manifest_displayed.png
       :class: with-shadow with-border
       :height: 600px
 
-      **Reads' update: 'Upload Read Manifest' dialog with updated manifest**
+      **Reads update: 'Upload Read Manifest' dialog with updated manifest**
 
    .. raw:: html
 
@@ -82,13 +82,13 @@ This section describes how to update **Reads** for a given checklist. The **Read
        Reads records that are highlighted **yellow** indicate that the records are pending submission. The records will
        be highlighted **green** after a successful submission.
 
-    .. figure:: /assets/images/reads/reads_updated.png
+    .. figure:: /assets/images/reads/ui/reads_updated.png
        :alt: Read(s) updated
        :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/reads_updated.png
+       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/reads/ui/reads_updated.png
        :class: with-shadow with-border
 
-       **Reads' update: Reads' web page displaying the updated read(s)**
+       **Reads update: Reads web page displaying the updated read(s)**
 
     .. raw:: html
 
@@ -102,7 +102,7 @@ This section describes how to update **Reads** for a given checklist. The **Read
     Images declaration
 ..
 
-.. |add-reads-manifest-button| image:: /assets/images/buttons/add_reads_manifest_button.png
+.. |add-reads-manifest-button| image:: /assets/images/buttons/add_manifest_button_for_genomics_profile.png
    :height: 4ex
    :class: no-scaled-link
 
@@ -110,6 +110,6 @@ This section describes how to update **Reads** for a given checklist. The **Read
    :height: 4ex
    :class: no-scaled-link
 
-.. |reads-upload-button| image:: /assets/images/buttons/reads_upload_button.png
+.. |reads-upload-button| image:: /assets/images/reads/buttons/reads_upload_button.png
    :height: 4ex
    :class: no-scaled-link

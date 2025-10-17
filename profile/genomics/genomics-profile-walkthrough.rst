@@ -1,8 +1,8 @@
 .. _genomics-profile-walkthrough:
 
-====================
+=================
 Genomics Profile
-====================
+=================
 
 In COPO, a Genomics work profile [#f1]_ is required to submit research objects [#f2]_ such as files, reads,
 assemblies and sequence annotations.
@@ -34,10 +34,10 @@ Steps to Create a Genomics Profile
 
 #. Click the |add-profile-button| **Add new record** icon to view the **Add Profile** form
 
-    .. figure:: /assets/images/profile/profile_add_record_button_web_page.png
+    .. figure:: /assets/images/profiles/ui/profile_add_record_button_web_page.png
       :alt: Add new profile record button
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_record_button_web_page.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_record_button_web_page.png
       :class: with-shadow with-border
 
       **Genomics Profile: Add new profile record icon**
@@ -52,10 +52,10 @@ Steps to Create a Genomics Profile
 
        <br>
 
-    .. figure:: /assets/images/profile/profile_add_profile_form_web_page_genomics.png
+    .. figure:: /assets/images/profiles/ui/profile_add_profile_form_web_page_genomics.png
       :alt: Add profile form
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_add_profile_form_web_page_genomics.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_add_profile_form_web_page_genomics.png
       :class: with-shadow with-border
       :height: 400px
 
@@ -74,10 +74,10 @@ Steps to Create a Genomics Profile
 
 #. The new profile will be displayed in the **Profile** list
 
-    .. figure:: /assets/images/profile/profile_genomics_profile_created.png
+    .. figure:: /assets/images/profiles/ui/profile_genomics_profile_created.png
       :alt: Genomics profile created
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_created.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/profiles/ui/profile_genomics_profile_created.png
       :class: with-shadow with-border
 
       **Genomics Profile: Work profiles' web page displaying the created profile**
@@ -109,12 +109,15 @@ The following component types are currently defined:
    #. :ref:`Assembly <assemblies>`
    #. :ref:`Files <files>`
    #. :ref:`Reads <reads>`
+   #. :ref:`Samples <samples-component-genomics>`
    #. :ref:`Sequence Annotations <sequence-annotations>`
+   #. :ref:`Single-cell <single-cell-component>`
+   #. :ref:`Images <images-component>`
 
-   .. figure:: /assets/images/profile/profile_genomics_profile_components.png
+   .. figure:: /assets/images/profiles/buttons/profile_component_buttons_genomics.png
       :alt: Genomics profile components
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profile/profile_genomics_profile_components.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/buttons/profile_component_buttons_genomics.png
       :class: with-shadow with-border
       :height: 250px
 
@@ -123,7 +126,7 @@ The following component types are currently defined:
 * Component instances defined within a profile will only be visible within that profile [#f1]_. 
 
 * To access a component within a profile, click the component button displayed within the popup after the
-  |profile-components-button| button was clicked (see the screenshot above).
+  |profile-components-button| button is clicked (see the screenshot above).
 
 .. raw:: html
 
@@ -160,12 +163,8 @@ Please follow the steps below to submit virtual samples [#f4]_:
 
 .. rubric:: Footnotes
 
-.. [#f1] Also known as COPO profile. See: :term:`COPO profile or work profile<COPO profile>`.
-.. [#f2] Also known as profile component. See term: :term:`Profile component`.
-
-         Research objects refer to files, reads, assemblies, files and sequence annotations.
-
-         A Genomics profile is considered as a *project* or *study* research object.
+.. [#f1] See term: :term:`Genomics profile`.
+.. [#f2] See term: :term:`Genomics profile component`.
 .. [#f3] See term: :term:`ENA`.
 .. [#f4] See term: :term:`Virtual sample`.
 
@@ -176,11 +175,11 @@ Please follow the steps below to submit virtual samples [#f4]_:
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-components-button| image:: /assets/images/buttons/profile_components_button.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |profile-view-more-button| image:: /assets/images/buttons/profile_view_more_button.png
+.. |profile-view-more-button| image:: /assets/images/profiles/buttons/profile_view_more_button.png
    :height: 4ex
    :class: no-scaled-link
 

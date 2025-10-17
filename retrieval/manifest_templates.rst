@@ -41,7 +41,8 @@ The following are various ways to retrieve a SOP for a manifest:
 
 #. Click the |sop-download-button| button located on the COPO **Samples** web page to download the SOP.
 
-   See the :ref:`samples-component` component section for more details about accessing the **Samples** web page.
+   See the :ref:`accessing-samples-web-page-tol` component section for more details about accessing the **Samples**
+   web page.
 
 #. Navigate to the COPO `Manifests web page <https://copo-project.org/manifests/index>`__ -
 

@@ -12,11 +12,11 @@ profile record section) as shown below.
 Then, click the |down-arrow| arrow to sort in descending order or the |up-arrow| arrow to sort in ascending
 according to the chosen sort option.
 
-..  figure:: /assets/images/buttons/profile_sort_menu_with_options_displayed.png
+..  figure:: /assets/images/profiles/ui/profile_sort_menu_with_options_displayed.png
     :alt: Profile sort menu with options displayed
     :align: center
     :height: 20ex
-    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/buttons/profile_sort_menu_with_options_displayed.png
+    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/profiles/ui/profile_sort_menu_with_options_displayed.png
     :class: with-shadow with-border
 
     **Profile Sort Menu: Sort options displayed**
@@ -33,14 +33,14 @@ according to the chosen sort option.
     Images declaration
 ..
 
-.. |down-arrow| image:: /assets/images/buttons/down_arrow.png
+.. |down-arrow| image:: /assets/images/icons/down_arrow.png
    :height: 2ex
    :class: no-scaled-link
 
-.. |profile-sort-menu| image:: /assets/images/buttons/profile_sort_menu.png
+.. |profile-sort-menu| image:: /assets/images/profiles/ui/profile_sort_menu.png
    :height: 4ex
    :class: no-scaled-link
 
-.. |up-arrow| image:: /assets/images/buttons/up_arrow.png
+.. |up-arrow| image:: /assets/images/icons/up_arrow.png
    :height: 2ex
    :class: no-scaled-link

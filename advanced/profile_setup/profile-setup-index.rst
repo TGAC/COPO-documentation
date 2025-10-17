@@ -265,7 +265,7 @@ Click the link below to view a visual representation of the profile subparts wit
     Images declaration
 ..
 
-.. |collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
 

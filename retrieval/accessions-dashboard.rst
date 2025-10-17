@@ -40,10 +40,10 @@ The types of accessions that are created are:
    * SRA accessions
    * Submission accessions
 
-.. figure:: /assets/images/accessions/accessions_genomics_profile_in_table_after_submission.png
+.. figure:: /assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
       :alt: Accessions in data table after submission
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/accessions_genomics_profile_in_table_after_submission.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
       :class: with-shadow with-border
 
       **Genomics profile: Reads webpage displaying accessions in the data table after submission**
@@ -52,10 +52,10 @@ The types of accessions that are created are:
 
        <br>
 
-.. figure:: /assets/images/dashboard/dashboard_accessions_other_accessions.png
+.. figure:: /assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
       :alt: Other accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_accessions_other_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Other accessions**
@@ -64,10 +64,10 @@ The types of accessions that are created are:
 
        <br>
 
-.. figure:: /assets/images/dashboard/dashboard_accessions_sample_accessions.png
+.. figure:: /assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
       :alt: Genomics projects' accessions
       :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/dashboard_accessions_sample_accessions.png
+      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
       :class: with-shadow with-border
 
       **Accessions Dashboard: Sample accessions**
@@ -99,6 +99,6 @@ The types of accessions that are created are:
 ..
     Images declaration
 ..
-.. |accept-reject-samples-navigation-button| image:: /assets/images/buttons/samples_accept_reject_navigation_button.png
+.. |accept-reject-samples-navigation-button| image:: /assets/images/samples/accept_reject_samples/buttons/samples_accept_reject_navigation_button.png
    :height: 4ex
    :class: no-scaled-link

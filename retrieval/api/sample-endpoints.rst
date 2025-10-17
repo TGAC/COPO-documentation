@@ -254,6 +254,82 @@ Fetch Sample Project Fields by Manifest Version
 
    <br>
 
+Fetch Profile Titles & Associated Tube or Well IDs
+"""""""""""""""""""""""""""""""""""""""""""""""""""
+
+.. collapse:: Show endpoint details
+
+   .. raw:: html
+
+      <br>
+
+   .. collapse:: Show API query parameters
+
+      .. raw:: html
+
+         <br>
+
+      * **profile_type** (required): The type of profile to be created. [#f1]_
+      * **associated_profile_type** (optional): The subproject or secondary profile type to filter the results. [#f2]_
+      * **d_from** (optional): Start date for filtering (format: YYYY-MM-DDTHH:MM:SS+00:00)
+      * **d_to** (optional): End date for filtering (format: YYYY-MM-DDTHH:MM:SS+00:00)
+      * **return_type** (optional): Output format for the results. Options include **json** (default) and **csv**
+
+      To apply filters, append them to the API URL as follows:
+      ``profile/tube_or_well_ids?profile_type=<profile_type>&associated_profile_type=<associated_profile_type>&d_from=<d_from>&d_to=<d_to>&return_type=<return_type>``
+
+      Replace ``<profile_type>``, ``<associated_profile_type>``, ``<d_from>``, ``<d_to>`` and ``<return_type>`` with
+      the desired values. See the example below.
+
+   .. raw:: html
+
+      <br>
+
+   **Usage**
+
+    Please include at least the ``profile_type`` parameter value in the API URL to retrieve a list of profile titles
+    and associated tube or well IDs for the specified profile type. Replace ``<profile_type>`` with the desired value.
+
+    .. tab-set::
+
+       .. tab-item:: Web Browser
+
+          .. code-block:: bash
+
+             https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>
+
+       .. tab-item:: Command Line (curl)
+
+          .. code-block:: bash
+
+             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=<profile_type>" -H  "accept: */*" -d ""
+
+   **Example**
+
+    To retrieve the profile titles and associated tube or well IDs for the ``ERGA`` profile type and ``ERGA_COMMUNITY``
+    associated profile type between 1st January, 2025 and 1st May, 2025 in CSV format, use the following URL.
+
+    The browser method will prompt a download of the CSV while the curl method is helpful if you are scripting or
+    working in a terminal environment.
+
+    .. tab-set::
+
+       .. tab-item:: Web Browser
+
+          .. code-block:: bash
+
+             https://copo-project.org/api/?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv
+
+       .. tab-item:: Command Line (curl)
+
+          .. code-block:: bash
+
+             $ curl -X POST "https://copo-project.org/api/profile/tube_or_well_ids?profile_type=ERGA&associated_profile_type=ERGA_COMMUNITY&d_from=2025-01-01T00:00:00+00:0&d_to=2025-05-01T00:00:00+00:0&return_type=csv" -H  "accept: */*" -d ""
+
+.. raw:: html
+
+   <br>
+
 Fetch Sample Records between Dates
 """""""""""""""""""""""""""""""""""
 
@@ -920,6 +996,6 @@ Fetch Sample Records that have Image Submissions
     Images declaration
 ..
 
-.. |sample-collapsible-item-arrow| image:: /assets/images/buttons/collapsible_item_arrow.png
+.. |sample-collapsible-item-arrow| image:: /assets/images/icons/collapsible_item_arrow.png
    :height: 2ex
    :class: no-scaled-link
