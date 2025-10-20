@@ -6,19 +6,19 @@ Retrieving Accessions
 
 Accepted and submitted items are assigned unique identifiers known as an accessions.
 
-Accessions become publicly visible immediately after submission acceptance for Tree of Life (ToL) profiles and after
-profile release for Genomics profiles. They can be viewed via the platforms -
+Submissions linked to accessions become publicly visible immediately after sample submission acceptance for Tree of
+Life (ToL) [#f1]_ profiles and after profile release for Genomics profiles (see
+:ref:`releasing-profiles` for more information). The submissions can then be viewed via the platforms -
 `ENA browser <https://www.ebi.ac.uk/ena/browser/home>`__  [#f2]_ or
-`NCBI BioSample <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f3]_.
+`NCBI BioSample <https://www.ncbi.nlm.nih.gov/biosample>`__  [#f3]_ using the assigned accessions.
 
-The type of accession assigned depends on the component used for the submission. The following are different kinds of
+The type of accession assigned depends on the type of submission made. The following are different kinds of
 accessions that can be assigned after successful submissions:
 
 * Assembly
 * Biosample
 * Experiment
 * Run
-* Sample
 * Sequence annotation
 * Study
 * SRA
@@ -32,71 +32,69 @@ accessions that can be assigned after successful submissions:
    The **Status** column indicates the current status of the submission. Once the submission is approved and
    has been successful, the status will be marked as **accepted**.
 
-Accessions can be explored via the following:
+Accessions can be explored through the following ways:
 
 .. note::
 
    Please noe that the |accept-reject-samples-navigation-button| button will only appear on a web page if you
    are granted permission to be a sample manager.
 
-Within data table
-------------------
+Within the data table
+---------------------
 
-*   Within the data table on the web page after submissions are made. View the list of accession types below to see
-    the types of accessions created.
+After submissions have been successfully made, the accessions can be found within the data table on the respective
+submission web page. For example:
 
-    Each type corresponds to a column in the data table where the accessions are displayed.
+.. figure:: /assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
+   :alt: Accessions in data table after submission for a Genomics profile
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
+   :class: with-shadow with-border
 
-    .. figure:: /assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
-       :alt: Accessions in data table after submission for a Genomics profile
-       :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_genomics_profile_in_table_after_submission.png
-       :class: with-shadow with-border
+   **Reads webpage displaying accessions in the data table after submission**
 
-       **Genomics profile: Reads webpage displaying accessions in the data table after submission**
+.. raw:: html
 
-   .. raw:: html
+   <br>
 
-      <br>
+.. figure:: /assets/images/accessions/ui/accessions_tol_profile_in_table_after_submission.png
+   :alt: Accessions in data table after submission for a Tree of Life profile
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_in_table_after_submission.png
+   :class: with-shadow with-border
 
-   .. figure:: /assets/images/accessions/ui/accessions_tol_profile_in_table_after_submission.png
-      :alt: Accessions in data table after submission for a Tree of Life profile
-      :align: center
-      :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/accessions/ui/accessions_tol_profile_in_table_after_submission.png
-      :class: with-shadow with-border
-
-      **Tree of Life profile: Samples webpage displaying accessions in the data table after submission**
+   **Samples (under a Tree of Life profile) webpage displaying accessions in the data table after submission**
 
 On Profile's Accessions Web Page
 --------------------------------
 
-*   Accessions web page for the desired profile (accessible via the :ref:`Accessions component <accessions-component>`
-    attached to the profile in COPO)
+Navigate to the Accessions web page for a desired profile (accessible via the
+:ref:`Accessions component <accessions-component>`) to view all accessions associated with the profile's submissions.
 
 On Accessions Dashboard
 -----------------------
 
-*   `Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__
+`Accessions dashboard <https://copo-project.org/copo/copo_accessions/dashboard>`__
 
-    .. figure:: /assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
-       :alt: Other accessions
-       :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
-       :class: with-shadow with-border
+.. figure:: /assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
+   :alt: Other accessions
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_other_accessions.png
+   :class: with-shadow with-border
 
-       **Accessions Dashboard: Other accessions**
+   **Accessions Dashboard: Other accessions**
 
-    .. raw:: html
+.. raw:: html
 
-       <br>
+   <br>
 
-    .. figure:: /assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
-       :alt: Genomics projects' accessions
-       :align: center
-       :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
-       :class: with-shadow with-border
+.. figure:: /assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
+   :alt: Genomics projects' accessions
+   :align: center
+   :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/dashboard/ui/dashboard_accessions_sample_accessions.png
+   :class: with-shadow with-border
 
-       **Accessions Dashboard: Sample accessions**
+   **Accessions Dashboard: Sample accessions**
 
 .. raw:: html
 
