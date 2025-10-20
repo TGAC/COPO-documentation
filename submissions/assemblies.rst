@@ -48,7 +48,7 @@ the popup menu displayed as shown below:
    :class: with-shadow with-border
    :height: 300px
 
-  **Genomics Profile Components: Assembly component button**
+   **Genomics Profile Components: Assembly component button**
 
 .. raw:: html
 

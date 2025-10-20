@@ -45,7 +45,7 @@ Using the Components Button
 Click the |profile-components-button| button associated with a profile. Then, click the  |single-cell-component-button|
 button in the popup menu as shown below:
 
-.. figure:: /assets/images/images/single_cell/ui/single_cell_button_pointer_genomics.png
+.. figure:: /assets/images/single_cell/ui/single_cell_button_pointer_genomics.png
    :alt: Single-cell profile component button
    :align: center
    :target: https://raw.githubusercontent.com/TGAC/COPO-documentation/main/assets/images/single_cell/ui/single_cell_button_pointer_genomics.png
@@ -138,7 +138,7 @@ COPO supports Single-cell Ribonucleic Acid Sequencing (scRNA-Seq) data submissio
     Images declaration
 ..
 
-.. |profile-components-button| image:: /assets/images/profiles/buttons/profile_component_buttons_genomics.png
+.. |profile-components-button| image:: /assets/images/profiles/buttons/components_button.png
    :height: 4ex
    :class: no-scaled-link
 
